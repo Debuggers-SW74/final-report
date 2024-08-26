@@ -85,9 +85,65 @@ ___
 | Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. |                     |              |
 
 ---
+<div align="justify">
+
 # Capítulo I: Introducción
 ## 1.1. Startup Profile
 ### 1.1.1. Descripción de la Startup
+
+Somos un grupo de estudiantes de la Universidad Peruana de Ciencias Aplicadas que, motivados por la creciente necesidad de seguridad en el transporte de materiales peligrosos, identificamos una oportunidad de negocio única. Durante nuestras investigaciones, notamos que el transporte de gases combustibles y otros productos peligrosos presenta riesgos significativos, tanto para los conductores como para el público en general. Estos riesgos, muchas veces subestimados o mal gestionados, pueden tener consecuencias catastróficas si no se abordan con soluciones tecnológicas adecuadas.
+
+En respuesta a esta problemática, decidimos fundar TechCompany, una startup enfocada en ofrecer soluciones de vanguardia que integran la tecnología IoT para la supervisión en tiempo real de las condiciones de seguridad en el transporte de materiales peligrosos. Nuestro producto, FastPorte, no solo se centra en la implementación de sensores avanzados que monitorean parámetros críticos como fugas de gas, temperatura y presión, sino también en proporcionar una plataforma integral que facilita la gestión de estos datos para prevenir accidentes.
+
+En TechCompany, entendemos que la seguridad no es solo una necesidad, sino una responsabilidad compartida entre todas las partes involucradas en la cadena de transporte. Por ello, nos hemos comprometido a desarrollar productos y servicios que no solo cumplan con las normativas internacionales más estrictas, sino que también superen las expectativas de nuestros clientes, brindándoles herramientas que aseguren la integridad de sus operaciones y protejan vidas.
+
+**Misión:** 
+Proporcionar soluciones tecnológicas innovadoras que garanticen la seguridad y eficiencia en el transporte de materiales peligrosos, contribuyendo así a la protección de vidas humanas y al cumplimiento de normativas internacionales de seguridad.
+
+**Visión:**
+Ser reconocidos como líderes en el mercado de soluciones IoT aplicadas al transporte de materiales peligrosos, impulsando un futuro más seguro y confiable para la industria del transporte a nivel nacional e internacional.
+
+**Valores:**
+- Seguridad
+- Innovación
+- Responsabilidad
+- Compromiso con el cliente
+- Sostenibilidad
+
+### 1.1.2. Perfiles de integrantes del equipo
+
+| Integrante | Arrunátegui Aguilar, Josué David |
+| - | - |
+| Falta descripción | ![Josué Perfil](assets/capitulo1/integrantes/josue.png) |
+
+| Integrante | Botello Saldarriaga, Anthony Jean Pierre |
+| - | - |
+| Tengo 23 años y soy estudiante de Ingeniería de Software con conocimientos y habilidades en distintos lenguajes de programación. Actualmente curso el noveno ciclo de la carrera y mi meta es ser un profesional destacado el cual rija sus decisiones por sus valores y el bien de la empresa donde labore. Me interesa el desarrollo de la tecnología y los avances que existen en la inteligencia artificial. | ![Anthony Perfil](assets/capitulo1/integrantes/anthony.jpg) |
+
+| Integrante | Chero Eme, Eduardo Andre |
+| - | - |
+| Falta descripción | ![Eduardo Perfil](assets/capitulo1/integrantes/eduardo.png) |
+
+| Integrante | Lévano Cavero, Eduardo Sebastián |
+| - | - |
+| Mi nombre es Sebastián, tengo 21 años y soy estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Elegí esta carrera porque me fascina crear y diseñar procesos que faciliten procesos complejos. Por ello, cuando tengo un poco de tiempo libre lo uso para relajarme y para aprender más de lo que me apasiona, la programación, se puede decir que es uno de mis hobbies. Además, de la programación también disfruto de jugar vóley, fútbol o algún videojuego con mis amigos. | ![Sebastián Perfil](assets/capitulo1/integrantes/sebastian.jpg) |
+
+| Integrante | Moreno Rosales, Claudio Jesús |
+| - | - |
+| Falta descripción | ![Claudio Perfil](assets/capitulo1/integrantes/claudio.png) |
+
+## 1.2. Solution Profile
+
+
+### 1.2.2 Lean UX Process.
+#### 1.2.2.1. Lean UX Problem Statements.
+#### 1.2.2.2. Lean UX Assumptions.
+#### 1.2.2.3. Lean UX Hypothesis Statements.
+#### 1.2.2.4. Lean UX Canvas.
+## 1.3. Segmentos objetivo.
+
+</div>
+
 # Capítulo III: Requirements Specification
 ## 3.1. To-Be Scenario Mapping:
 ## 3.2. User Stories
