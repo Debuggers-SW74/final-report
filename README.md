@@ -231,7 +231,7 @@ Nuestro contexto demanda soluciones que aseguren la seguridad de los conductores
 |Amenazas |Competencia con tecnologías emergentes de detección de gases y monitoreo de seguridad.  |Aparición de nuevas tecnologías de monitoreo con costos más bajos.  |Competencia de plataformas con enfoques más específicos o especializados.   |Competidores con tecnologías emergentes en monitoreo de líquidos.    |
 <br>
 
-<div style="text-align: center;"> <h4>Tabla: Matriz de análisis de competencia </h4> <img src="https://i.postimg.cc/nLyvNk7Q/matriz-competencia.png" alt="Matriz de análisis de competencia" /> <p>Fuente: Elaboración propia.</p> </div>
+<div style="text-align: center;"> <h4>Tabla: Matriz de análisis de competencia </h4> <img src="https://i.postimg.cc/CKPt3dsq/matriz-competencia.jpg" alt="Matriz de análisis de competencia" /> <p>Fuente: Elaboración propia.</p> </div>
  <br> <br>
  
 <div style="text-align: center;"> <h4>Tabla: Matriz de perfil competitivo de los competidores directos </h4> <img src="https://i.postimg.cc/zv5TGGxz/matriz-perfil-competitivo.png" alt="Matriz de perfil competitivo de los competidores directos" /> <p>Fuente: Elaboración propia.</p> </div>
@@ -246,7 +246,7 @@ Nuestro contexto demanda soluciones que aseguren la seguridad de los conductores
 
 3. **Estrategias de Precio y Valor Agregado:** La competitividad en el mercado también puede lograrse mediante una estrategia de precios bien definida y valor agregado. Esto implica ofrecer precios competitivos para los sensores y servicios de monitoreo, así como paquetes flexibles que se adapten a las necesidades específicas de diferentes clientes, desde pequeñas empresas hasta grandes operadores. Además, proporcionar valor agregado, como informes detallados, análisis de datos y recomendaciones basadas en inteligencia artificial, puede diferenciar la oferta y justificar una inversión superior. 
 
-<div style="text-align: center;"> <h4>Tabla: Matriz CAME. para el desarrollo de estrategias en base al análisis FODA. </h4> <img src="https://i.postimg.cc/k56QjZVm/matriz-CAME.png" alt="Matriz CAME. para el desarrollo de estrategias en base al análisis FODA." /> <p>Fuente: Elaboración propia.</p> </div>
+<div style="text-align: center;"> <h4>Tabla: Matriz CAME. para el desarrollo de estrategias en base al análisis FODA. </h4> <img src="https://i.postimg.cc/1z527DwS/matriz-CAME.jpg" alt="Matriz CAME. para el desarrollo de estrategias en base al análisis FODA." /> <p>Fuente: Elaboración propia.</p> </div>
 <br>
 
 ## 2.2. Entrevistas
