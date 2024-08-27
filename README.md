@@ -193,6 +193,116 @@ Nuestro contexto demanda soluciones que aseguren la seguridad de los conductores
 
 </div>
 
+# Capítulo II: Requirements Elicitation & Analysis
+
+## 2.1. Competidores
+### 2.1.1. Análisis competitivo
+
+|Competidores directos  | Resumen |
+|--|--|
+| <a href ="#"><img src="https://i.postimg.cc/W1ZHHkmH/geotab.jpg" alt="Logo Geotab" width="300" height="150" /><br> https://www.geotab.com/es/ <br> </a> |GEOTAB es una empresa líder mundial en soluciones de gestión de flotas que ofrece una plataforma integral para digitalizar procesos, reducir costos y aumentar la sostenibilidad en la operación de vehículos. Su sistema incluye el dispositivo Geotab GO, que se instala fácilmente en los vehículos para recopilar datos sobre ubicación, velocidad, comportamiento del conductor y estado del vehículo. La plataforma proporciona herramientas para mejorar la seguridad de la flota, como informes detallados, alertas personalizadas y asesoramiento al conductor en tiempo real.   |
+| <a href ="#"><img src="https://i.postimg.cc/1zZjh3J5/samsara.png" alt="Logo Samsara" width="300" height="100"/><br> https://www.samsara.com/mx/ </a> |Samsara es una plataforma integral de gestión de operaciones que conecta flotas, equipos, sitios y personal en una sola interfaz. Ofrece visibilidad en tiempo real, información basada en datos y flujos de trabajo optimizados para mejorar la eficiencia operativa. La plataforma ha ayudado a diversas empresas a reducir accidentes, mejorar la gestión de mantenimiento y tomar decisiones más rápidas, según testimonios de clientes. Además, Samsara ofrece un amplio ecosistema de integraciones listas para usar, permitiendo a las empresas ampliar sus soluciones y aprovechar al máximo sus sistemas existentes.   |
+| <a href ="#"><img src="https://i.postimg.cc/FRrCzCMM/tankscan.png" alt="Logo TankScan" width="300" height="100" /><br>https://tankscan.com </a> |TankScan ofrece una solución de monitoreo inalámbrico de tanques que permite a las empresas verificar en tiempo real los niveles de líquido en múltiples tanques y ubicaciones desde una computadora o teléfono inteligente. Esta tecnología mejora la eficiencia de la flota, optimiza la gestión de inventario y aumenta la seguridad al eliminar la necesidad de lecturas manuales. El sistema utiliza hardware de vanguardia y la Plataforma de Inteligencia ATEK (AIP) basada en la nube, proporcionando alertas automáticas, un panel de control personalizable, mapeo de activos para optimizar rutas y capacidades de generación de informes.  |
+<br><br>
+
+|Competitive Analysis Landscape|
+|--|
+
+|¿Por qué llevar a cabo este análisis? |El objetivo del siguiente análisis competitivo es identificar las fortalezas y debilidades de FastPorte que es el producto final de TechCompany en relación con los posibles competidores para desarrollar estrategias efectivas para tener ventaja competitiva en el mercado.|
+|--|--|
+---
+|Competidores |<a href ="https://postimg.cc/hz71FmXB"><img src="https://i.postimg.cc/RFgsHQ9N/fastporte.png" alt="Logo FastPorte" width="4000" height="100" /></a> |<a href ="https://postimg.cc/SnydXjv6"><img src="https://i.postimg.cc/W1ZHHkmH/geotab.jpg" alt="Logo Geotab" width="4000" height="100"></a> |<div style="background: black;"><a href ="https://postimg.cc/0zcf7xTL"><img src="https://i.postimg.cc/1zZjh3J5/samsara.png" alt="Logo Samsara" width="5000" height="100"></a></div> |<a href ="https://postimg.cc/jW14kcdc"><img src="https://i.postimg.cc/FRrCzCMM/tankscan.png" alt="Logo TankScan" width="5000" height="100"></a> |
+|--|--|--|--|--|
+|**Perfil**|||||
+|Overview|Plataforma web, aplicación móvil y sensores IoT |Plataforma web, aplicación móvil y dispositivo sensores IoT |Plataforma web y dispositivo GO IoT |Plataforma web, aplicación móvil y dispositivo sensores IoT |
+|Ventaja competitiva ¿Qué valor ofrece al cliente?|Proporciona seguridad avanzada en el transporte de gases combustibles mediante sensores que detectan fugas y alertan a los conductores en tiempo real, evitando explosiones y garantizando la seguridad.  |Amplia gama de datos para la seguridad y eficiencia de flotas mediante tecnología de monitoreo avanzada. |Conectividad integral de operaciones mediante una plataforma unificada que ofrece visibilidad y análisis en tiempo real.    |Monitoreo inalámbrico en tiempo real de niveles de tanques con alta precisión y alertas automatizadas.  |
+| **Perfil de Marketing** | | | | |
+|Mercado objetivo |Transportistas que manejan vehículos de carga peligrosa y empresas que trabajan con materiales peligrosos y necesitan asegurar el transporte seguro de sus productos. |Transporte, logística, servicios públicos, industria de gas, petróleo, minería, distribución de alimentos y reciclaje.    |Empresas con operaciones complejas que requieren gestión integrada de flotas, equipos, sitios y personas.    |Empresas con necesidad de monitoreo de tanques en campo, almacenamiento a granel y subterráneos.  
+|Estrategias de marketing |Publicidad en redes sociales. <br><br> Colaboraciones con personas influyentes para promocionar el producto.|Publicidad mediante su página web.   |Publicidad mediante su página web.   |Publicidad mediante su página web.  |
+|**Perfil del Producto** | | | | |
+|Productos & Servicios |Sensores para supervisar condiciones de materiales peligrosos y aplicaciones móvil y web para la gestión de perfiles de empresas y conductores.    |Dispositivo Geotab GO, plataforma MyGeotab para monitoreo de flotas.       |Plataforma de Samsara, sensores, cámaras, integraciones con otros sistemas.    |Plataforma ATEK Intelligence y monitores de tanque inalámbricos.     |
+|Precios & Costos |Dependiente de los requisitos de la empresa que lo solicite.   | Dependiente de los requisitos de la empresa que lo solicite.   | Dependiente de los requisitos de la empresa que lo solicite.   |Dependiente de los requisitos de la empresa que lo solicite.  |
+|Canales de distribución (Web y/o Móvil) |Web/Móvil |Web/Móvil |Web |Web/Móvil |
+|Tecnologías usadas |Plataforma Web (Angular y Spring Boot), App Móvil (Flutter) y Sensores IoT con análisis de datos en tiempo real. | Monitoreo en tiempo real, análisis de datos avanzados, conectividad IoT.   |IoT, AI, conectividad de sensores, análisis de datos en tiempo real.   | Monitoreo inalámbrico, sensores, conectividad celular o Ethernet.   |
+|**Análisis SWOT** | | | | |
+|Fortalezas |Seguridad en tiempo real para el transporte de materiales peligrosos y cumplimiento de regulaciones y estándares aplicables.   |Soluciones integradas de seguridad y eficiencia, experiencia en múltiples sectores.   |Amplia escalabilidad y flexibilidad, integración con múltiples sistemas.   |Precisión en la lectura de niveles, facilidad de instalación y escalabilidad.  |
+|Debilidades |Necesidad de capacitación para conductores y empresas en el uso del sistema.   |Dependencia de la instalación física del dispositivo.    |Requiere inversión inicial significativa en tecnología.   |Dependencia en la conectividad para la transmisión de datos.  |
+|Oportunidades |Integración con sistemas de gestión logística para mejorar la eficiencia operativa.   |Innovación en el monitoreo y análisis predictivo para nuevos sectores.   |Creciente demanda de soluciones integradas en operaciones complejas.  |Expansión en mercados con necesidades críticas de monitoreo remoto.  |
+|Amenazas |Competencia con tecnologías emergentes de detección de gases y monitoreo de seguridad.  |Aparición de nuevas tecnologías de monitoreo con costos más bajos.  |Competencia de plataformas con enfoques más específicos o especializados.   |Competidores con tecnologías emergentes en monitoreo de líquidos.    |
+<br>
+
+<div style="text-align: center;"> <h4>Tabla: Matriz de análisis de competencia </h4> <img src="https://i.postimg.cc/nLyvNk7Q/matriz-competencia.png" alt="Matriz de análisis de competencia" /> <p>Fuente: Elaboración propia.</p> </div>
+ <br> <br>
+ 
+<div style="text-align: center;"> <h4>Tabla: Matriz de perfil competitivo de los competidores directos </h4> <img src="https://i.postimg.cc/zv5TGGxz/matriz-perfil-competitivo.png" alt="Matriz de perfil competitivo de los competidores directos" /> <p>Fuente: Elaboración propia.</p> </div>
+ <br> <br>
+ 
+
+### 2.1.2. Estrategias y tácticas frente a competidores
+
+1. **Diferenciación mediante Innovación Tecnológica:** Para destacar en el mercado de soluciones para el transporte de materiales peligrosos, es crucial ofrecer una propuesta de valor basada en tecnología avanzada. La estrategia de diferenciación se centra en implementar sensores IoT de última generación para monitorear condiciones críticas, como fugas de gas, temperatura y presión. Esta innovación no solo mejora la seguridad de los conductores y la integridad de la carga, sino que también optimiza la eficiencia operativa. 
+
+2. **Enfoque en la Experiencia del Cliente:** La satisfacción del cliente es un factor clave para competir efectivamente. Implementar una estrategia de atención al cliente superior es esencial para retener clientes y atraer nuevos negocios. Esto incluye ofrecer una plataforma intuitiva para la gestión de sensores y alertas, soporte técnico receptivo y una interfaz de usuario optimizada para empresas y conductores. 
+
+3. **Estrategias de Precio y Valor Agregado:** La competitividad en el mercado también puede lograrse mediante una estrategia de precios bien definida y valor agregado. Esto implica ofrecer precios competitivos para los sensores y servicios de monitoreo, así como paquetes flexibles que se adapten a las necesidades específicas de diferentes clientes, desde pequeñas empresas hasta grandes operadores. Además, proporcionar valor agregado, como informes detallados, análisis de datos y recomendaciones basadas en inteligencia artificial, puede diferenciar la oferta y justificar una inversión superior. 
+
+<div style="text-align: center;"> <h4>Tabla: Matriz CAME. para el desarrollo de estrategias en base al análisis FODA. </h4> <img src="https://i.postimg.cc/k56QjZVm/matriz-CAME.png" alt="Matriz CAME. para el desarrollo de estrategias en base al análisis FODA." /> <p>Fuente: Elaboración propia.</p> </div>
+<br>
+
+## 2.2. Entrevistas
+### 2.2.1. Diseño de entrevistas
+**Segmento objetivo: Conductores**
+
+**- Preguntas demográficas:**
+- ¿Cuál es tu nombre?
+- ¿Qué edad tienes?
+- ¿Actualmente a que rol desempeñas en la empresa?
+
+**- Preguntas principales:**
+- ¿Qué desafíos enfrentas actualmente en términos de seguridad durante el transporte de materiales peligrosos?
+- ¿Puedes describir alguna situación en la que te hayas sentido preocupado por la seguridad debido a la carga que transportas?
+- ¿Cómo afectan las condiciones del entorno en el que trabajas (por ejemplo, temperatura, presión) la seguridad durante el transporte?
+- ¿Qué problemas encuentras al monitorear las condiciones del vehículo mientras estás en movimiento?
+- ¿Cuáles son los problemas más comunes que enfrentas  o fallos en el sistema de transporte?
+- ¿Cómo sueles darte cuenta de un problema con la carga o el vehículo durante el transporte?
+- ¿Cuál es tu proceso actual para manejar un problema relacionado con la carga mientras estás en ruta?
+
+<br>
+
+**Segmento objetivo: Empresas**
+
+**- Preguntas demográficas:**
+
+- ¿Cuál es tu nombre?
+- ¿Qué edad tienes?
+-  ¿Actualmente a que rol desempeñas en la empresa?
+
+**- Preguntas principales:** 
+- ¿Qué medidas actuales tomas para asegurar la integridad de los materiales peligrosos durante el transporte?
+- ¿Cuáles son los principales riesgos asociados con el transporte de materiales peligrosos que enfrentas en tu operación diaria?
+- ¿Cómo supervisas y gestionas las condiciones de los vehículos que transportan materiales peligrosos?
+- ¿Qué dificultades encuentras en el monitoreo de las condiciones del transporte y el estado de la carga?
+- ¿Qué desafíos enfrentas para cumplir con las regulaciones y estándares de seguridad en el transporte de materiales peligrosos?
+- ¿Cuál es el proceso actual para responder a incidentes de seguridad o problemas con la carga durante el transporte?
+- ¿Qué tipo de soporte adicional consideras necesario para mejorar la respuesta a emergencias relacionadas con el transporte de materiales peligrosos?
+
+
+
+### 2.2.2. Registro de entrevistas
+### 2.2.3. Análisis de entrevistas
+
+## 2.3. Needfinding
+### 2.3.1. User Personas
+### 2.3.2. User Task Matrix
+### 2.3.3. User Journey Mapping
+### 2.3.4. Empathy Mapping
+### 2.3.5. As-is Scenario Mapping
+
+## 2.4. Ubiquitous Language
+
+
+
+
 # Capítulo III: Requirements Specification
 ## 3.1. To-Be Scenario Mapping:
 ## 3.2. User Stories
