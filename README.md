@@ -90,6 +90,9 @@ ___
 ### 1.1.1. Descripción de la Startup
 # Capítulo III: Requirements Specification
 ## 3.1. To-Be Scenario Mapping:
+![To Be Scenario Mapping del usuario Transportista](assets/capitulo3/to-be-scenario-mapping/driver.jpg)
+![To Be Scenario Mapping del usuario Compañía](assets/capitulo3/to-be-scenario-mapping/company.jpg)
+Enlace para mejor visualización en Miro: [To Be Scenario Mapping FastPorte](https://miro.com/app/board/uXjVKlAIMgY=/?share_link_id=669866924097)
 ## 3.2. User Stories
 
 | Epic ID | Título                                          | Descripción                                                                                                                                                                                                                                                 |
