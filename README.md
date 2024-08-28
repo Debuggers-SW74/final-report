@@ -24,63 +24,64 @@ ___
 # Registro de versiones del informe
 
 | Versión | Fecha      | Autor            | Descripción de modificación                                                |
-| ------- | ---------- | ---------------- | -------------------------------------------------------------------------- |
+|---------|------------|------------------|----------------------------------------------------------------------------|
 | 1.0     | 22/08/2024 | Sebastián Lévano | Creación del archivo base en Markdown para el desarrollo del Final Project |
+| 1.1     | 26/08/2024 | Anthony Botello | Adición del capítulo 1 |
 
 ---
 # Contenido 
 - [Student Outcome](#student-outcome)
-- [Capítulo I: Introducción](/README.md#capítulo-i-introducción)
-  - [1.1. Startup Profile](/README.md#11-startup-profile)
-    - [1.1.1. Descripción de la Startup](/README.md#111-descripción-de-la-startup)
-    - [1.1.2. Perfiles de integrantes del equipo](/README.md#112-perfiles-de-integrantes-del-equipo)
-  - [1.2. Solution Profile](/README.md#12-solution-profile)
-    - [1.2.1 Antecedentes y problemática](/README.md#121-antecedentes-y-problemática)
-    - [1.2.2 Lean UX Process](/README.md#122-lean-ux-process)
-      - [1.2.2.1. Lean UX Problem Statements](/README.md#1221-lean-ux-problem-statements)
-      - [1.2.2.2. Lean UX Assumptions](/README.md#1222-lean-ux-assumptions)
-      - [1.2.2.3. Lean UX Hypothesis Statements](/README.md#1223-lean-ux-hypothesis-statements)
-      - [1.2.2.4. Lean UX Canvas](/README.md#1224-lean-ux-canvas)
-  - [1.3. Segmentos objetivo](/README.md#13-segmentos-objetivo)
-- [Capítulo II: Requirements Elicitation \& Analysis](/README.md#capítulo-ii-requirements-elicitation--analysis)
-  - [2.1. Competidores](/README.md#21-competidores)
-    - [2.1.1. Análisis competitivo](/README.md#211-análisis-competitivo)
-    - [2.1.2. Estrategias y tácticas frente a competidores](/README.md#212-estrategias-y-tácticas-frente-a-competidores)
-  - [2.2. Entrevistas](/README.md#22-entrevistas)
-    - [2.2.1. Diseño de entrevistas](/README.md#221-diseño-de-entrevistas)
-    - [2.2.2. Registro de entrevistas](/README.md#222-registro-de-entrevistas)
-    - [2.2.3. Análisis de entrevistas](/README.md#223-análisis-de-entrevistas)
-  - [2.3. Needfinding](/README.md#23-needfinding)
-    - [2.3.1. User Personas](/README.md#231-user-personas)
-    - [2.3.2. User Task Matrix](/README.md#232-user-task-matrix)
-    - [2.3.3. Empathy Mapping](/README.md#233-empathy-mapping)
-    - [2.3.4. As-is Scenario Mapping](/README.md#234-as-is-scenario-mapping)
-  - [2.4. Ubiquitous Language](/README.md#24-ubiquitous-language)
-- [Capítulo III: Requirements Specification](/README.md#capítulo-iii-requirements-specification)
-  - [3.1. To-Be Scenario Mapping](/README.md#31-to-be-scenario-mapping)
-  - [3.2. User Stories](/README.md#32-user-stories)
-  - [3.3. Impact Mapping](/README.md#33-impact-mapping)
-  - [3.4. Product Backlog](/README.md#34-product-backlog)
-- [Capítulo IV: Solution Software Design](/README.md#capítulo-iv-solution-software-design)
-  - [4.1. Strategic-Level Domain-Driven Design](/README.md#41-strategic-level-domain-driven-design)
-    - [4.1.1. EventStorming](/README.md#411-eventstorming)
-      - [4.1.1.1 Candidate Context Discovery](/README.md#4111-candidate-context-discovery)
-      - [4.1.1.2.  Domain Message Flows Modeling](/README.md#4112-domain-message-flows-modeling)
-      - [4.1.1.3. Bounded Context Canvases](/README.md#4113-bounded-context-canvases)
-    - [4.1.2. Context Mapping](/README.md#412-context-mapping)
-    - [4.1.3. Software Architecture](/README.md#413-software-architecture)
-    - [4.1.3.1. Software Architecture System Landscape Diagram](/README.md#4131-software-architecture-system-landscape-diagram)
-    - [4.1.3.2. Software Architecture Context Level Diagrams](/README.md#4132-software-architecture-context-level-diagrams)
-    - [4.1.3.3. Software Architecture Container Level Diagrams](/README.md#4133-software-architecture-container-level-diagrams)
-    - [4.1.3.4. Software Architecture Deployment Diagrams](/README.md#4134-software-architecture-deployment-diagrams)
-  - [4.2. Tactical-Level Domain-Driven Design](/README.md#42-tactical-level-domain-driven-design)
+- [Capítulo I: Introducción](#capítulo-i-introducción)
+  - [1.1. Startup Profile](#11-startup-profile)
+    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [1.2. Solution Profile](#12-solution-profile)
+    - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
+    - [1.2.2 Lean UX Process](#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
+- [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
+  - [2.1. Competidores](#21-competidores)
+    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+  - [2.2. Entrevistas](#22-entrevistas)
+    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+  - [2.3. Needfinding](#23-needfinding)
+    - [2.3.1. User Personas](#231-user-personas)
+    - [2.3.2. User Task Matrix](#232-user-task-matrix)
+    - [2.3.3. Empathy Mapping](#233-empathy-mapping)
+    - [2.3.4. As-is Scenario Mapping](#234-as-is-scenario-mapping)
+  - [2.4. Ubiquitous Language](#24-ubiquitous-language)
+- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+  - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
+  - [3.2. User Stories](#32-user-stories)
+  - [3.3. Impact Mapping](#33-impact-mapping)
+  - [3.4. Product Backlog](#34-product-backlog)
+- [Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design)
+  - [4.1. Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)
+    - [4.1.1. EventStorming](#411-eventstorming)
+      - [4.1.1.1 Candidate Context Discovery](#4111-candidate-context-discovery)
+      - [4.1.1.2.  Domain Message Flows Modeling](#4112-domain-message-flows-modeling)
+      - [4.1.1.3. Bounded Context Canvases](#4113-bounded-context-canvases)
+    - [4.1.2. Context Mapping](#412-context-mapping)
+    - [4.1.3. Software Architecture](#413-software-architecture)
+    - [4.1.3.1. Software Architecture System Landscape Diagram](#4131-software-architecture-system-landscape-diagram)
+    - [4.1.3.2. Software Architecture Context Level Diagrams](#4132-software-architecture-context-level-diagrams)
+    - [4.1.3.3. Software Architecture Container Level Diagrams](#4133-software-architecture-container-level-diagrams)
+    - [4.1.3.4. Software Architecture Deployment Diagrams](#4134-software-architecture-deployment-diagrams)
+  - [4.2. Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)
 
 ---
 
 # Student Outcome
 
 | Criterio Específico                                                                             | Acciones Realizadas | Conclusiones |
-| ----------------------------------------------------------------------------------------------- | ------------------- | ------------ |
+|-------------------------------------------------------------------------------------------------|---------------------|--------------|
 | Trabaja en equipo para proporcionar liderazgo en forma conjunta.                                |                     |              |
 | Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. |                     |              |
 
@@ -112,24 +113,24 @@ Ser reconocidos como líderes en el mercado de soluciones IoT aplicadas al trans
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
-| Integrante | Arrunátegui Aguilar, Josué David |
-| - | - |
+| Integrante        | Arrunátegui Aguilar, Josué David                        |
+|-------------------|---------------------------------------------------------|
 | Falta descripción | ![Josué Perfil](assets/capitulo1/integrantes/josue.png) |
 
-| Integrante | Botello Saldarriaga, Anthony Jean Pierre |
-| - | - |
+| Integrante                                                                                                                                                                                                                                                                                                                                                                                                       | Botello Saldarriaga, Anthony Jean Pierre                    |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|
 | Tengo 23 años y soy estudiante de Ingeniería de Software con conocimientos y habilidades en distintos lenguajes de programación. Actualmente curso el noveno ciclo de la carrera y mi meta es ser un profesional destacado el cual rija sus decisiones por sus valores y el bien de la empresa donde labore. Me interesa el desarrollo de la tecnología y los avances que existen en la inteligencia artificial. | ![Anthony Perfil](assets/capitulo1/integrantes/anthony.jpg) |
 
-| Integrante | Chero Eme, Eduardo Andre |
-| - | - |
+| Integrante        | Chero Eme, Eduardo Andre                                    |
+|-------------------|-------------------------------------------------------------|
 | Falta descripción | ![Eduardo Perfil](assets/capitulo1/integrantes/eduardo.png) |
 
-| Integrante | Lévano Cavero, Eduardo Sebastián |
-| - | - |
+| Integrante                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | Lévano Cavero, Eduardo Sebastián                                |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
 | Mi nombre es Sebastián, tengo 21 años y soy estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Elegí esta carrera porque me fascina crear y diseñar procesos que faciliten procesos complejos. Por ello, cuando tengo un poco de tiempo libre lo uso para relajarme y para aprender más de lo que me apasiona, la programación, se puede decir que es uno de mis hobbies. Además, de la programación también disfruto de jugar vóley, fútbol o algún videojuego con mis amigos. | ![Sebastián Perfil](assets/capitulo1/integrantes/sebastian.jpg) |
 
-| Integrante | Moreno Rosales, Claudio Jesús |
-| - | - |
+| Integrante        | Moreno Rosales, Claudio Jesús                               |
+|-------------------|-------------------------------------------------------------|
 | Falta descripción | ![Claudio Perfil](assets/capitulo1/integrantes/claudio.png) |
 
 ## 1.2. Solution Profile
@@ -186,10 +187,299 @@ Nuestro contexto demanda una supervisión efectiva de las condiciones de segurid
 ##### Problem Statement 2:
 Nuestro contexto demanda soluciones que aseguren la seguridad de los conductores durante el transporte de materiales peligrosos. A través de la tecnología IoT, los conductores podrán recibir alertas tempranas sobre cualquier condición peligrosa, como fugas de gas o variaciones en la presión. Hemos observado un factor crítico que afecta a los conductores, el cual se manifiesta en la falta de información en tiempo real sobre los riesgos durante el transporte, lo que incrementa el peligro para su seguridad y la de otros en la carretera. ¿Cómo proporcionar alertas tempranas y efectivas a los conductores para minimizar los riesgos y garantizar su seguridad durante el transporte de materiales peligrosos?
 
-#### 1.2.2.2. Lean UX Assumptions.
-#### 1.2.2.3. Lean UX Hypothesis Statements.
-#### 1.2.2.4. Lean UX Canvas.
-## 1.3. Segmentos objetivo.
+#### 1.2.2.2. Lean UX Assumptions
+
+En esta sección, definimos las suposiciones clave que guiarán el desarrollo de FastPorte. Estas suposiciones se basan en una comprensión profunda de nuestros usuarios y del mercado, y nos permiten validar las decisiones de diseño y desarrollo a lo largo del proceso.
+
+##### CARACTERÍSTICAS
+
+- Registro de usuarios en dos perfiles: Empresa y Conductor, con identificación y verificación adecuadas.
+- Visualización de los perfiles de los conductores, incluyendo información relevante para el transporte de materiales peligrosos, como certificaciones y datos del vehículo.
+- Las empresas podrán crear y gestionar viajes, asignando conductores y supervisando el estado de los mismos en tiempo real.
+- Los conductores recibirán notificaciones sobre los viajes asignados y alertas de seguridad durante el transporte.
+- Monitoreo en tiempo real de las condiciones del material transportado (fugas de gas, temperatura, presión) con alertas automáticas a las empresas y conductores.
+- Historial de viajes y reportes de incidentes para ambos perfiles.
+- Integración con sistemas de pago seguros para la facturación de servicios.
+- Soporte para visualizar rutas y ubicación en tiempo real utilizando tecnología GPS.
+
+##### BUSINESS OUTCOMES
+
+- Asegurar el cumplimiento de normativas de seguridad en el transporte de materiales peligrosos.
+- Incrementar la confianza de las empresas en la seguridad del transporte de sus materiales.
+- Mejorar la eficiencia operativa mediante la supervisión en tiempo real y la gestión centralizada de los viajes.
+- Reducir el riesgo de incidentes y accidentes durante el transporte de materiales peligrosos.
+
+##### BENEFICIOS DEL USUARIO
+
+- Para las empresas: Mejorar la gestión de sus operaciones de transporte, asegurando la seguridad de sus materiales y cumpliendo con las normativas.
+- Para los conductores: Aumentar la seguridad durante el transporte gracias a las alertas en tiempo real y la supervisión continua.
+- Para ambos: Acceso a un sistema confiable que permite la monitorización de las condiciones de transporte y la gestión eficiente de los viajes.
+
+##### BUSINESS ASSUMPTIONS
+
+- Creemos que las empresas de transporte de materiales peligrosos buscan soluciones que les ofrezcan seguridad y eficiencia en la gestión de sus operaciones.
+- Los conductores necesitan una herramienta que les ofrezca seguridad adicional y la capacidad de gestionar su trabajo de manera más eficiente.
+- Nuestros usuarios esperan que la información proporcionada por los sensores sea precisa y que las alertas sean confiables.
+- Estas necesidades pueden ser satisfechas mediante una plataforma que integre la tecnología IoT para monitorear en tiempo real las condiciones de transporte y alertar sobre posibles riesgos.
+- Los usuarios iniciales son empresas que transportan materiales peligrosos y conductores que buscan mejorar la seguridad en su trabajo diario.
+- El valor principal que nuestros usuarios buscan en FastPorte es la seguridad y la confianza en la supervisión continua de sus operaciones.
+- Obtendremos clientes a través de campañas dirigidas a empresas de transporte y conductores mediante anuncios en internet y asociaciones estratégicas.
+- Los ingresos se generarán a través de suscripciones a la plataforma, tarifas de servicio, y posibles acuerdos con aseguradoras que ofrezcan descuentos a empresas que utilicen FastPorte.
+- Nuestra principal competencia son otras soluciones de monitoreo y gestión de flotas, pero nos destacaremos por nuestro enfoque especializado en materiales peligrosos.
+- El mayor riesgo es que las alertas no se detecten a tiempo o que la información proporcionada sea incorrecta, lo que podría llevar a incidentes durante el transporte. - Resolveremos esto mediante pruebas rigurosas de los sensores y un sistema de validación continua.
+
+##### USER ASSUMPTIONS
+
+- **¿Quién es el usuario?**
+Las empresas de transporte de materiales peligrosos y los conductores encargados de transportar dichos materiales.
+
+- **¿Dónde encaja nuestro producto en su trabajo o vida?**
+Para las empresas, encaja en la gestión y supervisión de sus operaciones diarias. Para los conductores, en la mejora de la seguridad durante su trabajo.
+
+- **¿Qué problemas tiene nuestro producto y cómo se pueden resolver?**
+El producto podría enfrentar desafíos relacionados con la precisión de los sensores y la confiabilidad de las alertas. Estos se pueden resolver mediante pruebas continuas y actualizaciones basadas en el feedback de los usuarios.
+
+- **¿Cuándo y cómo es usado nuestro producto?**
+El producto será utilizado durante el transporte de materiales peligrosos para monitorear en tiempo real las condiciones de seguridad y gestionar los viajes.
+
+- **¿Qué características son importantes?**
+Monitoreo en tiempo real, alertas fiables, fácil gestión de viajes, y una interfaz intuitiva y segura.
+
+- **¿Cómo debe verse nuestro producto y cómo debe comportarse?**
+Debe tener una interfaz moderna, fácil de usar, con colores que transmitan confianza y seguridad. El comportamiento debe ser ágil, con notificaciones claras y precisas, y una respuesta rápida a cualquier incidencia.
+
+#### 1.2.2.3. Lean UX Hypothesis Statements
+
+En esta sección, formularemos hipótesis basadas en nuestras suposiciones de Lean UX. Estas hipótesis nos permitirán validar si las soluciones que implementamos en FastPorte están efectivamente resolviendo los problemas identificados y generando los resultados deseados tanto para los usuarios como para el negocio.
+
+##### HIPÓTESIS 1:
+
+**_Creemos que_** proporcionar una plataforma donde las empresas puedan monitorear en tiempo real las condiciones de seguridad durante el transporte de materiales peligrosos mejorará la eficiencia operativa y la seguridad del transporte.
+**_Sabremos que_** hemos tenido éxito
+**_Cuando_** las empresas reporten una reducción del 25% en incidentes relacionados con la seguridad y un incremento del 15% en la eficiencia de sus operaciones de transporte dentro de los primeros seis meses de uso de FastPorte.
+
+#####  HIPÓTESIS 2: 
+
+**_Creemos que_** implementar alertas en tiempo real para los conductores mejorará su capacidad para prevenir accidentes durante el transporte de materiales peligrosos.
+**_Sabremos que_** hemos tenido éxito
+**_Cuando_** los conductores reporten una disminución del 30% en incidentes de riesgo y un aumento del 20% en su percepción de seguridad mientras utilizan FastPorte.
+
+##### HIPÓTESIS 3: 
+
+**_Creemos que_** ofrecer un historial detallado de viajes y reportes de incidentes ayudará a las empresas a tomar decisiones más informadas sobre la gestión de sus flotas.
+**_Sabremos que_** hemos tenido éxito
+**_Cuando_** observemos que el 70% de las empresas usuarias de FastPorte consultan regularmente los reportes de incidentes y utilizan la información para optimizar sus operaciones dentro de los primeros tres meses.
+
+##### HIPÓTESIS 4: 
+
+**_Creemos que_** la integración de un sistema de pago seguro para la facturación de servicios de transporte generará confianza en nuestros usuarios.
+**_Sabremos que_** hemos tenido éxito
+**_Cuando_** las empresas reporten un incremento del 20% en la puntualidad de los pagos y una reducción del 15% en disputas relacionadas con la facturación en el primer semestre de uso.
+
+##### HIPÓTESIS 5: 
+
+**_Creemos que_** proporcionar visualización en tiempo real de rutas y ubicación del transporte utilizando tecnología GPS aumentará la satisfacción de las empresas y conductores con la plataforma.
+**_Sabremos que_** hemos tenido éxito
+**_Cuando_** el 80% de nuestros usuarios reporten una mejora en la transparencia y control sobre sus operaciones de transporte, reflejada en encuestas de satisfacción realizadas después del primer trimestre de uso.
+
+#### 1.2.2.4. Lean UX Canvas
+
+<table>
+    <tr>
+        <th colspan="3" valign="top">LEAN UX CANVAS</th>
+        <th colspan="1" valign="top">
+            Fecha: 26/08/24
+            <br>
+            Iteración: 1
+        </th>
+    </tr>
+    <tr>
+        <td valign="top">
+            <p><b>1. Business problem</b></p>
+            <p></p>
+            <p>Hemos
+                identificado una necesidad en el mercado de transporte, donde
+                las empresas y sus conductores requieren una solución que
+                ofrezca seguridad y eficiencia en el transporte de materiales
+                peligrosos. Estas entidades buscan una plataforma confiable que
+                centralice y facilite la supervisión en tiempo real de sus
+                operaciones para minimizar riesgos y cumplir con normativas
+                estrictas.</p>
+        </td>
+        <td rowspan="2" valign="top">
+            <p><b>5.Solutions</b></p>
+            <p>
+            <ul>
+                <li> Plataforma de supervisión en tiempo real que integra
+                    tecnología IoT para monitorear condiciones de seguridad
+                    como fugas de gas, temperatura, y presión.</li>
+                </p>
+                <p>
+                    <li>Proceso riguroso de registro y validación para
+                        conductores y empresas, asegurando la confiabilidad de
+                        los servicios ofrecidos.</li>
+                </p>
+                <p>
+                    <li>Sistema de alertas automáticas que notifica a empresas y
+                        conductores sobre posibles riesgos
+                        durante el transporte.
+                    </li>
+            </ul>
+            </p>
+        </td>
+        <td colspan="2" valign="top">
+            <p><b>2.Business Outcomes</b></p>
+            <p>
+            <ul>
+                <li> Asegurar el
+                    cumplimiento de normativas de seguridad en el transporte
+                    de
+                    materiales peligrosos.</li>
+                </p>
+                <p>
+                    <li>Incrementar la
+                        confianza de las
+                        empresas en la seguridad del transporte de sus
+                        materiales.</li>
+                </p>
+                <p>
+                    <li>Mejorar la eficiencia
+                        operativa mediante la
+                        supervisión en tiempo real y la gestión centralizada de
+                        los
+                        viajes.</li>
+                </p>
+                <p>
+                    <li>Reducir el riesgo de incidentes
+                        y accidentes
+                        durante el transporte de materiales
+                        peligrosos.</li>
+            </ul>
+            </p>
+        </td>
+    </tr>
+    <tr>
+        <td rowspan="2" valign="top">
+            <p><b>3. User</b></p>
+            <p></p>
+            <p>
+                Nuestro producto se dirige a dos tipos de usuarios
+                principales:</p>
+            <p>
+            <ul>
+                <li>
+                    <b>Empresas de transporte de materiales peligrosos</b>
+                    que
+                    buscan mejorar la seguridad y el cumplimiento
+                    normativo.
+                </li>
+                </p>
+                <p>
+                    <li><b>Conductores de transporte de materiales
+                            peligrosos</b> que
+                        necesitan herramientas para aumentar la seguridad
+                        durante sus
+                        operaciones diarias.</li>
+            </ul>
+            </p>
+            <p></p>
+        </td>
+        <td colspan="2" rowspan="2" valign="top">
+            <p><b>4. User outcomes & benefits</b></p>
+            <p>
+            <ul>
+                <li>Para las <b>empresas</b>, FastPorte mejora la gestión de
+                    sus operaciones,incrementa la seguridad y asegura el
+                    cumplimiento
+                    normativo.
+                </li>
+                </p>
+                <p>
+                    <li>Para los <b>conductores</b>, FastPorte ofrece
+                        una mayor seguridad mediante alertas en tiempo real y
+                        supervisión constante, reduciendo el riesgo de
+                        accidentes.
+                    </li>
+                </p>
+                <p>
+                    <li> Para ambos, acceso a un sistema confiable
+                        que permite la monitorización de las condiciones de
+                        transporte y
+                        la gestión eficiente de los viajes.
+                    </li>
+            </ul>
+            </p>
+        </td>
+    </tr>
+    <tr>
+        <td rowspan="2" valign="top">
+            <p><b>7. ¿Qué es lo más importante que
+                    necesitamos aprender primero?</b></p>
+            <p></p>
+            <p>Validar la
+                precisión y efectividad del sistema de alertas en tiempo real
+                para que los usuarios confíen en ellas y tomen acciones
+                preventivas.</p>
+        </td>
+    </tr>
+    <tr>
+        <td valign="top">
+            <p><b>6. Hypotheses</b></p>
+            <p></p>
+            <p>
+            <ul>
+                <li>
+                    <b>Creemos que</b> proporcionar una plataforma donde las
+                    empresas
+                    puedan monitorear en tiempo real las condiciones de
+                    seguridad
+                    durante el transporte de materiales peligrosos mejorará
+                    la
+                    eficiencia operativa y la seguridad del transporte.
+                    <br>
+                    <b>Sabremos que</b> hemos tenido éxito
+                    <br>
+                    <b>Cuando</b> las empresas reporten una reducción del
+                    25% en incidentes relacionados con la seguridad y un
+                    incremento del 15% en la eficiencia de sus operaciones
+                    de transporte dentro de los
+                    primeros seis meses de uso de FastPorte.</p>
+                    <p>
+                </li>
+                <li>
+                    <b>Creemos que</b> implementar alertas en tiempo real
+                    para los
+                    conductores mejorará su capacidad para prevenir
+                    accidentes
+                    durante el transporte de materiales
+                    peligrosos.</p>
+                    <p><b>Sabremos que</b> hemos tenido
+                        éxito</p>
+                    <p>
+                        <b>Cuando</b> los conductores reporten una disminución
+                        del 30% en incidentes de riesgo y un aumento del 20% en
+                        su percepción de seguridad mientras utilizan FastPorte.
+                </li>
+            </ul>
+            </p>
+            <p></p>
+        </td>
+        <td colspan="2" valign="top">
+            <p><b>8.
+                    ¿Cuál es la menor cantidad de trabajo que debemos hacer para
+                    aprender la siguiente cosa más
+                    importante?</b></p>
+            <p>Desarrollar un prototipo funcional del
+                sistema de alertas y realizar pruebas piloto con un grupo
+                representativo de usuarios para evaluar su precisión y utilidad
+                en situaciones reales.</p>
+        </td>
+    </tr>
+</table>
+
+## 1.3. Segmentos objetivo
+
+
 
 </div>
 
@@ -198,7 +488,7 @@ Nuestro contexto demanda soluciones que aseguren la seguridad de los conductores
 ## 3.2. User Stories
 
 | Epic ID | Título                                          | Descripción                                                                                                                                                                                                                                                 |
-| ------- | ----------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|---------|-------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | EP-01   | Desarrollo del Landing Page                     | Se centra en el desarrollo del sitio web que sirve de presentación para la empresa y el producto que ofrece. Se implementan diversas secciones que permiten al usuario conocer más acerca de FastPorte y como el producto puede satisfacer sus necesidades. |
 | EP-02   | Desarrollo del Backend                          | Se enfoca en el desarrollo backend de la aplicación y las funcionalidades que debe poseer. Asimismo, como serán denominados los *endpoints* para su futura implementación en las aplicaciones web y móvil.                                                  |
 | EP-03   | Conexión con el sensor                          | La integración del sensor instalado en el vehículo con el backend para almacenar la información que reporta y como se visualizará en el frontend.                                                                                                           |
@@ -208,7 +498,7 @@ Nuestro contexto demanda soluciones que aseguren la seguridad de los conductores
 | EP-07   | Monitorización y Gestión del material peligroso | Las funcionalidades del sensor para captar y enviar la información detectada acerca de los materiales peligrosos.                                                                                                                                           |
 
 | User Story ID | Título                                                                             | Descripción                                                                                                                                                                                                                      | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | Epic ID |
-| ------------- | ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
+|---------------|------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|
 | US-001        | Registro de compañía                                                               | **Como** compañía<br>**Quiero** registrarme en la aplicación<br>**Para** supervisar a los transportistas a mi cargo                                                                                                              | **Escenario Nº1:**<br><br>**Dado que** el supervisor de la compañía no está registrado<br>**Y** se encuentra en la vista inicial de la aplicación<br>**Cuando** hace click en el botón "Registrarse"<br>**Y** ingresa el código del sensor de su vehículo<br>**Y** elige registrarse como "Compañía"<br>**Y** completa los datos solicitados correctamente<br>**Y** hace click en el botón "Continuar"<br>**Entonces** el sistema registra el usuario como *Compañía*<br>**Y** el usuario puede iniciar sesión con las credenciales creadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | EP-04   |
 | US-002        | Registro de transportista                                                          | **Como** transportista<br>**Quiero** registrarme en la aplicación<br>**Para** recibir información de los viajes que debo realizar                                                                                                | **Escenario Nº1:**<br><br>**Dado que** el transportista no está registrado<br>**Y** se encuentra en la vista inicial de la aplicación<br>**Cuando** hace click en el botón "Registrarse"<br>**Y** ingresa el código del sensor de su vehículo<br>**Y** elige registrarse como "Transportista"<br>**Y** completa los datos solicitados correctamente<br>**Y** hace click en el botón "Continuar"<br>**Entonces** el sistema registra el usuario como *Transportista*<br>**Y** el usuario puede iniciar sesión con las credenciales creadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | EP-04   |
 | US-003        | Inicio de sesión                                                                   | **Como** usuario de la aplicación<br>**Quiero** iniciar sesión en la aplicación<br>**Para** acceder a las funcionalidades de la aplicación                                                                                       | **Escenario Nº1:**<br><br>**Dado que** el usuario de la aplicación desea iniciar sesión<br>**Y** se encuentra en la vista inicial de la aplicación<br>**Cuando** hace click en el botón "Iniciar sesión"<br>**Y** ingresa sus credenciales<br>**Y** hace click en el botón "Continuar"<br>**Entonces** accede a las funcionalidades de la aplicación                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | EP-04   |
@@ -257,7 +547,7 @@ Nuestro contexto demanda soluciones que aseguren la seguridad de los conductores
 Para la calificación de Story Points empleada en el Product Backlog se siguió la sucesión de Fibonacci. En este caso siendo 1 la mínima prioridad en el desarrollo y 8 siendo la máxima.
 
 | # Orden | User Story ID | Título                                                                             | Descripción                                                                                                                                                                                                                      | Story Points (1/2/3/5/8) |
-| ------- | ------------- | ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------ |
+|---------|---------------|------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------|
 | 1       | US-039        | Sección Principal                                                                  | **Como** visitante de la página de destino<br>**Quiero** saber que me ofrece el producto de inmediato<br>**Para** confirmar si es lo que estoy buscando                                                                          | 3                        |
 | 2       | US-040        | Sección Características                                                            | **Como** visitante de la página de destino<br>**Quiero** saber cuáles son las características y beneficios<br>**Para** evaluar la contratación de este                                                                           | 3                        |
 | 3       | US-041        | Sección Sobre Nosotros                                                             | **Como** visitante de la página de destino<br>**Quiero** saber quiénes están involucrados en FastPorte<br>**Para** conocer más sobre esta empresa                                                                                | 3                        |
