@@ -76,3 +76,98 @@ ___
   - [4.2. Tactical-Level Domain-Driven Design](/README.md#42-tactical-level-domain-driven-design)
 
 ---
+
+# Capitulo IV: Solution Software Desing
+
+## 4.1. Strategic-Level Domain-Driven Design
+
+### 4.1.1. EventStorming
+![EventStorming](./assets/chapter4_img/eventStorming.png)
+
+#### 4.1.1.1 Candidate Context Discovery
+
+Step 1:
+![Step 1](/assets/chapter4_img/step1.png)
+Step 2:
+![Step 2](/assets/chapter4_img/step2.png)
+Step 3:
+![Step 3](/assets/chapter4_img/step3.png)
+Step 4:
+![Step 4](/assets/chapter4_img/step4.png)
+Step 5:
+![Step 5](/assets/chapter4_img/step5.png)
+Step 6:
+![Step 6](/assets/chapter4_img/step6.png)
+Step 7:
+![Step 7](/assets/chapter4_img/step7.png)
+Step 8:
+![Step 8](/assets/chapter4_img/eventStorming.png)
+
+#### 4.1.1.2 Domain Message Flows Modeling
+
+Leyenda: <br>
+![Leyenda](/assets/chapter4_img/leyenda.png)
+
+Escenario: Inicio de sesión
+![Escenario 1](/assets/chapter4_img/escenario1.png)
+
+Escenario: Registro de usuario
+![Escenario 2](/assets/chapter4_img/escenario2.png)
+
+Escenario: Registro del sensor
+![Escenario 3](/assets/chapter4_img/escenario3.png)
+
+Escenario: Programación de viaje
+![Escenario 4](/assets/chapter4_img/escenario4.png)
+
+Escenario: Conductor visualiza sus viajes pendientes
+![Escenario 5](/assets/chapter4_img/escenario5.png)
+
+Escenario: Sensor detecta un problema
+![Escenario 6](/assets/chapter4_img/escenario6.png)
+
+#### 4.1.1.3 Bounded Context Canvases
+
+### 4.1.2. Context Mapping
+
+### 4.1.3. Software Architecture
+
+#### 4.1.3.1. Software Architecture System Landscape Diagram
+
+#### 4.1.3.2. Software Architecture Context Level Diagrams
+![C4 Diagrama de Contexto](/assets/chapter4_img/c4_context.png)
+
+#### 4.1.3.2. Software Architecture Container Level Diagrams.
+![C4 Diagrama de Componentes](/assets/chapter4_img/c4_component.png)
+
+#### 4.1.3.3. Software Architecture Deployment Diagrams
+![Software Architecture Deployment Diagrams](/assets/chapter4_img/ArchDeploy.png)
+
+## 4.2. Tactical-Level Domain-Driven Design
+### 4.2.1. Bounded Context: Usuario
+#### 4.2.1.1. Domain Layer.
+#### 4.2.1.2. Interface Layer.
+#### 4.2.1.3. Application Layer.
+#### 4.2.1.4. Infrastructure Layer.
+#### 4.2.1.6. Bounded Context Software Architecture Component Level Diagrams.
+#### 4.2.1.7. Bounded Context Software Architecture Code Level Diagrams.
+###### 4.2.1.7.1. Bounded Context Domain Layer Class Diagrams.
+###### 4.2.1.7.2. Bounded Context Database Design Diagram.
+### 4.2.2. Bounded Context: Sensor
+#### 4.2.2.1. Domain Layer.
+#### 4.2.2.2. Interface Layer.
+#### 4.2.2.3. Application Layer.
+#### 4.2.2.4. Infrastructure Layer.
+#### 4.2.2.6. Bounded Context Software Architecture Component Level Diagrams.
+#### 4.2.2.7. Bounded Context Software Architecture Code Level Diagrams.
+##### 4.2.2.7.1. Bounded Context Domain Layer Class Diagrams.
+##### 4.2.2.7.2. Bounded Context Database Design Diagram.
+### 4.2.3. Bounded Context: Viajes
+#### 4.2.3.1. Domain Layer.
+#### 4.2.3.2. Interface Layer.
+#### 4.2.3.3. Application Layer.
+#### 4.2.3.4. Infrastructure Layer.
+#### 4.2.3.6. Bounded Context Software Architecture Component Level Diagrams.
+#### 4.2.3.7. Bounded Context Software Architecture Code Level Diagrams.
+###### 4.2.3.7.1. Bounded Context Domain Layer Class Diagrams.
+###### 4.2.3.7.2. Bounded Context Database Design Diagram.
