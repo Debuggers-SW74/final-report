@@ -26,6 +26,7 @@ ___
 | Versión | Fecha      | Autor            | Descripción de modificación                                                |
 | ------- | ---------- | ---------------- | -------------------------------------------------------------------------- |
 | 1.0     | 22/08/2024 | Sebastián Lévano | Creación del archivo base en Markdown para el desarrollo del Final Project |
+| 1.1     | 01/08/2024 | Sebastián Lévano | Desarrollo del Capítulo 3                                                  |
 
 ---
 # Contenido 
