@@ -288,8 +288,12 @@ Características clave mencionadas por el entrevistado:
 - **Segmento objetivo empresas: Mapa de empatía**
 [![interview1.png](https://i.postimg.cc/d0HH0ZcH/User-Persona-Empresas.jpg)](https://postimg.cc/xkmyxCCM)
 
-
 ### 2.3.2. User Task Matrix
+
+- **Segmento objetivo empresas: Matriz de tareas**
+[![interview1.png](https://i.postimg.cc/G3NQV1bD/User-Task-Matrix-Empresas.png)](https://postimg.cc/jCHPnmwq)
+
+
 ### 2.3.3. User Journey Mapping
 ### 2.3.4. Empathy Mapping
 ### 2.3.5. As-is Scenario Mapping
