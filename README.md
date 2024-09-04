@@ -286,30 +286,36 @@ Características clave mencionadas por el entrevistado:
 ### 2.3.1. User Personas
 
 - **Segmento objetivo empresas: Mapa de empatía**
+
 [![interview1.png](https://i.postimg.cc/d0HH0ZcH/User-Persona-Empresas.jpg)](https://postimg.cc/xkmyxCCM)
 
 ### 2.3.2. User Task Matrix
 
 - **Segmento objetivo empresas: Matriz de tareas**
+
 [![interview1.png](https://i.postimg.cc/G3NQV1bD/User-Task-Matrix-Empresas.png)](https://postimg.cc/jCHPnmwq)
 
 
 ### 2.3.3. User Journey Mapping
 
 - **Segmento objetivo empresas: Mapa del viaje del usuario**
+
 [![interview1.png](https://i.postimg.cc/G2tFgXNz/Customer-Journey-Map-Empresas.jpg)](https://postimg.cc/1nxVfryN)
 
 
 ### 2.3.4. Empathy Mapping
 
 - **Segmento objetivo empresas: Mapa de empatía**
+
 [![interview1.png](https://i.postimg.cc/c1VzY3gP/Empathy-Map-Empresas.jpg)](https://postimg.cc/V5W4PdFF)
 
 
 ### 2.3.5. As-is Scenario Mapping
 
 - **Segmento objetivo empresas: Mapa de empatía**
+
 [![interview1.png](https://i.postimg.cc/0yCXLHWq/Mapa-As-Is-Empresas.png)](https://postimg.cc/3kdZG9QL)
 
+<br><br>
 
 ## 2.4. Ubiquitous Language
