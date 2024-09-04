@@ -295,6 +295,11 @@ Características clave mencionadas por el entrevistado:
 
 
 ### 2.3.3. User Journey Mapping
+
+- **Segmento objetivo empresas: Mapa del viaje del usuario**
+[![interview1.png](https://i.postimg.cc/G2tFgXNz/Customer-Journey-Map-Empresas.jpg)](https://postimg.cc/1nxVfryN)
+
+
 ### 2.3.4. Empathy Mapping
 ### 2.3.5. As-is Scenario Mapping
 
