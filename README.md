@@ -187,7 +187,9 @@ Entrevista 1: Segmento objetivo empresa
 [![interview1.png](https://i.postimg.cc/9XT566xK/entrevista-empresa-1.png)](https://postimg.cc/Wt2HrHcw)
 
 URL: https://youtu.be/Q5w1AZyZ7cU
+
 Timing: 0:05
+
 Duración: 8:04 minutos 
 
 **Resúmen de la entrevista:**
@@ -211,7 +213,9 @@ Entrevista 2: Segmento objetivo empresa
 [![interview1.png](https://i.postimg.cc/9Fh5CLKM/entrevista-empresa-2.png)](https://postimg.cc/Z0VDLxTt)
 
 URL: https://youtu.be/5VN1W9JiBUE
+
 Timing: 0:03
+
 Duración: 25:11 minutos 
 
 **Resúmen de la entrevista:**
@@ -236,7 +240,9 @@ Entrevista 3: Segmento objetivo empresa
 [![interview1.png](https://i.postimg.cc/MGFJwqJ2/entrevista-empresa-3.png)](https://postimg.cc/Ff3BgtKD)
 
 URL: https://youtu.be/Q5w1AZyZ7cU
+
 Timing: 0:05
+
 Duración: 8:04 minutos 
 
 **Resúmen de la entrevista:**
