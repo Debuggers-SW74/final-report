@@ -284,6 +284,11 @@ Características clave mencionadas por el entrevistado:
 
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
+
+- **Segmento objetivo empresas: Mapa de empatía**
+[![interview1.png](https://i.postimg.cc/d0HH0ZcH/User-Persona-Empresas.jpg)](https://postimg.cc/xkmyxCCM)
+
+
 ### 2.3.2. User Task Matrix
 ### 2.3.3. User Journey Mapping
 ### 2.3.4. Empathy Mapping
