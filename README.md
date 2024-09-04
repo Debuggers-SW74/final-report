@@ -308,4 +308,8 @@ Características clave mencionadas por el entrevistado:
 
 ### 2.3.5. As-is Scenario Mapping
 
+- **Segmento objetivo empresas: Mapa de empatía**
+[![interview1.png](https://i.postimg.cc/0yCXLHWq/Mapa-As-Is-Empresas.png)](https://postimg.cc/3kdZG9QL)
+
+
 ## 2.4. Ubiquitous Language
