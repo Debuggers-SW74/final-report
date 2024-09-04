@@ -128,6 +128,14 @@ Escenario: Sensor detecta un problema
 
 #### 4.1.1.3 Bounded Context Canvases
 
+Bounded context 'Usuario'  <br>
+![Bounded Context Canvas Usuario](/assets/chapter4_img/canvas_users.jpg)
+
+Bounded context 'Sensor'  <br>
+![Bounded Context Canvas Usuario](/assets/chapter4_img/canvas_sensor.jpg)
+
+Bounded context 'Viajes'  <br>
+![Bounded Context Canvas Usuario](/assets/chapter4_img/canvas_viajes.jpg)
 ### 4.1.2. Context Mapping
 
 ### 4.1.3. Software Architecture
