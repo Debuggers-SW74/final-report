@@ -143,9 +143,10 @@ Bounded context 'Viajes'  <br>
 ### 4.1.3. Software Architecture
 
 #### 4.1.3.1. Software Architecture System Landscape Diagram
+![C4 Diagrama de Contexto](/assets/chapter4_img/landscape.jpg)
 
 #### 4.1.3.2. Software Architecture Context Level Diagrams
-![C4 Diagrama de Contexto](/assets/chapter4_img/c4_context.png)
+![C4 Diagrama de Contexto](/assets/chapter4_img/context.jpg)
 
 #### 4.1.3.2. Software Architecture Container Level Diagrams.
 ![C4 Diagrama de Componentes](/assets/chapter4_img/c4_component.png)
