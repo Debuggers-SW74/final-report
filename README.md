@@ -186,6 +186,10 @@ Entrevista 1: Segmento objetivo empresa
 
 [![interview1.png](https://i.postimg.cc/9XT566xK/entrevista-empresa-1.png)](https://postimg.cc/Wt2HrHcw)
 
+URL: https://youtu.be/Q5w1AZyZ7cU
+Timing: 0:05
+Duración: 8:04 minutos 
+
 **Resúmen de la entrevista:**
 Entrevistado: Jorge tiene 52 años y es Supervisor de Transportes en Convoy de materiales peligrosos (transporte de hidrocarburos a empresas mineras).
 
@@ -205,6 +209,10 @@ Características clave mencionadas por el entrevistado:
 Entrevista 2: Segmento objetivo empresa
 
 [![interview1.png](https://i.postimg.cc/9Fh5CLKM/entrevista-empresa-2.png)](https://postimg.cc/Z0VDLxTt)
+
+URL: https://youtu.be/5VN1W9JiBUE
+Timing: 0:03
+Duración: 25:11 minutos 
 
 **Resúmen de la entrevista:**
 Entrevistado: Arquímedes Ordoño Gutiérrez tiene 55 años y es Jefe de Supervisores en Transcor SRL.
@@ -227,6 +235,10 @@ Entrevista 3: Segmento objetivo empresa
 
 [![interview1.png](https://i.postimg.cc/MGFJwqJ2/entrevista-empresa-3.png)](https://postimg.cc/Ff3BgtKD)
 
+URL: https://youtu.be/Q5w1AZyZ7cU
+Timing: 0:05
+Duración: 8:04 minutos 
+
 **Resúmen de la entrevista:**
 Entrevistado: Estuardo Chero tiene 46 años y es Supervisor Escolta de Materiales Peligrosos.
 
@@ -244,6 +256,25 @@ Características clave mencionadas por el entrevistado:
 <br><br>
 
 ### 2.2.3. Análisis de entrevistas
+
+- Las medidas de seguridad son una preocupación central para todos los entrevistados. Además, los riesgos relacionados con las condiciones externas son una preocupación común y el cumplimiento de normas es una obligación crítica en todas las empresas entrevistadas.
+
+[![interview1.png](https://i.postimg.cc/x1Wp0CF2/gr-fico1-temas-clave.png)](https://postimg.cc/DSPP62Tj)
+
+<br>
+
+- Todos los entrevistados consideran los accidentes de tránsito como el principal riesgo. La pérdida de señal GPS en zonas remotas es un desafío significativo mencionado en 2 de las 3 entrevistas. Además, la mayoría de las empresas exige un mínimo de 7 horas de descanso para los conductores y la capacitación de los conductores se realiza dos veces al año como mínimo.
+
+[![interview1.png](https://i.postimg.cc/JhZ6tL9B/gr-fico2-percepciones.png)](https://postimg.cc/McZbrhZW)
+
+<br>
+
+- Las empresas implementan múltiples tecnologías para garantizar la seguridad en el transporte. Todas las empresas utilizan teléfonos satelitales en zonas donde la cobertura de señal es deficiente. Además, los entrevistados perciben que el proceso burocrático es un desafío considerable. También, las empresas realizan simulacros de emergencia al menos 3 veces al año y se sugiere incrementar las unidades de respuesta para reducir tiempos de llegada en emergencias.
+
+[![interview1.png](https://i.postimg.cc/t41mQPkk/gr-fico3-tecnolog-a-normas-simulacros.png)](https://postimg.cc/DSTc1St4)
+
+<br>
+
 
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
