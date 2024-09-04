@@ -301,6 +301,11 @@ Características clave mencionadas por el entrevistado:
 
 
 ### 2.3.4. Empathy Mapping
+
+- **Segmento objetivo empresas: Mapa de empatía**
+[![interview1.png](https://i.postimg.cc/c1VzY3gP/Empathy-Map-Empresas.jpg)](https://postimg.cc/V5W4PdFF)
+
+
 ### 2.3.5. As-is Scenario Mapping
 
 ## 2.4. Ubiquitous Language
