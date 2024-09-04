@@ -136,7 +136,9 @@ Bounded context 'Sensor'  <br>
 
 Bounded context 'Viajes'  <br>
 ![Bounded Context Canvas Usuario](/assets/chapter4_img/canvas_viajes.jpg)
+
 ### 4.1.2. Context Mapping
+![Context Mapping](/assets/chapter4_img/context_mapping.jpg)
 
 ### 4.1.3. Software Architecture
 
