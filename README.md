@@ -146,7 +146,7 @@ Bounded context 'Viajes'  <br>
 ![C4 Diagrama de Contexto](/assets/chapter4_img/landscape.jpg)
 
 #### 4.1.3.2. Software Architecture Context Level Diagrams
-![C4 Diagrama de Contexto](/assets/chapter4_img/context.jpg)
+![C4 Diagrama de Contexto](/assets/chapter4_img/c4_context.png)
 
 #### 4.1.3.2. Software Architecture Container Level Diagrams.
 ![C4 Diagrama de Componentes](/assets/chapter4_img/c4_component.png)
