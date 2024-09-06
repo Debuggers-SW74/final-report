@@ -285,9 +285,9 @@ Características clave mencionadas por el entrevistado:
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
 
-- **Segmento objetivo empresas: Mapa de empatía**
+- **Segmento objetivo empresas: Arquetipo del conductor**
 
-[![interview1.png](https://i.postimg.cc/sXD9vGxj/Empathy-Map-Empresas-new.png)](https://postimg.cc/mcJFnD7J)
+[![interview1.png](https://i.postimg.cc/TwC09qF5/User-Persona-Empresas-new.png)](https://postimg.cc/9RwyXTWc)
 
 ### 2.3.2. User Task Matrix
 
