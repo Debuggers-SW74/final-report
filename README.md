@@ -82,26 +82,26 @@ ___
 ## 4.1. Strategic-Level Domain-Driven Design
 
 ### 4.1.1. EventStorming
-![EventStorming](./assets/chapter4_img/eventStorming.png)
+![EventStorming](./assets/chapter4_img/step8.jpg)
 
 #### 4.1.1.1 Candidate Context Discovery
 
 Step 1:
-![Step 1](/assets/chapter4_img/step1.png)
+![Step 1](/assets/chapter4_img/step1.jpg)
 Step 2:
-![Step 2](/assets/chapter4_img/step2.png)
+![Step 2](/assets/chapter4_img/step2.jpg)
 Step 3:
-![Step 3](/assets/chapter4_img/step3.png)
+![Step 3](/assets/chapter4_img/step3.jpg)
 Step 4:
-![Step 4](/assets/chapter4_img/step4.png)
+![Step 4](/assets/chapter4_img/step4.jpg)
 Step 5:
-![Step 5](/assets/chapter4_img/step5.png)
+![Step 5](/assets/chapter4_img/step5.jpg)
 Step 6:
-![Step 6](/assets/chapter4_img/step6.png)
+![Step 6](/assets/chapter4_img/step6.jpg)
 Step 7:
-![Step 7](/assets/chapter4_img/step7.png)
+![Step 7](/assets/chapter4_img/step7.jpg)
 Step 8:
-![Step 8](/assets/chapter4_img/eventStorming.png)
+![Step 8](/assets/chapter4_img/step8.jpg)
 
 #### 4.1.1.2 Domain Message Flows Modeling
 
