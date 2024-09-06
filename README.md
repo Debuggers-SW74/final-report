@@ -263,7 +263,34 @@ Características clave mencionadas por el entrevistado:
 
 Entrevista 4: Segmento objetivo conductores
 
-[![interview1.png](https://i.postimg.cc/MGFJwqJ2/entrevista-empresa-3.png)](https://postimg.cc/Ff3BgtKD)
+[![interview1.png](https://i.postimg.cc/5t8S9PQL/entrevista-conductor-2.png)](https://postimg.cc/bGNt39Tw)
+
+URL: https://www.youtube.com/watch?v=KEh32dSaK2w
+
+Timing: 0:01
+
+Duración: 6:25 minutos 
+
+**Resúmen de la entrevista:**
+Entrevistado: José Gonzales tiene 27 años y es Conductor de Sisternas.
+
+- **Seguridad:** La seguridad del transporte depende de asegurar que la carga esté bien sujeta y que el vehículo esté en óptimas condiciones. El transporte nocturno es particularmente peligroso debido a la visibilidad limitada y condiciones como la neblina.
+
+- **Situación de riesgo:** Durante las noches con neblina y carreteras mojadas, José se siente preocupado por los riesgos adicionales, especialmente en zonas mal diseñadas.
+
+- **Condiciones ambientales:** El calor extremo en verano puede aumentar la presión en los tanques y generar riesgos de explosión. En invierno, las lluvias intensas y la neblina representan riesgos al conducir en carreteras mojadas.
+
+- **Monitoreo en movimiento:** Aunque su vehículo tiene sistemas de alerta, estos a veces fallan o se activan con retraso, lo que genera incertidumbre.
+
+- **Problemas comunes:** Las fallas más frecuentes incluyen problemas con válvulas y frenos. Es esencial revisar estos componentes antes de cada viaje.
+
+- **Proceso para manejar problemas:** Ante un problema en ruta, José se detiene en un lugar seguro y contacta a la base o al centro de emergencias para recibir instrucciones. Sugiere contar con técnicos especializados para acompañar los viajes y ayudar en casos graves.
+
+<br><br>
+
+Entrevista 5: Segmento objetivo conductores
+
+[![interview1.png](https://i.postimg.cc/nzZYXvq5/entrevista-conductor-1.png)](https://postimg.cc/kV1tZR1F)
 
 URL: https://www.youtube.com/watch?v=dP9vHbNym4c
 
@@ -274,23 +301,17 @@ Duración: 10:26 minutos
 **Resúmen de la entrevista:**
 Entrevistado: Juan Cueto Dominguez tiene 28 años y es Conductor de Materiales Peligrosos.
 
+- **Seguridad:** El principal reto es garantizar que el vehículo y la carga cumplan con todas las normativas de seguridad. Esto implica un monitoreo constante de la estabilidad de la carga, el mantenimiento del vehículo, y el respeto a regulaciones locales. Las condiciones ambientales, como el calor y la fricción, también representan riesgos.
+
+- **Situación de riesgo:** Durante el transporte de gases inflamables, Juan vió el aumento de la temperatura exterior que elevó la presión en los contenedores. Tuvo que estacionar en un lugar seguro y activar el plan de contingencia para evitar un accidente mayor.
+
+- **Monitoreo en movimiento:** Es difícil verificar la carga mientras se conduce, y el ruido o la vibración del vehículo pueden ocultar señales de posibles problemas. Los sistemas de alerta no siempre detectan fallas como inestabilidad de la carga o fugas.
+
+- **Problemas comunes:** Los fallos más frecuentes incluyen problemas con los sistemas de sujeción de la carga, desgaste de etiquetas de seguridad y sistemas de enfriamiento ineficientes.
+
+- **Proceso para manejar problemas:** Ante cualquier indicio de riesgo, Juan se estaciona en una zona segura y notifica a los números de emergencia para activar el protocolo de seguridad. Luego, el sigue las instrucciones de los expertos y revisa las hojas de seguridad del material transportado.
+
 <br><br>
-
-Entrevista 5: Segmento objetivo conductores
-
-[![interview1.png](https://i.postimg.cc/MGFJwqJ2/entrevista-empresa-3.png)](https://postimg.cc/Ff3BgtKD)
-
-URL: https://youtu.be/KEh32dSaK2w
-
-Timing: 0:04
-
-Duración: 10:26 minutos 
-
-**Resúmen de la entrevista:**
-Entrevistado: Juan Cueto Dominguez tiene 28 años y es Conductor de Materiales Peligrosos.
-
-
-
 
 ### 2.2.3. Análisis de entrevistas
 
