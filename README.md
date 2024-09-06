@@ -337,9 +337,15 @@ Entrevistado: Juan Cueto Dominguez tiene 28 años y es Conductor de Materiales P
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
 
-- **Segmento objetivo empresas: Arquetipo del conductor**
+- **Segmento objetivo empresas: Arquetipo de las empresas**
 
 [![interview1.png](https://i.postimg.cc/TwC09qF5/User-Persona-Empresas-new.png)](https://postimg.cc/9RwyXTWc)
+
+<br>
+
+- **Segmento objetivo conductores: Arquetipo del conductor**
+
+[![interview1.png](https://i.postimg.cc/d3jmYn3n/User-Persona-Conductores-new.png)](https://postimg.cc/ct687RQ8)
 
 ### 2.3.2. User Task Matrix
 
@@ -347,12 +353,23 @@ Entrevistado: Juan Cueto Dominguez tiene 28 años y es Conductor de Materiales P
 
 [![interview1.png](https://i.postimg.cc/G3NQV1bD/User-Task-Matrix-Empresas.png)](https://postimg.cc/jCHPnmwq)
 
+- **Segmento objetivo conductores: Matriz de tareas**
+
+[![interview1.png](https://i.postimg.cc/FHVykTx4/User-Task-Matrix-Conductores.png)](https://postimg.cc/0zrMLd3W)
+
+<br>
 
 ### 2.3.3. User Journey Mapping
 
 - **Segmento objetivo empresas: Mapa del viaje del usuario**
 
 [![interview1.png](https://i.postimg.cc/fyPK4Www/Customer-Journey-Map-Empresas-new.png)](https://postimg.cc/YL1gYHGV)
+
+<br>
+
+- **Segmento objetivo conductores: Mapa del viaje del usuario**
+
+[![interview1.png](https://i.postimg.cc/CMG4kM7D/Customer-Journey-Map-Conductores-new.png)](https://postimg.cc/8sCWVSqP)
 
 
 ### 2.3.4. Empathy Mapping
@@ -361,10 +378,16 @@ Entrevistado: Juan Cueto Dominguez tiene 28 años y es Conductor de Materiales P
 
 [![interview1.png](https://i.postimg.cc/sXD9vGxj/Empathy-Map-Empresas-new.png)](https://postimg.cc/mcJFnD7J)
 
+<br>
+
+- **Segmento objetivo conductores: Mapa de empatía**
+
+[![interview1.png](https://i.postimg.cc/pXPJZNcS/Empathy-Map-Conductores-new.png)](https://postimg.cc/4nFcf0gv)
+
 
 ### 2.3.5. As-is Scenario Mapping
 
-- **Segmento objetivo empresas: Mapa de empatía**
+- **Mapa As-Is: Segmento objetivo antes de conocer la solución de software:**
 
 [![interview1.png](https://i.postimg.cc/0yCXLHWq/Mapa-As-Is-Empresas.png)](https://postimg.cc/3kdZG9QL)
 
