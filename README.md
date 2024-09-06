@@ -156,14 +156,243 @@ Bounded context 'Viajes'  <br>
 
 ## 4.2. Tactical-Level Domain-Driven Design
 ### 4.2.1. Bounded Context: Usuario
+Este bounded context está relacionado con la gestión de cuentas de usuario, autenticación y la gestión de perfiles dentro de un sistema.<br>
+
+<table class="tg">
+  <thead>
+    <tr>
+      <th class="tg-fymr" colspan="2">Nombre</th>
+      <th class="tg-0pky" colspan="3">Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="tg-fymr" colspan="2" style="text-align:center">Usuario</td>
+      <td class="tg-0pky" colspan="3">Representa a un usuario en el sistema, con credenciales y estado de autenticación</td>
+    </tr>
+    <tr>
+    <td class="tg-fymr" colspan="2">Atributos</td>
+    <td class="tg-fymr" colspan="2">Relaciones</td>
+    <td class="tg-fymr" rowspan="2">Metodos</td>
+    </tr>
+    <tr>
+      <td class="tg-1wig">Nombre</td>
+      <td class="tg-1wig">Tipo de dato</td>
+      <td class="tg-1wig">Tipo</td>
+      <td class="tg-1wig">Clases/Enums</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">userID</td>
+      <td class="tg-0lax">Int</td>
+      <td class="tg-0lax">Composicón</td>
+      <td class="tg-0lax">UserProfile</td>
+      <td class="tg-0lax">authenticateUser()</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">email</td>
+      <td class="tg-0lax">String</td>
+      <td class="tg-0lax">Agregación</td>
+      <td class="tg-0lax">Token</td>
+      <td class="tg-0lax">validateToken()</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">password</td>
+      <td class="tg-0lax">String</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax">invalidateToken()</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">isActive</td>
+      <td class="tg-0lax">String</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+  </tbody>
+</table>
+
+<table class="tg">
+  <thead>
+    <tr>
+      <th class="tg-fymr" colspan="2">Nombre</th>
+      <th class="tg-0pky" colspan="3">Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="tg-fymr" colspan="2" style="text-align:center">UserProfile</td>
+      <td class="tg-0pky" colspan="3">Contiene la información personal y preferencias del usuario</td>
+    </tr>
+    <tr>
+    <td class="tg-fymr" colspan="2">Atributos</td>
+    <td class="tg-fymr" colspan="2">Relaciones</td>
+    <td class="tg-fymr" rowspan="2">Metodos</td>
+    </tr>
+    <tr>
+      <td class="tg-1wig">Nombre</td>
+      <td class="tg-1wig">Tipo de dato</td>
+      <td class="tg-1wig">Tipo</td>
+      <td class="tg-1wig">Clases/Enums</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">name</td>
+      <td class="tg-0lax">String</td>
+      <td class="tg-0lax">Asociación</td>
+      <td class="tg-0lax">Usuario</td>
+      <td class="tg-0lax">updateUserProfile()</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">address</td>
+      <td class="tg-0lax">String</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax">retrieveUserProfile()</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">phone</td>
+      <td class="tg-0lax">String</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">profileImg</td>
+      <td class="tg-0lax">String</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+  </tbody>
+</table>
+
+<table class="tg">
+  <thead>
+    <tr>
+      <th class="tg-fymr" colspan="2">Nombre</th>
+      <th class="tg-0pky" colspan="3">Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="tg-fymr" colspan="2" style="text-align:center">Token</td>
+      <td class="tg-0pky" colspan="3">Token utilizado para validar sesiones activas del usuario</td>
+    </tr>
+    <tr>
+    <td class="tg-fymr" colspan="2">Atributos</td>
+    <td class="tg-fymr" colspan="2">Relaciones</td>
+    <td class="tg-fymr" rowspan="2">Metodos</td>
+    </tr>
+    <tr>
+      <td class="tg-1wig">Nombre</td>
+      <td class="tg-1wig">Tipo de dato</td>
+      <td class="tg-1wig">Tipo</td>
+      <td class="tg-1wig">Clases/Enums</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">tokenId</td>
+      <td class="tg-0lax">Int</td>
+      <td class="tg-0lax">Asociación</td>
+      <td class="tg-0lax">Usuario</td>
+      <td class="tg-0lax">generateToken()</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">creationDate</td>
+      <td class="tg-0lax">Date</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax">validateToken()</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">expirationDate</td>
+      <td class="tg-0lax">Date</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax">invalidateToken()</td>
+    </tr>
+  </tbody>
+</table>
+
+<table class="tg">
+  <thead>
+    <tr>
+      <th class="tg-fymr" colspan="2">Nombre</th>
+      <th class="tg-0pky" colspan="3">Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="tg-fymr" colspan="2" style="text-align:center">Notification</td>
+      <td class="tg-0pky" colspan="3">Gestiona las notificaciones enviadas al usuario</td>
+    </tr>
+    <tr>
+    <td class="tg-fymr" colspan="2">Atributos</td>
+    <td class="tg-fymr" colspan="2">Relaciones</td>
+    <td class="tg-fymr" rowspan="2">Metodos</td>
+    </tr>
+    <tr>
+      <td class="tg-1wig">Nombre</td>
+      <td class="tg-1wig">Tipo de dato</td>
+      <td class="tg-1wig">Tipo</td>
+      <td class="tg-1wig">Clases/Enums</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">notificationId</td>
+      <td class="tg-0lax">Int</td>
+      <td class="tg-0lax">Asociación</td>
+      <td class="tg-0lax">Usuario</td>
+      <td class="tg-0lax">sendUserNotification()</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">message</td>
+      <td class="tg-0lax">String</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax">sendAccountActivityAlert()</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">sentDate</td>
+      <td class="tg-0lax">Date</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+  </tbody>
+</table>
+
 #### 4.2.1.1. Domain Layer.
+
+* **Usuario:** Define las propiedades y el comportamiento de un usuario en el sistema.
+* **Perfil de Usuario:** Gestiona la información del perfil del usuario (nombre, dirección, teléfono, etc.).
+* **Token de Autenticación:** Representa los tokens utilizados para manejar las sesiones de usuario.
+* **Notificación:** Representa las notificaciones enviadas a los usuarios sobre actividades importantes o alertas.
+
 #### 4.2.1.2. Interface Layer.
+En esta capa presentamos los endpoints de la API que interactúan con las entidades del dominio:
+
+* **Autenticación de Usuario:** Servicios como authenticateUser(), validateToken() y invalidateToken() para la validación y gestión de autenticación.
+* **Gestión de Perfiles:** Servicios como updateUserProfile() y retrieveUserProfile() para la actualización y recuperación del perfil del usuario.
+* **Notificaciones:** Servicios como sendUserNotification() para el envío de alertas al usuario.
+
 #### 4.2.1.3. Application Layer.
+
+* **Inicio de sesión:** Se gestiona la autenticación y validación de tokens.
+* **Gestión de perfiles:** Actualización y consulta de información de perfiles de usuario.
+* **Envío de notificaciones:** Envía notificaciones o alertas al usuario, tales como actividades sospechosas o cambios en la cuenta.
+
 #### 4.2.1.4. Infrastructure Layer.
+
+* **Persistencia de Usuario:** Manejo de la persistencia de los datos del usuario y su perfil en una base de datos.
+* **Autenticación:** Comunicación con servicios de autenticación y generación de tokens.
+* **Notificaciones:** Envío de notificaciones a través de servicios de mensajería (por ejemplo, email, SMS, notificaciones push).
+
 #### 4.2.1.6. Bounded Context Software Architecture Component Level Diagrams.
+![C4 Diagrama de Componentes](/assets/chapter4_img/bounded_context_user.jpeg)
 #### 4.2.1.7. Bounded Context Software Architecture Code Level Diagrams.
 ###### 4.2.1.7.1. Bounded Context Domain Layer Class Diagrams.
+![Diagrama_de_clases](/assets/chapter4_img/user_bounded_context-class_diagram.png)
 ###### 4.2.1.7.2. Bounded Context Database Design Diagram.
+![Diagrama_de_base_de_Datos](/assets/chapter4_img/user_bounded_context-database_diagram.png)
 ### 4.2.2. Bounded Context: Sensor
 #### 4.2.2.1. Domain Layer.
 #### 4.2.2.2. Interface Layer.
