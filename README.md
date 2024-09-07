@@ -390,18 +390,241 @@ En esta capa presentamos los endpoints de la API que interactúan con las entida
 ![C4 Diagrama de Componentes](/assets/chapter4_img/bounded_context_user.jpeg)
 #### 4.2.1.7. Bounded Context Software Architecture Code Level Diagrams.
 ###### 4.2.1.7.1. Bounded Context Domain Layer Class Diagrams.
-![Diagrama_de_clases](/assets/chapter4_img/user_bounded_context-class_diagram.png)
+![Diagrama_de_clases_usuario](/assets/chapter4_img/user_bounded_context-class_diagram.png)
 ###### 4.2.1.7.2. Bounded Context Database Design Diagram.
-![Diagrama_de_base_de_Datos](/assets/chapter4_img/user_bounded_context-database_diagram.png)
+![Diagrama_de_base_de_Datos_usuario](/assets/chapter4_img/user_bounded_context-database_diagram.png)
 ### 4.2.2. Bounded Context: Sensor
+Este bounded context es responsable de la gestión de los sensores y la captura de sus datos de telemetría, así como de la generación de alertas cuando se detectan valores fuera de los rangos establecidos.
+
+<table class="tg">
+  <thead>
+    <tr>
+      <th class="tg-fymr" colspan="2">Nombre</th>
+      <th class="tg-0pky" colspan="3">Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="tg-fymr" colspan="2" style="text-align:center">Sensor</td>
+        <td class="tg-0pky" colspan="3">Captura datos de telemetría y genera alertas si los valores detectados están fuera de los parámetros establecidos</td>
+    </tr>
+    <tr>
+    <td class="tg-fymr" colspan="2">Atributos</td>
+    <td class="tg-fymr" colspan="2">Relaciones</td>
+    <td class="tg-fymr" rowspan="2">Metodos</td>
+    </tr>
+    <tr>
+      <td class="tg-1wig">Nombre</td>
+      <td class="tg-1wig">Tipo de dato</td>
+      <td class="tg-1wig">Tipo</td>
+      <td class="tg-1wig">Clases/Enums</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">sensorId</td>
+      <td class="tg-0lax">Int</td>
+      <td class="tg-0lax">Agregación</td>
+      <td class="tg-0lax">Telemetry</td>
+      <td class="tg-0lax">registrarSensor()</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">nombre</td>
+      <td class="tg-0lax">String</td>
+      <td class="tg-0lax">Agregación</td>
+      <td class="tg-0lax">Alert</td>
+      <td class="tg-0lax">actualizarEstado()</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">tipo</td>
+      <td class="tg-0lax">String</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">ubicación</td>
+      <td class="tg-0lax">String</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">estado</td>
+      <td class="tg-0lax">String</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">fecha de registro</td>
+      <td class="tg-0lax">Date</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+  </tbody>
+</table>
+
+<table class="tg">
+  <thead>
+    <tr>
+      <th class="tg-fymr" colspan="2">Nombre</th>
+      <th class="tg-0pky" colspan="3">Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="tg-fymr" colspan="2" style="text-align:center">Telemetry</td>
+        <td class="tg-0pky" colspan="3">Contiene los datos capturados por los sensores en un momento dado, como temperatura, presión, o cualquier otra métrica</td>
+    </tr>
+    <tr>
+    <td class="tg-fymr" colspan="2">Atributos</td>
+    <td class="tg-fymr" colspan="2">Relaciones</td>
+    <td class="tg-fymr" rowspan="2">Metodos</td>
+    </tr>
+    <tr>
+      <td class="tg-1wig">Nombre</td>
+      <td class="tg-1wig">Tipo de dato</td>
+      <td class="tg-1wig">Tipo</td>
+      <td class="tg-1wig">Clases/Enums</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">telemetryId</td>
+      <td class="tg-0lax">Int</td>
+      <td class="tg-0lax">Composición</td>
+      <td class="tg-0lax">Sensor</td>
+      <td class="tg-0lax">actualizarDatos()</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">sensorId</td>
+      <td class="tg-0lax">Int (FK)</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">fecha captura</td>
+      <td class="tg-0lax">Date</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">valor</td>
+      <td class="tg-0lax">Float</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">unidad</td>
+      <td class="tg-0lax">String</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+  </tbody>
+</table>
+
+<table class="tg">
+  <thead>
+    <tr>
+      <th class="tg-fymr" colspan="2">Nombre</th>
+      <th class="tg-0pky" colspan="3">Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="tg-fymr" colspan="2" style="text-align:center">Alert</td>
+        <td class="tg-0pky" colspan="3">Representa una notificación que se genera cuando un sensor detecta valores fuera de los parámetros normales, como una temperatura excesiva o una fuga de gas</td>
+    </tr>
+    <tr>
+    <td class="tg-fymr" colspan="2">Atributos</td>
+    <td class="tg-fymr" colspan="2">Relaciones</td>
+    <td class="tg-fymr" rowspan="2">Metodos</td>
+    </tr>
+    <tr>
+      <td class="tg-1wig">Nombre</td>
+      <td class="tg-1wig">Tipo de dato</td>
+      <td class="tg-1wig">Tipo</td>
+      <td class="tg-1wig">Clases/Enums</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">alertaId</td>
+      <td class="tg-0lax">Int</td>
+      <td class="tg-0lax">Composición</td>
+      <td class="tg-0lax">Sensor</td>
+      <td class="tg-0lax">generarAlerta()</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">sensorId</td>
+      <td class="tg-0lax">Int (FK)</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax">cerrarAlerta()</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">tipo alerta</td>
+      <td class="tg-0lax">String</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">fecha generacion</td>
+      <td class="tg-0lax">Date</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">estado</td>
+      <td class="tg-0lax">String</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+  </tbody>
+</table>
+
 #### 4.2.2.1. Domain Layer.
+Este Domain Layer contiene las entidades y lógica de negocio relacionadas con los sensores y la telemetría. Incluye las siguientes clases principales:
+
+* **Sensor:** Representa un sensor que captura datos de telemetría.
+* **Telemetry:** Registra los datos capturados por los sensores.
+* **Alert:** Representa las alertas que se generan cuando se detectan condiciones anormales en los datos de los sensores.
+
+Este dominio modela la lógica para registrar, actualizar y monitorear el estado de los sensores.
 #### 4.2.2.2. Interface Layer.
+
+Este Interface Layer define las interfaces de comunicación del sistema. Incluye APIs REST y eventos que permiten interactuar con el sistema. Los puntos de comunicación son:
+
+* **API REST de Sensores:** Permite registrar, actualizar y consultar el estado de los sensores.
+* **Mensajes/Eventos de Telemetría:** Comunicación para enviar y recibir datos de los sensores en tiempo real.
+* **Notificaciones de Alertas:** Eventos que disparan alertas cuando se detectan condiciones fuera de rango.
+
 #### 4.2.2.3. Application Layer.
+
+En este caso, el Application Layer maneja:
+
+* **Registro de Sensores:** Maneja la creación y registro de nuevos sensores en el sistema.
+* **Recepción de Telemetría:** Procesa los datos recibidos por los sensores y genera alertas si es necesario.
+* **Notificaciones de Alertas:** Coordina la emisión de notificaciones a los administradores en caso de alertas críticas.
+
 #### 4.2.2.4. Infrastructure Layer.
+
+Este apartado se encarga de la persistencia y comunicación externa. Aquí se incluyen:
+
+* **Base de Datos de Sensores:** Donde se almacenan los registros de los sensores, la telemetría y las alertas.
+* **Sistemas de Notificación:** Mecanismos para enviar notificaciones de alerta por diferentes medios (email, SMS).
+* **Integración con sistemas de monitoreo:** Comunicación con plataformas externas que reciben los datos de los sensores.
+
 #### 4.2.2.6. Bounded Context Software Architecture Component Level Diagrams.
+![C4 Diagrama de Componentes](/assets/chapter4_img/bounded_context_sensor.jpeg)
 #### 4.2.2.7. Bounded Context Software Architecture Code Level Diagrams.
 ##### 4.2.2.7.1. Bounded Context Domain Layer Class Diagrams.
+![Diagrama de clases_sensor](/assets/chapter4_img/sensor_bounded_context-class_diagram.png)
 ##### 4.2.2.7.2. Bounded Context Database Design Diagram.
+![Diagrama de base_de_datos_sensor](/assets/chapter4_img/sensor_bounded_context-database_diagram.png)
 ### 4.2.3. Bounded Context: Viajes
 #### 4.2.3.1. Domain Layer.
 #### 4.2.3.2. Interface Layer.
