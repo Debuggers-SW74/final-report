@@ -604,3 +604,830 @@ Para la calificación de Story Points empleada en el Product Backlog se siguió 
 | 41            | US-036 | Envío de datos de Presión a través de un Edge Gateway                             | **Como** desarrollador<br>**Quiero** enviar la información de Presión al Edge Gateway<br>**Para** que la información pueda estar en el backend                                                                           | 8   |
 | 42            | US-037 | Enviar la información del sensor desde el Edge Gateway a través de un RESTful API | **Como** desarrollador<br>**Quiero** enviar la información del sensor mediante una solicitud `POST` al API<br>**Para** almacenar la información en el backend                                                            | 8   |
 | 43            | US-038 | Recibir la información del sensor a través de un RESTful API                      | **Como** desarrollador<br>**Quiero** obtener la información del sensor mediante una solicitud `GET` al API<br>**Para** mostrar la información en la aplicación web o móvil                                               | 8   |
+# Capitulo IV: Solution Software Desing
+
+## 4.1. Strategic-Level Domain-Driven Design
+
+### 4.1.1. EventStorming
+![EventStorming](./assets/chapter4_img/step8.jpg)
+
+#### 4.1.1.1 Candidate Context Discovery
+
+Step 1:
+![Step 1](./assets/chapter4_img/step1.jpg)
+Step 2:
+![Step 2](./assets/chapter4_img/step2.jpg)
+Step 3:
+![Step 3](./assets/chapter4_img/step3.jpg)
+Step 4:
+![Step 4](./assets/chapter4_img/step4.jpg)
+Step 5:
+![Step 5](./assets/chapter4_img/step5.jpg)
+Step 6:
+![Step 6](./assets/chapter4_img/step6.jpg)
+Step 7:
+![Step 7](./assets/chapter4_img/step7.jpg)
+Step 8:
+![Step 8](./assets/chapter4_img/step8.jpg)
+
+#### 4.1.1.2 Domain Message Flows Modeling
+
+Leyenda: <br>
+![Leyenda](./assets/chapter4_img/leyenda.png)
+
+Escenario: Inicio de sesión
+![Escenario 1](./assets/chapter4_img/escenario1.png)
+
+Escenario: Registro de usuario
+![Escenario 2](./assets/chapter4_img/escenario2.png)
+
+Escenario: Registro del sensor
+![Escenario 3](./assets/chapter4_img/escenario3.png)
+
+Escenario: Programación de viaje
+![Escenario 4](./assets/chapter4_img/escenario4.png)
+
+Escenario: Conductor visualiza sus viajes pendientes
+![Escenario 5](./assets/chapter4_img/escenario5.png)
+
+Escenario: Sensor detecta un problema
+![Escenario 6](./assets/chapter4_img/escenario6.png)
+
+#### 4.1.1.3 Bounded Context Canvases
+
+Bounded context 'Usuario'  <br>
+![Bounded Context Canvas Usuario](./assets/chapter4_img/canvas_users.jpg)
+
+Bounded context 'Sensor'  <br>
+![Bounded Context Canvas Usuario](./assets/chapter4_img/canvas_sensor.jpg)
+
+Bounded context 'Viajes'  <br>
+![Bounded Context Canvas Usuario](./assets/chapter4_img/canvas_viajes.jpg)
+
+### 4.1.2. Context Mapping
+![Context Mapping](./assets/chapter4_img/context_mapping.jpg)
+
+### 4.1.3. Software Architecture
+
+#### 4.1.3.1. Software Architecture System Landscape Diagram
+![C4 Diagrama de Contexto](./assets/chapter4_img/landscape.jpg)
+
+#### 4.1.3.2. Software Architecture Context Level Diagrams
+![C4 Diagrama de Contexto](./assets/chapter4_img/c4_context.png)
+
+#### 4.1.3.2. Software Architecture Container Level Diagrams.
+![C4 Diagrama de Componentes](./assets/chapter4_img/c4_component.jpg)
+
+#### 4.1.3.3. Software Architecture Deployment Diagrams
+![Software Architecture Deployment Diagrams](./assets/chapter4_img/ArchDeploy.png)
+
+## 4.2. Tactical-Level Domain-Driven Design
+### 4.2.1. Bounded Context: Usuario
+Este bounded context está relacionado con la gestión de cuentas de usuario, autenticación y la gestión de perfiles dentro de un sistema.
+
+<table class="tg">
+  <thead>
+    <tr>
+      <th class="tg-fymr" colspan="2">Nombre</th>
+      <th class="tg-0pky" colspan="3">Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="tg-fymr" colspan="2" style="text-align:center">Usuario</td>
+      <td class="tg-0pky" colspan="3">Representa a un usuario en el sistema, con credenciales y estado de autenticación</td>
+    </tr>
+    <tr>
+    <td class="tg-fymr" colspan="2">Atributos</td>
+    <td class="tg-fymr" colspan="2">Relaciones</td>
+    <td class="tg-fymr" rowspan="2">Metodos</td>
+    </tr>
+    <tr>
+      <td class="tg-1wig">Nombre</td>
+      <td class="tg-1wig">Tipo de dato</td>
+      <td class="tg-1wig">Tipo</td>
+      <td class="tg-1wig">Clases/Enums</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">userID</td>
+      <td class="tg-0lax">Int</td>
+      <td class="tg-0lax">Composicón</td>
+      <td class="tg-0lax">UserProfile</td>
+      <td class="tg-0lax">authenticateUser()</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">email</td>
+      <td class="tg-0lax">String</td>
+      <td class="tg-0lax">Agregación</td>
+      <td class="tg-0lax">Token</td>
+      <td class="tg-0lax">validateToken()</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">password</td>
+      <td class="tg-0lax">String</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax">invalidateToken()</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">isActive</td>
+      <td class="tg-0lax">String</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+  </tbody>
+</table>
+
+<table class="tg">
+  <thead>
+    <tr>
+      <th class="tg-fymr" colspan="2">Nombre</th>
+      <th class="tg-0pky" colspan="3">Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="tg-fymr" colspan="2" style="text-align:center">UserProfile</td>
+      <td class="tg-0pky" colspan="3">Contiene la información personal y preferencias del usuario</td>
+    </tr>
+    <tr>
+    <td class="tg-fymr" colspan="2">Atributos</td>
+    <td class="tg-fymr" colspan="2">Relaciones</td>
+    <td class="tg-fymr" rowspan="2">Metodos</td>
+    </tr>
+    <tr>
+      <td class="tg-1wig">Nombre</td>
+      <td class="tg-1wig">Tipo de dato</td>
+      <td class="tg-1wig">Tipo</td>
+      <td class="tg-1wig">Clases/Enums</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">name</td>
+      <td class="tg-0lax">String</td>
+      <td class="tg-0lax">Asociación</td>
+      <td class="tg-0lax">Usuario</td>
+      <td class="tg-0lax">updateUserProfile()</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">address</td>
+      <td class="tg-0lax">String</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax">retrieveUserProfile()</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">phone</td>
+      <td class="tg-0lax">String</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">profileImg</td>
+      <td class="tg-0lax">String</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+  </tbody>
+</table>
+
+<table class="tg">
+  <thead>
+    <tr>
+      <th class="tg-fymr" colspan="2">Nombre</th>
+      <th class="tg-0pky" colspan="3">Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="tg-fymr" colspan="2" style="text-align:center">Token</td>
+      <td class="tg-0pky" colspan="3">Token utilizado para validar sesiones activas del usuario</td>
+    </tr>
+    <tr>
+    <td class="tg-fymr" colspan="2">Atributos</td>
+    <td class="tg-fymr" colspan="2">Relaciones</td>
+    <td class="tg-fymr" rowspan="2">Metodos</td>
+    </tr>
+    <tr>
+      <td class="tg-1wig">Nombre</td>
+      <td class="tg-1wig">Tipo de dato</td>
+      <td class="tg-1wig">Tipo</td>
+      <td class="tg-1wig">Clases/Enums</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">tokenId</td>
+      <td class="tg-0lax">Int</td>
+      <td class="tg-0lax">Asociación</td>
+      <td class="tg-0lax">Usuario</td>
+      <td class="tg-0lax">generateToken()</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">creationDate</td>
+      <td class="tg-0lax">Date</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax">validateToken()</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">expirationDate</td>
+      <td class="tg-0lax">Date</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax">invalidateToken()</td>
+    </tr>
+  </tbody>
+</table>
+
+<table class="tg">
+  <thead>
+    <tr>
+      <th class="tg-fymr" colspan="2">Nombre</th>
+      <th class="tg-0pky" colspan="3">Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="tg-fymr" colspan="2" style="text-align:center">Notification</td>
+      <td class="tg-0pky" colspan="3">Gestiona las notificaciones enviadas al usuario</td>
+    </tr>
+    <tr>
+    <td class="tg-fymr" colspan="2">Atributos</td>
+    <td class="tg-fymr" colspan="2">Relaciones</td>
+    <td class="tg-fymr" rowspan="2">Metodos</td>
+    </tr>
+    <tr>
+      <td class="tg-1wig">Nombre</td>
+      <td class="tg-1wig">Tipo de dato</td>
+      <td class="tg-1wig">Tipo</td>
+      <td class="tg-1wig">Clases/Enums</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">notificationId</td>
+      <td class="tg-0lax">Int</td>
+      <td class="tg-0lax">Asociación</td>
+      <td class="tg-0lax">Usuario</td>
+      <td class="tg-0lax">sendUserNotification()</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">message</td>
+      <td class="tg-0lax">String</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax">sendAccountActivityAlert()</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">sentDate</td>
+      <td class="tg-0lax">Date</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+  </tbody>
+</table>
+
+#### 4.2.1.1. Domain Layer.
+
+* **Usuario:** Define las propiedades y el comportamiento de un usuario en el sistema.
+* **Perfil de Usuario:** Gestiona la información del perfil del usuario (nombre, dirección, teléfono, etc.).
+* **Token de Autenticación:** Representa los tokens utilizados para manejar las sesiones de usuario.
+* **Notificación:** Representa las notificaciones enviadas a los usuarios sobre actividades importantes o alertas.
+#### 4.2.1.2. Interface Layer.
+En esta capa presentamos los endpoints de la API que interactúan con las entidades del dominio:
+
+* **Autenticación de Usuario:** Servicios como authenticateUser(), validateToken() y invalidateToken() para la validación y gestión de autenticación.
+* **Gestión de Perfiles:** Servicios como updateUserProfile() y retrieveUserProfile() para la actualización y recuperación del perfil del usuario.
+* **Notificaciones:** Servicios como sendUserNotification() para el envío de alertas al usuario.
+#### 4.2.1.3. Application Layer.
+
+* **Inicio de sesión:** Se gestiona la autenticación y validación de tokens.
+* **Gestión de perfiles:** Actualización y consulta de información de perfiles de usuario.
+* **Envío de notificaciones:** Envía notificaciones o alertas al usuario, tales como actividades sospechosas o cambios en la cuenta.
+#### 4.2.1.4. Infrastructure Layer.
+
+* **Persistencia de Usuario:** Manejo de la persistencia de los datos del usuario y su perfil en una base de datos.
+* **Autenticación:** Comunicación con servicios de autenticación y generación de tokens.
+* **Notificaciones:** Envío de notificaciones a través de servicios de mensajería (por ejemplo, email, SMS, notificaciones push).
+#### 4.2.1.6. Bounded Context Software Architecture Component Level Diagrams.
+![C4 Diagrama de Componentes](./assets/chapter4_img/bounded_context_user.jpeg)
+#### 4.2.1.7. Bounded Context Software Architecture Code Level Diagrams.
+###### 4.2.1.7.1. Bounded Context Domain Layer Class Diagrams.
+![Diagrama_de_clases_usuario](./assets/chapter4_img/user_bounded_context-class_diagram.png)
+###### 4.2.1.7.2. Bounded Context Database Design Diagram.
+![Diagrama_de_base_de_Datos_usuario](./assets/chapter4_img/user_bounded_context-database_diagram.png)
+### 4.2.2. Bounded Context: Sensor
+Este bounded context es responsable de la gestión de los sensores y la captura de sus datos de telemetría, así como de la generación de alertas cuando se detectan valores fuera de los rangos establecidos.
+
+<table class="tg">
+  <thead>
+    <tr>
+      <th class="tg-fymr" colspan="2">Nombre</th>
+      <th class="tg-0pky" colspan="3">Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="tg-fymr" colspan="2" style="text-align:center">Sensor</td>
+        <td class="tg-0pky" colspan="3">Captura datos de telemetría y genera alertas si los valores detectados están fuera de los parámetros establecidos</td>
+    </tr>
+    <tr>
+    <td class="tg-fymr" colspan="2">Atributos</td>
+    <td class="tg-fymr" colspan="2">Relaciones</td>
+    <td class="tg-fymr" rowspan="2">Metodos</td>
+    </tr>
+    <tr>
+      <td class="tg-1wig">Nombre</td>
+      <td class="tg-1wig">Tipo de dato</td>
+      <td class="tg-1wig">Tipo</td>
+      <td class="tg-1wig">Clases/Enums</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">sensorId</td>
+      <td class="tg-0lax">Int</td>
+      <td class="tg-0lax">Agregación</td>
+      <td class="tg-0lax">Telemetry</td>
+      <td class="tg-0lax">registrarSensor()</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">nombre</td>
+      <td class="tg-0lax">String</td>
+      <td class="tg-0lax">Agregación</td>
+      <td class="tg-0lax">Alert</td>
+      <td class="tg-0lax">actualizarEstado()</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">tipo</td>
+      <td class="tg-0lax">String</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">ubicación</td>
+      <td class="tg-0lax">String</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">estado</td>
+      <td class="tg-0lax">String</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">fecha de registro</td>
+      <td class="tg-0lax">Date</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+  </tbody>
+</table>
+
+<table class="tg">
+  <thead>
+    <tr>
+      <th class="tg-fymr" colspan="2">Nombre</th>
+      <th class="tg-0pky" colspan="3">Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="tg-fymr" colspan="2" style="text-align:center">Telemetry</td>
+        <td class="tg-0pky" colspan="3">Contiene los datos capturados por los sensores en un momento dado, como temperatura, presión, o cualquier otra métrica</td>
+    </tr>
+    <tr>
+    <td class="tg-fymr" colspan="2">Atributos</td>
+    <td class="tg-fymr" colspan="2">Relaciones</td>
+    <td class="tg-fymr" rowspan="2">Metodos</td>
+    </tr>
+    <tr>
+      <td class="tg-1wig">Nombre</td>
+      <td class="tg-1wig">Tipo de dato</td>
+      <td class="tg-1wig">Tipo</td>
+      <td class="tg-1wig">Clases/Enums</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">telemetryId</td>
+      <td class="tg-0lax">Int</td>
+      <td class="tg-0lax">Composición</td>
+      <td class="tg-0lax">Sensor</td>
+      <td class="tg-0lax">actualizarDatos()</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">sensorId</td>
+      <td class="tg-0lax">Int (FK)</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">fecha captura</td>
+      <td class="tg-0lax">Date</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">valor</td>
+      <td class="tg-0lax">Float</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">unidad</td>
+      <td class="tg-0lax">String</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+  </tbody>
+</table>
+
+<table class="tg">
+  <thead>
+    <tr>
+      <th class="tg-fymr" colspan="2">Nombre</th>
+      <th class="tg-0pky" colspan="3">Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="tg-fymr" colspan="2" style="text-align:center">Alert</td>
+        <td class="tg-0pky" colspan="3">Representa una notificación que se genera cuando un sensor detecta valores fuera de los parámetros normales, como una temperatura excesiva o una fuga de gas</td>
+    </tr>
+    <tr>
+    <td class="tg-fymr" colspan="2">Atributos</td>
+    <td class="tg-fymr" colspan="2">Relaciones</td>
+    <td class="tg-fymr" rowspan="2">Metodos</td>
+    </tr>
+    <tr>
+      <td class="tg-1wig">Nombre</td>
+      <td class="tg-1wig">Tipo de dato</td>
+      <td class="tg-1wig">Tipo</td>
+      <td class="tg-1wig">Clases/Enums</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">alertaId</td>
+      <td class="tg-0lax">Int</td>
+      <td class="tg-0lax">Composición</td>
+      <td class="tg-0lax">Sensor</td>
+      <td class="tg-0lax">generarAlerta()</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">sensorId</td>
+      <td class="tg-0lax">Int (FK)</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax">cerrarAlerta()</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">tipo alerta</td>
+      <td class="tg-0lax">String</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">fecha generacion</td>
+      <td class="tg-0lax">Date</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">estado</td>
+      <td class="tg-0lax">String</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+  </tbody>
+</table>
+
+#### 4.2.2.1. Domain Layer.
+Este Domain Layer contiene las entidades y lógica de negocio relacionadas con los sensores y la telemetría. Incluye las siguientes clases principales:
+
+* **Sensor:** Representa un sensor que captura datos de telemetría.
+* **Telemetry:** Registra los datos capturados por los sensores.
+* **Alert:** Representa las alertas que se generan cuando se detectan condiciones anormales en los datos de los sensores.
+
+Este dominio modela la lógica para registrar, actualizar y monitorear el estado de los sensores.
+#### 4.2.2.2. Interface Layer.
+
+Este Interface Layer define las interfaces de comunicación del sistema. Incluye APIs REST y eventos que permiten interactuar con el sistema. Los puntos de comunicación son:
+
+* **API REST de Sensores:** Permite registrar, actualizar y consultar el estado de los sensores.
+* **Mensajes/Eventos de Telemetría:** Comunicación para enviar y recibir datos de los sensores en tiempo real.
+* **Notificaciones de Alertas:** Eventos que disparan alertas cuando se detectan condiciones fuera de rango.
+#### 4.2.2.3. Application Layer.
+
+En este caso, el Application Layer maneja:
+
+* **Registro de Sensores:** Maneja la creación y registro de nuevos sensores en el sistema.
+* **Recepción de Telemetría:** Procesa los datos recibidos por los sensores y genera alertas si es necesario.
+* **Notificaciones de Alertas:** Coordina la emisión de notificaciones a los administradores en caso de alertas críticas.
+#### 4.2.2.4. Infrastructure Layer.
+
+Este apartado se encarga de la persistencia y comunicación externa. Aquí se incluyen:
+
+* **Base de Datos de Sensores:** Donde se almacenan los registros de los sensores, la telemetría y las alertas.
+* **Sistemas de Notificación:** Mecanismos para enviar notificaciones de alerta por diferentes medios (email, SMS).
+* **Integración con sistemas de monitoreo:** Comunicación con plataformas externas que reciben los datos de los sensores.
+
+#### 4.2.2.6. Bounded Context Software Architecture Component Level Diagrams.
+![C4 Diagrama de Componentes](./assets/chapter4_img/bounded_context_sensor.jpeg)
+#### 4.2.2.7. Bounded Context Software Architecture Code Level Diagrams.
+##### 4.2.2.7.1. Bounded Context Domain Layer Class Diagrams.
+![Diagrama de clases_sensor](./assets/chapter4_img/sensor_bounded_context-class_diagram.png)
+##### 4.2.2.7.2. Bounded Context Database Design Diagram.
+![Diagrama de base_de_datos_sensor](./assets/chapter4_img/sensor_bounded_context-database_diagram.png)
+### 4.2.3. Bounded Context: Viajes
+
+<table class="tg">
+  <thead>
+    <tr>
+      <th class="tg-fymr" colspan="2">Nombre</th>
+      <th class="tg-0pky" colspan="3">Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="tg-fymr" colspan="2" style="text-align:center">Viaje</td>
+        <td class="tg-0pky" colspan="3">Representa un viaje realizado por un usuario en el sistema</td>
+    </tr>
+    <tr>
+    <td class="tg-fymr" colspan="2">Atributos</td>
+    <td class="tg-fymr" colspan="2">Relaciones</td>
+    <td class="tg-fymr" rowspan="2">Metodos</td>
+    </tr>
+    <tr>
+      <td class="tg-1wig">Nombre</td>
+      <td class="tg-1wig">Tipo de dato</td>
+      <td class="tg-1wig">Tipo</td>
+      <td class="tg-1wig">Clases/Enums</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">viajeId</td>
+      <td class="tg-0lax">Int</td>
+      <td class="tg-0lax">Agregación</td>
+      <td class="tg-0lax">Conductor</td>
+      <td class="tg-0lax">iniciarViaje()</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">origen</td>
+      <td class="tg-0lax">String</td>
+      <td class="tg-0lax">Agregación</td>
+      <td class="tg-0lax">EstadoViaje</td>
+      <td class="tg-0lax">finalizarViaje()</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">destino</td>
+      <td class="tg-0lax">String</td>
+      <td class="tg-0lax">Agregación</td>
+      <td class="tg-0lax">HistorialViaje</td>
+      <td class="tg-0lax">actualizarEstado()</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">fecha inicio</td>
+      <td class="tg-0lax">Date</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">fecha fin</td>
+      <td class="tg-0lax">Date</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">estado</td>
+      <td class="tg-0lax">EstadoViaje</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">conductor</td>
+      <td class="tg-0lax">Conductor</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+  </tbody>
+</table>
+
+<table class="tg">
+  <thead>
+    <tr>
+      <th class="tg-fymr" colspan="2">Nombre</th>
+      <th class="tg-0pky" colspan="3">Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="tg-fymr" colspan="2" style="text-align:center">Conductor</td>
+        <td class="tg-0pky" colspan="3">Representa a un conductor que puede ser asignado a uno o más viajes en el sistema</td>
+    </tr>
+    <tr>
+    <td class="tg-fymr" colspan="2">Atributos</td>
+    <td class="tg-fymr" colspan="2">Relaciones</td>
+    <td class="tg-fymr" rowspan="2">Metodos</td>
+    </tr>
+    <tr>
+      <td class="tg-1wig">Nombre</td>
+      <td class="tg-1wig">Tipo de dato</td>
+      <td class="tg-1wig">Tipo</td>
+      <td class="tg-1wig">Clases/Enums</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">conductorId</td>
+      <td class="tg-0lax">Int</td>
+      <td class="tg-0lax">Agregación</td>
+      <td class="tg-0lax">Viaje</td>
+      <td class="tg-0lax">asignarViaje()</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">nombre</td>
+      <td class="tg-0lax">String</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">licencia</td>
+      <td class="tg-0lax">String</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">telefono</td>
+      <td class="tg-0lax">String</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+  </tbody>
+</table>
+
+<table class="tg">
+  <thead>
+    <tr>
+      <th class="tg-fymr" colspan="2">Nombre</th>
+      <th class="tg-0pky" colspan="3">Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="tg-fymr" colspan="2" style="text-align:center">EstadoViaje</td>
+        <td class="tg-0pky" colspan="3">Representa el estado de un viaje en un momento dado, incluyendo una descripción y un timestamp</td>
+    </tr>
+    <tr>
+    <td class="tg-fymr" colspan="2">Atributos</td>
+    <td class="tg-fymr" colspan="2">Relaciones</td>
+    <td class="tg-fymr" rowspan="2">Metodos</td>
+    </tr>
+    <tr>
+      <td class="tg-1wig">Nombre</td>
+      <td class="tg-1wig">Tipo de dato</td>
+      <td class="tg-1wig">Tipo</td>
+      <td class="tg-1wig">Clases/Enums</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">estadoViajeId</td>
+      <td class="tg-0lax">Int</td>
+      <td class="tg-0lax">Agregación</td>
+      <td class="tg-0lax">Viaje</td>
+      <td class="tg-0lax"></td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">nombre</td>
+      <td class="tg-0lax">String</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">descripcion</td>
+      <td class="tg-0lax">String</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">timestamp</td>
+      <td class="tg-0lax">Date</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+  </tbody>
+</table>
+
+<table class="tg">
+  <thead>
+    <tr>
+      <th class="tg-fymr" colspan="2">Nombre</th>
+      <th class="tg-0pky" colspan="3">Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="tg-fymr" colspan="2" style="text-align:center">HistorialViaje</td>
+        <td class="tg-0pky" colspan="3">Representa el historial de cambios en el estado de un viaje, registrando cada cambio con su fecha y hora</td>
+    </tr>
+    <tr>
+    <td class="tg-fymr" colspan="2">Atributos</td>
+    <td class="tg-fymr" colspan="2">Relaciones</td>
+    <td class="tg-fymr" rowspan="2">Metodos</td>
+    </tr>
+    <tr>
+      <td class="tg-1wig">Nombre</td>
+      <td class="tg-1wig">Tipo de dato</td>
+      <td class="tg-1wig">Tipo</td>
+      <td class="tg-1wig">Clases/Enums</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">historialViajeId</td>
+      <td class="tg-0lax">Int</td>
+      <td class="tg-0lax">Agregación</td>
+      <td class="tg-0lax">Viaje</td>
+      <td class="tg-0lax">registrarCambio()</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">viajeId</td>
+      <td class="tg-0lax">Int</td>
+      <td class="tg-0lax">Agregación</td>
+      <td class="tg-0lax">EstadoViaje</td>
+      <td class="tg-0lax"></td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">fechaCambio</td>
+      <td class="tg-0lax">Date</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">timestamp</td>
+      <td class="tg-0lax">Date</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">estadoAnterior</td>
+      <td class="tg-0lax">EstadoViaje</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">estadoNuevo</td>
+      <td class="tg-0lax">EstadoViaje</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+  </tbody>
+</table>
+
+#### 4.2.3.1. Domain Layer.
+Para este bounded context se definen las entidades principales, los agregados y las políticas que rigen el comportamiento de los viajes.
+
+**Entidades principales:**
+
+* **Viaje:** Representa un viaje de un conductor desde un origen hasta un destino
+* **Conductor:** Persona responsable de realizar el viaje
+* **EstadoViaje:** Representa los distintos estados que un viaje puede tener (e.g., "En curso", "Finalizado", "Cancelado")
+
+**Agregados:**
+
+El Viaje es el agregado raíz que contiene la lógica para gestionar su ciclo de vida completo, incluyendo su asociación con un Conductor y la actualización de su Estado.
+#### 4.2.3.2. Interface Layer.
+
+* **API REST:** Se expone a través de servicios web que permiten a la empresa registrar nuevos viajes, actualizar estados, y a los conductores consultar sus viajes asignados.
+* **UI Móvil:** La aplicacione móvile permite la interacción con la funcionalidad del sistema, proporcionando interfaces amigables para visualizar los viajes, gestionarlos y realizar cambios de estado.
+#### 4.2.3.3. Application Layer.
+
+* **Servicio de Gestión de Viajes:** Orquesta la creación y actualización de viajes.
+* **Servicio de Actualización de Estado:** Permite a los conductores actualizar el estado de un viaje.
+* **Servicio de Consultas de Historial de Viajes:** Permite consultar el historial completo de los viajes de un conductor.
+#### 4.2.3.4. Infrastructure Layer.
+
+* **Base de datos relacional:** Almacena la información de los viajes, conductores y sus estados.
+* **Servicios de monitoreo:** Notifica eventos críticos relacionados con el estado de los viajes.
+#### 4.2.3.6. Bounded Context Software Architecture Component Level Diagrams.
+![C4 Diagrama de Componentes](./assets/chapter4_img/bounded_context_travel.jpeg)
+#### 4.2.3.7. Bounded Context Software Architecture Code Level Diagrams.
+###### 4.2.3.7.1. Bounded Context Domain Layer Class Diagrams.
+![Diagrama de clases_viajes](./assets/chapter4_img/travel_bounded_context-class_diagram.png)
+###### 4.2.3.7.2. Bounded Context Database Design Diagram.
+![Diagrama de base_de_datos_sensor](./assets/chapter4_img/travel_bounded_context-database_diagram.png)
