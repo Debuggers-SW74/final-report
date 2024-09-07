@@ -21,7 +21,7 @@
 <h4 align="center"> Agosto, 2024</h4>
 
 ___
-# Registro de versiones del informe
+# Registro de Versiones del Informe
 
 | Versión | Fecha      | Autor            | Descripción de modificación                                                |
 | ------- | ---------- | ---------------- | -------------------------------------------------------------------------- |
@@ -29,6 +29,17 @@ ___
 | 1.1     | 01/08/2024 | Sebastián Lévano | Desarrollo del Capítulo 3                                                  |
 | 1.2     | 26/08/2024 | Anthony Botello  | Desarrollo del Capítulo 1                                                  |
 | 1.3     | 01/09/2024 | Claudio Moreno   | Desarrollo del Capítulo 2                                                  |
+
+---
+
+# Project Report Collaboration Insights
+
+- Link del repositorio Github: [Github](https://github.com/orgs/Debuggers-SW74) / [https://github.com/Debuggers-SW74/final-report](https://github.com/Debuggers-SW74/final-report)
+
+**Desarrollo de las actividades del informe:**
+
+- TB1: Se desarrollaron los capítulos I, II, III y IV, donde cada miembro se encargo en el avance de uno de estos capítulos en el repositorio de GitHub, empleando Gitflow. A continuación, la evidencia de los commits realizados:
+
 
 ---
 # Contenido 
@@ -1744,3 +1755,8 @@ El Viaje es el agregado raíz que contiene la lógica para gestionar su ciclo de
 ![Diagrama de clases_viajes](./assets/chapter4_img/travel_bounded_context-class_diagram.png)
 ###### 4.2.3.7.2. Bounded Context Database Design Diagram.
 ![Diagrama de base_de_datos_sensor](./assets/chapter4_img/travel_bounded_context-database_diagram.png)
+# Conclusiones
+
+# Anexos
+## Anexo A
+Enlace al video de exposición TB1: []()
