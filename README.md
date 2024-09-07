@@ -149,7 +149,7 @@ Bounded context 'Viajes'  <br>
 ![C4 Diagrama de Contexto](/assets/chapter4_img/c4_context.png)
 
 #### 4.1.3.2. Software Architecture Container Level Diagrams.
-![C4 Diagrama de Componentes](/assets/chapter4_img/c4_component.jpg)
+![C4 Diagrama de Componentes](/assets/chapter4_img/c4_component.png)
 
 #### 4.1.3.3. Software Architecture Deployment Diagrams
 ![Software Architecture Deployment Diagrams](/assets/chapter4_img/ArchDeploy.png)
@@ -626,11 +626,291 @@ Este apartado se encarga de la persistencia y comunicación externa. Aquí se in
 ##### 4.2.2.7.2. Bounded Context Database Design Diagram.
 ![Diagrama de base_de_datos_sensor](/assets/chapter4_img/sensor_bounded_context-database_diagram.png)
 ### 4.2.3. Bounded Context: Viajes
+
+<table class="tg">
+  <thead>
+    <tr>
+      <th class="tg-fymr" colspan="2">Nombre</th>
+      <th class="tg-0pky" colspan="3">Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="tg-fymr" colspan="2" style="text-align:center">Viaje</td>
+        <td class="tg-0pky" colspan="3">Representa un viaje realizado por un usuario en el sistema</td>
+    </tr>
+    <tr>
+    <td class="tg-fymr" colspan="2">Atributos</td>
+    <td class="tg-fymr" colspan="2">Relaciones</td>
+    <td class="tg-fymr" rowspan="2">Metodos</td>
+    </tr>
+    <tr>
+      <td class="tg-1wig">Nombre</td>
+      <td class="tg-1wig">Tipo de dato</td>
+      <td class="tg-1wig">Tipo</td>
+      <td class="tg-1wig">Clases/Enums</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">viajeId</td>
+      <td class="tg-0lax">Int</td>
+      <td class="tg-0lax">Agregación</td>
+      <td class="tg-0lax">Conductor</td>
+      <td class="tg-0lax">iniciarViaje()</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">origen</td>
+      <td class="tg-0lax">String</td>
+      <td class="tg-0lax">Agregación</td>
+      <td class="tg-0lax">EstadoViaje</td>
+      <td class="tg-0lax">finalizarViaje()</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">destino</td>
+      <td class="tg-0lax">String</td>
+      <td class="tg-0lax">Agregación</td>
+      <td class="tg-0lax">HistorialViaje</td>
+      <td class="tg-0lax">actualizarEstado()</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">fecha inicio</td>
+      <td class="tg-0lax">Date</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">fecha fin</td>
+      <td class="tg-0lax">Date</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">estado</td>
+      <td class="tg-0lax">EstadoViaje</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">conductor</td>
+      <td class="tg-0lax">Conductor</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+  </tbody>
+</table>
+
+<table class="tg">
+  <thead>
+    <tr>
+      <th class="tg-fymr" colspan="2">Nombre</th>
+      <th class="tg-0pky" colspan="3">Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="tg-fymr" colspan="2" style="text-align:center">Conductor</td>
+        <td class="tg-0pky" colspan="3">Representa a un conductor que puede ser asignado a uno o más viajes en el sistema</td>
+    </tr>
+    <tr>
+    <td class="tg-fymr" colspan="2">Atributos</td>
+    <td class="tg-fymr" colspan="2">Relaciones</td>
+    <td class="tg-fymr" rowspan="2">Metodos</td>
+    </tr>
+    <tr>
+      <td class="tg-1wig">Nombre</td>
+      <td class="tg-1wig">Tipo de dato</td>
+      <td class="tg-1wig">Tipo</td>
+      <td class="tg-1wig">Clases/Enums</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">conductorId</td>
+      <td class="tg-0lax">Int</td>
+      <td class="tg-0lax">Agregación</td>
+      <td class="tg-0lax">Viaje</td>
+      <td class="tg-0lax">asignarViaje()</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">nombre</td>
+      <td class="tg-0lax">String</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">licencia</td>
+      <td class="tg-0lax">String</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">telefono</td>
+      <td class="tg-0lax">String</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+  </tbody>
+</table>
+
+<table class="tg">
+  <thead>
+    <tr>
+      <th class="tg-fymr" colspan="2">Nombre</th>
+      <th class="tg-0pky" colspan="3">Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="tg-fymr" colspan="2" style="text-align:center">EstadoViaje</td>
+        <td class="tg-0pky" colspan="3">Representa el estado de un viaje en un momento dado, incluyendo una descripción y un timestamp</td>
+    </tr>
+    <tr>
+    <td class="tg-fymr" colspan="2">Atributos</td>
+    <td class="tg-fymr" colspan="2">Relaciones</td>
+    <td class="tg-fymr" rowspan="2">Metodos</td>
+    </tr>
+    <tr>
+      <td class="tg-1wig">Nombre</td>
+      <td class="tg-1wig">Tipo de dato</td>
+      <td class="tg-1wig">Tipo</td>
+      <td class="tg-1wig">Clases/Enums</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">estadoViajeId</td>
+      <td class="tg-0lax">Int</td>
+      <td class="tg-0lax">Agregación</td>
+      <td class="tg-0lax">Viaje</td>
+      <td class="tg-0lax"></td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">nombre</td>
+      <td class="tg-0lax">String</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">descripcion</td>
+      <td class="tg-0lax">String</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">timestamp</td>
+      <td class="tg-0lax">Date</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+  </tbody>
+</table>
+
+<table class="tg">
+  <thead>
+    <tr>
+      <th class="tg-fymr" colspan="2">Nombre</th>
+      <th class="tg-0pky" colspan="3">Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="tg-fymr" colspan="2" style="text-align:center">HistorialViaje</td>
+        <td class="tg-0pky" colspan="3">Representa el historial de cambios en el estado de un viaje, registrando cada cambio con su fecha y hora</td>
+    </tr>
+    <tr>
+    <td class="tg-fymr" colspan="2">Atributos</td>
+    <td class="tg-fymr" colspan="2">Relaciones</td>
+    <td class="tg-fymr" rowspan="2">Metodos</td>
+    </tr>
+    <tr>
+      <td class="tg-1wig">Nombre</td>
+      <td class="tg-1wig">Tipo de dato</td>
+      <td class="tg-1wig">Tipo</td>
+      <td class="tg-1wig">Clases/Enums</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">historialViajeId</td>
+      <td class="tg-0lax">Int</td>
+      <td class="tg-0lax">Agregación</td>
+      <td class="tg-0lax">Viaje</td>
+      <td class="tg-0lax">registrarCambio()</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">viajeId</td>
+      <td class="tg-0lax">Int</td>
+      <td class="tg-0lax">Agregación</td>
+      <td class="tg-0lax">EstadoViaje</td>
+      <td class="tg-0lax"></td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">fechaCambio</td>
+      <td class="tg-0lax">Date</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">timestamp</td>
+      <td class="tg-0lax">Date</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">estadoAnterior</td>
+      <td class="tg-0lax">EstadoViaje</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">estadoNuevo</td>
+      <td class="tg-0lax">EstadoViaje</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+  </tbody>
+</table>
+
 #### 4.2.3.1. Domain Layer.
+Para este bounded context se definen las entidades principales, los agregados y las políticas que rigen el comportamiento de los viajes.
+
+**Entidades principales:**
+
+* **Viaje:** Representa un viaje de un conductor desde un origen hasta un destino
+* **Conductor:** Persona responsable de realizar el viaje
+* **EstadoViaje:** Representa los distintos estados que un viaje puede tener (e.g., "En curso", "Finalizado", "Cancelado")
+
+**Agregados:**
+
+El Viaje es el agregado raíz que contiene la lógica para gestionar su ciclo de vida completo, incluyendo su asociación con un Conductor y la actualización de su Estado.
+
 #### 4.2.3.2. Interface Layer.
+
+* **API REST:** Se expone a través de servicios web que permiten a la empresa registrar nuevos viajes, actualizar estados, y a los conductores consultar sus viajes asignados.
+* **UI Móvil:** La aplicacione móvile permite la interacción con la funcionalidad del sistema, proporcionando interfaces amigables para visualizar los viajes, gestionarlos y realizar cambios de estado.
+
 #### 4.2.3.3. Application Layer.
+
+* **Servicio de Gestión de Viajes:** Orquesta la creación y actualización de viajes.
+* **Servicio de Actualización de Estado:** Permite a los conductores actualizar el estado de un viaje.
+* **Servicio de Consultas de Historial de Viajes:** Permite consultar el historial completo de los viajes de un conductor.
+
 #### 4.2.3.4. Infrastructure Layer.
+
+* **Base de datos relacional:** Almacena la información de los viajes, conductores y sus estados.
+* **Servicios de monitoreo:** Notifica eventos críticos relacionados con el estado de los viajes.
+
 #### 4.2.3.6. Bounded Context Software Architecture Component Level Diagrams.
+![C4 Diagrama de Componentes](/assets/chapter4_img/bounded_context_travel.jpeg)
 #### 4.2.3.7. Bounded Context Software Architecture Code Level Diagrams.
 ###### 4.2.3.7.1. Bounded Context Domain Layer Class Diagrams.
+![Diagrama de clases_viajes](/assets/chapter4_img/travel_bounded_context-class_diagram.png)
 ###### 4.2.3.7.2. Bounded Context Database Design Diagram.
+![Diagrama de base_de_datos_sensor](/assets/chapter4_img/travel_bounded_context-database_diagram.png)
