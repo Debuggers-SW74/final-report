@@ -30,6 +30,7 @@ ___
 | 1.2     | 26/08/2024 | Anthony Botello                   | Desarrollo del Capítulo 1                                                  |
 | 1.3     | 01/09/2024 | Claudio Moreno                    | Desarrollo del Capítulo 2                                                  |
 | 1.4     | 05/09/2024 | Eduardo Chero & Josue Arrunátegui | Desarrollo del Capítulo 4                                                  |
+| 1.5     | 16/09/2024 | Sebastián Lévano                  | Actualización de índice, títulos y subtítulos para el Trabajo Parcial      |
 
 ---
 
@@ -85,11 +86,46 @@ ___
       - [4.1.1.3. Bounded Context Canvases](#4113-bounded-context-canvases)
     - [4.1.2. Context Mapping](#412-context-mapping)
     - [4.1.3. Software Architecture](#413-software-architecture)
-    - [4.1.3.1. Software Architecture System Landscape Diagram](#4131-software-architecture-system-landscape-diagram)
-    - [4.1.3.2. Software Architecture Context Level Diagrams](#4132-software-architecture-context-level-diagrams)
-    - [4.1.3.3. Software Architecture Container Level Diagrams](#4133-software-architecture-container-level-diagrams)
-    - [4.1.3.4. Software Architecture Deployment Diagrams](#4134-software-architecture-deployment-diagrams)
+      - [4.1.3.1. Software Architecture System Landscape Diagram](#4131-software-architecture-system-landscape-diagram)
+      - [4.1.3.2. Software Architecture Context Level Diagrams](#4132-software-architecture-context-level-diagrams)
+      - [4.1.3.3. Software Architecture Container Level Diagrams](#4133-software-architecture-container-level-diagrams)
+      - [4.1.3.4. Software Architecture Deployment Diagrams](#4134-software-architecture-deployment-diagrams)
   - [4.2. Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)
+- [Capítulo V: Solution UI/UX Design](#capítulo-v-solution-ux-ui)
+  - [5.1. Style Guidelines](#51-style-guidelines)
+    - [5.1.1. General Style Guidelines](#511-general-style-guidelines)
+    - [5.1.2. Web, Mobile and IoT Style Guidelines](#512-web-mobile-and-iot-style-guiledines)
+  - [5.2. Information Architecture](#52-information-architecture)
+    - [5.2.1. Organization Systems](#521-organization-systems)
+    - [5.2.2. Labeling Systems](#522-labeling-systems)
+    - [5.2.3. SEO Tags and Meta Tags](#523-seo-tags-and-meta-tags)
+    - [5.2.4. Searching Systems](#524-searching-systems)
+    - [5.2.5. Navigation Systems](#525-navigation-systems)
+  - [5.3. Landing Page UI Design](#53-landing-page-ui-design)
+    - [5.3.1. Landing Page Wireframe](#531-landing-page-wireframe)
+    - [5.3.2. Labeling Page Mock-up](#532-landing-page-mock-up)
+  - [5.4. Application UX/UI Design](#54-application-ux-ui-design)
+    - [5.4.1. Applications Wireframes](#541-applications-wireframes)
+    - [5.4.2. Applications Wireflow Diagrams](#542-applications-wireflow-diagrams)
+    - [5.4.3. Applications Mock-ups](#543-applications-mock-ups)
+    - [5.4.4. Applications User Flow Diagrams](#544-applications-user-flow-diagrams)
+  - [5.5. Applications Prototyping](#55-applications-prototyping)
+- [Capítulo VI: Product Implementation, Validation & Deployment](#capítulo-vi-product-implementation-validation-deployment)
+  - [6.1. Software Configuration Management](#61-software-configuration-management)
+    - [6.1.1. Software Development Environment Configuration](#611-software-development-environment-configuration)
+    - [6.1.2. Source Code Management](#612-source-code-management)
+    - [6.1.3. Source Code Style Guide & Conventions](#613-source-code-style-guide-conventions)
+    - [6.1.4. Software Deployment Configuration](#614-software-deployment-configuration)
+  - [6.2. Landing Page, Services & Applications Implementation](#62-landing-page-services-applications-implementation)
+    - [6.2.1. Sprint 1](#621-sprint-1)
+      - [6.2.1.1. Sprint Planning 1](#6211-sprint-planning-1)
+      - [6.2.1.2. Sprint Backlog 1](#6212-sprint-backlog-1)
+      - [6.2.1.3. Development Evidence for Sprint Review](#6213-development-evidence-for-sprint-review)
+      - [6.2.1.4. Testing Suite Evidence for Sprint Review](#6214-testing-suite-evidence-for-sprint-review)
+      - [6.2.1.5. Execution Evidence for Sprint Review](#6215-execution-evidence-for-sprint-review)
+      - [6.2.1.6. Services Documentation Evidence for Sprint Review](#6216-services-documentation-evidence-for-sprint-review)
+      - [6.2.1.7. Software Deployment Evidence for Sprint Review](#6217-software-deployment-evidence-for-sprint-review)
+      - [6.2.1.8. Team Collaboration Insights during Sprint](#6218-team-collaboration-insights-during-sprint)
 
 ---
 
@@ -1757,12 +1793,50 @@ El Viaje es el agregado raíz que contiene la lógica para gestionar su ciclo de
 ![Diagrama de clases_viajes](./assets/chapter4_img/travel_bounded_context-class_diagram.png)
 ###### 4.2.3.7.2. Bounded Context Database Design Diagram.
 ![Diagrama de base_de_datos_sensor](./assets/chapter4_img/travel_bounded_context-database_diagram.png)
+# Capítulo V: Solution UI/UX Design
+## 5.1. Style Guidelines
+### 5.1.1. General Style Guidelines
+### 5.1.2. Web, Mobile and IoT Style Guidelines
+## 5.2. Information Architecture
+### 5.2.1. Organization Systems
+### 5.2.2. Labeling Systems
+### 5.2.3. SEO Tags and Meta Tags
+### 5.2.4. Searching Systems
+### 5.2.5. Navigation Systems
+## 5.3. Landing Page UI Design
+### 5.3.1. Landing Page Wireframe
+### 5.3.2. Landing Page Mock-up
+## 5.4. Applications UX/UI Design
+### 5.4.1. Applications Wireframes
+### 5.4.2. Applications Wireflow Diagrams
+### 5.4.4. Applications Mock-ups
+### 5.4.4. Applications User Flow Diagrams
+## 5.5. Applications Prototyping
+# Capítulo VI: Product Implementation, Validation & Deployment
+## 6.1. Software Configuration Management
+### 6.1.1. Software Development Environment Configuration
+### 6.1.2. Source Code Management
+### 6.1.3. Source Code Style Guide & Conventions
+### 6.1.4. Software Deployment Configuration
+## 6.2. Landing Page, Services & Applications Implementation
+### 6.2.1. Sprint 1
+#### 6.2.1.1. Sprint Planning 1
+#### 6.2.1.2. Sprint Backlog 1
+#### 6.2.1.3. Development Evidence for Sprint Review
+#### 6.2.1.4. Testing Suite Evidence for Sprint Review
+#### 6.2.1.5. Execution Evidence for Sprint Review
+#### 6.2.1.6. Services Documentation Evidence for Sprint Review
+#### 6.2.1.7. Software Deployment Evidence for Sprint Review
+#### 6.2.1.8. Team Collaboration Insights during Sprint
+
+---
 # Conclusiones
 
 - El desarrollo del Lean UX Process ayudó a comprender mejor y aplicar efectivamente las herramientas en nuestra propuesta enfocada al servicio de transportistas hacia clientes. De la misma forma, contribuyó a definir de manera más clara nuestro público objetivo o llámese segmento hacia el cual va enfocada nuestra aplicación.
 - Después de culminar la primera parte de nuestro proyecto e identificar los principales problemas que tienen nuestros segmentos, concluimos que sería de mucha ayuda el desarrollo de FastPorte con el fin de mejorar la experiencia y seguridad de los transportistas durante el transporte de material peligroso.
 - El desarrollo de entrevistas nos ayudó a esclarecer la visión del proyecto, en cuanto a la perspectiva del usuario y por lo tanto fue importante para mejorar los aspectos de las funcionalidades de la aplicación.
 
+---
 # Anexos
 ## Anexo A
 Enlace al video de exposición TB1:
