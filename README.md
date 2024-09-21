@@ -986,30 +986,38 @@ Para la calificación de Story Points empleada en el Product Backlog se siguió 
 
 ## 4.1. Strategic-Level Domain-Driven Design
 
-### 4.1.1. EventStorming
+### 4.1.1. EventStorming <br>
+Para el desarroolo del EventStorming, nos reunimos para organizar una lluvia de ideas con los temas, datos y funcionalidades necesarias para el desarrollo de la aplicación, resultando en el siguiente gráfico:<br>
 ![EventStorming](./assets/chapter4_img/step8.jpg)
 
-#### 4.1.1.1 Candidate Context Discovery
-
-Step 1:
+#### 4.1.1.1 Candidate Context Discovery <br>
+A continuación mostraremos el paso a paso para la organizacion del EventStorming: <br>
+<br>Step 1: <br>
+Generar las ideas más importantes del negocio en base a los requerimientos
 ![Step 1](./assets/chapter4_img/step1.jpg)
-Step 2:
+<br>Step 2: <br>
+Relacionar las ideas entre si para tener secuencias
 ![Step 2](./assets/chapter4_img/step2.jpg)
-Step 3:
+<br>Step 3: <br>
+Identificar las ideas que pueden ocacionar deciciones múltiples o pueden ser puntos críticos, usando preguntas clave
 ![Step 3](./assets/chapter4_img/step3.jpg)
-Step 4:
+<br>Step 4: <br>
+Organizar las relaciones en función secuencial
 ![Step 4](./assets/chapter4_img/step4.jpg)
-Step 5:
+<br> Step 5: <br>
+Clasificar el tipo de usuario que va a usar cada sección
 ![Step 5](./assets/chapter4_img/step5.jpg)
-Step 6:
+<br>Step 6: <br>
+Añadir detalles de visualizacion de interfaz
 ![Step 6](./assets/chapter4_img/step6.jpg)
-Step 7:
+<br> Step 7: <br>
+Detectar si es posible usar una aplicación externa
 ![Step 7](./assets/chapter4_img/step7.jpg)
-Step 8:
+<br> Step 8: <br> 
+Por ultimo se eliminan dellates que fueron descartados y muestra el resultado final
 ![Step 8](./assets/chapter4_img/step8.jpg)
 
 #### 4.1.1.2 Domain Message Flows Modeling
-
 Leyenda: <br>
 ![Leyenda](./assets/chapter4_img/leyenda.png)
 
