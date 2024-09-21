@@ -1055,16 +1055,41 @@ Bounded context 'Viajes'  <br>
 
 ### 4.1.3. Software Architecture
 
-#### 4.1.3.1. Software Architecture System Landscape Diagram
+#### 4.1.3.1. Software Architecture System Landscape Diagram <br>
+
+Este diagrama describe la arquitectura a nivel de sistema de FastPorte, un servicio que conecta conductores y empresas para la gestión eficiente de la logística y transporte. Los actores involucrados son: <br>
+
+Conductor: Se comunica con el sistema para obtener asignaciones de transporte y actualizar el estado de las entregas.<br>
+Supervisor: Utiliza el sistema para gestionar los viajes de los conductores. El sistema gestiona el intercambio de información entre conductores y supervisores para optimizar las operaciones logísticas. <br>
+
 ![C4 Diagrama de Contexto](./assets/chapter4_img/landscape.jpg)
 
-#### 4.1.3.2. Software Architecture Context Level Diagrams
+#### 4.1.3.2. Software Architecture Context Level Diagrams <br>
+
+El diagrama de nivel de contexto de FastPorte muestra las interacciones clave entre el sistema y sus usuarios principales:<br>
+
+Conductor: Recibe notificaciones, alertas del sensor y actualizaciones de rutas.<br>
+Supervisar: Utiliza el sistema para gestionar los viajes de los conductores. El sistema gestiona el intercambio de información entre conductores y supervisores para optimizar las operaciones logísticas.<br>
+
 ![C4 Diagrama de Contexto](./assets/chapter4_img/c4_context.png)
 
-#### 4.1.3.2. Software Architecture Container Level Diagrams.
+#### 4.1.3.2. Software Architecture Container Level Diagrams. <br>
+
+Este diagrama detalla la arquitectura de los contenedores de FastPorte, mostrando los componentes principales del sistema:<br>
+
+Landing Page: La interfaz web pública para que los usuarios obtengan información sobre el servicio.<br>
+Web Application: Aplicación utilizada por los supervisores para gestionar envíos.<br>
+Mobile App: Aplicación móvil destinada a los conductores para recibir las alertas o notificaciones de viaje<br>
+Backend: Servicio REST que gestiona y procesa la información de los datos. <br>
+Database: Base de datos donde se almacena la información relacionada con los envíos, conductores, y empresas.<br>
+Edge API: Conexion con el sistema IoT para el envio de alertas.<br>
+
 ![C4 Diagrama de Componentes](./assets/chapter4_img/c4_component.png)
 
-#### 4.1.3.3. Software Architecture Deployment Diagrams
+#### 4.1.3.3. Software Architecture Deployment Diagrams <br>
+
+Para el despliegue de nuestra landing page, app web nos apoyaremos de Firebase, servicio gratuito y de facil uso de hosting para paginas web, y para nuestro servidor backend y base de datos nos apoyaremos de la nube de Azure<br>
+
 ![Software Architecture Deployment Diagrams](./assets/chapter4_img/ArchDeploy.png)
 
 ## 4.2. Tactical-Level Domain-Driven Design
