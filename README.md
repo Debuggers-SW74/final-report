@@ -1062,7 +1062,7 @@ Bounded context 'Viajes'  <br>
 ![C4 Diagrama de Contexto](./assets/chapter4_img/c4_context.png)
 
 #### 4.1.3.2. Software Architecture Container Level Diagrams.
-![C4 Diagrama de Componentes](./assets/chapter4_img/c4_component.jpg)
+![C4 Diagrama de Componentes](./assets/chapter4_img/c4_component.png)
 
 #### 4.1.3.3. Software Architecture Deployment Diagrams
 ![Software Architecture Deployment Diagrams](./assets/chapter4_img/ArchDeploy.png)
