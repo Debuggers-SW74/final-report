@@ -699,6 +699,60 @@ En adición, el entrevistado mencionó el uso de radios base para la comunicaci�
 
 <br><br>
 
+Entrevista 4: Segmento objetivo conductores
+
+Nombres y apellidos: José Gonzales 
+
+Edad:  27 años
+
+Cargo actual: Conductor de Cisternas
+
+[![interview1.png](https://i.postimg.cc/5t8S9PQL/entrevista-conductor-2.png)](https://postimg.cc/bGNt39Tw)
+
+URL: https://www.youtube.com/watch?v=KEh32dSaK2w
+
+Timing: 0:01
+
+Duración: 6:25 minutos 
+
+**Resúmen de la entrevista:**
+
+José Daniel trabaja como conductor de cisternas para una empresa que transporta materiales peligrosos. En su trabajo, se enfrenta a desafíos relacionados con la seguridad, especialmente en asegurar que la carga esté bien sujeta y que el vehículo esté en óptimas condiciones. Las carreteras en mal estado y la neblina densa en las noches son fuentes de gran preocupación, ya que aumentan el riesgo de accidentes. Menciona que las condiciones climáticas extremas, como el calor intenso en verano o las lluvias en invierno, también representan un riesgo significativo, ya que pueden afectar la presión interna de los tanques o las condiciones del asfalto.
+
+José cuenta con sistemas de alerta en su vehículo, pero reconoce que no siempre funcionan de manera eficiente, lo que puede retrasar la detección de problemas. Los fallos más comunes que enfrenta incluyen problemas con las válvulas, los frenos, o la estabilidad de la carga. En caso de detectar un problema, su proceso consiste en detenerse en un lugar seguro, revisar el vehículo, y en casos graves, contactar con su base para recibir asistencia técnica.
+
+Por otro lado, José destacaría por su atención al detalle en la seguridad del vehículo y la carga, así como su capacidad para mantener la calma bajo condiciones climáticas adversas. Además, tiene experiencia en la detección temprana de fallos en el vehículo y la carga. También, él mencionó el transporte de gases y materiales peligrosos, lo que sugiere que ha trabajado para empresas de transporte de hidrocarburos o químicos, aunque no mencionó marcas específicas.
+
+En adición, es probable que José use sistemas de monitoreo de alertas en el vehículo, así como sistemas de comunicación con su base para gestionar emergencias. Y él Mencionó sistemas de alerta en el vehículo, así como herramientas de diagnóstico para revisar el estado de las válvulas y frenos.
+
+<br><br>
+
+Entrevista 5: Segmento objetivo 
+
+Nombres y apellidos: Juan Cueto Dominguez
+
+Edad: 28 años
+
+Cargo actual: Conductor de camiones de transporte de Materiales Peligrosos
+
+[![interview1.png](https://i.postimg.cc/nzZYXvq5/entrevista-conductor-1.png)](https://postimg.cc/kV1tZR1F)
+
+URL: https://www.youtube.com/watch?v=dP9vHbNym4c
+
+Timing: 0:04
+
+Duración: 10:26 minutos 
+
+**Resúmen de la entrevista:**
+
+Juan trabaja como conductor especializado en el transporte de materiales peligrosos y enfrenta desafíos constantes relacionados con la seguridad. Uno de sus principales retos es asegurarse de que tanto la carga como el vehículo cumplan con las normativas de seguridad, especialmente cuando se trata de sustancias inflamables o explosivas. Destaca que sigue estrictamente las regulaciones internacionales y locales, y que las condiciones ambientales, como el calor o el viento, pueden alterar la estabilidad de los materiales peligrosos.
+
+Una experiencia que lo marcó fue transportar gases inflamables bajo temperaturas extremas, lo que lo llevó a tomar medidas inmediatas para garantizar su seguridad y la del entorno. En cuanto al monitoreo del vehículo, Juan confía en sistemas de alerta y monitoreo visual, aunque reconoce que el ruido de la carretera y las vibraciones del vehículo pueden afectar la capacidad para detectar problemas a tiempo. Los fallos más comunes que enfrenta incluyen problemas con los sistemas de sujeción de la carga, los frenos, y los sistemas de enfriamiento. Cuando se presenta un problema, sigue un estricto protocolo de seguridad, deteniéndose en áreas seguras y notificando a los equipos de emergencia.
+
+Por otro lado, Juan destaca su conocimiento profundo de las normativas internacionales de seguridad, como el CFR 49 de Estados Unidos, así como su capacidad para tomar decisiones rápidas en situaciones de riesgo. Tambié, es probable que Juan haya trabajado para empresas de transporte de gases inflamables y explosivos que requieren un alto nivel de cumplimiento normativo.
+
+<br><br>
+
 ### 2.2.3. Análisis de entrevistas
 
 - Las medidas de seguridad son una preocupación central para todos los entrevistados. Además, los riesgos relacionados con las condiciones externas son una preocupación común y el cumplimiento de normas es una obligación crítica en todas las empresas entrevistadas.
