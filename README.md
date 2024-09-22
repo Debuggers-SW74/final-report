@@ -1017,26 +1017,35 @@ Detectar si es posible usar una aplicación externa
 Por ultimo se eliminan dellates que fueron descartados y muestra el resultado final
 ![Step 8](./assets/chapter4_img/step8.jpg)
 
-#### 4.1.1.2 Domain Message Flows Modeling
+#### 4.1.1.2 Domain Message Flows Modeling <br>
+En esta seccion mostraremos el proceso seguido para visualizar cómo deben colaborar los bounded contexts para resolver los casos que se presentan en el negocio para los usuarios del sistema. <br>
+
 Leyenda: <br>
+
 ![Leyenda](./assets/chapter4_img/leyenda.png)
 
-Escenario: Inicio de sesión
+Escenario: Inicio de sesión <br>
+Cuando un usario, ya sea supervisro o conductor, desee registrarse se enviará una solicitud al bounded context 'Profile management' con los datos requeridos, este hará una validacion con la base de datos y si es exitosa, retornará al usuario el inicio de su sesión
 ![Escenario 1](./assets/chapter4_img/escenario1.png)
 
-Escenario: Registro de usuario
+Escenario: Registro de usuario <br>
+Si el usuario va a registrarse, ingresa los datos solicitados, estos pasaran al bounded context y se alamcenán en su base de datos.
 ![Escenario 2](./assets/chapter4_img/escenario2.png)
 
-Escenario: Registro del sensor
+Escenario: Registro del sensor <br>
+Cuando el usuario registre un sensor, el bounded context 'Profile management' se comunicara con 'Security monitoring' para registrar los datos
 ![Escenario 3](./assets/chapter4_img/escenario3.png)
 
-Escenario: Programación de viaje
+Escenario: Programación de viaje <br>
+Si el usuario supervisor debe registrar un nuevo viaje, 'Transport management' recibe los datos necesarios y se comunica con ' Profile management' para generarle la notificación
 ![Escenario 4](./assets/chapter4_img/escenario4.png)
 
-Escenario: Conductor visualiza sus viajes pendientes
+Escenario: Conductor visualiza sus viajes pendientes <br>
+Cuando el usuario desea revisar los viajes programados que tiene, por medio de 'Profile management' y 'Transport management' ingresan a la base de datos respectiva para obtener la lista que retorne con los viajes. 
 ![Escenario 5](./assets/chapter4_img/escenario5.png)
 
-Escenario: Sensor detecta un problema
+Escenario: Sensor detecta un problema <br>
+En caso de que el sensor detecte un problema por medio de 'Security monitoring', envia una alerta desde 'Alerts system' para que lo reciba el usuario.
 ![Escenario 6](./assets/chapter4_img/escenario6.png)
 
 #### 4.1.1.3 Bounded Context Canvases
