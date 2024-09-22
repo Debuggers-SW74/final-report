@@ -787,7 +787,13 @@ El User Persona de Supervisores de Transportes de Materiales Peligrosos se enfoc
 
 [![interview1.png](https://i.postimg.cc/P5CKLmkj/User-Persona-Supervisor-Update.png)](https://postimg.cc/3kH2V0RS)
 
+- **Segmento objetivo conductores: Arquetipo del conductor**
 
+El User Persona de Conductores de Camiones de Materiales Peligrosos nos permite entender a aquellos que están directamente a cargo del transporte de materiales altamente peligrosos en la carretera. A través de las entrevistas realizadas, hemos descubierto que estos conductores deben cumplir con estrictas normativas y enfrentan situaciones de alta presión, como condiciones climáticas adversas y riesgos constantes durante el trayecto. La creación de este perfil es esencial para diseñar soluciones que se alineen con sus necesidades diarias y sus experiencias en ruta.
+
+[![interview1.png](https://i.postimg.cc/k58csq4Y/User-Persona-Conductores-Update.png)](https://postimg.cc/HJYXsGbb)
+
+<br><br>
 
 ### 2.3.2. User Task Matrix
 
