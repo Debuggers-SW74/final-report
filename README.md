@@ -811,6 +811,8 @@ La mayoría de tareas tiene una frecuencia e importancia alta, ya que al tratars
 
 ### 2.3.3. User Journey Mapping
 
+En esta sección, se presentan los User Journey Maps para cada User Persona, Juan Navarro y Miguel Herrera. Estos mapas va a presentar el recorrido actual de los usuarios, reflejando sus interacciones y experiencias sin la intervención de una solución tecnológica. A través de diagramas elaborados en la herramienta indicada de UXPressia, se destacan las etapas clave del journey de cada segmento, permitiendo una comprensión más profunda de sus necesidades y desafíos en la situación actual.
+
 - **Segmento objetivo supervisores: Mapa del viaje del usuario**
 
 [![interview1.png](https://i.postimg.cc/fyPK4Www/Customer-Journey-Map-Empresas-new.png)](https://postimg.cc/YL1gYHGV)
@@ -821,6 +823,8 @@ La mayoría de tareas tiene una frecuencia e importancia alta, ya que al tratars
 
 ### 2.3.4. Empathy Mapping
 
+En esta sección, se detalla el proceso de creación de los Empathy Maps para cada User Persona. Estos mapas ayudan a entender las emociones y pensamientos de los usuarios, abordando preguntas fundamentales sobre lo que piensan, sienten y experimentan en su contexto. Con capturas de los Empathy Maps elaborados, se busca responder a interrogantes sobre las necesidades, preocupaciones y motivaciones de Juan Navarro (segmento supervisor) y Miguel Herrera (segmento conductor), identificando así sus Pains y Gains para guiar el desarrollo de soluciones efectivas.
+
 - **Segmento objetivo supervisores: Mapa de empatía**
 
 [![interview1.png](https://i.postimg.cc/sXD9vGxj/Empathy-Map-Empresas-new.png)](https://postimg.cc/mcJFnD7J)
@@ -830,6 +834,8 @@ La mayoría de tareas tiene una frecuencia e importancia alta, ya que al tratars
 [![interview1.png](https://i.postimg.cc/pXPJZNcS/Empathy-Map-Conductores-new.png)](https://postimg.cc/4nFcf0gv)
 
 ### 2.3.5. As-is Scenario Mapping
+
+Esta sección introduce el As-Is Scenario Mapping, que resume el proceso realizado por el equipo para cada User Persona. A través de un diagrama que incluye las fases de acción, pensamiento y sentimiento, se analizan las experiencias actuales de los usuarios. El proceso implica la identificación de áreas positivas y negativas, así como la señalización de blank areas que requieren más investigación, lo que proporciona una visión clara de cómo mejorar las experiencias de Juan Navarro (segmento supervisor) y Miguel Herrera (segmento conductor) en su entorno actual.
 
 - **Mapa As-Is: Segmento objetivo antes de conocer la solución de software:**
 
