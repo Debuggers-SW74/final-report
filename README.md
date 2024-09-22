@@ -863,7 +863,7 @@ En esta sección se presenta el glosario de términos y conceptos relevantes al 
 - **Incident Report (Reporte de Incidente):** Documento generado que detalla un incidente ocurrido durante el transporte de materiales peligrosos, incluyendo detalles como el tipo de incidente, la respuesta y las acciones tomadas.
 
 - **Real-time Monitoring (Monitoreo en tiempo real):** Supervisión continua de las condiciones del transporte, incluyendo la ubicación y el estado de la carga.
-- **Driver Training Capacitación del conductor):** Formación específica que garantiza que los conductores estén preparados para manejar materiales peligrosos y responder a situaciones de emergencia.
+- **Driver Training (Capacitación del conductor):** Formación específica que garantiza que los conductores estén preparados para manejar materiales peligrosos y responder a situaciones de emergencia.
 - **Contingency Plan (Plan de contingencia):** Estrategia definida para abordar emergencias durante el transporte, incluyendo procedimientos en caso de derrames o accidentes.
 
 # Capítulo III: Requirements Specification
