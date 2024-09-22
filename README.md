@@ -1050,16 +1050,54 @@ En caso de que el sensor detecte un problema por medio de 'Security monitoring',
 
 #### 4.1.1.3 Bounded Context Canvases
 
-Bounded context 'Usuario'  <br>
-![Bounded Context Canvas Usuario](./assets/chapter4_img/canvas_users.jpg)
+Bounded context 'Profle management'  <br>
+Autenticación y autorización de usuarios (conductores y supervisores) y manejo de roles dentro del sistema
+![Bounded Context Canvas Usuario](./assets/chapter4_img/canvas_profile.jpg)
 
-Bounded context 'Sensor'  <br>
-![Bounded Context Canvas Usuario](./assets/chapter4_img/canvas_sensor.jpg)
+Bounded context 'Security monitoring'  <br>
+Capturar y procesar los datos de sensores instalados en las cisternas para garantizar la seguridad durante el transporte de materiales peligrosos. Notificar en tiempo real cuando se excedan los límites críticos de seguridad.
+![Bounded Context Canvas Usuario](./assets/chapter4_img/canvas_security.jpg)
 
-Bounded context 'Viajes'  <br>
-![Bounded Context Canvas Usuario](./assets/chapter4_img/canvas_viajes.jpg)
+Bounded context 'Transport management'  <br>
+Planificar y gestionar el transporte de materiales peligrosos, asignando vehículos y conductores para cada ruta, garantizando el cumplimiento de regulaciones.
+![Bounded Context Canvas Usuario](./assets/chapter4_img/canvas_transport.jpg)
 
-### 4.1.2. Context Mapping
+Bounded context 'Alerts system'  <br>
+Gestionar el envío de alertas y notificaciones a los conductores y supervisores en tiempo real cuando se detectan problemas en los sensores.
+![Bounded Context Canvas Usuario](./assets/chapter4_img/canvas_alerts.jpg)
+
+### 4.1.2. Context Mapping <br>
+Transport management ↔️ Security monitoring
+
+Relación: Customer-Supplier
+
+Patrón:
+Transport management actúa como un 'Cliente' de Security monitoring. Necesita información en tiempo real sobre el estado de los sensores de seguridad instalados en los vehículos.
+Security monitoring actúa como un 'Proveedor' de datos de gases, temperatura y presión a Transport management.
+
+Security monitoring ↔️ Alerts system
+
+Relación: Customer-Supplier
+
+Patrón:
+Security monitoring es el 'Cliente' que requiere la funcionalidad de notificaciones en tiempo real cuando un sensor detecta un valor crítico.
+Alerts system es el 'Proveedor', que envía mensajes a los usuarios relevantes (conductores, supervisores) cuando se genera una alerta.
+
+Transport management ↔️ Profle management
+
+Relación: Customer-Supplier
+
+Patrón:
+Transport management es el 'Cliente' que requiere la autenticación y autorización de los usuarios (conductores y supervisores) antes de planificar rutas y asignar tareas.
+Profle management es el 'Proveedor' que gestiona los permisos y autenticaciones para permitir el acceso a los usuarios en el sistema de transporte.
+
+Alerts system ↔️ Profle management
+
+Relación: Anticorruption Layer 
+
+Patrón:
+Alerts system se protege contra posibles complejidades o cambios en el sistema de Profle management al establecer una capa anticorrupción. De esta manera, los cambios en el esquema de usuarios o permisos no afectan la lógica de notificaciones.
+
 ![Context Mapping](./assets/chapter4_img/context_mapping.jpg)
 
 ### 4.1.3. Software Architecture
