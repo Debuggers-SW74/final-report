@@ -663,7 +663,7 @@ Entre los principales riesgos que enfrenta están el tráfico y las condiciones 
 
 Uno de los principales desafíos que identifica Arquímedes es la burocracia en la obtención de permisos para el transporte de materiales peligrosos, lo cual a veces retrasa las operaciones. Además, destaca la importancia de realizar simulacros en coordinación con las minas para estar preparados ante cualquier emergencia. Arquímedes propone reducir las distancias entre las unidades de apoyo vial para mejorar la respuesta en caso de incidentes.
 
-Por otro lado, Arquímedes destaca habilidades como conocimiento técnico de los vehículos modernos, especialmente los sistemas avanzados de seguridad, y la capacidad de liderazgo y supervisión, ya que está a cargo de equipos de conductores. También haría hincapié en la importancia de la capacidad de tomar decisiones rápidas en situaciones difíciles. También, él probablemente ha trabajado con marcas de vehículos como Volvo, ya que menciona que sus conductores reciben capacitación específica de esta marca. Además, ha trabajado con empresas que requieren transporte de combustibles, posiblemente empresas del sector energético y minero.
+Por otro lado, Arquímedes destaca habilidades como conocimiento técnico de los vehículos modernos, especialmente los sistemas avanzados de seguridad, y la capacidad de liderazgo y supervisión, ya que está a cargo de equipos de conductores. También haría hincapié en la importancia de la capacidad de tomar decisiones rápidas en situaciones difíciles. Además, él probablemente ha trabajado con marcas de vehículos como Volvo, ya que menciona que sus conductores reciben capacitación específica de esta marca. Además, ha trabajado con empresas que requieren transporte de combustibles, posiblemente empresas del sector energético y minero.
 
 Finalmente, Arquímedes mencionó utiliza sistemas como teléfonos satelitales y software de geocercas para el monitoreo constante de las unidades. También hace uso de sensores de fatiga y tecnologías integradas en los vehículos para detectar problemas y el entrevistado mencionó el uso de teléfonos satelitales, sensores de fatiga, cámaras de seguridad y sistemas de monitoreo GPS. Además, habló sobre kits antiderrame con tecnología avanzada y otros dispositivos relacionados con la seguridad de los conductores y los materiales peligrosos.
 
@@ -749,7 +749,7 @@ Juan trabaja como conductor especializado en el transporte de materiales peligro
 
 Una experiencia que lo marcó fue transportar gases inflamables bajo temperaturas extremas, lo que lo llevó a tomar medidas inmediatas para garantizar su seguridad y la del entorno. En cuanto al monitoreo del vehículo, Juan confía en sistemas de alerta y monitoreo visual, aunque reconoce que el ruido de la carretera y las vibraciones del vehículo pueden afectar la capacidad para detectar problemas a tiempo. Los fallos más comunes que enfrenta incluyen problemas con los sistemas de sujeción de la carga, los frenos, y los sistemas de enfriamiento. Cuando se presenta un problema, sigue un estricto protocolo de seguridad, deteniéndose en áreas seguras y notificando a los equipos de emergencia.
 
-Por otro lado, Juan destaca su conocimiento profundo de las normativas internacionales de seguridad, como el CFR 49 de Estados Unidos, así como su capacidad para tomar decisiones rápidas en situaciones de riesgo. Tambié, es probable que Juan haya trabajado para empresas de transporte de gases inflamables y explosivos que requieren un alto nivel de cumplimiento normativo.
+Por otro lado, Juan destaca su conocimiento profundo de las normativas internacionales de seguridad, como el CFR 49 de Estados Unidos, así como su capacidad para tomar decisiones rápidas en situaciones de riesgo. También, es probable que Juan haya trabajado para empresas de transporte de gases inflamables y explosivos que requieren un alto nivel de cumplimiento normativo.
 
 <br><br>
 
@@ -767,20 +767,31 @@ Por otro lado, Juan destaca su conocimiento profundo de las normativas internaci
 
 [![interview1.png](https://i.postimg.cc/t41mQPkk/gr-fico3-tecnolog-a-normas-simulacros.png)](https://postimg.cc/DSTc1St4)
 
+<br><br>
+
 ## 2.3. Needfinding
+
+En la fase de NeedFinding, el equipo se ha centrado en analizar la información recolectada a través de entrevistas diseñadas previamente, realizadas con Supervisores de Transportes de Materiales Peligrosos y Conductores de Camiones que transportan materiales como gases inflamables, tóxicos y explosivos. Estas entrevistas, realizadas en plataformas digitales como Google Meet, han permitido una interacción directa con los segmentos objetivos, ofreciendo una valiosa oportunidad para profundizar en sus necesidades, desafíos y expectativas.
+
+Los artefactos resultantes de este análisis incluyen herramientas clave como el User Task Matrix, User Journey Maps, Empathy Mapping y As-Is Scenario Mapping, todos enfocados en identificar patrones, comportamientos y necesidades ocultas dentro de los roles específicos de cada grupo objetivo. Este proceso nos ha permitido estructurar información crítica para guiar el diseño y solución del problema identificado.
+
 ### 2.3.1. User Personas
 
-- **Segmento objetivo empresas: Arquetipo de las empresas**
+En la sección de User Personas, presentamos fichas detalladas que representan los perfiles de los segmentos objetivos: Supervisores de Transportes de Materiales Peligrosos y Conductores de Camiones. Estas fichas son el resultado del análisis de las entrevistas, donde se ha extraído información clave para crear arquetipos que reflejen sus características, motivaciones, frustraciones y necesidades.
 
-[![interview1.png](https://i.postimg.cc/TwC09qF5/User-Persona-Empresas-new.png)](https://postimg.cc/9RwyXTWc)
+Cada ficha de User Persona incluye datos esenciales que fueron recopilados durante el proceso de entrevistas, integrando las mejores prácticas en cuanto a especificación de arquetipos. Estas fichas nos permitirán profundizar en la comprensión del usuario final y orientar las próximas fases del proyecto.
 
-- **Segmento objetivo conductores: Arquetipo del conductor**
+- **Segmento objetivo supervisores: Arquetipo del supervisor**
 
-[![interview1.png](https://i.postimg.cc/d3jmYn3n/User-Persona-Conductores-new.png)](https://postimg.cc/ct687RQ8)
+El User Persona de Supervisores de Transportes de Materiales Peligrosos se enfoca en los roles, responsabilidades y desafíos que enfrentan estos profesionales a la hora de gestionar el transporte de materiales como gases inflamables, tóxicos y explosivos. A través de las entrevistas realizadas, hemos identificado las características principales de estos supervisores, quienes suelen lidiar con altos niveles de responsabilidad, asegurando que las normativas de seguridad sean cumplidas estrictamente y que la cadena de transporte opere sin contratiempos.
+
+[![interview1.png](https://i.postimg.cc/P5CKLmkj/User-Persona-Supervisor-Update.png)](https://postimg.cc/3kH2V0RS)
+
+
 
 ### 2.3.2. User Task Matrix
 
-- **Segmento objetivo empresas: Matriz de tareas**
+- **Segmento objetivo supervisores: Matriz de tareas**
 
 [![interview1.png](https://i.postimg.cc/G3NQV1bD/User-Task-Matrix-Empresas.png)](https://postimg.cc/jCHPnmwq)
 
@@ -790,7 +801,7 @@ Por otro lado, Juan destaca su conocimiento profundo de las normativas internaci
 
 ### 2.3.3. User Journey Mapping
 
-- **Segmento objetivo empresas: Mapa del viaje del usuario**
+- **Segmento objetivo supervisores: Mapa del viaje del usuario**
 
 [![interview1.png](https://i.postimg.cc/fyPK4Www/Customer-Journey-Map-Empresas-new.png)](https://postimg.cc/YL1gYHGV)
 
@@ -800,7 +811,7 @@ Por otro lado, Juan destaca su conocimiento profundo de las normativas internaci
 
 ### 2.3.4. Empathy Mapping
 
-- **Segmento objetivo empresas: Mapa de empatía**
+- **Segmento objetivo supervisores: Mapa de empatía**
 
 [![interview1.png](https://i.postimg.cc/sXD9vGxj/Empathy-Map-Empresas-new.png)](https://postimg.cc/mcJFnD7J)
 
