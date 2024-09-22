@@ -797,13 +797,17 @@ El User Persona de Conductores de Camiones de Materiales Peligrosos nos permite 
 
 ### 2.3.2. User Task Matrix
 
-- **Segmento objetivo supervisores: Matriz de tareas**
+En esta sección se presenta el User Task Matrix, que presenta las tareas esenciales que los User Persona, Juan Navarro para el segmento de supervisores y Miguel Herrera para el segmento de conductores, deben realizar para alcanzar sus objetivos. La matriz incluye columnas para cada User Persona, con sub-columnas que reflejan la frecuencia y la importancia de cada tarea. Las filas enumeran las tareas identificadas, y posteriormente se ofrecerá un análisis de las tareas más relevantes, destacando diferencias y similitudes entre ambos segmentos.
 
-[![interview1.png](https://i.postimg.cc/G3NQV1bD/User-Task-Matrix-Empresas.png)](https://postimg.cc/jCHPnmwq)
+[![interview1.png](https://i.postimg.cc/KYxSZQR0/User-Task-Matrix-Update.png)](https://postimg.cc/nXRw24Km)
 
-- **Segmento objetivo conductores: Matriz de tareas**
+La mayoría de tareas tiene una frecuencia e importancia alta, ya que al tratarse y trabajar con materiales peligrosos de alto riesgo cada tarea es crítica, de estas tareas depende la seguridad y la vida de los conductores y la reputación de la empresa que supervisa este tipo de trabajos.
 
-[![interview1.png](https://i.postimg.cc/FHVykTx4/User-Task-Matrix-Conductores.png)](https://postimg.cc/0zrMLd3W)
+**Tareas más frecuentes e importantes:** Tanto para Juan Navarro como Miguel Herrera se ve la importancia de inspeccionar las condiciones del vehículo, supervisar el aseguramiento de la carga y gestionar el cumplimiento de normativas. Estas actividades son esenciales para ambos, ya que contribuyen directamente a la seguridad del transporte de materiales peligrosos.
+
+**Principales diferencias:** Los supervisores como Juan Navarro están más enfocados en monitorear el estado del conductor y realizar informes de seguridad, que son cruciales en su rol de supervisión. Para los conductores como Miguel Herrera, estas tareas son menos frecuentes o de menor importancia, ya que su enfoque principal está en el monitoreo de los sistemas de alerta y reaccionar ante incidentes.
+
+**Coincidencias:** Ambos coinciden en la importancia de mantener la comunicación con la base y tomar decisiones en situaciones de emergencia. Estas actividades, aunque realizadas con diferente frecuencia, son críticas para la seguridad del transporte y la gestión de incidentes en ruta.
 
 ### 2.3.3. User Journey Mapping
 
