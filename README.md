@@ -1820,9 +1820,28 @@ El Viaje es el agregado raíz que contiene la lógica para gestionar su ciclo de
 ### 5.2.4. Searching Systems
 ### 5.2.5. Navigation Systems
 ## 5.3. Landing Page UI Design
+
+En el siguiente apartado se abordará el diseño de la interfaz de usuario de la página de aterrizaje, la primera impresión visual y funcional que los usuarios tienen al interactuar con un sitio web. Este diseño tiene como objetivo captar la atención, guiar a los usuarios hacia una acción específica y ofrecer una experiencia intuitiva. Se enfoca en la disposición efectiva de los elementos visuales, como los llamados a la acción (CTAs), contenido relevante y diseño responsivo, asegurando que la página sea atractiva, fácil de navegar y optimizada para convertir visitantes en usuarios o clientes de FastPorte.
+
 ### 5.3.1. Landing Page Wireframe
+
+Se han designado 5 secciones principales para la realización del Landing Page. En primer lugar, la sección Principal, la cual será la primera que verá el visitante de la página. En está sección se realiza una pregunta para llamar la atención de los visitantes sobre sus necesidades específicas. Asimismo, se agrega un botón como *Call to Action* para que puedan acceder a las soluciones que se han desarrollado. En segundo lugar, la sección Características donde se detalla los aspectos más importantes de la aplicación y lo que ofrece la Startup. Además, en esta sección se visualiza los beneficios generales para brindar mayor detalle sobre FastPorte y lo que ofrece para cada tipo de usuario. En tercer lugar, la sección Descarga donde se presenta el *Call to Action* principal mostrando la disponibilidad de FastPorte en dispositivos móviles también. En cuarto lugar, la sección Sobre nosotros donde los visitantes podrán conocer quienes son los creadores de FastPorte. Igualmente, podrá visualizar los testimonios de gente que ya ha usado FastPorte con anterioridad y como les ha servido. Finalmente, la sección Contáctanos la cual ofrece un formulario para poder contactarse con FastPorte con el fin de solicitar información o contratar los servicios.
+
+![Landing Page Wireframe](assets/capitulo5/landing_page_wireframe.png)
+De igual modo se diseño los Wireframes para la versión mobile con el objetivo de que este disponible una versión responsive de la página de aterrizaje.
+
+![Landing Page Wireframe Mobile](assets/capitulo5/landing_page_wireframe_mobile.png)
+
 ### 5.3.2. Landing Page Mock-up
-## 5.4. Applications UX/UI Design
+
+A continuación, se muestra la representación visual detallada de cómo se verá y funcionará la página de aterrizaje del sitio web de FastPorte. Este prototipo estático ofrece una vista previa del diseño final, permitiendo a los diseñadores y partes interesadas evaluar la disposición de los elementos, la jerarquía visual y la estética general antes de pasar a la fase de desarrollo. El _mock-up_ es clave para garantizar que la estructura, los colores, las tipografías y los componentes interactivos se alineen con los objetivos de la página, facilitando correcciones tempranas y decisiones basadas en una visión clara del producto final.
+
+![Landing Page Mock-up](assets/capitulo5/landing_page_mockup.png)
+
+## 5.4. Applications UX/UI 
+
+En el siguiente apartado se centrará en la creación de interfaces y experiencias de usuario optimizadas para la aplicación FastPorte, con el fin de garantizar que sean intuitivas, atractivas y fáciles de usar. El diseño de UX (Experiencia de Usuario) se enfoca en cómo los usuarios interactúan con la aplicación, priorizando su satisfacción mediante una navegación eficiente y la resolución de problemas de manera lógica. Por otro lado, el diseño de UI (Interfaz de Usuario) se ocupa de la parte visual, asegurando que los elementos gráficos sean atractivos y estén bien organizados. Juntos, estos enfoques crean aplicaciones que no solo cumplen con los objetivos funcionales, sino que también ofrecen una experiencia agradable y coherente para el usuario. 
+
 ### 5.4.1. Applications Wireframes
 
 ##### Mobile application
@@ -1833,6 +1852,289 @@ El Viaje es el agregado raíz que contiene la lógica para gestionar su ciclo de
 ##### Web application
 
 ![[assets/capitulo5/wireflow/web app/Wireframes.png]]
+
+A continuación, se mostrarán los wireframes realizados para cada tipo de dispositivo:
+
+
+**Sing In: Inicio de sesión en la aplicación FastPorte**
+
+- Versión web: 
+
+![Web App Sign In](assets/capitulo5/WebFastPorteWireframes/SignIn.png)
+
+- Versión móvil:
+
+![Mobile Sign In](assets/capitulo5/MobileFastPorteWireframes/SignIn.png)
+
+**Sign Up: Registro en la aplicación FastPorte**
+
+- Versión web: 
+
+1. Ingreso del código de sensor
+
+![Web App Sign Up - Sensor Code](assets/capitulo5/WebFastPorteWireframes/Signup-SensorCode.png)
+
+2. Elección del tipo de usuario
+
+![Web App Sign Up - User Type](assets/capitulo5/WebFastPorteWireframes/Signup-UserType.png)
+
+3. Registro de usuario
+
+![Web App Sign Up - Register](assets/capitulo5/WebFastPorteWireframes/Signup-Register.png)
+
+4. Ingreso de datos básicos
+
+![Web App Sign Up - Basic Data](assets/capitulo5/WebFastPorteWireframes/Signup-FillInformation.png)
+
+- Versión móvil:
+
+1. Ingreso del código de sensor
+
+![Mobile Sign Up - Sensor Code](assets/capitulo5/MobileFastPorteWireframes/Signup-SensorCode.png)
+
+2. Elección del tipo de usuario
+
+![Mobile Sign Up - User Type](assets/capitulo5/MobileFastPorteWireframes/Signup-UserType.png)
+
+3. Registro de usuario
+
+![Mobile Sign Up - Register](assets/capitulo5/MobileFastPorteWireframes/Signup-Register.png)
+
+4. Ingreso de datos básicos
+
+![Mobile Sign Up - Basic Data](assets/capitulo5/MobileFastPorteWireframes/Signup-FillInformation.png)
+
+**Forgot Password: Recuperar contraseña de la cuenta**
+
+- Versión web: 
+
+1. Ingreso del correo electrónico
+
+![Web App Forgot Password - Send Email](assets/capitulo5/WebFastPorteWireframes/ForgotPassword-SendEmail.png)
+
+2. Ingreso de nueva contraseña
+
+![Web App Forgot Password - New Password](assets/capitulo5/WebFastPorteWireframes/ForgotPassword-NewPassword.png)
+
+- Versión móvil:
+
+1. Ingreso del correo electrónico
+
+![Mobile Forgot Password - Send Email](assets/capitulo5/WebFastPorteWireframes/ForgotPassword-SendEmail.png)
+
+2. Ingreso de nueva contraseña
+
+![Mobile Forgot Password - New Password](assets/capitulo5/WebFastPorteWireframes/ForgotPassword-NewPassword.png)
+
+**Home: Página de inicio de la aplicación FastPorte**
+
+- Versión web (Conductor):
+
+1. Página de inicio sin viajes
+
+![Web App Home - No Trips](assets/capitulo5/WebFastPorteWireframes/Home-NoTrips-Conductor.png)
+
+2. Página de inicio con viaje pendiente
+
+![Web App Home - Trips](assets/capitulo5/WebFastPorteWireframes/Home-TripOk-Conductor.png)
+
+- Versión web (Supervisor):
+
+1. Página de inicio sin viajes
+
+![Web App Home - No Trips](assets/capitulo5/WebFastPorteWireframes/Home-NoTrips-Supervisor.png)
+
+2. Página de inicio con viaje pendiente
+
+![Web App Home - Trips](assets/capitulo5/WebFastPorteWireframes/Home-TripOk-Supervisor.png)
+
+- Versión móvil (Conductor):
+
+1. Página de inicio sin viajes
+
+![Web App Home - No Trips](assets/capitulo5/MobileFastPorteWireframes/Home-NoTrips-Conductor.png)
+
+2. Página de inicio con viaje pendiente
+
+![Web App Home - Trips](assets/capitulo5/MobileFastPorteWireframes/Home-TripOk-Conductor.png)
+
+- Versión móvil (Supervisor):
+
+1. Página de inicio sin viajes
+
+![Mobile Home - No Trips](assets/capitulo5/MobileFastPorteWireframes/Home-NoTrips-Supervisor.png)
+
+2. Página de inicio con viaje pendiente
+
+![Mobile Home - Trips](assets/capitulo5/MobileFastPorteWireframes/Home-TripOk-Supervisor.png)
+
+**Notifications: Página de notificaciones de la aplicación FastPorte**
+
+- Versión web (Conductor):
+
+1. Notificación de viaje asignado
+
+![Web App Notifications - Trip Assigned](assets/capitulo5/WebFastPorteWireframes/Notifications-TripAssigned-Conductor.png)
+
+2. Notificación de viaje cancelado
+
+![Web App Notifications - Trip Cancelled](assets/capitulo5/WebFastPorteWireframes/Notifications-TripCancelled-Conductor.png)
+
+- Versión web (Supervisor):
+
+1. Notificación de viaje finalizado
+
+![Web App Notifications - Trip Finished](assets/capitulo5/WebFastPorteWireframes/Notifications-TripFinished-Supervisor.png)
+
+2. Notificación de viaje creado
+
+![Web App Notifications - Trip Created](assets/capitulo5/WebFastPorteWireframes/Notifications-TripCreated-Supervisor.png)
+
+- Versión móvil (Conductor):
+
+1. Notificación de viaje asignado
+
+![Mobile Notifications - Trip Assigned](assets/capitulo5/MobileFastPorteWireframes/Notifications-TripAssigned-Conductor.png)
+
+2. Notificación de viaje cancelado
+
+![Mobile Notifications - Trip Cancelled](assets/capitulo5/MobileFastPorteWireframes/Notifications-TripCancelled-Conductor.png)
+
+- Versión móvil (Supervisor):
+
+1. Notificación de viaje finalizado
+
+![Mobile Notifications - Trip Finished](assets/capitulo5/MobileFastPorteWireframes/Notifications-TripFinished-Supervisor.png)
+
+2. Notificación de viaje creado
+
+![Mobile Notifications - Trip Created](assets/capitulo5/MobileFastPorteWireframes/Notifications-TripCreated-Supervisor.png)
+
+**Trips: Página sobre los servicios de transporte de la aplicación FastPorte**
+
+- Versión web (Conductor):
+
+1. Página de viajes pendientes
+
+![Web App Trips - Pending Trips](assets/capitulo5/WebFastPorteWireframes/Trips-PendingTrips-Conductor.png)
+
+2. Página de viajes finalizados (historial)
+
+![Web App Trips - Finished Trips](assets/capitulo5/WebFastPorteWireframes/Trips-FinishedTrips-Conductor.png)
+
+- Versión web (Supervisor):
+
+1. Página de viajes pendientes
+
+![Web App Trips - Pending Trips](assets/capitulo5/WebFastPorteWireframes/Trips-PendingTrips-Supervisor.png)
+
+2. Página de viajes finalizados (historial)
+
+![Web App Trips - Finished Trips](assets/capitulo5/WebFastPorteWireframes/Trips-FinishedTrips-Supervisor.png)
+
+- Versión móvil (Conductor):
+
+1. Página de viajes pendientes
+
+![Mobile Trips - Pending Trips](assets/capitulo5/MobileFastPorteWireframes/Trips-PendingTrips-Conductor.png)
+
+2. Página de viajes finalizados (historial)
+
+![Mobile Trips - Finished Trips](assets/capitulo5/MobileFastPorteWireframes/Trips-FinishedTrips-Conductor.png)
+
+- Versión móvil (Supervisor):
+
+1. Página de viajes pendientes
+
+![Mobile Trips - Pending Trips](assets/capitulo5/MobileFastPorteWireframes/Trips-PendingTrips-Supervisor.png)
+
+2. Página de viajes finalizados (historial)
+
+![Mobile Trips - Finished Trips](assets/capitulo5/MobileFastPorteWireframes/Trips-FinishedTrips-Supervisor.png)
+
+**Edit Profile: Editar información básica del perfil**
+
+- Versión web (Conductor):
+
+1. Menú de opciones
+
+![Web App Edit Profile - Menu](assets/capitulo5/WebFastPorteWireframes/EditProfile-Menu-Conductor.png)
+
+2. Editar información básica
+
+![Web App Edit Profile - Basic Information](assets/capitulo5/WebFastPorteWireframes/EditProfile-BasicInformation-Conductor.png)
+
+- Versión web (Supervisor):
+
+1. Menú de opciones
+
+![Web App Edit Profile - Menu](assets/capitulo5/WebFastPorteWireframes/EditProfile-Menu-Supervisor.png)
+
+2. Editar información básica
+
+![Web App Edit Profile - Basic Information](assets/capitulo5/WebFastPorteWireframes/EditProfile-BasicInformation-Supervisor.png)
+
+- Versión móvil (Conductor):
+
+1. Menú de opciones
+
+![Mobile Edit Profile - Menu](assets/capitulo5/MobileFastPorteWireframes/EditProfile-Menu-Conductor.png)
+
+2. Editar información básica
+
+![Mobile Edit Profile - Basic Information](assets/capitulo5/MobileFastPorteWireframes/EditProfile-BasicInformation-Conductor.png)
+
+- Versión móvil (Supervisor):
+
+1. Menú de opciones
+
+![Mobile Edit Profile - Menu](assets/capitulo5/MobileFastPorteWireframes/EditProfile-Menu-Supervisor.png)
+
+2. Editar información básica
+
+![Mobile Edit Profile - Basic Information](assets/capitulo5/MobileFastPorteWireframes/EditProfile-BasicInformation-Supervisor.png)
+
+**Support: Página de soporte de la aplicación FastPorte**
+
+- Versión web (Conductor):
+
+![Web App Support - Conductor](assets/capitulo5/WebFastPorteWireframes/Support-Conductor.png)
+
+- Versión web (Supervisor):
+
+![Web App Support - Supervisor](assets/capitulo5/WebFastPorteWireframes/Support-Supervisor.png)
+
+- Versión móvil (Conductor):
+
+![Mobile Support - Conductor](assets/capitulo5/MobileFastPorteWireframes/Support-Conductor.png)
+
+- Versión móvil (Supervisor):
+
+![Mobile Support - Supervisor](assets/capitulo5/MobileFastPorteWireframes/Support-Supervisor.png)
+
+**Drivers: Página para la búsqueda de conductores y gestión del itinerario de viajes**
+
+_Esta sección se solo se encuentra disponible para los usuarios de tipo Supervisor._
+
+- Versión web:
+
+1. Búsqueda de conductores
+
+![Web App Drivers - Search Driver](assets/capitulo5/WebFastPorteWireframes/Drivers-SearchDriver.png)
+
+2. Gestión del itinerario de viajes
+
+![Web App Drivers - Trip Management](assets/capitulo5/WebFastPorteWireframes/Drivers-TripManagement.png)
+
+- Versión móvil:
+
+1. Búsqueda de conductores
+
+![Mobile Drivers - Search Driver](assets/capitulo5/MobileFastPorteWireframes/Drivers-SearchDriver.png)
+
+2. Gestión del itinerario de viajes
+
+![Mobile Drivers - Trip Management](assets/capitulo5/MobileFastPorteWireframes/Drivers-TripManagement.png)
 
 ### 5.4.2. Applications Wireflow Diagrams
 
@@ -1921,6 +2223,9 @@ TaskFlow
 ![[Supervisor_17.png]]
 
 ### 5.4.4. Applications Mock-ups
+
+
+
 ### 5.4.4. Applications User Flow Diagrams
 
 
