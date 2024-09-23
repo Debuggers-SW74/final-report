@@ -2284,6 +2284,288 @@ Enlace a Figma: [Wireflows - Supervisor](https://lucid.app/lucidchart/bee2da3c-e
 
 ### 5.4.3. Applications Mock-ups
 
+A continuación, se mostrará los mock-ups de FastPorte, representaciones visuales detalladas de la interfaz, mostrando cómo se verá y funcionará el producto final antes de su desarrollo. Estos prototipos incluyen el diseño de cada pantalla, la disposición de los elementos visuales, la tipografía y la paleta de colores, proporcionando una visión realista de la aplicación. Los _mock-ups_ permiten a los equipos de diseño, desarrollo y a las partes interesadas visualizar y evaluar el flujo de la aplicación, asegurando que todos los elementos estén alineados con los objetivos de la experiencia de usuario (UX) y la interfaz de usuario (UI) antes de proceder a la codificación y producción final.
+
+**Sing In: Inicio de sesión en la aplicación FastPorte**
+
+- Versión web: 
+
+![Web App Sign In](assets/capitulo5/WebFastPorteMockups/SignIn.png)
+
+- Versión móvil:
+
+![Mobile Sign In](assets/capitulo5/MobileFastPorteMockups/SignIn.png)
+
+**Sign Up: Registro en la aplicación FastPorte**
+
+- Versión web: 
+
+1. Ingreso del código de sensor
+
+![Web App Sign Up - Sensor Code](assets/capitulo5/WebFastPorteMockups/Signup-SensorCode.png)
+
+2. Elección del tipo de usuario
+
+![Web App Sign Up - User Type](assets/capitulo5/WebFastPorteMockups/Signup-UserType.png)
+
+3. Registro de usuario
+
+![Web App Sign Up - Register](assets/capitulo5/WebFastPorteMockups/Signup-Register.png)
+
+4. Ingreso de datos básicos
+
+![Web App Sign Up - Basic Data](assets/capitulo5/WebFastPorteMockups/Signup-FillInformation.png)
+
+- Versión móvil:
+
+1. Ingreso del código de sensor
+
+![Mobile Sign Up - Sensor Code](assets/capitulo5/MobileFastPorteMockups/Signup-SensorCode.png)
+
+2. Elección del tipo de usuario
+
+![Mobile Sign Up - User Type](assets/capitulo5/MobileFastPorteMockups/Signup-UserType.png)
+
+3. Registro de usuario
+
+![Mobile Sign Up - Register](assets/capitulo5/MobileFastPorteMockups/Signup-Register.png)
+
+4. Ingreso de datos básicos
+
+![Mobile Sign Up - Basic Data](assets/capitulo5/MobileFastPorteMockups/Signup-FillInformation.png)
+
+**Forgot Password: Recuperar contraseña de la cuenta**
+
+- Versión web: 
+
+1. Ingreso del correo electrónico
+
+![Web App Forgot Password - Send Email](assets/capitulo5/WebFastPorteMockups/ForgotPassword-SendEmail.png)
+
+2. Ingreso de nueva contraseña
+
+![Web App Forgot Password - New Password](assets/capitulo5/WebFastPorteMockups/ForgotPassword-NewPassword.png)
+
+- Versión móvil:
+
+1. Ingreso del correo electrónico
+
+![Mobile Forgot Password - Send Email](assets/capitulo5/WebFastPorteMockups/ForgotPassword-SendEmail.png)
+
+2. Ingreso de nueva contraseña
+
+![Mobile Forgot Password - New Password](assets/capitulo5/WebFastPorteMockups/ForgotPassword-NewPassword.png)
+
+**Home: Página de inicio de la aplicación FastPorte**
+
+- Versión web (Conductor):
+
+1. Página de inicio sin viajes
+
+![Web App Home - No Trips](assets/capitulo5/WebFastPorteMockups/Home-NoTrips-Conductor.png)
+
+2. Página de inicio con viaje pendiente
+
+![Web App Home - Trips](assets/capitulo5/WebFastPorteMockups/Home-TripOk-Conductor.png)
+
+- Versión web (Supervisor):
+
+1. Página de inicio sin viajes
+
+![Web App Home - No Trips](assets/capitulo5/WebFastPorteMockups/Home-NoTrips-Supervisor.png)
+
+2. Página de inicio con viaje pendiente
+
+![Web App Home - Trips](assets/capitulo5/WebFastPorteMockups/Home-TripOk-Supervisor.png)
+
+- Versión móvil (Conductor):
+
+1. Página de inicio sin viajes
+
+![Web App Home - No Trips](assets/capitulo5/MobileFastPorteMockups/Home-NoTrips-Conductor.png)
+
+2. Página de inicio con viaje pendiente
+
+![Web App Home - Trips](assets/capitulo5/MobileFastPorteMockups/Home-TripOk-Conductor.png)
+
+- Versión móvil (Supervisor):
+
+1. Página de inicio sin viajes
+
+![Mobile Home - No Trips](assets/capitulo5/MobileFastPorteMockups/Home-NoTrips-Supervisor.png)
+
+2. Página de inicio con viaje pendiente
+
+![Mobile Home - Trips](assets/capitulo5/MobileFastPorteMockups/Home-TripOk-Supervisor.png)
+
+**Notifications: Página de notificaciones de la aplicación FastPorte**
+
+- Versión web (Conductor):
+
+1. Notificación de viaje asignado
+
+![Web App Notifications - Trip Assigned](assets/capitulo5/WebFastPorteMockups/Notifications-TripAssigned-Conductor.png)
+
+2. Notificación de viaje cancelado
+
+![Web App Notifications - Trip Cancelled](assets/capitulo5/WebFastPorteMockups/Notifications-TripCancelled-Conductor.png)
+
+- Versión web (Supervisor):
+
+1. Notificación de viaje finalizado
+
+![Web App Notifications - Trip Finished](assets/capitulo5/WebFastPorteMockups/Notifications-TripFinished-Supervisor.png)
+
+2. Notificación de viaje creado
+
+![Web App Notifications - Trip Created](assets/capitulo5/WebFastPorteMockups/Notifications-TripCreated-Supervisor.png)
+
+- Versión móvil (Conductor):
+
+1. Notificación de viaje asignado
+
+![Mobile Notifications - Trip Assigned](assets/capitulo5/MobileFastPorteMockups/Notifications-TripAssigned-Conductor.png)
+
+2. Notificación de viaje cancelado
+
+![Mobile Notifications - Trip Cancelled](assets/capitulo5/MobileFastPorteMockups/Notifications-TripCancelled-Conductor.png)
+
+- Versión móvil (Supervisor):
+
+1. Notificación de viaje finalizado
+
+![Mobile Notifications - Trip Finished](assets/capitulo5/MobileFastPorteMockups/Notifications-TripFinished-Supervisor.png)
+
+2. Notificación de viaje creado
+
+![Mobile Notifications - Trip Created](assets/capitulo5/MobileFastPorteMockups/Notifications-TripCreated-Supervisor.png)
+
+**Trips: Página sobre los servicios de transporte de la aplicación FastPorte**
+
+- Versión web (Conductor):
+
+1. Página de viajes pendientes
+
+![Web App Trips - Pending Trips](assets/capitulo5/WebFastPorteMockups/Trips-PendingTrips-Conductor.png)
+
+2. Página de viajes finalizados (historial)
+
+![Web App Trips - Finished Trips](assets/capitulo5/WebFastPorteMockups/Trips-FinishedTrips-Conductor.png)
+
+- Versión web (Supervisor):
+
+1. Página de viajes pendientes
+
+![Web App Trips - Pending Trips](assets/capitulo5/WebFastPorteMockups/Trips-PendingTrips-Supervisor.png)
+
+2. Página de viajes finalizados (historial)
+
+![Web App Trips - Finished Trips](assets/capitulo5/WebFastPorteMockups/Trips-FinishedTrips-Supervisor.png)
+
+- Versión móvil (Conductor):
+
+1. Página de viajes pendientes
+
+![Mobile Trips - Pending Trips](assets/capitulo5/MobileFastPorteMockups/Trips-PendingTrips-Conductor.png)
+
+2. Página de viajes finalizados (historial)
+
+![Mobile Trips - Finished Trips](assets/capitulo5/MobileFastPorteMockups/Trips-FinishedTrips-Conductor.png)
+
+- Versión móvil (Supervisor):
+
+1. Página de viajes pendientes
+
+![Mobile Trips - Pending Trips](assets/capitulo5/MobileFastPorteMockups/Trips-PendingTrips-Supervisor.png)
+
+2. Página de viajes finalizados (historial)
+
+![Mobile Trips - Finished Trips](assets/capitulo5/MobileFastPorteMockups/Trips-FinishedTrips-Supervisor.png)
+
+**Edit Profile: Editar información básica del perfil**
+
+- Versión web (Conductor):
+
+1. Menú de opciones
+
+![Web App Edit Profile - Menu](assets/capitulo5/WebFastPorteMockups/EditProfile-Menu-Conductor.png)
+
+2. Editar información básica
+
+![Web App Edit Profile - Basic Information](assets/capitulo5/WebFastPorteMockups/EditProfile-BasicInformation-Conductor.png)
+
+- Versión web (Supervisor):
+
+1. Menú de opciones
+
+![Web App Edit Profile - Menu](assets/capitulo5/WebFastPorteMockups/EditProfile-Menu-Supervisor.png)
+
+2. Editar información básica
+
+![Web App Edit Profile - Basic Information](assets/capitulo5/WebFastPorteMockups/EditProfile-BasicInformation-Supervisor.png)
+
+- Versión móvil (Conductor):
+
+1. Menú de opciones
+
+![Mobile Edit Profile - Menu](assets/capitulo5/MobileFastPorteMockups/EditProfile-Menu-Conductor.png)
+
+2. Editar información básica
+
+![Mobile Edit Profile - Basic Information](assets/capitulo5/MobileFastPorteMockups/EditProfile-BasicInformation-Conductor.png)
+
+- Versión móvil (Supervisor):
+
+1. Menú de opciones
+
+![Mobile Edit Profile - Menu](assets/capitulo5/MobileFastPorteMockups/EditProfile-Menu-Supervisor.png)
+
+2. Editar información básica
+
+![Mobile Edit Profile - Basic Information](assets/capitulo5/MobileFastPorteMockups/EditProfile-BasicInformation-Supervisor.png)
+
+**Support: Página de soporte de la aplicación FastPorte**
+
+- Versión web (Conductor):
+
+![Web App Support - Conductor](assets/capitulo5/WebFastPorteMockups/Support-Conductor.png)
+
+- Versión web (Supervisor):
+
+![Web App Support - Supervisor](assets/capitulo5/WebFastPorteMockups/Support-Supervisor.png)
+
+- Versión móvil (Conductor):
+
+![Mobile Support - Conductor](assets/capitulo5/MobileFastPorteMockups/Support-Conductor.png)
+
+- Versión móvil (Supervisor):
+
+![Mobile Support - Supervisor](assets/capitulo5/MobileFastPorteMockups/Support-Supervisor.png)
+
+**Drivers: Página para la búsqueda de conductores y gestión del itinerario de viajes**
+
+_Esta sección se solo se encuentra disponible para los usuarios de tipo Supervisor._
+
+- Versión web:
+
+1. Búsqueda de conductores
+
+![Web App Drivers - Search Driver](assets/capitulo5/WebFastPorteMockups/Drivers-SearchDriver.png)
+
+2. Gestión del itinerario de viajes
+
+![Web App Drivers - Trip Management](assets/capitulo5/WebFastPorteMockups/Drivers-TripManagement.png)
+
+- Versión móvil:
+
+1. Búsqueda de conductores
+
+![Mobile Drivers - Search Driver](assets/capitulo5/MobileFastPorteMockups/Drivers-SearchDriver.png)
+
+2. Gestión del itinerario de viajes
+
+![Mobile Drivers - Trip Management](assets/capitulo5/MobileFastPorteMockups/Drivers-TripManagement.png)
+
 ### 5.4.4. Applications User Flow Diagrams
 
 ##### Conductor
