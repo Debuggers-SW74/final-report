@@ -1834,11 +1834,15 @@ Se ha considerado el diseño de la aplicación móvil para que sea intuitiva y f
 
 ![Wireframes mobile](./assets/capitulo5/wireflow/mobile%20app/Wireframes.png)
 
+Enlace a Figma: [Wireframes - Mobile application](https://www.figma.com/design/OsXsqDb70Sp5wVdhIor56G/FastPorte-IOT?node-id=4187-1551)
+
 ##### Web application
 
 La versión web de la aplicación FastPorte ha sido diseñada para proporcionar una experiencia de usuario similar a la de la aplicación móvil, pero adaptada a las necesidades y preferencias de los usuarios que prefieren acceder a la plataforma desde un navegador de escritorio. Los wireframes de la aplicación web incluyen las siguientes pantallas:
 
 ![Wireflow web](./assets/capitulo5/wireflow/web%20app/Wireframes.png)
+
+Enlace a Figma: [Wireframes - Web application](https://www.figma.com/design/OsXsqDb70Sp5wVdhIor56G/FastPorte-IOT?node-id=0-1)
 
 ### 5.4.2. Applications Wireflow Diagrams
 
