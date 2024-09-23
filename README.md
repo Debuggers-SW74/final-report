@@ -1824,7 +1824,102 @@ El Viaje es el agregado raíz que contiene la lógica para gestionar su ciclo de
 ### 5.3.2. Landing Page Mock-up
 ## 5.4. Applications UX/UI Design
 ### 5.4.1. Applications Wireframes
+
+##### Mobile application
+
+![[assets/capitulo5/wireflow/mobile app/Wireframes.png]]
+
+
+##### Web application
+
+![[assets/capitulo5/wireflow/web app/Wireframes.png]]
+
 ### 5.4.2. Applications Wireflow Diagrams
+
+TaskFlow
+-	Conductor
+	- Registrarse en la aplicación
+	- Iniciar sesión en la aplicación
+	- Recuperar contraseña de la cuenta
+	- Editar información básica del perfil
+	- Visualizar información del viaje en curso
+	- Visualizar notificaciones sobre viajes
+	- Visualizar los viajes por estado
+	- Obtener contactos de soporte de la app
+-	Supervisor
+	- Registrarse en la aplicación
+	- Iniciar sesión en la aplicación
+	- Recuperar contraseña de la cuenta
+	- Visualizar estado del viaje en curso
+	- Editar información del perfil
+	- Asignar un viaje a un conductor
+	- Visualizar los viajes por estado
+	- Visualizar notificaciones
+	- Obtener contacto del soporte
+
+##### Conductor
+###### UG01: Registrarse en la aplicación
+
+![Wireflow_Conductor_1][Conductor_1.png]
+
+###### UG02: Iniciar sesión en la aplicación
+
+![[Conductor_2.png]]
+
+###### UG03: Recuperar contraseña de la cuenta
+
+![[Conductor_3.png]]
+
+###### UG04: Editar información básica del perfil
+
+![[Conductor_4.png]]
+###### UG05: Visualizar información del viaje en curso
+
+![[Conductor_5.png]]
+###### UG06: Visualizar notificaciones sobre viajes
+
+![[Conductor_6.png]]
+###### UG07: Visualizar los viajes por estado
+
+![[Conductor_7.png]]
+###### UG08: Obtener contactos de soporte de la app
+
+![[Conductor_8.png]]
+
+##### Supervisor
+###### UG09: Registrarse en la aplicación
+
+![[Supervisor_9.png]]
+
+###### UG10: Iniciar sesión en la aplicación
+
+![[Supervisor_10.png]]
+
+###### UG11: Recuperar contraseña de la cuenta
+
+![[Supervisor_11.png]]
+
+###### UG12: Visualizar estado del viaje en curso
+
+![[Supervisor_12.png]]
+###### UG13: Editar información del perfil
+
+![[Supervisor_13.png]]
+
+###### UG14: Asignar un viaje a un conductor
+
+![[Supervisor_14.png]]
+
+###### UG15: Visualizar los viajes por estado
+
+![[Supervisor_15.png]]
+###### UG16: Visualizar notificaciones
+
+![[Supervisor_16.png]]
+###### UG17: Obtener contacto del soporte
+
+![[Supervisor_17.png]]
+
 ### 5.4.4. Applications Mock-ups
 ### 5.4.4. Applications User Flow Diagrams
 ## 5.5. Applications Prototyping
