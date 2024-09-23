@@ -2568,75 +2568,137 @@ _Esta sección se solo se encuentra disponible para los usuarios de tipo Supervi
 
 ### 5.4.4. Applications User Flow Diagrams
 
+En esta sección se presentan los user flows de la aplicación FastPorte, los cuales muestran de manera detallada los diferentes caminos que los usuarios pueden tomar al interactuar con la plataforma. Estos diagramas representan las decisiones y acciones clave que los usuarios, en sus distintos roles, realizan para completar tareas específicas dentro de la aplicación. Los user flows son fundamentales para entender cómo se desarrollan las interacciones y para identificar posibles mejoras en la experiencia de usuario. A continuación, se detallan los user flows correspondientes a los roles de Conductor y Supervisor:
+
 ##### Conductor
+
+Para el user flow del Conductor, se ha decidido utilizar la versión móvil, ya que esta será la principal herramienta que emplearán. A continuación, se describen los user goals correspondientes y sus respectivos user flows:
+
 ###### UG01: Registrarse en la aplicación
 
-![[assets/capitulo5/userflow/mobile app/Conductor_1.png]]
+El conductor accede a la aplicación y selecciona la opción de registrarse. Luego de ello, se le pedirá ingresar un código que corresponde al sensor que se le ha asignado. Si es un código válido, se le redireccionará a la siguiente pantalla, caso cantrario, se le pedirá que ingrese uno correcto. Posteriormente, deberá elegir su tipo de perfil, en este caso conductor. Luego completará la información de su nueva cuenta con campos como email y contraseña, los cuáles serán validados para que pueda pasar a la siguiente pantalla. Por último, deberá ingresar información personal como nombre y número de teléfono y aceptar los términos y condiciones de la aplicación. Una vez rellenados los campos procederá a darle en el botón de Sign up y si ha completado de manera correcta los campos, se le mostrará un mensaje de que la cuenta se ha creado con éxito, caso contrario, se le pedirá que ingrese campos válidos.
+
+![Userflow_Conductor_1](./assets/capitulo5/userflow/mobile%20app/Conductor_1.png)
+
 ###### UG02: Iniciar sesión en la aplicación
 
-![[assets/capitulo5/userflow/mobile app/Conductor_2.png]]
+El conductor accede a la aplicación, se le muestra el formulario de iniciar sesión donde deberá ingresar su correo electrónico y contraseña. Si los datos son correctos, se le redirigirá a la pantalla principal de la aplicación, caso contrario, se le mostrará un mensaje de error. Una vez en la pantalla principal, podrá acceder a las diferentes secciones de la aplicación.
+
+![Userflow_Conductor_2](./assets/capitulo5/userflow/mobile%20app/Conductor_2.png)
 
 ###### UG03: Recuperar contraseña de la cuenta
 
-![[assets/capitulo5/userflow/mobile app/Conductor_3.png]]
+En caso de olvidar su contraseña, el conductor podrá recuperarla ingresando su correo electrónico. Si es un correo válido, se le redirigirá a la pantalla de recuperación de contraseña donde deberá ingresar un nuevo password y confirmarlo. Si los datos son correctos, se le mostrará un mensaje de que la contraseña ha sido actualizada con éxito, caso contrario, se le pedirá que ingrese datos válidos.
+
+![Userflow_Conductor_3](./assets/capitulo5/userflow/mobile%20app/Conductor_3.png)
 
 ###### UG04: Editar información básica del perfil
 
-![[assets/capitulo5/userflow/mobile app/Conductor_4.png]]
+El conductor podrá editar su información personal y de contacto en cualquier momento. Para ello, deberá desplegar el pequeño menú en l parte superior derecha de la app móvil, seleccionar la opción de perfil y posteriormente la opción de editar. Luego podrá modificar los campos que desee y guardar los cambios realizados. Si los datos son correctos, se le mostrará un mensaje de que la información ha sido actualizada con éxito, caso contrario, se le pedirá que ingrese datos válidos.
+
+![Userflow_Conductor_4](./assets/capitulo5/userflow/mobile%20app/Conductor_4.png)
 
 ###### UG05: Visualizar información del viaje en curso
 
-![[assets/capitulo5/userflow/mobile app/Conductor_5.png]]
+Al iniciar sesión, el conductor podrá ver dos posibles vistas: en caso no esté en un viaje en curso, se le mostrarán sus viajes recientes en la pantalla de home. En caso de estar en un viaje, podrá visualizar la información del mismo, como el origen y destino. Pero principalmente podrá ver la información del sensor que lleva consigo, como la temperatura y la presión, si hay fuga de gas y el nivel de humedad.
+
+![Userflow_Conductor_5](./assets/capitulo5/userflow/mobile%20app/Conductor_5.png)
 
 ###### UG06: Revisar notificaciones sobre viajes
 
-![[assets/capitulo5/userflow/mobile app/Conductor_6.png]]
+Al estar en la pantalla principal y abrir el menú de opciones, el conductor podrá acceder a la sección de notificaciones. Si tiene notificaciones podrá ver mensajes sobre si le han asignado algún viaje o si han cancelado alguno que tenía programado. En caso de no tener notificaciones, se le mostrará un mensaje de que no tiene notificaciones recientes.
+
+![Userflow_Conductor_6](./assets/capitulo5/userflow/mobile%20app/Conductor_6.png)
+
 ###### UG07: Visualizar los viajes por estado
 
-![[assets/capitulo5/userflow/mobile app/Conductor_7.png]]
+Desde el menú de opciones, el conductor podrá visualizar el apartado de viajes. Si tiene viajes pendientes, le aparecerá un listado con los detalles de cada uno, como el origen, destino, fecha y hora. En caso de no tener viajes pendientes, se le mostrará un mensaje de que no tiene viajes pendientes. Luego, para acceder al historial de viajes, tendrá que tocar en History y se le mostrará un listado con los viajes que ha realizado en caso de tenerlos, caso contrario, se le mostrará un mensaje de que no tiene historial de viajes.
+
+![Userflow_Conductor_7](./assets/capitulo5/userflow/mobile%20app/Conductor_7.png)
 
 ###### UG08: Obtener contactos de soporte de la app
 
-![[assets/capitulo5/userflow/mobile app/Conductor_8.png]]
+Si el conductor requiere asistencia o soporte técnico, podrá acceder a la sección de soporte dentro de la aplicación, donde se le proporcionará el número de teléfono y el correo electrónico del equipo de soporte técnico para resolver cualquier duda.
 
+![Userflow_Conductor_8](./assets/capitulo5/userflow/mobile%20app/Conductor_8.png)
+
+Enlace a Lucidchart: [Userflows - Conductor](https://lucid.app/lucidchart/bee2da3c-eaf6-41b4-aa3c-b9cbfc69825e/edit?viewport_loc=-10846%2C5056%2C19159%2C9384%2CpCrbmlS9wx4U&invitationId=inv_cb01a0c3-90db-4460-b553-8d064ac80e6b)
 
 #### Supervisor
 
+Para el userflow del Supervisor, se ha decidido utilizar la versión web, ya que esta será la principal herramienta que emplearán. A continuación, se describen los user goals correspondientes y sus respectivos user flows:
+
 ##### UG09:  Registrarse en la aplicación  
 
-![[assets/capitulo5/userflow/web app/Supervisor_9.png]]
+El supervisor ingresa a la aplicación y selecciona la opción de registro. A continuación, se le solicitará ingresar un código que corresponde al sensor asignado a uno de los conductores bajo su supervisión. Si el código es válido, se le llevará a la siguiente pantalla; de lo contrario, deberá ingresar un código correcto. Después, seleccionará su tipo de perfil, en este caso, supervisor, y completará su información personal y de contacto. Además, tendrá que aceptar los términos y condiciones de la aplicación. Finalmente, confirmará la creación de su cuenta como supervisor. Si todos los datos ingresados son correctos, aparecerá un mensaje indicando que la cuenta ha sido creada exitosamente; de lo contrario, se le solicitará corregir los datos ingresados.
+
+![Userflow_Supervisor_9](./assets/capitulo5/userflow/web%20app/Supervisor_9.png)
 
 ##### UG10:  Iniciar sesión en la aplicación  
 
-![[assets/capitulo5/userflow/web app/Supervisor_10.png]]
+El supervisor accede a la aplicación y se le muestra el formulario de inicio de sesión, donde deberá ingresar su correo electrónico y contraseña. Si los datos son correctos, se le redirigirá a la pantalla principal de la aplicación; de lo contrario, se le mostrará un mensaje de error. Una vez en la pantalla principal, podrá acceder a las diferentes secciones de la aplicación disponibles para su rol de supervisor.
+
+![Userflow_Supervisor_10](./assets/capitulo5/userflow/web%20app/Supervisor_10.png)
 
 ##### UG11:  Recuperar contraseña de la cuenta  
 
-![[assets/capitulo5/userflow/web app/Supervisor_11.png]]
+
+Si el supervisor olvida su contraseña, podrá restablecerla ingresando su correo electrónico. Si el correo es válido, será dirigido a la pantalla de recuperación de contraseña, donde deberá ingresar y confirmar una nueva contraseña. Si los datos ingresados son correctos, recibirá un mensaje confirmando que la contraseña ha sido actualizada exitosamente; de lo contrario, se le pedirá que corrija la información proporcionada.
+
+![Userflow_Supervisor_11](./assets/capitulo5/userflow/web%20app/Supervisor_11.png)
+
 ##### UG12:  Visualizar estado del viaje en curso  
 
-![[assets/capitulo5/userflow/web app/Supervisor_12.png]]
+El supervisor accede a la aplicación e inicia sesión ingresando sus credenciales. Una vez autenticado, el sistema verifica si hay un viaje en curso; si lo hay, se revisa si existe alguna incidencia con el sensor asignado al conductor. En caso de haber una incidencia, se muestra una alerta en la pantalla de reporte del viaje, de lo contrario, el reporte del viaje se presenta sin alertas. Si no hay ningún viaje en curso, el supervisor es redirigido a la pantalla principal, donde puede ver a sus conductores y los viajes recientes.
+
+![Userflow_Supervisor_12](./assets/capitulo5/userflow/web%20app/Supervisor_12.png)
 
 ##### UG13:  Editar información del perfil  
 
+El supervisor accede a la pantalla principal de la aplicación, donde puede visualizar sus conductores asignados y los viajes recientes. Desde el menú de su perfil, selecciona la opción para editar su información. Al hacerlo, es redirigido a la pantalla de edición de perfil, donde puede modificar su nombre, correo electrónico, contraseña y número de teléfono. Tras realizar los cambios, el sistema valida los campos ingresados; si son correctos, se actualiza la información del perfil con éxito, de lo contrario, se le solicita ingresar datos válidos antes de proceder.
 
-![[assets/capitulo5/userflow/web app/Supervisor_13.png]]
+![Userflow_Supervisor_13](./assets/capitulo5/userflow/web%20app/Supervisor_13.png)
+
 ##### UG14:  Asignar un viaje a un conductor  
 
-![[assets/capitulo5/userflow/web app/Supervisor_14.png]]
+Desde la pantalla de inicio, el supervisor accede manualmente a la opción de "Drivers" para buscar conductores disponibles. Si ya tiene conductores asignados, procede a seleccionar uno para programar un viaje. En la pantalla de programación, el supervisor completa los detalles del viaje. Si el formulario se completa correctamente, se envía una notificación al conductor con los detalles del viaje y se muestra un mensaje de confirmación. Si hay errores en el formulario, el sistema solicita corregir los campos antes de enviar la notificación.
+
+![Userflow_Supervisor_14](./assets/capitulo5/userflow/web%20app/Supervisor_14.png)
+
 ##### UG15:  Visualizar los viajes por estado  
 
-![[assets/capitulo5/userflow/web app/Supervisor_15.png]]
+El supervisor accede a la opción de "Trips" desde la pantalla de inicio para visualizar los viajes según su estado. Si existen viajes pendientes, se mostrarán en la sección "Pending Trips" con opciones para finalizar o cancelar. Si no hay viajes pendientes, se mostrará un mensaje indicando que no hay viajes en curso. En la sección "History", el supervisor podrá revisar los viajes completados, y si no ha supervisado ninguno, verá un mensaje indicando que el historial está vacío.
 
-##### UG16:  Visualizar notificaciones  
+![Userflow_Supervisor_15](./assets/capitulo5/userflow/web%20app/Supervisor_15.png)
 
-![[assets/capitulo5/userflow/web app/Supervisor_16.png]]
+##### UG16:  Visualizar notificaciones
+
+El supervisor accede a la pantalla principal de la aplicación y el sistema verifica si tiene notificaciones. Si hay notificaciones pendientes, el supervisor puede hacer clic en el ícono de notificaciones y revisarlas. Si no existen notificaciones, se le mostrará un mensaje diciendo que no tiene notificaciones recientes.
+
+![Userflow_Supervisor_16](./assets/capitulo5/userflow/web%20app/Supervisor_16.png)
 
 ##### UG17:  Obtener contacto del soporte
 
-![[assets/capitulo5/userflow/web app/Supervisor_17.png]]
+El supervisor accede a la pantalla principal de la aplicación y selecciona la opción "Support" desde el menú superior. Al hacerlo, es redirigido a una pantalla donde se le muestra la información de contacto del equipo de soporte, que incluye un correo electrónico, número de teléfono y enlaces a las redes sociales. Además, se le ofrece la opción de enviar un mensaje directo a través de un botón en la misma pantalla.
+
+![Userflow_Supervisor_17](./assets/capitulo5/userflow/web%20app/Supervisor_17.png)
+
+Enlace a Figma: [Userflows - Supervisor](https://lucid.app/lucidchart/bee2da3c-eaf6-41b4-aa3c-b9cbfc69825e/edit?viewport_loc=-6599%2C16162%2C13775%2C6747%2CTCrb9ORHf_s2&invitationId=inv_cb01a0c3-90db-4460-b553-8d064ac80e6b)
 
 ## 5.5. Applications Prototyping
+
+En esta sección se presentan los prototipos de la interfaz de usuario (UI) para navegadores web en desktop y dispositivos móviles, diseñados con simulaciones de interacción y navegación que reflejan los flujos de usuario propuestos en los diagramas de user flow. Las decisiones de interacción se han tomado en base a criterios de usabilidad y eficiencia, con el objetivo de optimizar la experiencia del usuario en la plataforma. Asimismo, se ha considerado la arquitectura de información para garantizar un sistema de navegación intuitivo, donde las interacciones sean claras y correspondan con las necesidades de cada rol. El sistema de navegación ha sido estructurado para facilitar la transición entre pantallas y accesos a funciones clave.
+
+##### Mobile Application
+
+Enlace a Microsoft Stream: [Prototipos - FastPorte](https)
+
+##### Web Application
+
+Enlace a Microsoft Stream: [Prototipos - FastPorte](https)
+
+---
+
 # Capítulo VI: Product Implementation, Validation & Deployment
 ## 6.1. Software Configuration Management
 ### 6.1.1. Software Development Environment Configuration
