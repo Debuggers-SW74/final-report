@@ -1843,7 +1843,7 @@ TaskFlow
 	- Recuperar contraseña de la cuenta
 	- Editar información básica del perfil
 	- Visualizar información del viaje en curso
-	- Visualizar notificaciones sobre viajes
+	- Revisar notificaciones sobre viajes
 	- Visualizar los viajes por estado
 	- Obtener contactos de soporte de la app
 -	Supervisor
@@ -1876,7 +1876,7 @@ TaskFlow
 ###### UG05: Visualizar información del viaje en curso
 
 ![[Conductor_5.png]]
-###### UG06: Visualizar notificaciones sobre viajes
+###### UG06: Revisar notificaciones sobre viajes
 
 ![[Conductor_6.png]]
 ###### UG07: Visualizar los viajes por estado
@@ -1922,6 +1922,76 @@ TaskFlow
 
 ### 5.4.4. Applications Mock-ups
 ### 5.4.4. Applications User Flow Diagrams
+
+
+##### Conductor
+###### UG01: Registrarse en la aplicación
+
+![[assets/capitulo5/userflow/mobile app/Conductor_1.png]]
+###### UG02: Iniciar sesión en la aplicación
+
+![[assets/capitulo5/userflow/mobile app/Conductor_2.png]]
+
+###### UG03: Recuperar contraseña de la cuenta
+
+![[assets/capitulo5/userflow/mobile app/Conductor_3.png]]
+
+###### UG04: Editar información básica del perfil
+
+![[assets/capitulo5/userflow/mobile app/Conductor_4.png]]
+
+###### UG05: Visualizar información del viaje en curso
+
+![[assets/capitulo5/userflow/mobile app/Conductor_5.png]]
+
+###### UG06: Revisar notificaciones sobre viajes
+
+![[assets/capitulo5/userflow/mobile app/Conductor_6.png]]
+###### UG07: Visualizar los viajes por estado
+
+![[assets/capitulo5/userflow/mobile app/Conductor_7.png]]
+
+###### UG08: Obtener contactos de soporte de la app
+
+![[assets/capitulo5/userflow/mobile app/Conductor_8.png]]
+
+
+#### Supervisor
+
+##### UG09:  Registrarse en la aplicación  
+
+![[assets/capitulo5/userflow/web app/Supervisor_9.png]]
+
+##### UG10:  Iniciar sesión en la aplicación  
+
+![[assets/capitulo5/userflow/web app/Supervisor_10.png]]
+
+##### UG11:  Recuperar contraseña de la cuenta  
+
+![[assets/capitulo5/userflow/web app/Supervisor_11.png]]
+##### UG12:  Visualizar estado del viaje en curso  
+
+![[assets/capitulo5/userflow/web app/Supervisor_12.png]]
+
+##### UG13:  Editar información del perfil  
+
+
+![[assets/capitulo5/userflow/web app/Supervisor_13.png]]
+##### UG14:  Asignar un viaje a un conductor  
+
+![[assets/capitulo5/userflow/web app/Supervisor_14.png]]
+##### UG15:  Visualizar los viajes por estado  
+
+![[assets/capitulo5/userflow/web app/Supervisor_15.png]]
+
+##### UG16:  Visualizar notificaciones  
+
+![[assets/capitulo5/userflow/web app/Supervisor_16.png]]
+
+##### UG17:  Obtener contacto del soporte
+
+![[assets/capitulo5/userflow/web app/Supervisor_17.png]]
+
 ## 5.5. Applications Prototyping
 # Capítulo VI: Product Implementation, Validation & Deployment
 ## 6.1. Software Configuration Management
