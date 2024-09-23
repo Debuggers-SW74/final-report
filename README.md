@@ -1921,6 +1921,8 @@ En caso de necesitar ayuda o soporte técnico, el conductor podrá acceder a la 
 
 ![Wireflow_Conductor_8.png](./assets/capitulo5/wireflow/mobile%20app/Conductor_8.png)
 
+Enlace a Lucidchart: [Wireflows - Conductor](https://lucid.app/lucidchart/bee2da3c-eaf6-41b4-aa3c-b9cbfc69825e/edit?invitationId=inv_cb01a0c3-90db-4460-b553-8d064ac80e6b)
+
 ##### Supervisor
 
 ###### UG09: Registrarse en la aplicación
@@ -1976,6 +1978,8 @@ El supervisor podrá visualizar las notificaciones que recibe en la aplicación.
 En caso de necesitar ayuda o soporte técnico, el supervisor podrá acceder a la sección de soporte en la aplicación. Allí encontrará el número de teléfono y correo electrónico de soporte técnico para comunicarse en caso de emergencia o dudas.
 
 ![Wireflow_Supervisor_17.png](./assets/capitulo5/wireflow/web%20app/Supervisor_17.png)
+
+Enlace a Figma: [Wireflows - Supervisor](https://lucid.app/lucidchart/bee2da3c-eaf6-41b4-aa3c-b9cbfc69825e/edit?viewport_loc=-28132%2C3528%2C6656%2C3260%2CxHlbvWFvACDV&invitationId=inv_cb01a0c3-90db-4460-b553-8d064ac80e6b)
 
 ### 5.4.4. Applications Mock-ups
 
