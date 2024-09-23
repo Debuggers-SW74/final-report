@@ -1844,14 +1844,23 @@ En el siguiente apartado se centrará en la creación de interfaces y experienci
 
 ### 5.4.1. Applications Wireframes
 
+En este apartado se presentan los wireframes de la aplicación FastPorte, los cuales representan el esquema visual básico de la interfaz tanto en su versión móvil como web. Estos diagramas permiten visualizar la estructura y disposición de los elementos clave en cada pantalla, proporcionando una base sólida para el diseño final de la aplicación.
+
 ##### Mobile application
 
-![[assets/capitulo5/wireflow/mobile app/Wireframes.png]]
+Se ha considerado el diseño de la aplicación móvil para que sea intuitiva y fácil de usar, con una interfaz sencilla y clara que permita a los conductores y supervisores acceder rápidamente a la información relevante y realizar las tareas necesarias de manera eficiente. Los wireframes de la aplicación móvil incluyen las siguientes pantallas:
 
+![Wireframes mobile](./assets/capitulo5/wireflow/mobile%20app/Wireframes.png)
+
+Enlace a Figma: [Wireframes - Mobile application](https://www.figma.com/design/OsXsqDb70Sp5wVdhIor56G/FastPorte-IOT?node-id=4187-1551)
 
 ##### Web application
 
-![[assets/capitulo5/wireflow/web app/Wireframes.png]]
+La versión web de la aplicación FastPorte ha sido diseñada para proporcionar una experiencia de usuario similar a la de la aplicación móvil, pero adaptada a las necesidades y preferencias de los usuarios que prefieren acceder a la plataforma desde un navegador de escritorio. Los wireframes de la aplicación web incluyen las siguientes pantallas:
+
+![Wireflow web](./assets/capitulo5/wireflow/web%20app/Wireframes.png)
+
+Enlace a Figma: [Wireframes - Web application](https://www.figma.com/design/OsXsqDb70Sp5wVdhIor56G/FastPorte-IOT?node-id=0-1)
 
 A continuación, se mostrarán los wireframes realizados para cada tipo de dispositivo:
 
@@ -2138,8 +2147,10 @@ _Esta sección se solo se encuentra disponible para los usuarios de tipo Supervi
 
 ### 5.4.2. Applications Wireflow Diagrams
 
-TaskFlow
--	Conductor
+En este apartado se presentan los wireflows correspondientes a las versiones móvil y web de la aplicación FastPorte. Estos diagramas detallan el recorrido que los usuarios realizan dentro de la plataforma, desde su interacción inicial hasta la finalización de las principales tareas. Mediante los wireflows, se busca proporcionar una visión clara de las transiciones entre las diferentes pantallas, lo que facilita una mejor comprensión de la experiencia de usuario tanto en la versión móvil como en la web. Para esta sección, se han considerado los user goals (UG) de los roles de Conductor y Supervisor, los cuales representan las principales funcionalidades y tareas que estos usuarios llevan a cabo en la aplicación. A continuación, se detalla cada uno de los user goals y su respectivo wireflow:
+
+##### TaskFlow
+-	**Conductor**
 	- Registrarse en la aplicación
 	- Iniciar sesión en la aplicación
 	- Recuperar contraseña de la cuenta
@@ -2148,7 +2159,7 @@ TaskFlow
 	- Revisar notificaciones sobre viajes
 	- Visualizar los viajes por estado
 	- Obtener contactos de soporte de la app
--	Supervisor
+-	**Supervisor**
 	- Registrarse en la aplicación
 	- Iniciar sesión en la aplicación
 	- Recuperar contraseña de la cuenta
@@ -2160,74 +2171,120 @@ TaskFlow
 	- Obtener contacto del soporte
 
 ##### Conductor
+
+Para el wireflow del Conductor, se ha decidido utilizar la versión móvil, ya que esta será la principal herramienta que emplearán. A continuación, se describen los user goals correspondientes y sus respectivos wireflows:
+
 ###### UG01: Registrarse en la aplicación
 
-![Wireflow_Conductor_1][Conductor_1.png]
+El conductor accede a la aplicación y selecciona la opción de registrarse. Luego de ello, se le pedirá ingresar un código que corresponde al sensor que se le ha asignado. Una vez validado esto, tendrá que elegir su tipo de perfil, en este caso conductor, para posteriormente completar su información personal y de contacto. Asímismo, deberá aceptar los términos y condiciones de la aplicación. Por último, confirma la creación de la cuenta.
+
+![Wireflow_Conductor_1](./assets/capitulo5/wireflow/mobile%20app/Conductor_1.png)
 
 ###### UG02: Iniciar sesión en la aplicación
 
-![[Conductor_2.png]]
+Para iniciar sesión en la aplicación, deberá ingresar su correo electrónico y contraseña.  Una vez validadas sus credenciales, se le redirigirá a la pantalla principal de la aplicación donde podrá acceder al menú de opciones.
+
+![Wireflow_Conductor_2.png](./assets/capitulo5/wireflow/mobile%20app/Conductor_2.png)
 
 ###### UG03: Recuperar contraseña de la cuenta
 
-![[Conductor_3.png]]
+En caso de olvidar su contraseña, el conductor podrá recuperarla ingresando su correo electrónico. Posteriormente, se le mostrará una vista para ingresar un nuevo password y confirmarlo. Una vez realizado este proceso, se le notificará que la contraseña ha sido actualizada con éxito. 
+
+![Wireflow_Conductor_3.png](./assets/capitulo5/wireflow/mobile%20app/Conductor_3.png)
 
 ###### UG04: Editar información básica del perfil
 
-![[Conductor_4.png]]
+El conductor podrá editar su información personal y de contacto en cualquier momento. Para ello, deberá acceder a la sección de perfil y seleccionar la opción de editar. Posteriormente, podrá modificar los campos que desee y guardar los cambios realizados.
+
+![Wireflow_Conductor_4.png](./assets/capitulo5/wireflow/mobile%20app/Conductor_4.png)
+
 ###### UG05: Visualizar información del viaje en curso
 
-![[Conductor_5.png]]
+Al iniciar sesión, el conductor podrá ver dos posibles vistas: en caso no esté en un viaje en curso, se le mostrarán sus viajes recientes en la pantalla de home. En caso de estar en un viaje, podrá visualizar la información del mismo, como el origen y destino. Pero principalmente podrá ver la información del sensor que lleva consigo, como la temperatura y la presión, si hay fuga de gas y el nivel de humedad.
+
+![Wireflow_Conductor_5.png](./assets/capitulo5/wireflow/mobile%20app/Conductor_5.png)
+
 ###### UG06: Revisar notificaciones sobre viajes
 
-![[Conductor_6.png]]
+El conductor podrá revisar las notificaciones sobre es estado de sus viajes: si le asignan uno o si cancelan uno que tenía programado. Para ello, deberá acceder a la sección de notificaciones en la aplicación. Allí podrá ver los mensajes recibidos y también las alertas generadas por los sensores.
+
+![Wireflow_Conductor_6.png](./assets/capitulo5/wireflow/mobile%20app/Conductor_6.png)
+
 ###### UG07: Visualizar los viajes por estado
 
-![[Conductor_7.png]]
+El conductor podrá visualizar los viajes que ha realizado y los que tiene programados. Para ello, deberá acceder a la sección de viajes en la aplicación. Allí podrá ver los detalles de cada viaje, como el origen, destino, fecha y hora.
+
+![Wireflow_Conductor_7.png](./assets/capitulo5/wireflow/mobile%20app/Conductor_7.png)
+
 ###### UG08: Obtener contactos de soporte de la app
 
-![[Conductor_8.png]]
+En caso de necesitar ayuda o soporte técnico, el conductor podrá acceder a la sección de soporte en la aplicación. Allí encontrará el número de teléfono y correo electrónico de soporte técnico para comunicarse en caso de emergencia o dudas, así como también, redes sociales de contacto como WhatsApp.
+
+![Wireflow_Conductor_8.png](./assets/capitulo5/wireflow/mobile%20app/Conductor_8.png)
+
+Enlace a Lucidchart: [Wireflows - Conductor](https://lucid.app/lucidchart/bee2da3c-eaf6-41b4-aa3c-b9cbfc69825e/edit?invitationId=inv_cb01a0c3-90db-4460-b553-8d064ac80e6b)
 
 ##### Supervisor
+
 ###### UG09: Registrarse en la aplicación
 
-![[Supervisor_9.png]]
+El supervisor accede a la aplicación y selecciona la opción de registrarse. Luego de ello, se le pedirá ingresar un código que corresponde al sensor que se le ha asignado. Una vez validado esto, tendrá que elegir su tipo de perfil, en este caso supervisor, para posteriormente completar su información personal y de contacto. Asímismo, deberá aceptar los términos y condiciones de la aplicación. Por último, confirma la creación de la cuenta como supervisor.
+
+![Wireflow_Supervisor_9.png](./assets/capitulo5/wireflow/web%20app/Supervisor_9.png)
 
 ###### UG10: Iniciar sesión en la aplicación
 
-![[Supervisor_10.png]]
+Para iniciar sesión en la aplicación, deberá ingresar su correo electrónico y contraseña.  Una vez validadas sus credenciales, se le redirigirá a la pantalla principal de la aplicación donde podrá acceder al menú de opciones que tiene disponibles en su rol de supervisor.
+
+![Wireflow_Supervisor_10.png](./assets/capitulo5/wireflow/web%20app/Supervisor_10.png)
 
 ###### UG11: Recuperar contraseña de la cuenta
 
-![[Supervisor_11.png]]
+En caso de olvidar su contraseña, el supervisor podrá recuperarla ingresando su correo electrónico. Posteriormente, se le mostrará una vista para ingresar un nuevo password y confirmarlo. Una vez realizado este proceso, le aparecerá un mensaje que diga que la contraseña ha sido actualizada con éxito y, por ende, podrá volver a iniciar sesión con sus nuevas credenciales.
+
+![Wireflow_Supervisor_11.png](./assets/capitulo5/wireflow/web%20app/Supervisor_11.png)
 
 ###### UG12: Visualizar estado del viaje en curso
 
-![[Supervisor_12.png]]
+El supervisor podrá visualizar el estado del viaje en curso, así como también la información del conductor asignado y los detalles del viaje. Para ello, al iniciar sesión en la aplicación y si hay un viaje en curso, podrá visualizar el estado del mismo en la pantalla principal y se mostrará información del sensor que lleva consigo el conductor. En caso no haya algún problema, la aplicación mostrará un mensaje de que todo está en orden. Caso contrario, se mostrará una alerta con la información del problema detectado.
+
+![Wireflow_Supervisor_12.png](./assets/capitulo5/wireflow/web%20app/Supervisor_12.png)
+
 ###### UG13: Editar información del perfil
 
-![[Supervisor_13.png]]
+El supervisor podrá editar su información personal y de contacto en cualquier momento. Para ello, deberá acceder a la sección de perfil y seleccionar la opción de editar. Posteriormente, podrá modificar los campos que desee y guardar los cambios realizados.
+
+![Wireflow_Supervisor_13.png](./assets/capitulo5/wireflow/web%20app/Supervisor_13.png)
 
 ###### UG14: Asignar un viaje a un conductor
 
-![[Supervisor_14.png]]
+El supervisor podrá asignar un viaje a un conductor en la aplicación. Para ello, deberá acceder a la sección de conductores, buscar algún conductor que tenga a su carga, seleccionarlo y posteriormente rellenar un formulario con la información relevante para que pueda realizar su viaje. Finalmente, cuando todo ha sido completado de manera correcta, se mostrará un mensaje que diga que el conductor ha sido notificado de su nuevo viaje.
+
+![Wireflow_Supervisor_14.png](./assets/capitulo5/wireflow/web%20app/Supervisor_14.png)
 
 ###### UG15: Visualizar los viajes por estado
 
-![[Supervisor_15.png]]
+El supervisor podrá visualizar los viajes que tienen estado pendiente y los que ya se han realizado. Para acceder a este apartado, deberá seleccionar la sección de viajes en la aplicación. Allí podrá ver los detalles de cada viaje, como el origen, destino, fecha y hora.
+
+![Wireflow_Supervisor_15.png](./assets/capitulo5/wireflow/web%20app/Supervisor_15.png)
+
 ###### UG16: Visualizar notificaciones
 
-![[Supervisor_16.png]]
+El supervisor podrá visualizar las notificaciones que recibe en la aplicación. Para ello, deberá acceder a la sección de notificaciones. Allí será notificado acerca del estado de los viajes y también las alertas generadas por los sensores.
+
+![Wireflow_Supervisor_16.png](./assets/capitulo5/wireflow/web%20app/Supervisor_16.png)
+
 ###### UG17: Obtener contacto del soporte
 
-![[Supervisor_17.png]]
+En caso de necesitar ayuda o soporte técnico, el supervisor podrá acceder a la sección de soporte en la aplicación. Allí encontrará el número de teléfono y correo electrónico de soporte técnico para comunicarse en caso de emergencia o dudas.
 
-### 5.4.4. Applications Mock-ups
+![Wireflow_Supervisor_17.png](./assets/capitulo5/wireflow/web%20app/Supervisor_17.png)
 
+Enlace a Figma: [Wireflows - Supervisor](https://lucid.app/lucidchart/bee2da3c-eaf6-41b4-aa3c-b9cbfc69825e/edit?viewport_loc=-28132%2C3528%2C6656%2C3260%2CxHlbvWFvACDV&invitationId=inv_cb01a0c3-90db-4460-b553-8d064ac80e6b)
 
+### 5.4.3. Applications Mock-ups
 
 ### 5.4.4. Applications User Flow Diagrams
-
 
 ##### Conductor
 ###### UG01: Registrarse en la aplicación
