@@ -1837,11 +1837,318 @@ El Viaje es el agregado raíz que contiene la lógica para gestionar su ciclo de
 ## 6.2. Landing Page, Services & Applications Implementation
 ### 6.2.1. Sprint 1
 #### 6.2.1.1. Sprint Planning 1
+
+| Sprint #                          | 1                                      |
+|-----------------------------------|----------------------------------------|
+| Sprint Planning Background                                                 |
+| Date                              | 2024-09-19                             |
+| Time                              | 07:30 PM                               |
+| Location                          | Reunion virtual durante la clase       |
+| Prepared By                       | Lévano Cavero, Eduardo Sebastián       |
+| Attendees                         | Josué Arrunátegui / Anthony Botello / Eduardo Chero / Sebastián Lévano / Claudio Moreno                            |
+| Sprint n – 1 Review Summary       | Este es el primer Sprint, por lo que no hay un resumen anterior, sin embargo se aplicaron las correcciones notadas por el profesor.                                                             |
+| Sprint n – 1 Retrospective Summary| Gracias a las observaciones del profesor, nos dimos cuenta de las deficiencias que teniamos, por lo que mejoramos los detalles para el proceso de desarrollo siguiendo las pautas Domain-Driven Design.                                                        |
+| Sprint Goal & User Stories                                                 |
+| Sprint n Goal                     | Nos centramos en el desarrollo del      sitio web que sirve como presentación. Creemos que ofrece una visión de FastPorte y de cómo el producto puede satisfacer las necesidades de la empresa. Esto se confirmará cuando nos contacten para solicitar nuestros servicios.                                                                   |
+| Sprint n Velocity                 | 27                                     |
+| Sum of Story Points               | 27                                     |
+
 #### 6.2.1.2. Sprint Backlog 1
+
+Para este Sprint nos enfocamos en el desarrollo de la Landing page y una face inicial de la app web. <br>
+[Enlace del tablero en Trello](https://trello.com/b/cydCcpde)
+
+| Sprint # | Sprint 1 | | | | | |                                            |
+|----------|----------|-|-|-|-|-|--------------------------------------------|
+| User Story | | Work-Item / Task |
+| Id | Title | Id | Title | Description | Estimation (Hours) | Assigned To | Status (To-do / InProcess / ToReview / Done)                                 |
+| 1  | Registro de supervisor de la empresa | 1 | | | | | |
+| 2  | Registro de conductor | 2 | | | | | |
+| 3  | Inicio de sesión | 3 | | | | | |
+| 40 | Sección Características | 4 | | | 1 | Anthony Botello | Done |
+| 41 | Sección Sobre Nosotros | 5 | |  | 1 | Josué Arrunátegui | Done |
+| 42 | Sección Descarga | 6 | | |  | | |
+| 43 | Sección Contáctanos | 7 | | | 1 | Eduardo Chero | Done |
+
 #### 6.2.1.3. Development Evidence for Sprint Review
+
+Se completó la implementacion de la Landing-page, el desarrollo del header, caracteristicas, acerca de el equipo y el form para contacto y avance de la aplicación web en temas de registro e inicio de seción, apoyados de una fake API.
+
+Tablero de commits del repositorio de la Landing-page:
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body| Commited on (Date)                                                                       |                                       
+|---------- |----------|-|-|-|-|
+| Debuggers-SW74/landing-page | feature/home-section | fdea0458258f6c9f6a3c4faac2a20f0d44d62486 | feat: product section |   | 21/09/2024 |
+|  | feature/future-section | 9bc86f40e0e8dd49d598e6162da9bb62b3059d10 | feat: benefits were added |  | 21/09/2024 |
+|  | feature/contact-section | 15f2c2a1c1482e36083afb85877f4765763ff4b7 | feat: contact section and footer layout, feat: Add styles contact section, footer layout |   | 22/09/2024 |
+|  | feature/details-section | 665ecc903f2cb39335a2b95992b8d6cce8c1a671  | refactor: merge |   | 23/09/2024 |
+|  | feature/team-section | e6be5ae2c9c977c4efe95df440e5ff614a6b70fb | cta & team section |   | 23/09/2024 |
+
+Tablero de commits del repositorio de la App web:
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body| Commited on (Date)                                                                       |                                       
+|---------- |----------|-|-|-|-|
+| Debuggers-SW74 / web-application |  |   |   |   | |
+|  |  |   |   |   | |
+|  |  |   |   |   | |
+|  |  |   |   |   | |
+|  |  |   |   |   | |
+
 #### 6.2.1.4. Testing Suite Evidence for Sprint Review
+
+Para este Sprint se desarrollaron los test BDD para archivos .featrue usando el lenguaje Gherkin para cada User Story del srint
+
+- us001.feature
+  ```
+  @registroSupervisor @Trello=https://trello.com/c/RxIS3ojW
+  Feature: Registro de Supervisores
+    Como supervisor de la empresa
+    Quiero registrarme en la aplicación
+    Para supervisar a los conductores a mi cargo
+
+
+  #-------------------------------------------------------------------------------------------
+    Scenario Outline: Registro del supervisor con diferentes códigos de sensor
+      Given que el supervisor de la empresa no está registrado
+      And está en la vista inicial de la aplicación
+      When ingresa el código del sensor <codigo_sensor> de un vehículo
+      And selecciona la opción de registrarse como "Supervisor"
+      And completa los datos requeridos correctamente
+      Then el sistema registra al usuario como Supervisor
+      And permite al usuario iniciar sesión con las credenciales creadas
+
+      Examples:
+        | codigo_sensor |
+        | HRS491        |
+        | TXM126        |
+
+
+  #-------------------------------------------------------------------------------------------
+    Scenario Outline: Registro fallido con código de sensor ya usado
+      Given que el supervisor de la empresa no está registrado
+      And está en la vista inicial de la aplicación
+      And el código del sensor <codigo_sensor> ya ha sido usado para registrar un Supervisor
+      When ingresa el código del sensor <codigo_sensor> de un vehículo
+      And selecciona la opción de registrarse como "Supervisor"
+      And completa los datos requeridos correctamente
+      Then el sistema le indica que ya se ha registrado un Supervisor para el código <codigo_sensor>
+
+      Examples:
+        | codigo_sensor |
+        | HRS491        |
+        | TXM126        |
+  ```
+
+- us002.feature
+  ```
+  @registroConductor @Trello=https://trello.com/c/u2YdrjjZ
+  Feature: Registro de Conductores
+    Como conductor
+    Quiero registrarme en la aplicación
+    Para recibir información de los viajes que debo realizar
+
+
+  #-------------------------------------------------------------------------------------------
+    Scenario Outline: Registro del conductor con código de sensor correcto
+      Given que el conductor no está registrado
+      And se encuentra en la vista inicial de la aplicación
+      When ingresa el código del sensor <codigo_sensor> de su vehículo
+      And selecciona la opción de registrarse como "Conductor"
+      And completa los datos requeridos correctamente
+      Then el sistema registra al usuario como Conductor
+      And permite al usuario iniciar sesión con las credenciales creadas
+
+      Examples:
+        | codigo_sensor |
+        | CAR680        |
+        | LLE382        |
+
+
+  #-------------------------------------------------------------------------------------------
+    Scenario Outline: Registro fallido con código de sensor ya usado
+      Given que el conductor no está registrado
+      And está en la vista inicial de la aplicación
+      And se ha usado el código del sensor <codigo_sensor> anteriormente para registrar un Conductor
+      When ingresa el código del sensor <codigo_sensor> de un vehículo
+      And selecciona la opción de registrarse como "Conductor"
+      And completa los datos requeridos correctamente
+      Then el sistema le indica que ya se ha registrado un Conductor para el código <codigo_sensor>
+
+      Examples:
+        | codigo_sensor |
+        | CAR680        |
+        | LLE382        |
+  ```
+- us003.feature
+  ```
+  @inicioSesionUsuario @Trello=https://trello.com/c/mN0aRbpr
+  Feature: Inicio de sesión de usuarios en la aplicación
+    Como usuario de la aplicación
+    Quiero iniciar sesión en la aplicación
+    Para acceder a las funcionalidades de la aplicación
+
+
+  #-------------------------------------------------------------------------------------------
+    Scenario Outline: Inicio de sesión con credenciales correctas
+      Given que el usuario de la aplicación desea iniciar sesión
+      And está en la vista inicial de la aplicación
+      When ingresa sus credenciales <correo> y <contraseña>
+      Then el sistema permite al usuario acceder a las funcionalidades de la aplicación
+
+      Examples:
+        | correo                     | contraseña    |
+        | jorge.supervisor@gmail.com | password1     |
+        | mario.driver@gmail.com     | password2     |
+
+
+  #-------------------------------------------------------------------------------------------
+    Scenario Outline: Inicio de sesión fallido con credenciales incorrectas
+      Given que el usuario de la aplicación desea iniciar sesión
+      And está en la vista inicial de la aplicación
+      When ingresa sus credenciales <correo> y <contraseña>
+      And se ha equivocado en su correo o contraseña
+      Then el sistema le indica que una de sus credenciales es incorrecta
+
+      Examples:
+        | correo                     | contraseña     |
+        | joge.superviso@mail.com    | password1      |
+        | mario.driver@gmail.com     | pasword2       |
+  ```
+- us040.feature
+  ```
+  @paginaDestino @Trello=https://trello.com/c/FrBzt0kY
+  Feature: Información sobre características y beneficios en la página de destino
+    Como visitante de la página de destino
+    Quiero saber cuáles son las características y beneficios
+    Para evaluar la contratación de este servicio
+
+
+  #-------------------------------------------------------------------------------------------
+    Scenario: Características del Producto
+      Given que el visitante de la página se encuentra en la página de destino
+      When se encuentre en la sección Características
+      Then verá información adicional sobre las características principales de FastPorte
+
+
+  #-------------------------------------------------------------------------------------------
+    Scenario: Beneficios para cada segmento objetivo
+      Given que el visitante de la página se encuentra en la página de destino
+      And visualiza las características de FastPorte
+      When deslice hacia abajo
+      Then ve cuáles son los beneficios que se ofrecen para cada segmento objetivo
+  ```
+- us042.feature
+  ```
+  @descargarApp @Trello=https://trello.com/c/hO6H3kzT
+  Feature: Descargar la aplicación móvil desde la página de destino
+    Como visitante de la página de destino
+    Quiero descargar la aplicación móvil
+    Para visualizar la interfaz de esta
+
+
+  #-------------------------------------------------------------------------------------------
+    Scenario: Call to Action - Descargar la aplicación
+      Given que el visitante de la página se encuentra en la página de destino
+      When esté en la sección Descarga
+      Then puede descargar la aplicación móvil dando click al botón "Descargar"
+  ```
+- us043.feature
+  ```
+  @contactarServicio @Trello=https://trello.com/c/FrBzt0kY
+  Feature: Contacto desde la página de destino
+    Como visitante de la página de destino
+    Quiero contactarme con FastPorte
+    Para obtener más información del producto
+
+
+  #-------------------------------------------------------------------------------------------
+  Scenario: Envío exitoso del formulario de contacto
+    Given el visitante está en la página de destino de FastPorte
+    And se desplaza hasta la sección "Contáctanos"
+    When ingresa la siguiente información en el formulario:
+      | Campo       | Valor                                        |
+      | Nombre      | Juan Pérez                                   |
+      | Email       | jorge.supervisor@gmail.com                   |
+      | Tema        | Consulta sobre el servicio FastPorte         |
+      | Mensaje     | Quisiera más información sobre sus servicios |
+    And hace clic en el botón "Enviar mensaje"
+    Then debería ver un mensaje de confirmación que diga "Mensaje enviado con éxito"
+    And debería recibir un email de confirmación en jorge.supervisor@gmail.com
+
+
+  #-------------------------------------------------------------------------------------------
+  Scenario: Intento de envío de formulario con campos incompletos
+    Given el visitante está en la página de destino de FastPorte
+    And se desplaza hasta la sección "Contáctanos"
+    When intenta enviar el formulario sin completar todos los campos requeridos
+    Then debería ver mensajes de error indicando los campos faltantes
+    And el formulario no debería enviarse
+
+
+  #-------------------------------------------------------------------------------------------
+  Scenario Outline: Validación de formato de email
+    Given el visitante está en la página de destino de FastPorte
+    And se desplaza hasta la sección "Contáctanos"
+    When ingresa "<email>" en el campo de email
+    And completa el resto de los campos correctamente
+    And hace clic en el botón "Enviar mensaje"
+    Then debería ver "<mensaje>"
+
+    Examples:
+      | email                       | mensaje                             |
+      | jorge.supervisor@gmail.com  | Mensaje enviado con éxito           |
+      | jorge.supervisor@gmail      | Por favor, ingrese un email válido  |
+      | jorge.supervisor.com        | Por favor, ingrese un email válido  |
+      | @gmail.com                  | Por favor, ingrese un email válido  |
+  ```
+
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body| Commited on (Date)                                                                       |                                       
+|---------- |----------|-|-|-|-|
+| Debuggers-SW74 / testing-suite | main | 85e308b73fe9abd849cf2c8a4d11f600efe18344 | feat: Acceptance tests for user stories 1, 2,3, 40, 42 and 43 added |   | 22/09/2024 |
+
 #### 6.2.1.5. Execution Evidence for Sprint Review
+
+
+
 #### 6.2.1.6. Services Documentation Evidence for Sprint Review
+
+Para este Sprint se implementó una Api Fake para el inicio de sesión y registro de usuarios, asi como una pre-visualización de los datos al generar un viaje.
+
+| URL                              | Peiciones soportadas | 
+|----------------------------------|----------------------|
+| http://localhost:3000/users      | GET, POST            |
+| http://localhost:3000/users/{id} | GET, PATCH           |
+| http://localhost:3000/trips      | GET, POST            |
+
+Estos endopoints sirven para desarrollar un entorno de pruebas de manera local por medio del paquete de npm llamado JSON Server.
+
+Demostración de petición GET endpoint http://localhost:3000/users 
+![get_users](/assets/chapter6_img/get_users.jpg)
+
+Demostración de petición POST endpoint http://localhost:3000/users 
+![post_users](/assets/chapter6_img/post_users.jpg)
+
+Demostración de petición GET endpoint http://localhost:3000/trips 
+![get_trips](/assets/chapter6_img/get_trips.jpg)
+
+También se desplegó la API fake en un hosting gratuito para usarse al momento del despliegue de la version incial de la app web.
+
+| URL                              | Peiciones soportadas | 
+|----------------------------------|----------------------|
+| https://my-json-server.typicode.com/Debuggers-SW74/dbiot/users      | GET, POST            |
+| https://my-json-server.typicode.com/Debuggers-SW74/dbiot/users/{id} | GET, PATCH      |
+| https://my-json-server.typicode.com/Debuggers-SW74/dbiot/trips      | GET, POST            |
+
+Demostración de petición GET endpoint https://my-json-server.typicode.com/Debuggers-SW74/dbiot/users 
+![get_users](/assets/chapter6_img/host_get_users.png)
+
+Demostración de petición POST endpoint https://my-json-server.typicode.com/Debuggers-SW74/dbiot/users 
+![post_users](/assets/chapter6_img/host_post_users.jpg)
+
+Demostración de petición GET endpoint https://my-json-server.typicode.com/Debuggers-SW74/dbiot/trips 
+![get_trips](/assets/chapter6_img/host_get_trips.png)
+
 #### 6.2.1.7. Software Deployment Evidence for Sprint Review
 #### 6.2.1.8. Team Collaboration Insights during Sprint
 
