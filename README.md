@@ -1635,7 +1635,7 @@ El Viaje es el agregado raíz que contiene la lógica para gestionar su ciclo de
 ## 5.4. Applications UX/UI Design
 ### 5.4.1. Applications Wireframes
 ### 5.4.2. Applications Wireflow Diagrams
-### 5.4.4. Applications Mock-ups
+### 5.4.3. Applications Mock-ups
 ### 5.4.4. Applications User Flow Diagrams
 ## 5.5. Applications Prototyping
 # Capítulo VI: Product Implementation, Validation & Deployment
