@@ -1850,8 +1850,8 @@ El Viaje es el agregado raíz que contiene la lógica para gestionar su ciclo de
 | Sprint n – 1 Retrospective Summary| Gracias a las observaciones del profesor, nos dimos cuenta de las deficiencias que teniamos, por lo que mejoramos los detalles para el proceso de desarrollo siguiendo las pautas Domain-Driven Design.                                                        |
 | Sprint Goal & User Stories                                                 |
 | Sprint n Goal                     | Nos centramos en el desarrollo del      sitio web que sirve como presentación. Creemos que ofrece una visión de FastPorte y de cómo el producto puede satisfacer las necesidades de la empresa. Esto se confirmará cuando nos contacten para solicitar nuestros servicios.                                                                   |
-| Sprint n Velocity                 | 27                                     |
-| Sum of Story Points               | 27                                     |
+| Sprint n Velocity                 | 30                                     |
+| Sum of Story Points               | 30                                     |
 
 #### 6.2.1.2. Sprint Backlog 1
 
@@ -1862,13 +1862,14 @@ Para este Sprint nos enfocamos en el desarrollo de la Landing page y una face in
 |----------|----------|-|-|-|-|-|--------------------------------------------|
 | User Story | | Work-Item / Task |
 | Id | Title | Id | Title | Description | Estimation (Hours) | Assigned To | Status (To-do / InProcess / ToReview / Done)                                 |
-| 1  | Registro de supervisor de la empresa | 1 | | | | | |
-| 2  | Registro de conductor | 2 | | | | | |
-| 3  | Inicio de sesión | 3 | | | | | |
-| 40 | Sección Características | 4 | | | 1 | Anthony Botello | Done |
-| 41 | Sección Sobre Nosotros | 5 | |  | 1 | Josué Arrunátegui | Done |
-| 42 | Sección Descarga | 6 | | |  | | |
-| 43 | Sección Contáctanos | 7 | | | 1 | Eduardo Chero | Done |
+| 1  | Registro de supervisor de la empresa | 1 | Regstro supervisor | Se desarrollara una opcion para registrarse como supervisor para sus labores | 3 |  Sebastián Lévano | Done |
+| 2  | Registro de conductor | 2 | Regstro conductor | Se desarrollara la opcion para q el conductor se pueda registrar | 3 | Sebastián Lévano | Done |
+| 3  | Inicio de sesión | 3 | Inicio sesion | Creación de la vista de inicio de sesión | 3 |  Sebastián Lévano | Done |
+| 39 | Sección Principal | 4 | Home | Una vista principal para la landing page | 1 | Anthony Botello | Done |
+| 40 | Sección Características | 5 | Features | Caracteristas de nuestro software | 1 | Claudio Moreno | Done |
+| 41 | Sección Sobre Nosotros | 6 | About us | Seccion donde presentamos a los integrantes | 1 | Josué Arrunátegui | Done |
+| 42 | Sección Descarga | 7 | Download | Seccion para descargar la app movil | 1 | Josué Arrunátegui | Done |
+| 43 | Sección Contáctanos | 8 | Contact us | Seccion donde puede encontrar la informacion de contacto | 1 | Eduardo Chero | Done |
 
 #### 6.2.1.3. Development Evidence for Sprint Review
 
