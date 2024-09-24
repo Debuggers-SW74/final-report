@@ -1834,15 +1834,20 @@ En el siguiente apartado se abordará el diseño de la interfaz de usuario de la
 Se han designado 5 secciones principales para la realización del Landing Page. En primer lugar, la sección Principal, la cual será la primera que verá el visitante de la página. En está sección se realiza una pregunta para llamar la atención de los visitantes sobre sus necesidades específicas. Asimismo, se agrega un botón como *Call to Action* para que puedan acceder a las soluciones que se han desarrollado. En segundo lugar, la sección Características donde se detalla los aspectos más importantes de la aplicación y lo que ofrece la Startup. Además, en esta sección se visualiza los beneficios generales para brindar mayor detalle sobre FastPorte y lo que ofrece para cada tipo de usuario. En tercer lugar, la sección Descarga donde se presenta el *Call to Action* principal mostrando la disponibilidad de FastPorte en dispositivos móviles también. En cuarto lugar, la sección Sobre nosotros donde los visitantes podrán conocer quienes son los creadores de FastPorte. Igualmente, podrá visualizar los testimonios de gente que ya ha usado FastPorte con anterioridad y como les ha servido. Finalmente, la sección Contáctanos la cual ofrece un formulario para poder contactarse con FastPorte con el fin de solicitar información o contratar los servicios.
 
 ![Landing Page Wireframe](assets/capitulo5/landing_page_wireframe.png)
+
 De igual modo se diseño los Wireframes para la versión mobile con el objetivo de que este disponible una versión responsive de la página de aterrizaje.
 
 ![Landing Page Wireframe Mobile](assets/capitulo5/landing_page_wireframe_mobile.png)
+
+Enlace a Figma: [Landing Page Wireframes](https://www.figma.com/design/eLXz5gA2bvN7AgWFRqQbAv/Landing-Page?node-id=6-379)
 
 ### 5.3.2. Landing Page Mock-up
 
 A continuación, se muestra la representación visual detallada de cómo se verá y funcionará la página de aterrizaje del sitio web de FastPorte. Este prototipo estático ofrece una vista previa del diseño final, permitiendo a los diseñadores y partes interesadas evaluar la disposición de los elementos, la jerarquía visual y la estética general antes de pasar a la fase de desarrollo. El _mock-up_ es clave para garantizar que la estructura, los colores, las tipografías y los componentes interactivos se alineen con los objetivos de la página, facilitando correcciones tempranas y decisiones basadas en una visión clara del producto final.
 
 ![Landing Page Mock-up](assets/capitulo5/landing_page_mockup.png)
+
+Enlace a Figma: [Landing Page Mock-up](https://www.figma.com/design/eLXz5gA2bvN7AgWFRqQbAv/Landing-Page?node-id=0-1)
 
 ## 5.4. Applications UX/UI 
 
