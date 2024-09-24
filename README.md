@@ -2095,7 +2095,8 @@ Para desplegar la Landing Page, se utilizó GitHub Pages, una plataforma gratuit
 1. Crear un repositorio en GitHub con el código de la Landing Page.
 2. Acceder a la configuración del repositorio y habilitar GitHub Pages.
 
-![github pages](assets/chapter6_img/githubpagesLanding)
+![github pages1](assets/chapter6_img/githubpagesLanding1.jpeg)
+![github pages1](assets/chapter6_img/githubpagesLanding2.jpeg)
 
 4. Seleccionar la rama y la carpeta de origen del sitio web.
 5. Guardar la configuración y obtener la URL del sitio web desplegado.
