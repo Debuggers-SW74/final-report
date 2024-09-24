@@ -2409,11 +2409,15 @@ En esta sección se presentan los prototipos de la interfaz de usuario (UI) para
 
 ##### Mobile Application
 
-Enlace a Microsoft Stream: [Prototipos - FastPorte](https)
+![Mobile Application - Prototype](assets/capitulo5/prototype/Prototype_Mobile.png)
+
+Enlace a Microsoft Stream (minuto 4:00): [Prototipo Móvil - FastPorte](https://upcedupe-my.sharepoint.com/personal/u20201b846_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20201b846%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202402%2Dsi572%2DSW74%2DTechCompany%2Dprototype%20navigation%2Dsprint%2D1%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E79e8551e%2Dd211%2D4f7d%2Db08a%2D88829cdebbc7)
 
 ##### Web Application
 
-Enlace a Microsoft Stream: [Prototipos - FastPorte](https)
+![Web Application - Prototype](assets/capitulo5/prototype/Prototype_Web.png)
+
+Enlace a Microsoft Stream (minuto 0:00): [Prototipo Web - FastPorte](https://upcedupe-my.sharepoint.com/personal/u20201b846_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20201b846%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202402%2Dsi572%2DSW74%2DTechCompany%2Dprototype%20navigation%2Dsprint%2D1%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E79e8551e%2Dd211%2D4f7d%2Db08a%2D88829cdebbc7)
 
 ---
 
