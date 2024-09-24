@@ -2098,9 +2098,9 @@ Para desplegar la Landing Page, se utilizó GitHub Pages, una plataforma gratuit
 ![github pages1](assets/chapter6_img/githubpagesLanding1.jpeg)
 ![github pages1](assets/chapter6_img/githubpagesLanding2.jpeg)
 
-4. Seleccionar la rama y la carpeta de origen del sitio web.
-5. Guardar la configuración y obtener la URL del sitio web desplegado.
-6. Finalmente, acceder a la URL del sitio web para verificar que se haya desplegado correctamente.
+3. Seleccionar la rama y la carpeta de origen del sitio web.
+4. Guardar la configuración y obtener la URL del sitio web desplegado.
+5. Finalmente, acceder a la URL del sitio web para verificar que se haya desplegado correctamente.
 
 ![landing page desplegada](assets/chapter6_img/landingpagedeployed.png)
 
