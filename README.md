@@ -1923,6 +1923,7 @@ Fuente: Google (s.f). Principios de diseño de las aplicaciones para dispositivo
 Adicionalmente, se tendrá en cuenta el diseño mediante un mismo vocabulario que usan los usuarios de la solución de software. En este apartado se sugiere evitar el uso de frase o términos desconocidos que sunpondría mayor carga congnitiva para los usuarios. La comunicación debe ser clara para que cada funcionalidad que use nuestro público objetivo pueda se use sin conplicaciones.
 
 ## 5.2. Information Architecture
+
 ### 5.2.1. Organization Systems
 
 En nuestra aplicación de gestión de transporte de materiales peligrosos "FastPorte", hemos implementado diversos sistemas de organización para asegurar que la información sea accesible y fácil de entender para nuestros usuarios. Estos son los principales enfoques utilizados:
@@ -1944,6 +1945,85 @@ En nuestra aplicación de gestión de transporte de materiales peligrosos "FastP
 
 
 ### 5.2.2. Labeling Systems
+
+Implementar Sistemas de Etiquetado efectivos es crucial para mejorar la experiencia del usuario. Esta sección detalla cómo representar los datos a través de etiquetas concisas e intuitivas, asegurando que los usuarios puedan navegar por la aplicación sin confusiones.
+
+**Consideraciones para el Sistemas de Etiquetado**
+
+- **Simplicidad:** Las etiquetas deben ser directas y fácilmente comprensibles para el público objetivo (supervisores y conductores). Evitar el uso de jergas y optar por una terminología común que sea fácil de entender por los usuarios.
+
+- **Consistencia:** Utilizar un etiquetado consistente en todas las plataformas (web y móvil) para crear una experiencia de usuario fluida. Esto ayudará a los usuarios a familiarizarse con la interfaz, reduciendo la carga cognitiva.
+
+- **Claridad:** Cada etiqueta debe indicar claramente su función o la información a la que llevará. Se debe evitar términos ambiguos que puedan confundir a los usuarios.
+
+<br>
+
+**Etiquetas para la Landing Page**
+
+- Llamada a la Acción: "Comienza Ahora" o "Descubre Más"
+
+- Características: Seguridad, Contacto Fácil, Precio Justo
+
+- Beneficios:
+
+  - GPS en Tiempo Real
+
+  - Fácil de Usar
+
+  - Planificación en Calendario
+
+  - Soporte 24/7
+
+  - Alertas y Notificaciones
+
+  - Función de Búsqueda
+
+<br>
+
+**Aplicación Web (Funciones del Supervisor)**
+- Acciones del Usuario:
+
+  - Registrarse
+
+  - Iniciar Sesión
+
+  - Recuperar Contraseña
+
+  - Ver Estado del Viaje Actual
+
+  - Editar Perfil
+
+  - Asignar Viaje
+
+  - Ver Viajes por Estado
+
+  - Notificaciones
+
+  - Contactar Soporte
+
+<br>
+
+**Aplicación Móvil (Funciones del Conductor)**
+
+- Acciones del Usuario:
+
+  - Registrarse
+
+  - Iniciar Sesión
+
+  - Recuperar Contraseña
+
+  - Editar Perfil
+
+  - Información del Viaje Actual
+
+  - Notificaciones de Viaje
+
+  - Ver Viajes por Estado
+
+  - Contactar Soporte
+
+
 ### 5.2.3. SEO Tags and Meta Tags
 ### 5.2.4. Searching Systems
 ### 5.2.5. Navigation Systems
