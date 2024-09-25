@@ -1918,10 +1918,31 @@ También, se puede obtar por un diseño donde primero se le muestre la Landing P
 
 [![image.png](https://i.postimg.cc/xjHsNQfj/6-vocabulario.png)](https://postimg.cc/V5f92302)
 
+Fuente: Google (s.f). Principios de diseño de las aplicaciones para dispositivos móviles. https://www.thinkwithgoogle.com/_qs/documents/1011/Google_Guia_UX.pdf#:~:text=Cap%C3%ADtulo%201:%20Navegaci%C3%B3n%20y%20exploraci%C3%B3n%20de%20la%20aplicaci%C3%B3n. 
+
 Adicionalmente, se tendrá en cuenta el diseño mediante un mismo vocabulario que usan los usuarios de la solución de software. En este apartado se sugiere evitar el uso de frase o términos desconocidos que sunpondría mayor carga congnitiva para los usuarios. La comunicación debe ser clara para que cada funcionalidad que use nuestro público objetivo pueda se use sin conplicaciones.
 
 ## 5.2. Information Architecture
 ### 5.2.1. Organization Systems
+
+En nuestra aplicación de gestión de transporte de materiales peligrosos "FastPorte", hemos implementado diversos sistemas de organización para asegurar que la información sea accesible y fácil de entender para nuestros usuarios. Estos son los principales enfoques utilizados:
+
+[![image.png](https://i.postimg.cc/nzNMjzbn/Organization-System-Web-App.png)](https://postimg.cc/TLqTBT3s)
+
+[![image.png](https://i.postimg.cc/59FXcwLy/Organization-System-Mobile-App.png)](https://postimg.cc/G9dLGTMn)
+
+- **Organización Jerárquica (Visual Hierarchy):** Para la Landing Page vamos a utilizar una jerarquía visual clara, con el Call To Action principal en la sección hero, seguido por características, beneficios e información de contacto. Además, para la Web App y Mobile App la información del viaje en curso se presenta de manera prominente, seguida por otras funcionalidades en orden de importancia.
+
+- **Organización Secuencial:** Para el proceso de registro y login tanto en la web como en la app móvil, estos procesos siguen una secuencia de pasos lógica. También, la asignación de viajes (Web App), el supervisor sigue un proceso paso a paso para asignar viajes a los conductores.
+
+- **Categorización por Tópicos:** La Web App y Mobile App tendrán funcionalidades que se agrupan por temas como "Perfil", "Viajes", "Notificaciones" y "Soporte".
+
+
+- **Categorización por Audiencia:** Vamos a diferenciar claramente entre la Web App (para supervisores) y la Mobile App (para conductores), con funcionalidades específicas para cada grupo.
+
+**Organización Cronológica:** Se aplica en la visualización de viajes y notificaciones, mostrando los más recientes o próximos primero.
+
+
 ### 5.2.2. Labeling Systems
 ### 5.2.3. SEO Tags and Meta Tags
 ### 5.2.4. Searching Systems
