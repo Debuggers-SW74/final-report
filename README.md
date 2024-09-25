@@ -1895,6 +1895,31 @@ Por otro lado, nos aseguraremos de tener un espaciado adecuado entre líneas y p
 Nuestro logo presenta la silueta estilizada de un camión dirigiéndose hacia la derecha. Esta imagen fue elegida por varias razones.El camión es una representación directa de la industria del transporte, lo que comunica instantáneamente el campo en el que operamos. La dirección del camión hacia la derecha simboliza avance, progreso y movimiento hacia adelante, alineándose con nuestra visión de impulsar la industria hacia el futuro. Además, La silueta simplificada del camión permite un reconocimiento rápido y fácil, incluso a pequeña escala o en diferentes aplicaciones. La claridad y precisión del diseño transmiten un sentido de profesionalismo y confiabilidad.
 
 ### 5.1.2. Web, Mobile and IoT Style Guidelines
+
+Nuestra aplicación web para el transporte de materiales peligrosos incorporará un diseño responsive para garantizar su funcionalidad en una amplia gama de dispositivos. Esta característica es esencial en nuestro sector, donde los usuarios necesitan acceder a información crítica desde diversos dispositivos y en diferentes contextos operativos.
+
+[![image.png](https://i.postimg.cc/QxhgtjGG/6-responsive.jpg)](https://postimg.cc/pyc5cbLq)
+
+El enfoque responsive permite que la interfaz se adapte automáticamente a diferentes tamaños de pantalla, desde smartphones hasta computadoras de escritorio. Utilizamos un sistema de rejilla flexible y breakpoints estratégicos para reorganizar el contenido, asegurando que elementos como menús, tablas de datos y gráficos se ajusten para mantener la legibilidad y usabilidad en cualquier dispositivo.
+
+También, se usará principios de diseño para aplicaciones móviles hecho por Google.
+
+[![image.png](https://i.postimg.cc/MTYgR8wF/6-b-squeda.png)](https://postimg.cc/8JjyQ9jR)
+
+Fuente: Google (s.f). Principios de diseño de las aplicaciones para dispositivos móviles. https://www.thinkwithgoogle.com/_qs/documents/1011/Google_Guia_UX.pdf#:~:text=Cap%C3%ADtulo%201:%20Navegaci%C3%B3n%20y%20exploraci%C3%B3n%20de%20la%20aplicaci%C3%B3n. 
+
+Por ejemplo, un buen diseño es que las acciones principales como búsqueda deban estar en un posición privilegiada, donde se destaque esa característica y sea claramente visiable por el usuario.
+
+[![image.png](https://i.postimg.cc/qqMSxZMM/6-registro.png)](https://postimg.cc/cg2FshnV)
+
+Fuente: Google (s.f). Principios de diseño de las aplicaciones para dispositivos móviles. https://www.thinkwithgoogle.com/_qs/documents/1011/Google_Guia_UX.pdf#:~:text=Cap%C3%ADtulo%201:%20Navegaci%C3%B3n%20y%20exploraci%C3%B3n%20de%20la%20aplicaci%C3%B3n. 
+
+También, se puede obtar por un diseño donde primero se le muestre la Landing Page y se le solicite al usuario registrarse solo si es escencial que lo haga o si el servicio lo ha convencido, ya que directamente enviar al usuario a registrarse sería un error de diseño.
+
+[![image.png](https://i.postimg.cc/xjHsNQfj/6-vocabulario.png)](https://postimg.cc/V5f92302)
+
+Adicionalmente, se tendrá en cuenta el diseño mediante un mismo vocabulario que usan los usuarios de la solución de software. En este apartado se sugiere evitar el uso de frase o términos desconocidos que sunpondría mayor carga congnitiva para los usuarios. La comunicación debe ser clara para que cada funcionalidad que use nuestro público objetivo pueda se use sin conplicaciones.
+
 ## 5.2. Information Architecture
 ### 5.2.1. Organization Systems
 ### 5.2.2. Labeling Systems
