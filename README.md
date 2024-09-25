@@ -2025,6 +2025,57 @@ Implementar Sistemas de Etiquetado efectivos es crucial para mejorar la experien
 
 
 ### 5.2.3. SEO Tags and Meta Tags
+
+Para optimizar la presencia en línea de la solución de software FastPorte, es esencial implementar correctamente los SEO Tags y Meta Tags en las principales páginas de tu experiencia digital, tanto en la Landing Page como en la Aplicación Web. A continuación, se presentan las etiquetas recomendadas junto con sus valores asignados.
+
+**Landing Page**
+
+Title:
+  - &lt;title&gt;FastPorte: Transporte Seguro de Materiales Peligrosos&lt;/title&gt;
+
+Meta Description:
+  - &lt;meta name="description" content="¿Necesitas transportar materiales peligrosos de forma segura? FastPorte ofrece soluciones rápidas y confiables para el transporte."&gt;
+
+Meta Keywords:
+  - &lt;meta name="keywords" content="transporte seguro, materiales peligrosos, GPS, soporte 24/7"&gt;
+
+Meta Author:
+  - &lt;meta name="author" content="FastPorte Team"&gt;
+
+<br>
+
+**Aplicación Web**
+
+Title:
+  - &lt;title&gt;FastPorte: Plataforma de Gestión para Supervisores de Transporte&lt;/title&gt;
+
+Meta Description:
+  - &lt;meta name="description" content="Gestione el transporte de materiales peligrosos con FastPorte. Registre viajes, asigne conductores y reciba notificaciones en tiempo real."&gt;
+
+Meta Keywords:
+  - &lt;meta name="keywords" content="gestión de transporte, supervisión, asignación de viajes, notificaciones"&gt;
+
+Meta Author:
+  - &lt;meta name="author" content="FastPorte Team"&gt;
+
+<br>
+
+**Aplicaciones Móviles (ASO)**
+
+Para las aplicaciones móviles que se publican en tiendas de aplicaciones, es importante considerar los elementos de Optimización para Tiendas de Aplicaciones (ASO):
+
+App Title:
+  - "FastPorte: Transporte Seguro"
+
+App Keywords:
+  - "transporte, materiales peligrosos, GPS, gestión"
+
+App Subtitle:
+  - "Soluciones rápidas y seguras para el transporte"
+
+App Description:
+  - "FastPorte es la aplicación ideal para supervisores y conductores de vehículos que transportan materiales peligrosos. Ofrece seguimiento GPS en tiempo real, gestión de viajes y soporte 24/7. Descarga ahora y mejora la seguridad en el transporte."
+
 ### 5.2.4. Searching Systems
 ### 5.2.5. Navigation Systems
 ## 5.3. Landing Page UI Design
