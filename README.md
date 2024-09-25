@@ -796,829 +796,389 @@ Para la calificación de Story Points empleada en el Product Backlog se siguió 
 
 ## 4.1. Strategic-Level Domain-Driven Design
 
-### 4.1.1. EventStorming
+### 4.1.1. EventStorming <br>
+Para el desarroolo del EventStorming, nos reunimos para organizar una lluvia de ideas con los temas, datos y funcionalidades necesarias para el desarrollo de la aplicación, resultando en el siguiente gráfico:<br>
 ![EventStorming](./assets/chapter4_img/step8.jpg)
 
-#### 4.1.1.1 Candidate Context Discovery
-
-Step 1:
+#### 4.1.1.1 Candidate Context Discovery <br>
+A continuación mostraremos el paso a paso para la organizacion del EventStorming: <br>
+<br>Step 1: <br>
+Generar las ideas más importantes del negocio en base a los requerimientos
 ![Step 1](./assets/chapter4_img/step1.jpg)
-Step 2:
+<br>Step 2: <br>
+Relacionar las ideas entre si para tener secuencias
 ![Step 2](./assets/chapter4_img/step2.jpg)
-Step 3:
+<br>Step 3: <br>
+Identificar las ideas que pueden ocacionar deciciones múltiples o pueden ser puntos críticos, usando preguntas clave
 ![Step 3](./assets/chapter4_img/step3.jpg)
-Step 4:
+<br>Step 4: <br>
+Organizar las relaciones en función secuencial
 ![Step 4](./assets/chapter4_img/step4.jpg)
-Step 5:
+<br> Step 5: <br>
+Clasificar el tipo de usuario que va a usar cada sección
 ![Step 5](./assets/chapter4_img/step5.jpg)
-Step 6:
+<br>Step 6: <br>
+Añadir detalles de visualizacion de interfaz
 ![Step 6](./assets/chapter4_img/step6.jpg)
-Step 7:
+<br> Step 7: <br>
+Detectar si es posible usar una aplicación externa
 ![Step 7](./assets/chapter4_img/step7.jpg)
-Step 8:
+<br> Step 8: <br> 
+Por ultimo se eliminan dellates que fueron descartados y muestra el resultado final
 ![Step 8](./assets/chapter4_img/step8.jpg)
 
-#### 4.1.1.2 Domain Message Flows Modeling
+#### 4.1.1.2 Domain Message Flows Modeling <br>
+En esta seccion mostraremos el proceso seguido para visualizar cómo deben colaborar los bounded contexts para resolver los casos que se presentan en el negocio para los usuarios del sistema. <br>
 
 Leyenda: <br>
+
 ![Leyenda](./assets/chapter4_img/leyenda.png)
 
-Escenario: Inicio de sesión
+Escenario: Inicio de sesión <br>
+Cuando un usario, ya sea supervisro o conductor, desee registrarse se enviará una solicitud al bounded context 'Profile management' con los datos requeridos, este hará una validacion con la base de datos y si es exitosa, retornará al usuario el inicio de su sesión
 ![Escenario 1](./assets/chapter4_img/escenario1.png)
 
-Escenario: Registro de usuario
+Escenario: Registro de usuario <br>
+Si el usuario va a registrarse, ingresa los datos solicitados, estos pasaran al bounded context y se alamcenán en su base de datos.
 ![Escenario 2](./assets/chapter4_img/escenario2.png)
 
-Escenario: Registro del sensor
+Escenario: Registro del sensor <br>
+Cuando el usuario registre un sensor, el bounded context 'Profile management' se comunicara con 'Security monitoring' para registrar los datos
 ![Escenario 3](./assets/chapter4_img/escenario3.png)
 
-Escenario: Programación de viaje
+Escenario: Programación de viaje <br>
+Si el usuario supervisor debe registrar un nuevo viaje, 'Transport management' recibe los datos necesarios y se comunica con ' Profile management' para generarle la notificación
 ![Escenario 4](./assets/chapter4_img/escenario4.png)
 
-Escenario: Conductor visualiza sus viajes pendientes
+Escenario: Conductor visualiza sus viajes pendientes <br>
+Cuando el usuario desea revisar los viajes programados que tiene, por medio de 'Profile management' y 'Transport management' ingresan a la base de datos respectiva para obtener la lista que retorne con los viajes. 
 ![Escenario 5](./assets/chapter4_img/escenario5.png)
 
-Escenario: Sensor detecta un problema
+Escenario: Sensor detecta un problema <br>
+En caso de que el sensor detecte un problema por medio de 'Security monitoring', envia una alerta desde 'Alerts system' para que lo reciba el usuario.
 ![Escenario 6](./assets/chapter4_img/escenario6.png)
 
 #### 4.1.1.3 Bounded Context Canvases
 
-Bounded context 'Usuario'  <br>
-![Bounded Context Canvas Usuario](./assets/chapter4_img/canvas_users.jpg)
+Bounded context 'Profle management'  <br>
+Autenticación y autorización de usuarios (conductores y supervisores) y manejo de roles dentro del sistema
+![Bounded Context Canvas Usuario](./assets/chapter4_img/canvas_profile.jpg)
 
-Bounded context 'Sensor'  <br>
-![Bounded Context Canvas Usuario](./assets/chapter4_img/canvas_sensor.jpg)
+Bounded context 'Security monitoring'  <br>
+Capturar y procesar los datos de sensores instalados en las cisternas para garantizar la seguridad durante el transporte de materiales peligrosos. Notificar en tiempo real cuando se excedan los límites críticos de seguridad.
+![Bounded Context Canvas Usuario](./assets/chapter4_img/canvas_security.jpg)
 
-Bounded context 'Viajes'  <br>
-![Bounded Context Canvas Usuario](./assets/chapter4_img/canvas_viajes.jpg)
+Bounded context 'Transport management'  <br>
+Planificar y gestionar el transporte de materiales peligrosos, asignando vehículos y conductores para cada ruta, garantizando el cumplimiento de regulaciones.
+![Bounded Context Canvas Usuario](./assets/chapter4_img/canvas_transport.jpg)
 
-### 4.1.2. Context Mapping
+Bounded context 'Alerts system'  <br>
+Gestionar el envío de alertas y notificaciones a los conductores y supervisores en tiempo real cuando se detectan problemas en los sensores.
+![Bounded Context Canvas Usuario](./assets/chapter4_img/canvas_alerts.jpg)
+
+### 4.1.2. Context Mapping <br>
+Transport management ↔️ Security monitoring
+
+Relación: Customer-Supplier
+
+Patrón:
+Transport management actúa como un 'Cliente' de Security monitoring. Necesita información en tiempo real sobre el estado de los sensores de seguridad instalados en los vehículos.
+Security monitoring actúa como un 'Proveedor' de datos de gases, temperatura y presión a Transport management.
+
+Security monitoring ↔️ Alerts system
+
+Relación: Customer-Supplier
+
+Patrón:
+Security monitoring es el 'Cliente' que requiere la funcionalidad de notificaciones en tiempo real cuando un sensor detecta un valor crítico.
+Alerts system es el 'Proveedor', que envía mensajes a los usuarios relevantes (conductores, supervisores) cuando se genera una alerta.
+
+Transport management ↔️ Profle management
+
+Relación: Customer-Supplier
+
+Patrón:
+Transport management es el 'Cliente' que requiere la autenticación y autorización de los usuarios (conductores y supervisores) antes de planificar rutas y asignar tareas.
+Profle management es el 'Proveedor' que gestiona los permisos y autenticaciones para permitir el acceso a los usuarios en el sistema de transporte.
+
+Alerts system ↔️ Profle management
+
+Relación: Anticorruption Layer 
+
+Patrón:
+Alerts system se protege contra posibles complejidades o cambios en el sistema de Profle management al establecer una capa anticorrupción. De esta manera, los cambios en el esquema de usuarios o permisos no afectan la lógica de notificaciones.
+
 ![Context Mapping](./assets/chapter4_img/context_mapping.jpg)
 
 ### 4.1.3. Software Architecture
 
-#### 4.1.3.1. Software Architecture System Landscape Diagram
+#### 4.1.3.1. Software Architecture System Landscape Diagram <br>
+
+Este diagrama describe la arquitectura a nivel de sistema de FastPorte, un servicio que conecta conductores y empresas para la gestión eficiente de la logística y transporte. Los actores involucrados son: <br>
+
+Conductor: Se comunica con el sistema para obtener asignaciones de transporte y actualizar el estado de las entregas.<br>
+Supervisor: Utiliza el sistema para gestionar los viajes de los conductores. El sistema gestiona el intercambio de información entre conductores y supervisores para optimizar las operaciones logísticas. <br>
+
 ![C4 Diagrama de Contexto](./assets/chapter4_img/landscape.jpg)
 
-#### 4.1.3.2. Software Architecture Context Level Diagrams
+#### 4.1.3.2. Software Architecture Context Level Diagrams <br>
+
+El diagrama de nivel de contexto de FastPorte muestra las interacciones clave entre el sistema y sus usuarios principales:<br>
+
+Conductor: Recibe notificaciones, alertas del sensor y actualizaciones de rutas.<br>
+Supervisar: Utiliza el sistema para gestionar los viajes de los conductores. El sistema gestiona el intercambio de información entre conductores y supervisores para optimizar las operaciones logísticas.<br>
+
 ![C4 Diagrama de Contexto](./assets/chapter4_img/c4_context.png)
 
-#### 4.1.3.2. Software Architecture Container Level Diagrams.
-![C4 Diagrama de Componentes](./assets/chapter4_img/c4_component.jpg)
+#### 4.1.3.2. Software Architecture Container Level Diagrams. <br>
 
-#### 4.1.3.3. Software Architecture Deployment Diagrams
+Este diagrama detalla la arquitectura de los contenedores de FastPorte, mostrando los componentes principales del sistema:<br>
+
+Landing Page: La interfaz web pública para que los usuarios obtengan información sobre el servicio.<br>
+Web Application: Aplicación utilizada por los supervisores para gestionar envíos.<br>
+Mobile App: Aplicación móvil destinada a los conductores para recibir las alertas o notificaciones de viaje<br>
+Backend: Servicio REST que gestiona y procesa la información de los datos. <br>
+Database: Base de datos donde se almacena la información relacionada con los envíos, conductores, y empresas.<br>
+Edge API: Conexion con el sistema IoT para el envio de alertas.<br>
+
+![C4 Diagrama de Componentes](./assets/chapter4_img/c4_component.png)
+
+#### 4.1.3.3. Software Architecture Deployment Diagrams <br>
+
+Para el despliegue de nuestra landing page, app web nos apoyaremos de Firebase, servicio gratuito y de facil uso de hosting para paginas web, y para nuestro servidor backend y base de datos nos apoyaremos de la nube de Azure<br>
+
 ![Software Architecture Deployment Diagrams](./assets/chapter4_img/ArchDeploy.png)
 
 ## 4.2. Tactical-Level Domain-Driven Design
-### 4.2.1. Bounded Context: Usuario
-Este bounded context está relacionado con la gestión de cuentas de usuario, autenticación y la gestión de perfiles dentro de un sistema.
+### 4.2.1. Bounded Context: Profle management
 
-<table class="tg">
-  <thead>
-    <tr>
-      <th class="tg-fymr" colspan="2">Nombre</th>
-      <th class="tg-0pky" colspan="3">Descripción</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td class="tg-fymr" colspan="2" style="text-align:center">Usuario</td>
-      <td class="tg-0pky" colspan="3">Representa a un usuario en el sistema, con credenciales y estado de autenticación</td>
-    </tr>
-    <tr>
-    <td class="tg-fymr" colspan="2">Atributos</td>
-    <td class="tg-fymr" colspan="2">Relaciones</td>
-    <td class="tg-fymr" rowspan="2">Metodos</td>
-    </tr>
-    <tr>
-      <td class="tg-1wig">Nombre</td>
-      <td class="tg-1wig">Tipo de dato</td>
-      <td class="tg-1wig">Tipo</td>
-      <td class="tg-1wig">Clases/Enums</td>
-    </tr>
-    <tr>
-      <td class="tg-0lax">userID</td>
-      <td class="tg-0lax">Int</td>
-      <td class="tg-0lax">Composicón</td>
-      <td class="tg-0lax">UserProfile</td>
-      <td class="tg-0lax">authenticateUser()</td>
-    </tr>
-    <tr>
-      <td class="tg-0lax">email</td>
-      <td class="tg-0lax">String</td>
-      <td class="tg-0lax">Agregación</td>
-      <td class="tg-0lax">Token</td>
-      <td class="tg-0lax">validateToken()</td>
-    </tr>
-    <tr>
-      <td class="tg-0lax">password</td>
-      <td class="tg-0lax">String</td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax">invalidateToken()</td>
-    </tr>
-    <tr>
-      <td class="tg-0lax">isActive</td>
-      <td class="tg-0lax">String</td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax"></td>
-    </tr>
-  </tbody>
-</table>
-
-<table class="tg">
-  <thead>
-    <tr>
-      <th class="tg-fymr" colspan="2">Nombre</th>
-      <th class="tg-0pky" colspan="3">Descripción</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td class="tg-fymr" colspan="2" style="text-align:center">UserProfile</td>
-      <td class="tg-0pky" colspan="3">Contiene la información personal y preferencias del usuario</td>
-    </tr>
-    <tr>
-    <td class="tg-fymr" colspan="2">Atributos</td>
-    <td class="tg-fymr" colspan="2">Relaciones</td>
-    <td class="tg-fymr" rowspan="2">Metodos</td>
-    </tr>
-    <tr>
-      <td class="tg-1wig">Nombre</td>
-      <td class="tg-1wig">Tipo de dato</td>
-      <td class="tg-1wig">Tipo</td>
-      <td class="tg-1wig">Clases/Enums</td>
-    </tr>
-    <tr>
-      <td class="tg-0lax">name</td>
-      <td class="tg-0lax">String</td>
-      <td class="tg-0lax">Asociación</td>
-      <td class="tg-0lax">Usuario</td>
-      <td class="tg-0lax">updateUserProfile()</td>
-    </tr>
-    <tr>
-      <td class="tg-0lax">address</td>
-      <td class="tg-0lax">String</td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax">retrieveUserProfile()</td>
-    </tr>
-    <tr>
-      <td class="tg-0lax">phone</td>
-      <td class="tg-0lax">String</td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax"></td>
-    </tr>
-    <tr>
-      <td class="tg-0lax">profileImg</td>
-      <td class="tg-0lax">String</td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax"></td>
-    </tr>
-  </tbody>
-</table>
-
-<table class="tg">
-  <thead>
-    <tr>
-      <th class="tg-fymr" colspan="2">Nombre</th>
-      <th class="tg-0pky" colspan="3">Descripción</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td class="tg-fymr" colspan="2" style="text-align:center">Token</td>
-      <td class="tg-0pky" colspan="3">Token utilizado para validar sesiones activas del usuario</td>
-    </tr>
-    <tr>
-    <td class="tg-fymr" colspan="2">Atributos</td>
-    <td class="tg-fymr" colspan="2">Relaciones</td>
-    <td class="tg-fymr" rowspan="2">Metodos</td>
-    </tr>
-    <tr>
-      <td class="tg-1wig">Nombre</td>
-      <td class="tg-1wig">Tipo de dato</td>
-      <td class="tg-1wig">Tipo</td>
-      <td class="tg-1wig">Clases/Enums</td>
-    </tr>
-    <tr>
-      <td class="tg-0lax">tokenId</td>
-      <td class="tg-0lax">Int</td>
-      <td class="tg-0lax">Asociación</td>
-      <td class="tg-0lax">Usuario</td>
-      <td class="tg-0lax">generateToken()</td>
-    </tr>
-    <tr>
-      <td class="tg-0lax">creationDate</td>
-      <td class="tg-0lax">Date</td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax">validateToken()</td>
-    </tr>
-    <tr>
-      <td class="tg-0lax">expirationDate</td>
-      <td class="tg-0lax">Date</td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax">invalidateToken()</td>
-    </tr>
-  </tbody>
-</table>
-
-<table class="tg">
-  <thead>
-    <tr>
-      <th class="tg-fymr" colspan="2">Nombre</th>
-      <th class="tg-0pky" colspan="3">Descripción</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td class="tg-fymr" colspan="2" style="text-align:center">Notification</td>
-      <td class="tg-0pky" colspan="3">Gestiona las notificaciones enviadas al usuario</td>
-    </tr>
-    <tr>
-    <td class="tg-fymr" colspan="2">Atributos</td>
-    <td class="tg-fymr" colspan="2">Relaciones</td>
-    <td class="tg-fymr" rowspan="2">Metodos</td>
-    </tr>
-    <tr>
-      <td class="tg-1wig">Nombre</td>
-      <td class="tg-1wig">Tipo de dato</td>
-      <td class="tg-1wig">Tipo</td>
-      <td class="tg-1wig">Clases/Enums</td>
-    </tr>
-    <tr>
-      <td class="tg-0lax">notificationId</td>
-      <td class="tg-0lax">Int</td>
-      <td class="tg-0lax">Asociación</td>
-      <td class="tg-0lax">Usuario</td>
-      <td class="tg-0lax">sendUserNotification()</td>
-    </tr>
-    <tr>
-      <td class="tg-0lax">message</td>
-      <td class="tg-0lax">String</td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax">sendAccountActivityAlert()</td>
-    </tr>
-    <tr>
-      <td class="tg-0lax">sentDate</td>
-      <td class="tg-0lax">Date</td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax"></td>
-    </tr>
-  </tbody>
-</table>
+Este Bounded Context "Profile Management" se encarga exclusivamente de 
+la gestión de la información de los usuarios dentro del sistema, sin 
+involucrar los aspectos relacionados con la autenticación o autorización. 
+Su objetivo es permitir a los usuarios visualizar y actualizar su 
+información personal, gestionar sus preferencias, y administrar los 
+roles asignados.
 
 #### 4.2.1.1. Domain Layer.
 
-* **Usuario:** Define las propiedades y el comportamiento de un usuario en el sistema.
-* **Perfil de Usuario:** Gestiona la información del perfil del usuario (nombre, dirección, teléfono, etc.).
-* **Token de Autenticación:** Representa los tokens utilizados para manejar las sesiones de usuario.
-* **Notificación:** Representa las notificaciones enviadas a los usuarios sobre actividades importantes o alertas.
-#### 4.2.1.2. Interface Layer.
-En esta capa presentamos los endpoints de la API que interactúan con las entidades del dominio:
+En esta capa se encuentran las entidades y objetos de valor que forman parte del dominio del perfil de usuario. Esta capa representa la lógica central de negocio que se ocupa de gestionar los perfiles de los usuarios.
 
-* **Autenticación de Usuario:** Servicios como authenticateUser(), validateToken() y invalidateToken() para la validación y gestión de autenticación.
-* **Gestión de Perfiles:** Servicios como updateUserProfile() y retrieveUserProfile() para la actualización y recuperación del perfil del usuario.
-* **Notificaciones:** Servicios como sendUserNotification() para el envío de alertas al usuario.
+* **Usuario:** Es la entidad principal que contiene la información del perfil del usuario, como su nombre, dirección de correo, número de teléfono, y otras propiedades que lo definen.
+* **Rol:** Esta entidad representa los distintos roles que pueden ser asignados a los usuarios, como conductores o supervisores, con diferentes permisos asociados para interactuar con el sistema.
+* **Notificación de Usuario:** Es un objeto de valor que maneja las preferencias del usuario relacionadas con el envío de notificaciones (por ejemplo, preferencia de recibir alertas por correo electrónico).
+* **Historial de Perfil:** Un objeto de valor que rastrea las modificaciones realizadas en el perfil del usuario, permitiendo auditoría o consultas de cambios.
+
+#### 4.2.1.2. Interface Layer.
+
+Esta capa proporciona la interfaz para que el sistema interactúe con otros sistemas o interfaces de usuario. Permite que los usuarios actualicen y accedan a la información de su perfil.
+
+* **Gestión de Perfiles:** Interfaz que ofrece la capacidad de ver y actualizar los datos del perfil del usuario. Desde esta capa, el usuario puede modificar su información personal y preferencias.
+* **Notificaciones de Usuario:** Interface que controla cómo los usuarios gestionan la configuración de notificaciones dentro de su perfil (por ejemplo, activar o desactivar notificaciones push).
+
 #### 4.2.1.3. Application Layer.
 
-* **Inicio de sesión:** Se gestiona la autenticación y validación de tokens.
-* **Gestión de perfiles:** Actualización y consulta de información de perfiles de usuario.
-* **Envío de notificaciones:** Envía notificaciones o alertas al usuario, tales como actividades sospechosas o cambios en la cuenta.
+La capa de aplicación coordina las operaciones del sistema que involucran la gestión de perfiles, sin involucrarse directamente en la lógica de negocio ni en la infraestructura.
+
+* **Actualización de Perfil:** Orquesta las operaciones necesarias para que el perfil de un usuario sea actualizado, comunicándose con las entidades de la capa de dominio.
+* **Consulta de Perfil:** Se encarga de proporcionar los datos de perfil cuando se realiza una solicitud de consulta desde la interfaz.
+* **Gestión de Roles:** Encargada de coordinar las actualizaciones y consultas de los roles de los usuarios.
+
 #### 4.2.1.4. Infrastructure Layer.
 
-* **Persistencia de Usuario:** Manejo de la persistencia de los datos del usuario y su perfil en una base de datos.
-* **Autenticación:** Comunicación con servicios de autenticación y generación de tokens.
-* **Notificaciones:** Envío de notificaciones a través de servicios de mensajería (por ejemplo, email, SMS, notificaciones push).
+Esta capa se ocupa de implementar los detalles técnicos relacionados con la persistencia de los datos, y las interacciones con otras herramientas externas.
+
+* **Repositorios de Usuarios y Roles:** Componentes encargados de almacenar, recuperar y actualizar la información del usuario y los roles en la base de datos.
+* **Servicio de Notificaciones:** Enlace a servicios externos para gestionar el envío de notificaciones a los usuarios, basándose en sus preferencias.
+
 #### 4.2.1.6. Bounded Context Software Architecture Component Level Diagrams.
-![C4 Diagrama de Componentes](./assets/chapter4_img/bounded_context_user.jpeg)
+
+Diagrama de componentes para el bounded context de Profile Management:
+
+![C4 Diagrama de Componentes](./assets/chapter4_img/profileManagementComponentDiagram.png)
+
 #### 4.2.1.7. Bounded Context Software Architecture Code Level Diagrams.
 ###### 4.2.1.7.1. Bounded Context Domain Layer Class Diagrams.
-![Diagrama_de_clases_usuario](./assets/chapter4_img/user_bounded_context-class_diagram.png)
+
+Diagrama de clases para el bounded context de Profile Management:
+
+![Diagrama_de_clases_perfil](./assets/chapter4_img/profile_management_class_diagram.png)
+
 ###### 4.2.1.7.2. Bounded Context Database Design Diagram.
-![Diagrama_de_base_de_Datos_usuario](./assets/chapter4_img/user_bounded_context-database_diagram.png)
-### 4.2.2. Bounded Context: Sensor
-Este bounded context es responsable de la gestión de los sensores y la captura de sus datos de telemetría, así como de la generación de alertas cuando se detectan valores fuera de los rangos establecidos.
 
-<table class="tg">
-  <thead>
-    <tr>
-      <th class="tg-fymr" colspan="2">Nombre</th>
-      <th class="tg-0pky" colspan="3">Descripción</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td class="tg-fymr" colspan="2" style="text-align:center">Sensor</td>
-        <td class="tg-0pky" colspan="3">Captura datos de telemetría y genera alertas si los valores detectados están fuera de los parámetros establecidos</td>
-    </tr>
-    <tr>
-    <td class="tg-fymr" colspan="2">Atributos</td>
-    <td class="tg-fymr" colspan="2">Relaciones</td>
-    <td class="tg-fymr" rowspan="2">Metodos</td>
-    </tr>
-    <tr>
-      <td class="tg-1wig">Nombre</td>
-      <td class="tg-1wig">Tipo de dato</td>
-      <td class="tg-1wig">Tipo</td>
-      <td class="tg-1wig">Clases/Enums</td>
-    </tr>
-    <tr>
-      <td class="tg-0lax">sensorId</td>
-      <td class="tg-0lax">Int</td>
-      <td class="tg-0lax">Agregación</td>
-      <td class="tg-0lax">Telemetry</td>
-      <td class="tg-0lax">registrarSensor()</td>
-    </tr>
-    <tr>
-      <td class="tg-0lax">nombre</td>
-      <td class="tg-0lax">String</td>
-      <td class="tg-0lax">Agregación</td>
-      <td class="tg-0lax">Alert</td>
-      <td class="tg-0lax">actualizarEstado()</td>
-    </tr>
-    <tr>
-      <td class="tg-0lax">tipo</td>
-      <td class="tg-0lax">String</td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax"></td>
-    </tr>
-    <tr>
-      <td class="tg-0lax">ubicación</td>
-      <td class="tg-0lax">String</td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax"></td>
-    </tr>
-    <tr>
-      <td class="tg-0lax">estado</td>
-      <td class="tg-0lax">String</td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax"></td>
-    </tr>
-    <tr>
-      <td class="tg-0lax">fecha de registro</td>
-      <td class="tg-0lax">Date</td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax"></td>
-    </tr>
-  </tbody>
-</table>
+Diagrama del modelado de la base de datos para el bounded context de Profile Management:
 
-<table class="tg">
-  <thead>
-    <tr>
-      <th class="tg-fymr" colspan="2">Nombre</th>
-      <th class="tg-0pky" colspan="3">Descripción</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td class="tg-fymr" colspan="2" style="text-align:center">Telemetry</td>
-        <td class="tg-0pky" colspan="3">Contiene los datos capturados por los sensores en un momento dado, como temperatura, presión, o cualquier otra métrica</td>
-    </tr>
-    <tr>
-    <td class="tg-fymr" colspan="2">Atributos</td>
-    <td class="tg-fymr" colspan="2">Relaciones</td>
-    <td class="tg-fymr" rowspan="2">Metodos</td>
-    </tr>
-    <tr>
-      <td class="tg-1wig">Nombre</td>
-      <td class="tg-1wig">Tipo de dato</td>
-      <td class="tg-1wig">Tipo</td>
-      <td class="tg-1wig">Clases/Enums</td>
-    </tr>
-    <tr>
-      <td class="tg-0lax">telemetryId</td>
-      <td class="tg-0lax">Int</td>
-      <td class="tg-0lax">Composición</td>
-      <td class="tg-0lax">Sensor</td>
-      <td class="tg-0lax">actualizarDatos()</td>
-    </tr>
-    <tr>
-      <td class="tg-0lax">sensorId</td>
-      <td class="tg-0lax">Int (FK)</td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax"></td>
-    </tr>
-    <tr>
-      <td class="tg-0lax">fecha captura</td>
-      <td class="tg-0lax">Date</td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax"></td>
-    </tr>
-    <tr>
-      <td class="tg-0lax">valor</td>
-      <td class="tg-0lax">Float</td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax"></td>
-    </tr>
-    <tr>
-      <td class="tg-0lax">unidad</td>
-      <td class="tg-0lax">String</td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax"></td>
-    </tr>
-  </tbody>
-</table>
+![Diagrama_de_base_de_Datos_perfil](./assets/chapter4_img/profle_management_database_diagram.png)
 
-<table class="tg">
-  <thead>
-    <tr>
-      <th class="tg-fymr" colspan="2">Nombre</th>
-      <th class="tg-0pky" colspan="3">Descripción</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td class="tg-fymr" colspan="2" style="text-align:center">Alert</td>
-        <td class="tg-0pky" colspan="3">Representa una notificación que se genera cuando un sensor detecta valores fuera de los parámetros normales, como una temperatura excesiva o una fuga de gas</td>
-    </tr>
-    <tr>
-    <td class="tg-fymr" colspan="2">Atributos</td>
-    <td class="tg-fymr" colspan="2">Relaciones</td>
-    <td class="tg-fymr" rowspan="2">Metodos</td>
-    </tr>
-    <tr>
-      <td class="tg-1wig">Nombre</td>
-      <td class="tg-1wig">Tipo de dato</td>
-      <td class="tg-1wig">Tipo</td>
-      <td class="tg-1wig">Clases/Enums</td>
-    </tr>
-    <tr>
-      <td class="tg-0lax">alertaId</td>
-      <td class="tg-0lax">Int</td>
-      <td class="tg-0lax">Composición</td>
-      <td class="tg-0lax">Sensor</td>
-      <td class="tg-0lax">generarAlerta()</td>
-    </tr>
-    <tr>
-      <td class="tg-0lax">sensorId</td>
-      <td class="tg-0lax">Int (FK)</td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax">cerrarAlerta()</td>
-    </tr>
-    <tr>
-      <td class="tg-0lax">tipo alerta</td>
-      <td class="tg-0lax">String</td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax"></td>
-    </tr>
-    <tr>
-      <td class="tg-0lax">fecha generacion</td>
-      <td class="tg-0lax">Date</td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax"></td>
-    </tr>
-    <tr>
-      <td class="tg-0lax">estado</td>
-      <td class="tg-0lax">String</td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax"></td>
-    </tr>
-  </tbody>
-</table>
+### 4.2.2. Bounded Context: Security Monitoring
+Este Bounded Context se encarga de la monitorización de la seguridad relacionada con el transporte de materiales peligrosos. Captura y procesa los datos de sensores instalados en las cisternas para garantizar la seguridad durante el transporte. Además, envía notificaciones en tiempo real cuando los sensores detectan que se exceden los límites críticos de seguridad.
 
 #### 4.2.2.1. Domain Layer.
-Este Domain Layer contiene las entidades y lógica de negocio relacionadas con los sensores y la telemetría. Incluye las siguientes clases principales:
 
-* **Sensor:** Representa un sensor que captura datos de telemetría.
-* **Telemetry:** Registra los datos capturados por los sensores.
-* **Alert:** Representa las alertas que se generan cuando se detectan condiciones anormales en los datos de los sensores.
+En esta capa se encuentran las entidades y objetos de valor que representan los conceptos fundamentales de la monitorización de seguridad.
 
-Este dominio modela la lógica para registrar, actualizar y monitorear el estado de los sensores.
+* **Sensor:** Entidad principal que representa los sensores instalados en las cisternas. Cada sensor tiene atributos como identificador, ubicación y valores de medida como temperatura o presión.
+* **Estado del Sensor:** Un objeto de valor que refleja el estado actual de un sensor (por ejemplo, normal, crítico, fuera de servicio) en función de los datos registrados por los sensores.
+* **Alerta de Seguridad:** Un objeto de valor que encapsula la información relacionada con una alerta generada cuando los valores del sensor superan ciertos umbrales críticos.
+* **Historial del Sensor:** Objeto de valor que registra los cambios de estado y los datos históricos del sensor, permitiendo auditoría y análisis.
+
 #### 4.2.2.2. Interface Layer.
 
-Este Interface Layer define las interfaces de comunicación del sistema. Incluye APIs REST y eventos que permiten interactuar con el sistema. Los puntos de comunicación son:
+Esta capa gestiona las interacciones entre el sistema y las interfaces externas (ya sean interfaces de usuario o sistemas de terceros) para monitorizar la seguridad de las cisternas y obtener información en tiempo real.
 
-* **API REST de Sensores:** Permite registrar, actualizar y consultar el estado de los sensores.
-* **Mensajes/Eventos de Telemetría:** Comunicación para enviar y recibir datos de los sensores en tiempo real.
-* **Notificaciones de Alertas:** Eventos que disparan alertas cuando se detectan condiciones fuera de rango.
+* **Consulta de Estado del Sensor:** Interfaz que permite a los operadores o sistemas externos consultar el estado actual de los sensores instalados en las cisternas.
+* **Gestión de Sensores:** Proporciona la capacidad de registrar nuevos sensores en el sistema o actualizar los datos de los sensores existentes.
+
 #### 4.2.2.3. Application Layer.
 
-En este caso, el Application Layer maneja:
+La capa de aplicación coordina las operaciones de monitoreo y alertas, manejando la lógica de la aplicación que no está directamente relacionada con la infraestructura o la lógica central del dominio.
 
-* **Registro de Sensores:** Maneja la creación y registro de nuevos sensores en el sistema.
-* **Recepción de Telemetría:** Procesa los datos recibidos por los sensores y genera alertas si es necesario.
-* **Notificaciones de Alertas:** Coordina la emisión de notificaciones a los administradores en caso de alertas críticas.
+* **Registro de Sensores:** Coordina el proceso de registrar nuevos sensores en el sistema y asociarlos a las cisternas correspondientes.
+* **Actualización de Datos del Sensor:** Orquesta la actualización periódica de los datos de los sensores (por ejemplo, temperatura, presión).
+* **Generación de Alertas:** Se encarga de generar alertas en tiempo real cuando los sensores detectan condiciones peligrosas que superan los umbrales establecidos.
+
 #### 4.2.2.4. Infrastructure Layer.
 
-Este apartado se encarga de la persistencia y comunicación externa. Aquí se incluyen:
+La capa de infraestructura se encarga de los detalles técnicos y de soporte, como el almacenamiento de los datos de sensores y la conexión con otros sistemas externos.
 
-* **Base de Datos de Sensores:** Donde se almacenan los registros de los sensores, la telemetría y las alertas.
-* **Sistemas de Notificación:** Mecanismos para enviar notificaciones de alerta por diferentes medios (email, SMS).
-* **Integración con sistemas de monitoreo:** Comunicación con plataformas externas que reciben los datos de los sensores.
+* **Repositorio de Sensores:** Componente encargado de almacenar los datos de los sensores, incluyendo la información histórica y las alertas generadas.
+* **Servicio de Alertas:** Responsable de enviar notificaciones a los operadores o sistemas externos cuando se detecta una condición de alerta. Puede estar vinculado a servicios de mensajería o correo electrónico.
+* **Servicio de Comunicación con Sensores:** Interfaz técnica que permite recibir y procesar los datos enviados por los sensores en tiempo real.
 
 #### 4.2.2.6. Bounded Context Software Architecture Component Level Diagrams.
-![C4 Diagrama de Componentes](./assets/chapter4_img/bounded_context_sensor.jpeg)
+
+Diagrama de componentes para el bounded context de Security Monitoring:
+
+![C4 Diagrama de Componentes](./assets/chapter4_img/securityMonitoringComponentDiagram.jpeg)
+
 #### 4.2.2.7. Bounded Context Software Architecture Code Level Diagrams.
 ##### 4.2.2.7.1. Bounded Context Domain Layer Class Diagrams.
-![Diagrama de clases_sensor](./assets/chapter4_img/sensor_bounded_context-class_diagram.png)
+
+Diagrama de clases para el bounded context de Security Monitoring:
+
+![Diagrama de clases_security](./assets/chapter4_img/security_monitoring_class_diagram.png)
+
 ##### 4.2.2.7.2. Bounded Context Database Design Diagram.
-![Diagrama de base_de_datos_sensor](./assets/chapter4_img/sensor_bounded_context-database_diagram.png)
-### 4.2.3. Bounded Context: Viajes
 
-<table class="tg">
-  <thead>
-    <tr>
-      <th class="tg-fymr" colspan="2">Nombre</th>
-      <th class="tg-0pky" colspan="3">Descripción</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td class="tg-fymr" colspan="2" style="text-align:center">Viaje</td>
-        <td class="tg-0pky" colspan="3">Representa un viaje realizado por un usuario en el sistema</td>
-    </tr>
-    <tr>
-    <td class="tg-fymr" colspan="2">Atributos</td>
-    <td class="tg-fymr" colspan="2">Relaciones</td>
-    <td class="tg-fymr" rowspan="2">Metodos</td>
-    </tr>
-    <tr>
-      <td class="tg-1wig">Nombre</td>
-      <td class="tg-1wig">Tipo de dato</td>
-      <td class="tg-1wig">Tipo</td>
-      <td class="tg-1wig">Clases/Enums</td>
-    </tr>
-    <tr>
-      <td class="tg-0lax">viajeId</td>
-      <td class="tg-0lax">Int</td>
-      <td class="tg-0lax">Agregación</td>
-      <td class="tg-0lax">Conductor</td>
-      <td class="tg-0lax">iniciarViaje()</td>
-    </tr>
-    <tr>
-      <td class="tg-0lax">origen</td>
-      <td class="tg-0lax">String</td>
-      <td class="tg-0lax">Agregación</td>
-      <td class="tg-0lax">EstadoViaje</td>
-      <td class="tg-0lax">finalizarViaje()</td>
-    </tr>
-    <tr>
-      <td class="tg-0lax">destino</td>
-      <td class="tg-0lax">String</td>
-      <td class="tg-0lax">Agregación</td>
-      <td class="tg-0lax">HistorialViaje</td>
-      <td class="tg-0lax">actualizarEstado()</td>
-    </tr>
-    <tr>
-      <td class="tg-0lax">fecha inicio</td>
-      <td class="tg-0lax">Date</td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax"></td>
-    </tr>
-    <tr>
-      <td class="tg-0lax">fecha fin</td>
-      <td class="tg-0lax">Date</td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax"></td>
-    </tr>
-    <tr>
-      <td class="tg-0lax">estado</td>
-      <td class="tg-0lax">EstadoViaje</td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax"></td>
-    </tr>
-    <tr>
-      <td class="tg-0lax">conductor</td>
-      <td class="tg-0lax">Conductor</td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax"></td>
-    </tr>
-  </tbody>
-</table>
+Diagrama del modelado de la base de datos para el bounded context de Security Monitoring:
 
-<table class="tg">
-  <thead>
-    <tr>
-      <th class="tg-fymr" colspan="2">Nombre</th>
-      <th class="tg-0pky" colspan="3">Descripción</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td class="tg-fymr" colspan="2" style="text-align:center">Conductor</td>
-        <td class="tg-0pky" colspan="3">Representa a un conductor que puede ser asignado a uno o más viajes en el sistema</td>
-    </tr>
-    <tr>
-    <td class="tg-fymr" colspan="2">Atributos</td>
-    <td class="tg-fymr" colspan="2">Relaciones</td>
-    <td class="tg-fymr" rowspan="2">Metodos</td>
-    </tr>
-    <tr>
-      <td class="tg-1wig">Nombre</td>
-      <td class="tg-1wig">Tipo de dato</td>
-      <td class="tg-1wig">Tipo</td>
-      <td class="tg-1wig">Clases/Enums</td>
-    </tr>
-    <tr>
-      <td class="tg-0lax">conductorId</td>
-      <td class="tg-0lax">Int</td>
-      <td class="tg-0lax">Agregación</td>
-      <td class="tg-0lax">Viaje</td>
-      <td class="tg-0lax">asignarViaje()</td>
-    </tr>
-    <tr>
-      <td class="tg-0lax">nombre</td>
-      <td class="tg-0lax">String</td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax"></td>
-    </tr>
-    <tr>
-      <td class="tg-0lax">licencia</td>
-      <td class="tg-0lax">String</td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax"></td>
-    </tr>
-    <tr>
-      <td class="tg-0lax">telefono</td>
-      <td class="tg-0lax">String</td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax"></td>
-    </tr>
-  </tbody>
-</table>
+![Diagrama de base_de_datos_security](./assets/chapter4_img/security_monitoring_database_diagram.png)
 
-<table class="tg">
-  <thead>
-    <tr>
-      <th class="tg-fymr" colspan="2">Nombre</th>
-      <th class="tg-0pky" colspan="3">Descripción</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td class="tg-fymr" colspan="2" style="text-align:center">EstadoViaje</td>
-        <td class="tg-0pky" colspan="3">Representa el estado de un viaje en un momento dado, incluyendo una descripción y un timestamp</td>
-    </tr>
-    <tr>
-    <td class="tg-fymr" colspan="2">Atributos</td>
-    <td class="tg-fymr" colspan="2">Relaciones</td>
-    <td class="tg-fymr" rowspan="2">Metodos</td>
-    </tr>
-    <tr>
-      <td class="tg-1wig">Nombre</td>
-      <td class="tg-1wig">Tipo de dato</td>
-      <td class="tg-1wig">Tipo</td>
-      <td class="tg-1wig">Clases/Enums</td>
-    </tr>
-    <tr>
-      <td class="tg-0lax">estadoViajeId</td>
-      <td class="tg-0lax">Int</td>
-      <td class="tg-0lax">Agregación</td>
-      <td class="tg-0lax">Viaje</td>
-      <td class="tg-0lax"></td>
-    </tr>
-    <tr>
-      <td class="tg-0lax">nombre</td>
-      <td class="tg-0lax">String</td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax"></td>
-    </tr>
-    <tr>
-      <td class="tg-0lax">descripcion</td>
-      <td class="tg-0lax">String</td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax"></td>
-    </tr>
-    <tr>
-      <td class="tg-0lax">timestamp</td>
-      <td class="tg-0lax">Date</td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax"></td>
-    </tr>
-  </tbody>
-</table>
+### 4.2.3. Bounded Context: Transport management
 
-<table class="tg">
-  <thead>
-    <tr>
-      <th class="tg-fymr" colspan="2">Nombre</th>
-      <th class="tg-0pky" colspan="3">Descripción</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td class="tg-fymr" colspan="2" style="text-align:center">HistorialViaje</td>
-        <td class="tg-0pky" colspan="3">Representa el historial de cambios en el estado de un viaje, registrando cada cambio con su fecha y hora</td>
-    </tr>
-    <tr>
-    <td class="tg-fymr" colspan="2">Atributos</td>
-    <td class="tg-fymr" colspan="2">Relaciones</td>
-    <td class="tg-fymr" rowspan="2">Metodos</td>
-    </tr>
-    <tr>
-      <td class="tg-1wig">Nombre</td>
-      <td class="tg-1wig">Tipo de dato</td>
-      <td class="tg-1wig">Tipo</td>
-      <td class="tg-1wig">Clases/Enums</td>
-    </tr>
-    <tr>
-      <td class="tg-0lax">historialViajeId</td>
-      <td class="tg-0lax">Int</td>
-      <td class="tg-0lax">Agregación</td>
-      <td class="tg-0lax">Viaje</td>
-      <td class="tg-0lax">registrarCambio()</td>
-    </tr>
-    <tr>
-      <td class="tg-0lax">viajeId</td>
-      <td class="tg-0lax">Int</td>
-      <td class="tg-0lax">Agregación</td>
-      <td class="tg-0lax">EstadoViaje</td>
-      <td class="tg-0lax"></td>
-    </tr>
-    <tr>
-      <td class="tg-0lax">fechaCambio</td>
-      <td class="tg-0lax">Date</td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax"></td>
-    </tr>
-    <tr>
-      <td class="tg-0lax">timestamp</td>
-      <td class="tg-0lax">Date</td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax"></td>
-    </tr>
-    <tr>
-      <td class="tg-0lax">estadoAnterior</td>
-      <td class="tg-0lax">EstadoViaje</td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax"></td>
-    </tr>
-    <tr>
-      <td class="tg-0lax">estadoNuevo</td>
-      <td class="tg-0lax">EstadoViaje</td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax"></td>
-      <td class="tg-0lax"></td>
-    </tr>
-  </tbody>
-</table>
+El bounded context Transport Management se encarga de planificar y gestionar el transporte de materiales peligrosos, asegurando el cumplimiento de regulaciones. Este contexto incluye la asignación de vehículos y conductores, y monitorea los viajes en tiempo real para garantizar que se realicen de manera segura.
 
 #### 4.2.3.1. Domain Layer.
-Para este bounded context se definen las entidades principales, los agregados y las políticas que rigen el comportamiento de los viajes.
 
-**Entidades principales:**
+El domain layer en el contexto de Transport Management maneja la lógica central del negocio relacionada con la planificación y gestión del transporte de materiales peligrosos. Aquí se definen las entidades principales y los servicios relacionados con las operaciones de transporte. En este bounded context, la lógica central incluye:
 
-* **Viaje:** Representa un viaje de un conductor desde un origen hasta un destino
-* **Conductor:** Persona responsable de realizar el viaje
-* **EstadoViaje:** Representa los distintos estados que un viaje puede tener (e.g., "En curso", "Finalizado", "Cancelado")
+* **Viaje:** Representa el transporte de materiales peligrosos desde un origen a un destino, que incluye datos como el origen, destino, conductor asignado, vehículo, estado actual, y materiales transportados.
+* **Conductor:** Es el encargado de operar el vehículo y realizar el transporte de los materiales peligrosos.
+* **Vehículo:** Describe el vehículo asignado para cada viaje, con detalles sobre su capacidad y características especiales para transportar materiales peligrosos.
+* **Estado del Viaje:** Representa las diferentes etapas del viaje, desde su inicio hasta su finalización, incluyendo alertas y situaciones anómalas.
+* **Historial de Viajes:** Mantiene un registro de todos los viajes realizados, con sus estados y eventos importantes.
 
-**Agregados:**
-
-El Viaje es el agregado raíz que contiene la lógica para gestionar su ciclo de vida completo, incluyendo su asociación con un Conductor y la actualización de su Estado.
 #### 4.2.3.2. Interface Layer.
 
-* **API REST:** Se expone a través de servicios web que permiten a la empresa registrar nuevos viajes, actualizar estados, y a los conductores consultar sus viajes asignados.
-* **UI Móvil:** La aplicacione móvile permite la interacción con la funcionalidad del sistema, proporcionando interfaces amigables para visualizar los viajes, gestionarlos y realizar cambios de estado.
+La interface layer proporciona los puntos de acceso para los usuarios y sistemas externos que interactúan con el contexto de Transport Management. En este caso, incluye:
+
+* **Registrar Viaje:** Una interfaz para que los usuarios ingresen un nuevo viaje en el sistema, asignando conductor, vehículo, y materiales a transportar.
+* **Actualizar Estado de Viaje:** Permite actualizar la información del viaje en curso, como la ubicación actual, problemas detectados, o si se ha completado.
+* **Consultar Historial de Viajes:** Interfaz para obtener un resumen o detalle completo de viajes anteriores, con información sobre eventos, incidentes, o irregularidades.
+
 #### 4.2.3.3. Application Layer.
 
-* **Servicio de Gestión de Viajes:** Orquesta la creación y actualización de viajes.
-* **Servicio de Actualización de Estado:** Permite a los conductores actualizar el estado de un viaje.
-* **Servicio de Consultas de Historial de Viajes:** Permite consultar el historial completo de los viajes de un conductor.
+La application layer orquesta el comportamiento entre la capa de dominio y las interfaces externas. Aquí se encapsulan las reglas del negocio y se coordinan los procesos dentro del contexto de transporte. Las responsabilidades incluyen:
+
+* **Asignación de Transporte:** Un servicio de la aplicación que asigna automáticamente conductores y vehículos disponibles según las necesidades del transporte.
+* **Monitoreo de Viajes:** Coordinación con el contexto de Security Monitoring para obtener actualizaciones en tiempo real sobre el estado del viaje, asegurando el cumplimiento de regulaciones de seguridad.
+* **Gestión de Incidentes:** Gestión de incidentes críticos en tiempo real, generando alertas cuando se detectan situaciones peligrosas durante el transporte.
+
 #### 4.2.3.4. Infrastructure Layer.
 
-* **Base de datos relacional:** Almacena la información de los viajes, conductores y sus estados.
-* **Servicios de monitoreo:** Notifica eventos críticos relacionados con el estado de los viajes.
+La infrastructure layer gestiona la interacción con recursos externos como bases de datos, sistemas de monitoreo, y APIs de otros contextos. En el contexto de Transport Management, esta capa maneja:
+
+* **Base de Datos de Viajes:** Una base de datos que almacena todos los detalles de los viajes, estados y eventos importantes asociados a cada uno.
+* **Integración con Sensores:** Interacciones con sensores de monitoreo (a través del contexto Security Monitoring) para obtener información en tiempo real sobre el estado del vehículo y materiales.
+* **Comunicación con otros Contextos:** Integración con otros sistemas relevantes, como el contexto de Profile Management para obtener detalles de los conductores, o Security Monitoring para actualizaciones de seguridad.
+
 #### 4.2.3.6. Bounded Context Software Architecture Component Level Diagrams.
-![C4 Diagrama de Componentes](./assets/chapter4_img/bounded_context_travel.jpeg)
+
+Diagrama de componentes para el bounded context de Transport management:
+
+![C4 Diagrama de Componentes](./assets/chapter4_img/transportManagementComponentDiagram.jpeg)
+
 #### 4.2.3.7. Bounded Context Software Architecture Code Level Diagrams.
 ###### 4.2.3.7.1. Bounded Context Domain Layer Class Diagrams.
-![Diagrama de clases_viajes](./assets/chapter4_img/travel_bounded_context-class_diagram.png)
+
+Diagrama de clases para el bounded context de Transport management:
+
+![diagrama de clases transport management](./assets/chapter4_img/transport_management_class_diagram.png)
+
 ###### 4.2.3.7.2. Bounded Context Database Design Diagram.
-![Diagrama de base_de_datos_sensor](./assets/chapter4_img/travel_bounded_context-database_diagram.png)
+
+Diagrama del modelado de la base de datos para el bounded context de Transport management:
+
+![diagrama de base de datos transport management](./assets/chapter4_img/transport_management_database_diagram.png)
+
+### 4.2.4. Bounded Context: Alerts system
+
+Este Bounded Context se encarga de la gestión y envío de alertas y notificaciones en tiempo real a conductores y supervisores cuando se detectan problemas críticos a través de los sensores de monitoreo. El sistema prioriza las alertas según su criticidad y asegura que los usuarios clave reciban la información necesaria para tomar acción.
+
+#### 4.2.4.1. Domain Layer.
+
+En esta capa se encuentran las entidades y objetos de valor que representan los conceptos fundamentales relacionados con la gestión de alertas y notificaciones.
+
+* **Alerta:** Entidad principal que encapsula los detalles de una situación crítica detectada por el sistema de sensores. Una alerta tiene atributos como el tipo de alerta, el sensor que la disparó, la prioridad, y el tiempo en el que fue generada.
+* **Notificación:** Objeto de valor que contiene la información enviada a los usuarios (conductores y supervisores) respecto a una alerta generada. Incluye el destinatario, el canal de comunicación y el estado de la notificación (enviada, recibida, pendiente).
+* **Incidente:** Objeto de valor que registra un problema crítico detectado por los sensores. Los incidentes pueden incluir fallos en el sistema, situaciones peligrosas o interrupciones en el servicio.
+* **Usuario:** Entidad que representa a los conductores y supervisores que reciben las alertas. Cada usuario tiene atributos como su rol (conductor o supervisor), preferencias de notificación, y disponibilidad.
+* **Sensor:** Dispositivo que recoge datos del entorno. Cada sensor tiene atributos como su identificador, tipo, y los umbrales críticos que, al ser excedidos, generan una alerta.
+
+#### 4.2.4.2. Interface Layer.
+
+Esta capa gestiona las interacciones entre el sistema de alertas y las interfaces externas, permitiendo la notificación en tiempo real de los incidentes a conductores y supervisores.
+
+* **Interfaz de Notificaciones:** Proporciona la capacidad de visualizar y gestionar las notificaciones enviadas a los usuarios. Los conductores y supervisores reciben alertas en sus dispositivos móviles o aplicaciones internas.
+* **Interfaz de Consulta de Historial de Alertas:** Permite a los supervisores acceder a un registro detallado de alertas generadas y su estado (enviada, recibida, o fallida).
+* **Interfaz de Configuración de Sensores y Alertas:** Permite a los administradores del sistema configurar los sensores y definir los umbrales que disparan alertas.
+
+#### 4.2.4.3. Application Layer.
+
+La capa de aplicación coordina la lógica que gestiona el flujo de alertas y notificaciones en el sistema.
+
+* **Generación de Alertas:** Módulo que orquesta la creación de alertas cuando los datos de los sensores exceden los umbrales críticos definidos.
+* **Envío de Notificaciones:** Responsable de enviar las notificaciones de alertas a los conductores y supervisores. Este módulo asegura que las notificaciones se entreguen a tiempo y monitorea el estado de las mismas.
+* **Gestión de Incidentes:** Se encarga de registrar y gestionar incidentes críticos detectados, permitiendo a los supervisores tomar acciones correctivas en tiempo real.
+* **Prioridad de Alertas:** Lógica que organiza y prioriza las alertas cuando varios eventos críticos ocurren simultáneamente, para garantizar una respuesta eficiente.
+
+#### 4.2.4.4. Infrastructure Layer.
+
+La capa de infraestructura se encarga de la operación técnica del sistema, asegurando la persistencia de los datos y la conectividad entre componentes.
+
+* **Repositorio de Alertas:** Almacena los datos de las alertas generadas, incluyendo la fecha, tipo de alerta, sensor asociado, y el estado de la notificación.
+* **Servicio de Notificaciones:** Componente encargado de enviar las notificaciones a través de diversos canales (SMS, email, aplicaciones internas) y gestionar el estado de entrega.
+* **Servicio de Monitoreo de Sensores:** Recibe datos en tiempo real de los sensores, los analiza y genera alertas cuando los valores críticos son excedidos.
+* **Integración con el Contexto de Monitoreo de Seguridad:** Permite la conexión con el sistema de monitoreo de seguridad para compartir datos sobre incidentes y generar alertas en caso de condiciones peligrosas.
+
+#### 4.2.4.6. Bounded Context Software Architecture Component Level Diagrams.
+
+Diagrama de componentes para el bounded context de Alerts System:
+
+![diagrama de componentes alerts system](assets/chapter4_img/alertSystemComponentDiagram.jpeg)
+
+#### 4.2.4.7. Bounded Context Software Architecture Code Level Diagrams.
+###### 4.2.4.7.1. Bounded Context Domain Layer Class Diagrams.
+
+Diagrama de clases para el bounded context de Alerts System:
+
+![diagrama de clases de alertas](assets/chapter4_img/alerts_system_class_diagram.png)
+
+###### 4.2.4.7.2. Bounded Context Database Design Diagram.
+
+Diagrama del modelado de la base de datos para el bounded context de Alerts System:
+
+![diagrama de base de datos alertas](assets/chapter4_img/alerts_system_database_diagram.png)
+
 # Capítulo V: Solution UI/UX Design
 ## 5.1. Style Guidelines
 ### 5.1.1. General Style Guidelines
