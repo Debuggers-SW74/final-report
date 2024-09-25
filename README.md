@@ -1886,7 +1886,7 @@ La elección de una paleta de colores predominantemente azul para nuestra soluci
 
 Se utilizará un sistema de espaciado coherente en toda la aplicación para crear una experiencia visual uniforme y predecible.También, se empleará diferentes tamaños de espaciado para establecer una clara jerarquía entre elementos, facilitando la comprensión rápida de la información. El sistema de espaciado es flexible y se adapta a diferentes tamaños de pantalla, garantizando una experiencia consistente en diversos dispositivos.
 
-Por otro lado, nos aseguraremos de tener un espaciado adecuado entre líneas y párrafos para mejorar la legibilidad, especialmente importante en condiciones de baja visibilidad o durante la conducción. Además, se utilizará el espaciado para agrupar elementos relacionados y separar distintas secciones de información, mejorando la organización visual.Se incorporará espacios en blanco estratégicos para reducir la sobrecarga visual y ayudar a los usuarios a enfocarse en la información crítica.
+Por otro lado, nos aseguraremos de tener un espaciado adecuado entre líneas y párrafos para mejorar la legibilidad, especialmente importante en condiciones de baja visibilidad o durante la conducción. Además, se utilizará el espaciado para agrupar elementos relacionados y separar distintas secciones de información, mejorando la organización visual. Se incorporará espacios en blanco estratégicos para reducir la sobrecarga visual y ayudar a los usuarios a enfocarse en la información crítica.
 
 **Branding:**
 
@@ -2128,7 +2128,77 @@ En esta sección, se detallará los medios de ayuda que se brindarán a los usua
 
 ### 5.2.5. Navigation Systems
 
+En esta sección, se describen las acciones y técnicas que guiarán a los usuarios a través de la Landing Page y las aplicaciones tanto Web como Móvil, permitiéndoles cumplir sus objetivos e interactuar de manera satisfactoria con el producto. Un sistema de navegación efectivo es importante para garantizar que los usuarios puedan encontrar lo que necesitan sin frustraciones.
 
+**Navegación en la Landing Page**
+
+1. **Menú Principal**:
+    
+  - **Ubicación**: El menú principal estará ubicado en la parte superior de la página y será visible en todo momento.
+
+  - **Elementos del Menú**:
+
+    - Inicio
+    - Características
+    - Beneficios
+    - Descarga
+    - Contacto
+
+  - **Interacción**: Los usuarios podrán hacer clic en cualquiera de estos elementos para ser redirigidos a secciones específicas de la página o a otras páginas relevantes.
+
+2. **Llamada a la Acción (CTA)**:
+
+  - Se incluirán botones prominentes como "Comienza Ahora" o "Descarga la App", que dirigirán a los usuarios a las páginas de registro o descarga.
+
+  - Estos botones estarán ubicados estratégicamente para captar la atención del usuario y facilitar su interacción.
+
+3. **Footer**:
+
+  - El pie de página incluirá enlaces a redes sociales, información de contacto y políticas de privacidad, asegurando que los usuarios tengan acceso a información adicional sin perderse en la navegación.
+
+<br>
+
+**Navegación en la Aplicación Web**
+
+1. **Barra de Navegación Lateral**:
+
+  - **Ubicación**: Una barra lateral estará presente en todas las páginas de la aplicación web.
+
+  - **Elementos de Navegación**:
+
+    - Viajes Actuales
+    - Historial de Viajes
+    - Asignar Viaje
+    - Perfil
+    - Soporte
+
+  - Esta barra permitirá a los supervisores acceder rápidamente a las diferentes secciones y funcionalidades de la aplicación.
+
+2. **Breadcrumbs**:
+
+  - Se implementarán Breadcrumbsen la parte superior de las páginas secundarias para mostrar al usuario su ubicación dentro del sistema y facilitar el regreso a secciones anteriores.
+
+3. **Botones de Acción Rápida**:
+
+  - En cada sección relevante, se incluirán botones destacados para acciones comunes, como "Agregar Nuevo Viaje" o "Ver Notificaciones", permitiendo un acceso rápido y eficiente.
+
+<br>
+
+**Navegación en la Aplicación Móvil**
+
+1. **Menú Hamburguesa**:
+
+  - La aplicación móvil utilizará un menú hamburguesa (icono con tres líneas) ubicado en la parte superior izquierda para acceder a las principales secciones.
+
+  - Este menú incluirá opciones similares a las de la aplicación web, adaptadas al formato móvil.
+
+2. **Interfaz Táctil Intuitiva**:
+
+  - Los elementos interactivos estarán diseñados para ser fácilmente accesibles mediante toques, con botones grandes y espaciados adecuadamente para evitar errores al seleccionar opciones.
+
+3. **Navegación por Tarjetas**:
+
+  - Los resultados de los viajes y notificaciones se presentarán en formato de tarjetas, permitiendo a los usuarios deslizarse entre ellas fácilmente y acceder rápidamente a detalles adicionales.
 
 
 ## 5.3. Landing Page UI Design
