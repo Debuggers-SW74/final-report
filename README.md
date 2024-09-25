@@ -2077,7 +2077,60 @@ App Description:
   - "FastPorte es la aplicación ideal para supervisores y conductores de vehículos que transportan materiales peligrosos. Ofrece seguimiento GPS en tiempo real, gestión de viajes y soporte 24/7. Descarga ahora y mejora la seguridad en el transporte."
 
 ### 5.2.4. Searching Systems
+
+En esta sección, se detallará los medios de ayuda que se brindarán a los usuarios para facilitar la búsqueda de datos dentro de la aplicación de FastPorte. La implementación de un sistema de búsqueda es esencial para evitar que los usuarios se sientan abrumados por el volumen de información disponible. A continuación, se especifican las opciones de búsqueda, los filtros disponibles y cómo se presentarán los datos después de realizar una búsqueda.
+
+**Opciones de Búsqueda**
+
+  **1. Búsqueda por Palabras Clave:**
+
+  Los usuarios podrán ingresar palabras clave relacionadas con la información que buscan. Esta opción será útil para encontrar viajes, conductores o notificaciones específicas.
+    
+  Ejemplo: Un supervisor puede buscar "viaje urgente" para localizar rápidamente información sobre un viaje clasificado como urgente.
+
+  **2. Búsqueda Avanzada:**
+
+  Se ofrecerá una opción de búsqueda avanzada que permite a los usuarios combinar múltiples criterios para afinar sus resultados.
+
+  Criterios disponibles:
+    - Fecha del viaje
+    - Estado del viaje (en curso, completado, cancelado)
+    - Nombre del conductor
+    - Tipo de material transportado
+
+<br>
+
+**Filtros Disponibles:** Para mejorar la experiencia de búsqueda, se implementarán filtros que permitirán a los usuarios restringir los resultados según sus necesidades específicas. Los filtros incluirán:
+
+**Por Fecha:** Permite seleccionar un rango de fechas para visualizar viajes realizados en un período específico.
+
+**Por Estado:** Opción para filtrar viajes según su estado actual (por ejemplo: "En curso", "Completado", "Cancelado").
+
+**Por Conductor:** Filtro que permite seleccionar un conductor específico para ver solo sus viajes asignados.
+
+**Por Tipo de Material:** Opción para filtrar según el tipo de material transportado (por ejemplo: "explosivos", "gases").
+
+<br>
+
+**Resultados:** Una vez que el usuario realiza una búsqueda, los resultados se presentarán en un formato claro y organizado:
+
+**Lista de Resultados:** Cada resultado incluirá información relevante como:
+
+  - ID del viaje
+  - Nombre del conductor
+  - Estado del viaje
+  - Fecha y hora programada
+  - Tipo de material transportado
+
+**Opciones de Acción:** Cada entrada en la lista tendrá botones o enlaces para acciones rápidas, como "Ver Detalles", "Editar Viaje" o "Contactar Conductor".
+
+**Paginación y Carga Dinámica:** Para evitar la sobrecarga visual, se implementará paginación o carga dinámica para mostrar un número limitado de resultados a la vez, permitiendo al usuario navegar fácilmente entre ellos.
+
 ### 5.2.5. Navigation Systems
+
+
+
+
 ## 5.3. Landing Page UI Design
 
 En el siguiente apartado se abordará el diseño de la interfaz de usuario de la página de aterrizaje, la primera impresión visual y funcional que los usuarios tienen al interactuar con un sitio web. Este diseño tiene como objetivo captar la atención, guiar a los usuarios hacia una acción específica y ofrecer una experiencia intuitiva. Se enfoca en la disposición efectiva de los elementos visuales, como los llamados a la acción (CTAs), contenido relevante y diseño responsivo, asegurando que la página sea atractiva, fácil de navegar y optimizada para convertir visitantes en usuarios o clientes de FastPorte.
