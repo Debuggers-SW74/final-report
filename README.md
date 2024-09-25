@@ -14,7 +14,7 @@
 - Chero Eme, Eduardo Andre
 - Lévano Cavero, Eduardo Sebastián
 - Moreno Rosales, Claudio Jesús
-#### Sección: SW74
+#### Sección: WS74
 #### Profesor: Angel Augusto Velasquez Nuñez
 #### Producto: FastPorte
 #### Ciclo: 2024-02
@@ -30,8 +30,6 @@ ___
 | 1.2     | 26/08/2024 | Anthony Botello                   | Desarrollo del Capítulo 1                                                  |
 | 1.3     | 01/09/2024 | Claudio Moreno                    | Desarrollo del Capítulo 2                                                  |
 | 1.4     | 05/09/2024 | Eduardo Chero & Josue Arrunátegui | Desarrollo del Capítulo 4                                                  |
-| 1.5     | 16/09/2024 | Sebastián Lévano                  | Actualización de índice, títulos y subtítulos para el Trabajo Parcial      |
-| 1.6     | 19/09/2024 | Sebastián Lévano                  | Correcciones del Capítulo I y Outcomes                                     |
 
 ---
 
@@ -39,15 +37,11 @@ ___
 
 - Link del repositorio Github: [Github](https://github.com/orgs/Debuggers-SW74) / [https://github.com/Debuggers-SW74/final-report](https://github.com/Debuggers-SW74/final-report)
 
-![Repositorio final-report GitHub](./assets/collaboration_insights/final-report_repository.png)
-
 **Desarrollo de las actividades del informe:**
 
 - TB1: Se desarrollaron los capítulos I, II, III y IV, donde cada miembro se encargo en el avance de uno de estos capítulos en el repositorio de GitHub, empleando Gitflow. A continuación, la evidencia de los commits realizados:
 
 ![TB1 Collaboration Insights](./assets/collaboration_insights/tb1_collaboration.png)
-
-Durante la realización de la entrega TB1 se abordaron los cuatro primeros capítulos. Se brindo la introducción del proyecto, explicando a detalle la Startup y cuál será la problemática que se abordará apoyándose del Lean UX Process en el capítulo I. Asimismo, cuál es la solución propuesta y cómo está resulta adecuada. La validación de la propuesta de solución se realizó mediante el análisis de los requisitos en el capítulo II. Durante este capítulo se llevaron a cabo artefactos importantes como el análisis competitivo y las entrevistas a los segmentos objetivos contemplados para corroborar las suposiciones e hipótesis planteadas en el capítulo anterior. Posteriormente, por medio del capítulo III se definió las características de la aplicación su priorización el desarrollo ejecutando el Product Backlog y sus Historias de Usuario relacionadas. Finalmente en el capítulo IV se diseñaron los diagramas de arquitecturas necesarios para la aplicación basados en el desarrollo previo de los Bounded Context.
 
 ---
 # Contenido 
@@ -91,55 +85,20 @@ Durante la realización de la entrega TB1 se abordaron los cuatro primeros capí
       - [4.1.1.3. Bounded Context Canvases](#4113-bounded-context-canvases)
     - [4.1.2. Context Mapping](#412-context-mapping)
     - [4.1.3. Software Architecture](#413-software-architecture)
-      - [4.1.3.1. Software Architecture System Landscape Diagram](#4131-software-architecture-system-landscape-diagram)
-      - [4.1.3.2. Software Architecture Context Level Diagrams](#4132-software-architecture-context-level-diagrams)
-      - [4.1.3.3. Software Architecture Container Level Diagrams](#4133-software-architecture-container-level-diagrams)
-      - [4.1.3.4. Software Architecture Deployment Diagrams](#4134-software-architecture-deployment-diagrams)
+    - [4.1.3.1. Software Architecture System Landscape Diagram](#4131-software-architecture-system-landscape-diagram)
+    - [4.1.3.2. Software Architecture Context Level Diagrams](#4132-software-architecture-context-level-diagrams)
+    - [4.1.3.3. Software Architecture Container Level Diagrams](#4133-software-architecture-container-level-diagrams)
+    - [4.1.3.4. Software Architecture Deployment Diagrams](#4134-software-architecture-deployment-diagrams)
   - [4.2. Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)
-- [Capítulo V: Solution UI/UX Design](#capítulo-v-solution-ux-ui)
-  - [5.1. Style Guidelines](#51-style-guidelines)
-    - [5.1.1. General Style Guidelines](#511-general-style-guidelines)
-    - [5.1.2. Web, Mobile and IoT Style Guidelines](#512-web-mobile-and-iot-style-guiledines)
-  - [5.2. Information Architecture](#52-information-architecture)
-    - [5.2.1. Organization Systems](#521-organization-systems)
-    - [5.2.2. Labeling Systems](#522-labeling-systems)
-    - [5.2.3. SEO Tags and Meta Tags](#523-seo-tags-and-meta-tags)
-    - [5.2.4. Searching Systems](#524-searching-systems)
-    - [5.2.5. Navigation Systems](#525-navigation-systems)
-  - [5.3. Landing Page UI Design](#53-landing-page-ui-design)
-    - [5.3.1. Landing Page Wireframe](#531-landing-page-wireframe)
-    - [5.3.2. Labeling Page Mock-up](#532-landing-page-mock-up)
-  - [5.4. Application UX/UI Design](#54-application-ux-ui-design)
-    - [5.4.1. Applications Wireframes](#541-applications-wireframes)
-    - [5.4.2. Applications Wireflow Diagrams](#542-applications-wireflow-diagrams)
-    - [5.4.3. Applications Mock-ups](#543-applications-mock-ups)
-    - [5.4.4. Applications User Flow Diagrams](#544-applications-user-flow-diagrams)
-  - [5.5. Applications Prototyping](#55-applications-prototyping)
-- [Capítulo VI: Product Implementation, Validation & Deployment](#capítulo-vi-product-implementation-validation-deployment)
-  - [6.1. Software Configuration Management](#61-software-configuration-management)
-    - [6.1.1. Software Development Environment Configuration](#611-software-development-environment-configuration)
-    - [6.1.2. Source Code Management](#612-source-code-management)
-    - [6.1.3. Source Code Style Guide & Conventions](#613-source-code-style-guide-conventions)
-    - [6.1.4. Software Deployment Configuration](#614-software-deployment-configuration)
-  - [6.2. Landing Page, Services & Applications Implementation](#62-landing-page-services-applications-implementation)
-    - [6.2.1. Sprint 1](#621-sprint-1)
-      - [6.2.1.1. Sprint Planning 1](#6211-sprint-planning-1)
-      - [6.2.1.2. Sprint Backlog 1](#6212-sprint-backlog-1)
-      - [6.2.1.3. Development Evidence for Sprint Review](#6213-development-evidence-for-sprint-review)
-      - [6.2.1.4. Testing Suite Evidence for Sprint Review](#6214-testing-suite-evidence-for-sprint-review)
-      - [6.2.1.5. Execution Evidence for Sprint Review](#6215-execution-evidence-for-sprint-review)
-      - [6.2.1.6. Services Documentation Evidence for Sprint Review](#6216-services-documentation-evidence-for-sprint-review)
-      - [6.2.1.7. Software Deployment Evidence for Sprint Review](#6217-software-deployment-evidence-for-sprint-review)
-      - [6.2.1.8. Team Collaboration Insights during Sprint](#6218-team-collaboration-insights-during-sprint)
 
 ---
 
 # Student Outcome
 
-| Criterio Específico                                                                             | Acciones Realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | Conclusiones                                                                                                                                                                                                                                                                                                                                                                     |
-| ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta.                                | *Eduardo Sebastián Lévano Cavero*<br>**TB1:**<br>A través de la realización de los To Be Scenario Mapping y User Stories, lideré la definición de escenarios futuros y necesidades del usuario, respectivamente, lo que permitió al equipo visualizar y priorizar funcionalidades clave. Mediante el Impact Mapping, pudimos establecer en conjunto relaciones claras entre los objetivos estratégicos y las características del producto, garantizando un enfoque alineado con las metas organizacionales. Finalmente, en el Product Backlog, se gestionaron las tareas de manera colaborativa, facilitando una planificación y ejecución eficientes que reflejan las prioridades acordadas en equipo. <br><br>*Anthony Botello Saldarriaga* <br>**TB1:**<br>En el presente proyecto, colaboré activamente en el liderazgo conjunto del equipo. Contribuí en la definición del startup y solution profile, y participé en la creación de los Lean UX Problem Statements y su análisis. Además, apoyé en la elaboración del Lean UX Canvas, tomando decisiones clave en conjunto con el equipo para asegurar un desarrollo efectivo y alineado con los objetivos del proyecto.<br><br>*Eduardo André Chero Emé*<br>**TB1:**<br>El desarrollo del event Storming nos ayudó para tener una visualizacion más definida de nuestros bounded context para una mejor implementación en el código. Clasificar los escenarios mediante el modelado de Message flows y generar los Bounded Context Canvas nos brindan un mejor entendimiento de las variables, conexiones y propisitos de los bounded context que impementamos. Por ultimo el desarrollo del diseño de la arquitectura de software en C4 para una mejor ejemplificacion de como va a realizarce nuestras conexiones de los respectivos servicios.<br><br>*Claudio Jesús Moreno Rosales*<br>**TB1:**<br>Para realizar y encontrar los requisitos de los segmentos objetivos se tuvo que realizar cada parte con los miembros del equipo para establecer cuales son los requisitos encontrados, como se debería ver los User Persona, User Journey Map, entre otros para entender y empatizar a profundidad con los usuarios.<br><br>*Josue David Arrunategui Aguilar*<br>**TB1:**<br>En el desarrollo del proyecto, asumí un papel clave en el diseño y la implementación de los bounded contexts de Usuario, Viaje y Sensor. Mi enfoque incluyó la definición precisa de cada contexto para garantizar una integración efectiva en el sistema. | *TB1*<br>La presente entrega sirvió para validar que la solución propuesta es adecuada para los segmentos objetivo abordados, esto en base al trabajo colaborativo realizado durante las entrevistas y el análisis de estas. Asimismo, por el desarrollo de los apartados involucrados desde la Introducción hasta la estructuración de la arquitectura durante el empleo de C4. |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | *Eduardo Sebastián Lévano Cavero*<br>**TB1:**<br>Por medio de los To Be Scenario Mapping y las User Stories, identificamos y documentamos las necesidades y expectativas de los usuarios, asegurando que todas las voces fueran escuchadas y consideradas. Mediante el Impact Mapping, en grupo alineamos las metas estratégicas con las funcionalidades del producto, permitiendo una planificación clara y enfocada. En el Product Backlog, priorizamos y planificamos las tareas de forma conjunta, lo que facilitó el cumplimiento de los objetivos establecidos dentro de un marco de trabajo inclusivo y bien organizado.<br><br>*Anthony Botello Saldarriaga* <br>**TB1:**<br>En el desarrollo, fomenté un entorno colaborativo e inclusivo asegurando que todas las ideas fueran escuchadas y valoradas. Participé en la definición de metas claras para el proyecto, colaborando en la planificación de tareas específicas como el desarrollo de los diferentes puntos del informe. Además, me aseguré de que los plazos y objetivos se cumplieran de manera eficiente, distribuyendo responsabilidades entre los miembros del equipo.<br><br>*Eduardo André Chero Emé*<br>**TB1:**<br>A través de EventStorming, se identificaron los contextos potenciales y se modelaron los flujos de mensajes del dominio; esto permitió utilizar los Bounded Context Canvases para encontrar contextos delimitados. Posteriormente, se trabajó en el mapeo de contextos y el diseño de la arquitectura de software, creando diagramas a nivel de sistema, contexto, contenedor y despliegue, lo que proporcionó una visión clara de las conexiones y dependencias entre los servicios.<br><br>*Claudio Jesús Moreno Rosales*<br>**TB1:**<br> En la elaboración de las técnicas de Design Thinking como los User Persona, User Journey Map, entre otros, se pudo apreciar que los miembros del equipo colaboraron realizando sus entrevistas, analisando cuantiativamente las entrevistas y al final sacando los resultados finales para empatizar con nuestros segmentos objetivo.<br><br>*Josue David Arrunategui Aguilar*<br>**TB1:**<br>En el desarrollo del proyecto, asumí un papel clave en el diseño y la implementación de los bounded contexts de Usuario, Viaje y Sensor. Mi enfoque incluyó la definición precisa de cada contexto para garantizar una integración efectiva en el sistema.                                                                                                  | *TB1*<br>Se lograron los objetivos diseñados en grupo al completar la base del proyecto tanto a nivel de diseño como de arquitectura. Asimismo, al planear los elementos a desarrollar durante los siguientes Sprints.                                                                                                                                                           |
+| Criterio Específico                                                                             | Acciones Realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | Conclusiones                                                                                                                                                                                                                                                                                                                                                                     |
+| ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta.                                | *Eduardo Sebastián Lévano Cavero*<br>**TB1:**<br>A través de la realización de los To Be Scenario Mapping y User Stories, se definieron escenarios futuros y necesidades del usuario, respectivamente, lo que permitió al equipo visualizar y priorizar funcionalidades clave. Mediante el Impact Mapping, se establecieron relaciones claras entre los objetivos estratégicos y las características del producto, garantizando un enfoque alineado con las metas organizacionales. Finalmente, en el Product Backlog, se gestionaron las tareas de manera colaborativa, facilitando una planificación y ejecución eficientes que reflejan las prioridades acordadas en equipo. <br><br>*Anthony Botello Saldarriaga* <br>**TB1:**<br> En el presente proyecto, colaboré activamente en el liderazgo conjunto del equipo. Contribuí en la definición del startup y solution profile, y participé en la creación de los Lean UX Problem Statements y su análisis. Además, apoyé en la elaboración del Lean UX Canvas, tomando decisiones clave en conjunto con el equipo para asegurar un desarrollo efectivo y alineado con los objetivos del proyecto.<br><br>*Eduardo André Chero Emé*<br>**TB1:**<br>El desarrollo del event Storming nos ayudó para tener una visualizacion más definida de nuestros bounded context para una mejor implementación en el código. Clasificar los escenarios mediante el modelado de Message flows y generar los Bounded Context Canvas nos brindan un mejor entendimiento de las variables, conexiones y propisitos de los bounded context que impementamos. Por ultimo el desarrollo del diseño de la arquitectura de software en C4 para una mejor ejemplificacion de como va a realizarce nuestras conexiones de los respectivos servicios.<br><br>*Claudio Jesús Moreno Rosales*<br>**TB1:**<br> Para realizar y encontrar los requisitos de los segmentos objetivos se tuvo que realizar cada parte con los miembros del equipo para establecer cuales son los requisitos encontrados, como se debería ver los User Persona, User Journey Map, entre otros para entender y empatizar a profundidad con los usuarios.<br><br>*Josue David Arrunategui Aguilar*<br>**TB1:**<br>En el desarrollo del proyecto, asumí un papel clave en el diseño y la implementación de los bounded contexts de Usuario, Viaje y Sensor. Mi enfoque incluyó la definición precisa de cada contexto para garantizar una integración efectiva en el sistema. | *TB1*<br>La presente entrega sirvió para validar que la solución propuesta es adecuada para los segmentos objetivo abordados, esto en base al trabajo colaborativo realizado durante las entrevistas y el análisis de estas. Asimismo, por el desarrollo de los apartados involucrados desde la Introducción hasta la estructuración de la arquitectura durante el empleo de C4. |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | *Eduardo Sebastián Lévano Cavero*<br>**TB1:**<br>Por medio de los To Be Scenario Mapping y las User Stories, se identificaron y documentaron las necesidades y expectativas de los usuarios, asegurando que todas las voces fueran escuchadas y consideradas. Mediante el Impact Mapping, se alinearon las metas estratégicas con las funcionalidades del producto, permitiendo una planificación clara y enfocada. En el Product Backlog, se priorizaron y planificaron las tareas de forma conjunta, lo que facilitó el cumplimiento de los objetivos establecidos dentro de un marco de trabajo inclusivo y bien organizado.<br><br>*Anthony Botello Saldarriaga* <br>**TB1:**<br>En el desarrollo, fomenté un entorno colaborativo e inclusivo asegurando que todas las ideas fueran escuchadas y valoradas. Participé en la definición de metas claras para el proyecto, colaborando en la planificación de tareas específicas como el desarrollo de los diferentes puntos del informe. Además, me aseguré de que los plazos y objetivos se cumplieran de manera eficiente, distribuyendo responsabilidades entre los miembros del equipo.<br><br>*Eduardo André Chero Emé*<br>**TB1:**<br>A través de EventStorming, se identificaron los contextos potenciales y se modelaron los flujos de mensajes del dominio; esto permitió utilizar los Bounded Context Canvases para encontrar contextos delimitados. Posteriormente, se trabajó en el mapeo de contextos y el diseño de la arquitectura de software, creando diagramas a nivel de sistema, contexto, contenedor y despliegue, lo que proporcionó una visión clara de las conexiones y dependencias entre los servicios.<br><br>*Claudio Jesús Moreno Rosales*<br>**TB1:**<br> En la elaboración de las técnicas de Desing Thinking como los User Persona, User Journey Map, entre otros, se pudo apreciar que los miembros del equipo colaboraron realizando sus entrevistas, analisando cuantiativamente las entrevistas y al final sacando los resultados finales para empatizar con nuestros segmentos objetivo.<br><br>*Josue David Arrunategui Aguilar*<br>**TB1:**<br>En el desarrollo del proyecto, asumí un papel clave en el diseño y la implementación de los bounded contexts de Usuario, Viaje y Sensor. Mi enfoque incluyó la definición precisa de cada contexto para garantizar una integración efectiva en el sistema.                                                                            | *TB1*<br>Se lograron los objetivos diseñados en grupo al completar la base del proyecto tanto a nivel de diseño como de arquitectura. Asimismo, al planear los elementos a desarrollar durante los siguientes Sprints.                                                                                                                                                           |
 
 ---
 # Capítulo I: Introducción
@@ -857,565 +816,953 @@ Entrevistado: Juan Cueto Dominguez tiene 28 años y es Conductor de Materiales P
 - **Supervision (Supervisión):** Actividad de control y monitoreo continuo de los vehículos, conductores y condiciones del transporte para asegurar la integridad de los materiales peligrosos.
 # Capítulo III: Requirements Specification
 ## 3.1. To-Be Scenario Mapping:
-
-A continuación, se mostrará los To-Be Scenario Mapping realizados para los segmentos objetivos considerados, Conductor y Supervisor. En los diagramas es ofrece una representación detallada del estado futuro que se desea para cada proceso que realizan segmentos. Además, se evidencian las mejoras al emplear la aplicación **FastPorte** en comparación con el estado actual presentado en los As-Is Scenario Mapping.
-
 **To-Be Scenario Mapping - Usuario Conductor:**
 ![To Be Scenario Mapping del usuario Conductor](assets/capitulo3/to-be-scenario-mapping/driver.jpg)
-**To-Be Scenario Mapping - Usuario Supervisor:**
+**To-Be Scenario Mapping - Usuario Empresa:**
 ![To Be Scenario Mapping del usuario Empresa](assets/capitulo3/to-be-scenario-mapping/company.jpg)
 Enlace para mejor visualización en Miro: [To Be Scenario Mapping FastPorte](https://miro.com/app/board/uXjVKlAIMgY=/?share_link_id=669866924097)
 ## 3.2. User Stories
 
-Se han descrito las funcionalidades y características de la propuesta de solución desde la perspectiva de los usuarios finales considerados, Conductor y Supervisor. Previamente a la elaboración de las Historias de Usuario se han designado las categorías en las que formarán parte, siendo estas las siguientes Épicas:
+| Epic ID | Título                                          | Descripción                                                                                                                                                                                                                                                 |
+|---------|-------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| EP-01   | Desarrollo del Landing Page                     | Se centra en el desarrollo del sitio web que sirve de presentación para la empresa y el producto que ofrece. Se implementan diversas secciones que permiten al usuario conocer más acerca de FastPorte y como el producto puede satisfacer sus necesidades. |
+| EP-02   | Desarrollo del Backend                          | Se enfoca en el desarrollo backend de la aplicación y las funcionalidades que debe poseer. Asimismo, como serán denominados los *endpoints* para su futura implementación en las aplicaciones web y móvil.                                                  |
+| EP-03   | Conexión con el sensor                          | La integración del sensor instalado en el vehículo con el backend para almacenar la información que reporta y como se visualizará en el frontend.                                                                                                           |
+| EP-04   | Autenticación y Registro                        | Abarca los aspectos iniciales del uso de la aplicación web y móvil. Los pasos de Registro e Inicio Sesión de los usuarios en la aplicación.                                                                                                                 |
+| EP-05   | Servicios de viajes                             | Engloba las funcionalidades que brindan tanto la aplicación móvil como web respecto a los viajes programados para los conductores de material peligroso.                                                                                                    |
+| EP-06   | Notificaciones y Alertas                        | La gestión de las notificaciones y alertas recibidas por los servicios de transporte brindados o en caso de advertencia por la detección de un inconveniente por parte del sensor.                                                                          |
+| EP-07   | Monitorización y Gestión del material peligroso | Las funcionalidades del sensor para captar y enviar la información detectada acerca de los materiales peligrosos.                                                                                                                                           |
 
-| Epic ID | Título                                                           | Descripción                                                                                                                                                                                                                                                 |
-| ------- | ---------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| EP-01   | Creación de una página de aterrizaje para captar nuevos usuarios | Se centra en el desarrollo del sitio web que sirve de presentación para la empresa y el producto que ofrece. Se implementan diversas secciones que permiten al usuario conocer más acerca de FastPorte y como el producto puede satisfacer sus necesidades. |
-| EP-02   | Sistema para el manejo de información y funcionalidad            | Se enfoca en el desarrollo backend de la aplicación y las funcionalidades que debe poseer. Asimismo, como serán denominados los *endpoints* para su futura implementación en las aplicaciones web y móvil.                                                  |
-| EP-03   | Conexión con el sensor integrado                                 | La integración del sensor instalado en el vehículo con el backend para almacenar la información que reporta y como se visualizará en el frontend.                                                                                                           |
-| EP-04   | Autenticación y Registro de usuarios                             | Abarca los aspectos iniciales del uso de la aplicación web y móvil. Los pasos de Registro e Inicio Sesión de los usuarios en la aplicación.                                                                                                                 |
-| EP-05   | Servicios de viajes y gestión de itinerario                      | Engloba las funcionalidades que brindan tanto la aplicación móvil como web respecto a los viajes programados para los conductores de material peligroso.                                                                                                    |
-| EP-06   | Sistema de notificaciones y alertas                              | La gestión de las notificaciones y alertas recibidas por los servicios de transporte brindados o en caso de advertencia por la detección de un inconveniente por parte del sensor.                                                                          |
-| EP-07   | Monitorización y Gestión del material peligroso                  | Las funcionalidades del sensor para captar y enviar la información detectada acerca de los materiales peligrosos.                                                                                                                                           |
-
-A continuación, las Historias de Usuario relacionadas para definir los requisitos del sistema incluyendo los criterios de aceptación:
-
-| User Story ID | Título                                                                            | Descripción                                                                                                                                                                                                              | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | Epic ID |
-| ------------- | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
-| US-001        | Registro de supervisor de la empresa                                              | **Como** supervisor de la empresa<br>**Quiero** registrarme en la aplicación<br>**Para** supervisar a los conductores a mi cargo                                                                                         | **Escenario Nº1: Código correcto**<br><br>**Dado que** el supervisor de la empresa no está registrado<br>**Y** está en la vista inicial de la aplicación<br>**Cuando** ingresa el código del sensor de un vehículo<br>**Y** selecciona la opción de registrarse como "Supervisor"<br>**Y** completa los datos requeridos correctamente<br>**Entonces** el sistema registra el usuario como *Supervisor*<br>**Y** permite al usuario iniciar sesión con las credenciales creadas<br><br>**Escenario Nº2: Código usado anteriormente**<br><br>**Dado que** el supervisor de la empresa no está registrado<br>**Y** está en la vista inicial de la aplicación<br>**Y** se ha usado el código del sensor anteriormente para registrar un *Supervisor*<br>**Cuando** ingresa el código del sensor de un vehículo<br>**Y** selecciona la opción de registrarse como "Supervisor"<br>**Y** completa los datos requeridos correctamente<br>**Entonces** el sistema le indica que ya se ha registrado un *Supervisor* para el código ingresado                                                                                               | EP-04   |
-| US-002        | Registro de conductor                                                             | **Como** conductor<br>**Quiero** registrarme en la aplicación<br>**Para** recibir información de los viajes que debo realizar                                                                                            | **Escenario Nº1: Código correcto**<br><br>**Dado que** el conductor no está registrado<br>**Y** se encuentra en la vista inicial de la aplicación<br>**Cuando** ingresa el código del sensor de su vehículo<br>**Y** selecciona la opción de registrarse como "Conductor"<br>**Y** completa los datos requeridos correctamente<br>**Entonces** el sistema registra el usuario como *Conductor*<br>**Y** permite al usuario iniciar sesión con las credenciales creadas<br><br>**Escenario Nº2: Código usado anteriormente**<br><br>**Dado que** el conductor no está registrado<br>**Y** está en la vista inicial de la aplicación<br>**Y** se ha usado el código del sensor anteriormente para registrar un *Conductor*<br>**Cuando** ingresa el código del sensor de un vehículo<br>**Y** selecciona la opción de registrarse como "Conductor"<br>**Y** completa los datos requeridos correctamente<br>**Entonces** el sistema le indica que ya se ha registrado un *Conductor* para el código ingresado                                                                                                                          | EP-04   |
-| US-003        | Inicio de sesión                                                                  | **Como** usuario de la aplicación<br>**Quiero** iniciar sesión en la aplicación<br>**Para** acceder a las funcionalidades de la aplicación                                                                               | **Escenario Nº1: Credenciales correctas**<br><br>**Dado que** el usuario de la aplicación desea iniciar sesión<br>**Y** está en la vista inicial de la aplicación<br>**Cuando** ingresa sus credenciales<br>**Entonces** el sistema permite al usuario acceder a las funcionalidades de la aplicación<br><br>**Escenario Nº2: Credenciales inccorrectas**<br><br>**Dado que** el usuario de la aplicación desea iniciar sesión<br>**Y** está en la vista inicial de la aplicación<br>**Cuando** ingresa sus credenciales<br>**Y** se ha equivocado en su correo o contraseña<br>**Entonces** el sistema le indica que una de sus credenciales es incorrecta                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | EP-04   |
-| US-004        | Registrar un viaje                                                                | **Como** supervisor de la empresa<br>**Quiero** registrar un viaje<br>**Para** notificar al conductor los servicios que debe realizar                                                                                    | **Escenario Nº1: Viaje creado**<br><br>**Dado que** el supervisor de la empresa ha iniciado sesión en la aplicación<br>**Y** desea registrar un viaje en el itinerario<br>**Cuando** selecciona al conductor que realizará la entrega<br>**Y** completa la información del viaje correctamente<br>**Entonces** el sistema crea el viaje<br>**Y** notifica al conductor sobre el viaje que debe realizar<br><br>**Escenario Nº2: Conflicto de horario**<br><br>**Dado que** el supervisor de la empresa ha iniciado sesión en la aplicación<br>**Y** desea registrar un viaje en el itinerario<br>**Cuando** selecciona al conductor que realizará la entrega<br>**Y** completa la información del viaje correctamente<br>**Y** el horario elegido ya ha sido reservado para otro viaje<br>**Entonces** el sistema indica que se debe de elegir otro horario para el servicio de transporte                                                                                                                                                                                                                                          | EP-05   |
-| US-005        | Viajes pendientes                                                                 | **Como** usuario de la aplicación<br>**Quiero** visualizar los viajes pendientes<br>**Para** gestionar los viajes que se deben realizar                                                                                  | **Escenario Nº1: Viajes pendientes existentes**<br><br>**Dado que** el usuario ha iniciado sesión en la aplicación <br>**Y** desea visualizar los viajes pendientes<br>**Cuando** selecciona la opción para ver el itinerario<br>**Entonces** el sistema muestra los viajes pendientes<br><br>**Escenario Nº2: Sin viajes pendientes**<br><br>**Dado que** el usuario ha iniciado sesión en la aplicación <br>**Y** desea visualizar los viajes pendientes<br>**Cuando** selecciona la opción para ver el itinerario<br>**Y** no posee ningún viaje agendado<br>**Entonces** el sistema muestra un mensaje indicando que no hay viajes pendientes                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | EP-05   |
-| US-006        | Historial de Viajes                                                               | **Como** usuario de la aplicación<br>**Quiero** visualizar el historial de viajes<br>**Para** llevar un registro de los viajes completados                                                                               | **Escenario Nº1: Viajes completados existentes**<br><br>**Dado que** el usuario ha iniciado sesión en la aplicación<br>**Y** desea visualizar el historial de viajes<br>**Cuando** selecciona la opción para ver el historial de viajes<br>**Entonces** el sistema muestra los viajes completados en el historial<br><br>**Escenario Nº2: Sin viajes completados**<br><br>**Dado que** el usuario ha iniciado sesión en la aplicación <br>**Y** desea visualizar los viajes pendientes<br>**Cuando** selecciona la opción para ver el historial de viajes<br>**Y** no posee ningún viaje completado<br>**Entonces** el sistema muestra un mensaje indicando que no hay viajes en el historial                                                                                                                                                                                                                                                                                                                                                                                                                                       | EP-05   |
-| US-007        | Concluir viaje                                                                    | **Como** supervisor de la empresa<br>**Quiero** concluir los viajes que ya se han realizado<br>**Para** dar por terminado la tarea del conductor                                                                         | **Escenario Nº1: Viaje finalizado**<br><br>**Dado que** el supervisor de la empresa ha iniciado sesión en la aplicación<br>**Y** desea concluir un viaje<br>**Y** ha identificado el viaje en la lista de viajes pendientes<br>**Cuando** marca el viaje como concluido<br>**Entonces** el sistema registra el viaje como completado<br>**Y** notifica al conductor sobre la finalización del viaje<br><br>**Escenario Nº2: Irregularidades detectadas**<br><br>**Dado que** el supervisor de la empresa ha iniciado sesión en la aplicación<br>**Y** desea concluir un viaje<br>**Y** ha identificado el viaje en la lista de viajes pendientes<br>**Cuando** marca el viaje como concluido<br>**Y** el sensor todavía está detectando irregularidades<br>**Entonces** el sistema muestra un mensaje indicando que el viaje no puede ser finalizado                                                                                                                                                                                                                                                                                | EP-05   |
-| US-008        | Cancelar viaje                                                                    | **Como** supervisor de la empresa<br>**Quiero** cancelar un viaje<br>**Para** descartar un viaje creado erróneamente                                                                                                     | **Escenario Nº1: Viaje cancelado**<br><br>**Dado que** el supervisor de la empresa ha iniciado sesión en la aplicación<br>**Y** desea cancelar un viaje<br>**Y** ha identificado el viaje en la lista de viajes pendientes<br>**Cuando** cancela el viaje<br>**Entonces** el sistema elimina el registro del viaje<br>**Y** notifica al conductor sobre el viaje cancelado<br><br>**Escenario Nº2: Viaje en curso**<br><br>**Dado que** el supervisor de la empresa ha iniciado sesión en la aplicación<br>**Y** desea cancelar un viaje<br>**Y** ha identificado el viaje en la lista de viajes pendientes<br>**Cuando** cancela el viaje<br>**Y** el viaje ya se encuentra en curso<br>**Entonces** el sistema muestra un mensaje indicando que el viaje ya se encuentra en curso<br>**Y** muestra la opción para contactar con el conductor<br>**Y** con el área de soporte                                                                                                                                                                                                                                                      | EP-05   |
-| US-009        | Buscar un conductor                                                               | **Como** supervisor de la empresa<br>**Quiero** buscar un conductor<br>**Para** asignarle un viaje                                                                                                                       | **Escenario Nº1: Búsqueda de conductor existente**<br><br>**Dado que** el supervisor de la empresa ha iniciado sesión en la aplicación<br>**Y** desea buscar un conductor<br>**Cuando** ingresa el nombre del conductor o el código del sensor de su vehículo<br>**Y** confirma la búsqueda<br>**Entonces** el sistema busca y muestra al conductor correspondiente<br><br>**Escenario Nº2: Búsqueda de conductor inexistente**<br><br>**Dado que** el supervisor de la empresa ha iniciado sesión en la aplicación<br>**Y** desea buscar un conductor<br>**Cuando** ingresa el nombre del conductor o el código del sensor de su vehículo<br>**Y** ingresa un carácter incorrectamente<br>**Y** confirma la búsqueda<br>**Entonces** el sistema muestra un mensaje indicando que no se ha encontrado ningún conductor que coincida con los datos ingresados                                                                                                                                                                                                                                                                        | EP-05   |
-| US-010        | Visualizar la información del viaje                                               | **Como** usuario de la aplicación<br>**Quiero** visualizar la información de un viaje<br>**Para** revisar algún dato en concreto                                                                                         | **Escenario Nº1: Visualizar información de un viaje pendiente**<br><br>**Dado que** el usuario ha iniciado sesión en la aplicación<br>**Y** desea visualizar la información de un viaje<br>**Y** ha identificado el viaje en la lista de viajes pendientes<br>**Cuando** selecciona el viaje correspondiente<br>**Entonces** el sistema muestra la información del viaje<br><br>**Escenario Nº2: Visualizar información de un viaje realizado**<br><br>**Dado que** el usuario ha iniciado sesión en la aplicación<br>**Y** desea visualizar la información de un viaje<br>**Cuando** selecciona la opción de ver el historial de viajes<br>**Y** elige el viaje correspondiente en la lista de viajes completados<br>**Entonces** el sistema muestra la información del viaje realizado                                                                                                                                                                                                                                                                                                                                            | EP-05   |
-| US-011        | Notificar al conductor del nuevo viaje                                            | **Como** conductor<br>**Quiero** recibir una notificación<br>**Para** saber si se me ha asignado un viaje                                                                                                                | **Escenario Nº1: Notificación de un nuevo viaje en la sección Principal**<br><br>**Dado que** el conductor ha iniciado sesión en la aplicación<br>**Y** desea recibir una notificación de un nuevo viaje<br>**Cuando** ingresa a la aplicación<br>**Entonces** el sistema muestra una notificación del nuevo viaje asignado<br><br>**Escenario Nº2: Notificación de un nuevo viaje en la sección Notificaciones**<br><br>**Dado que** el conductor ha iniciado sesión en la aplicación<br>**Y** desea recibir una notificación de un nuevo viaje<br>**Cuando** selecciona la opción de ver las notificaciones<br>**Entonces** el sistema lista las notificaciones<br>**Y** muestra la notificación del nuevo viaje asignado<br><br>**Escenario Nº3: Sin notificaciones de viajes**<br><br>**Dado que** el conductor ha iniciado sesión en la aplicación<br>**Y** desea recibir una notificación de un nuevo viaje<br>**Cuando** selecciona la opción de ver las notificaciones<br>**Entonces** el sistema muestra un mensaje indicando que no posee notificaciones                                                                  | EP-06   |
-| US-012        | Notificar al conductor del viaje concluido                                        | **Como** conductor<br>**Quiero** recibir una notificación<br>**Para** saber si mi supervisor concluyó el viaje                                                                                                           | **Escenario Nº1: Notificación de un viaje concluido en la sección Principal**<br><br>**Dado que** el conductor ha iniciado sesión en la aplicación<br>**Y** desea recibir la notificación de un viaje concluido<br>**Cuando** ingresa a la aplicación<br>**Entonces** el sistema muestra una notificación del viaje concluido<br><br>**Escenario Nº2: Notificación de un viaje concluido en la sección Notificaciones**<br><br>**Dado que** el conductor ha iniciado sesión en la aplicación<br>**Y** desea recibir la notificación de un viaje concluido<br>**Cuando** selecciona la opción de ver las notificaciones<br>**Entonces** el sistema lista las notificaciones<br>**Y** muestra la notificación del viaje concluido<br><br>**Escenario Nº3: Sin notificaciones de viajes**<br><br>**Dado que** el conductor ha iniciado sesión en la aplicación<br>**Y** desea recibir la notificación de un viaje concluido<br>**Cuando** selecciona la opción de ver las notificaciones<br>**Entonces** el sistema muestra un mensaje indicando que no posee notificaciones                                                           | EP-06   |
-| US-013        | Notificar al conductor del viaje cancelado                                        | **Como** conductor<br>**Quiero** recibir una notificación<br>**Para** saber si un viaje ha sido cancelado                                                                                                                | **Escenario Nº1: Notificación de un viaje cancelado en la sección Principal**<br><br>**Dado que** el conductor ha iniciado sesión en la aplicación<br>**Y** desea recibir la notificación de un viaje cancelado<br>**Cuando** ingresa a la aplicación<br>**Entonces** el sistema muestra una notificación del viaje cancelado<br><br>**Escenario Nº2: Notificación de un viaje cancelado en la sección Notificaciones**<br><br>**Dado que** el conductor ha iniciado sesión en la aplicación<br>**Y** desea recibir la notificación de un viaje cancelado<br>**Cuando** selecciona la opción de ver las notificaciones<br>**Entonces** el sistema lista las notificaciones<br>**Y** muestra la notificación del viaje cancelado<br><br>**Escenario Nº3: Sin notificaciones de viajes**<br><br>**Dado que** el conductor ha iniciado sesión en la aplicación<br>**Y** desea recibir la notificación de un viaje cancelado<br>**Cuando** selecciona la opción de ver las notificaciones<br>**Entonces** el sistema muestra un mensaje indicando que no posee notificaciones                                                           | EP-06   |
-| US-014        | Visualizar el estado del viaje por el sensor                                      | **Como** usuario de la aplicación<br>**Quiero** visualizar el estado del viaje por el sensor<br>**Para** saber si ha sucedido algún accidente con el material peligroso transportado                                     | **Escenario Nº1: Información del sensor recibida**<br><br>**Dado que** el usuario ha iniciado sesión en la aplicación<br>**Y** desea visualizar el estado del viaje por el sensor<br>**Cuando** ingresa a la aplicación<br>**Entonces** el sistema muestra el estado del viaje monitoreado por el sensor en la sección correspondiente Principal<br><br>**Escenario Nº2: Error con el sensor**<br><br>**Dado que** el usuario ha iniciado sesión en la aplicación<br>**Y** desea visualizar el estado del viaje por el sensor<br>**Cuando** ingresa a la aplicación<br>**Entonces** el sistema muestra un mensaje de error indicando que no puede recibir información del sensor<br>**Y** muestra una opción para comunicarse con el área de soporte                                                                                                                                                                                                                                                                                                                                                                                | EP-05   |
-| US-015        | Enviar alerta de peligro al conductor                                             | **Como** supervisor de la empresa<br>**Quiero** enviar una alerta de peligro al conductor<br>**Para** alertarlo de algún inconveniente con el material peligroso transportado                                            | **Escenario Nº1: Alerta enviada**<br><br>**Dado que** el supervisor de la empresa ha iniciado sesión en la aplicación<br>**Y** desea enviar una alerta de peligro al conductor<br>**Y** el sensor ha detectado algún inconveniente con el material peligroso transportado<br>**Cuando** el supervisor confirma el envío de una alerta de peligro<br>**Entonces** el sistema envía una alerta al conductor para advertirle de los inconvenientes<br><br>**Escenario Nº2: Error con el sistema**<br><br>**Dado que** el supervisor de la empresa ha iniciado sesión en la aplicación<br>**Y** desea enviar una alerta de peligro al conductor<br>**Y** el sensor ha detectado algún inconveniente con el material peligroso transportado<br>**Cuando** el supervisor confirma el envío de una alerta de peligro<br>**Y** hay problemas con la red o el sistema<br>**Entonces** el sistema muestra un mensaje indicando que ocurrió un error<br>**Y** muestra una opción para comunicarse con el área de soporte                                                                                                                       | EP-06   |
-| US-016        | Editar perfil de Usuario                                                          | **Como** usuario de la aplicación<br>**Quiero** modificar mi información<br>**Para** corregir errores o mantenerla actualizada                                                                                           | **Escenario Nº1: Edición de perfil**<br><br>**Dado que** el usuario ha iniciado sesión en la aplicación <br>**Y** desea modificar su información de perfil<br>**Cuando** actualiza los campos disponibles con la nueva información<br>**Y** confirma los cambios<br>**Entonces** el sistema guarda los cambios<br>**Y** muestra la información actualizada en la vista de perfil<br><br>**Escenario Nº2: Carácteres inválidos**<br><br>**Dado que** el usuario ha iniciado sesión en la aplicación <br>**Y** desea modificar su información de perfil<br>**Cuando** actualiza los campos disponibles con la nueva información<br>**Y** confirma los cambios<br>**Y** ha ingresado carácteres inválidos en algún campo<br>**Entonces** el sistema muestra un mensaje indicando que el formato ingresado es inválido                                                                                                                                                                                                                                                                                                                  | EP-05   |
-| US-017        | Añadir un supervisor de la empresa a través de un RESTful API                     | **Como** desarrollador <br>**Quiero** agregar un nuevo usuario de tipo *Empresa* al sistema mediante una solicitud `POST` al API<br>**Para** permitir el acceso de nuevos usuarios de tipo *Supervisor* a la aplicación  | **Escenario Nº1: Ingreso de correo único**<br><br>**Dado que** el endpoint `api/v1/supervisor` está disponible<br>**Cuando** una solicitud `POST` se realiza con los valores para nombre, correo electrónico y contraseña<br>**Entonces** se recibe una Respuesta con estado `201`<br>**Y** se devuelve  un recurso de usuario de tipo *Supervisor* en el cuerpo de la Respuesta con valores de nombre, correo electrónico y contraseña<br><br>**Escenario Nº2: Ingreso de correo existente**<br><br>**Dado que** el endpoint `api/v1/supervisor` está disponible<br>**Cuando** una solicitud `POST` se realiza con los valores para nombre, correo electrónico y contraseña<br>**Y** el correo electrónico ya existe en el sistema<br>**Entonces** se recibe una Respuesta con estado `400`<br>**Y** se devuelve un mensaje en el cuerpo de la Respuesta: *El correo electrónico ya se encuentra registrado en otro usuario*                                                                                                                                                                                                       | EP-02   |
-| US-018        | Añadir un conductor a través de un RESTful API                                    | **Como** desarrollador <br>**Quiero** agregar un nuevo usuario de tipo *Conductor* al sistema mediante una solicitud `POST` al API<br>**Para** permitir el acceso de nuevos usuarios de tipo *Conductor* a la aplicación | **Escenario Nº1: Ingreso de correo único**<br><br>**Dado que** el endpoint `api/v1/driver` está disponible<br>**Cuando** una solicitud `POST` se realiza con los valores para nombre, correo electrónico, número de celular y contraseña<br>**Entonces** se recibe una Respuesta con estado `201`<br>**Y** se devuelve un recurso de usuario de tipo *Conductor* en el cuerpo de la Respuesta con valores de nombre, correo electrónico, número de celular y contraseña<br><br>**Escenario Nº2: Ingreso de correo existente**<br><br>**Dado que** el endpoint `api/v1/driver` está disponible<br>**Cuando** una solicitud `POST` se realiza con los valores para nombre, correo electrónico, número de celular y contraseña<br>**Y** el correo electrónico ya existe en el sistema<br>**Entonces** se recibe una Respuesta con estado `400`<br>**Y** se devuelve un mensaje en el cuerpo de la Respuesta: *El correo electrónico ya se encuentra registrado en otro usuario*                                                                                                                                                        | EP-02   |
-| US-019        | Obtener a un supervisor de la empresa a través de un RESTful API                  | **Como** desarrollador <br>**Quiero** obtener un supervisor mediante una solicitud `GET` al API<br>**Para** permitir iniciar sesión al usuario                                                                           | **Escenario Nº1: Ingreso de datos existentes**<br><br>**Dado que** el usuario endpoint `api/v1/supervisor/:mail/:password` está disponible<br>**Cuando** una solicitud `GET` se realiza con los parámetros correo electrónico y contraseña<br>**Entonces** se recibe una Respuesta con estado `200`<br>**Y** se devuelve un recurso de usuario de tipo *Supervisor* en el cuerpo de la Respuesta con valores de nombre, correo electrónico y contraseña<br><br>**Escenario Nº2: Ingreso de datos inexistentes**<br><br>**Dado que** el endpoint `api/v1/supervisor/:mail/:password` está disponible<br>**Cuando** una solicitud `POST` se realiza con los parámetros correo electrónico y contraseña<br>**Y** el correo electrónico no existe en el sistema<br>**Entonces** se recibe una Respuesta con estado `404`<br>**Y** se devuelve un mensaje en el cuerpo de la Respuesta: *Uno o más valores son incorrectos*                                                                                                                                                                                                              | EP-02   |
-| US-020        | Obtener a un conductor a través de un RESTful API                                 | **Como** desarrollador <br>**Quiero** obtener un conductor mediante una solicitud `GET` al API<br>**Para** permitir iniciar sesión al usuario                                                                            | **Escenario Nº1: Ingreso de datos existentes**<br><br>**Dado que** el usuario endpoint `api/v1/driver/:mail/:password` está disponible<br>**Cuando** una solicitud `GET` se realiza con los parámetros correo electrónico y contraseña<br>**Entonces** se recibe una Respuesta con estado `200`<br>**Y** se devuelve un recurso de usuario de tipo *Conductor* en el cuerpo de la Respuesta con valores de nombre, correo electrónico, número de celular y contraseña<br><br>**Escenario Nº2: Ingreso de datos inexistentes**<br><br>**Dado que** el endpoint `api/v1/driver/:mail/:password` está disponible<br>**Cuando** una solicitud `POST` se realiza con los parámetros correo electrónico y contraseña<br>**Y** el correo electrónico no existe en el sistema<br>**Entonces** se recibe una Respuesta con estado `404`<br>**Y** se devuelve un mensaje en el cuerpo de la Respuesta: *Uno o más valores son incorrectos*                                                                                                                                                                                                    | EP-02   |
-| US-021        | Añadir un viaje a través de un RESTful API                                        | **Como** desarrollador <br>**Quiero** agregar un nuevo viaje al sistema mediante una solicitud `POST` al API<br>**Para** registrar nuevos viajes para los conductores a cargo de la empresa                              | **Escenario Nº1: Ingreso correcto de datos**<br><br>**Dado que** el endpoint `api/v1/trip` está disponible<br>**Cuando** una solicitud `POST` se realiza con los valores para ubicación inicial, ubicación final, hora de salida, fecha, descripción, conductor asignado.<br>**Entonces** se recibe una Respuesta con estado `201`<br>**Y** se devuelve un recurso de usuario de tipo *Viaje* en el cuerpo de la Respuesta con valores de ubicación inicial, ubicación final, hora de salida, fecha, descripción, conductor asignado, empresa.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | EP-02   |
-| US-022        | Obtener los viajes pendientes a través de un RESTful API                          | **Como** desarrollador <br>**Quiero** listar los viajes pendientes  mediante una solicitud `GET` al API<br>**Para** mostrar los viajes pendientes a los usuarios                                                         | **Escenario Nº1: Obtener los viajes pendientes de un supervisor**<br><br>**Dado que** el endpoint `api/v1/trip/:supervisorId/pendingTrips` está disponible<br>**Cuando** una solicitud `GET` se realiza con el parámetro del identificador de la empresa que ha iniciado sesión<br>**Entonces** se recibe una Respuesta con estado `200`<br>**Y** se devuelve un recurso de usuario de tipo lista de *Viajes* en el cuerpo de la Respuesta con valores de ubicación inicial, ubicación final, hora de salida, fecha, descripción, conductor asignado, empresa<br><br>**Escenario Nº2: Obtener los viajes pendientes de un conductor**<br><br>**Dado que** el endpoint `api/v1/trip/:driverId/pendingTrips` está disponible<br>**Cuando** una solicitud `GET` se realiza con el parámetro del identificador del conductor que ha iniciado sesión.<br>**Entonces** se recibe una Respuesta con estado `200`<br>**Y** se devuelve un recurso de usuario de tipo lista de *Viajes* en el cuerpo de la Respuesta con valores de ubicación inicial, ubicación final, hora de salida, fecha, descripción, conductor asignado, empresa      | EP-02   |
-| US-023        | Obtener el historial de viajes a través de un RESTful API                         | **Como** desarrollador <br>**Quiero** listar el historial de viajes  mediante una solicitud `GET` al API<br>**Para** mostrar los viajes realizados del usuario                                                           | **Escenario Nº1: Obtener los viajes realizados asignados por un supervisor**<br><br>**Dado que** el endpoint `api/v1/trip/:supervisorId/doneTrips` está disponible<br>**Cuando** una solicitud `GET` se realiza con el parámetro del identificador de la empresa que ha iniciado sesión<br>**Entonces** se recibe una Respuesta con estado `200`<br>**Y** se devuelve un recurso de usuario de tipo lista de *Viajes* en el cuerpo de la Respuesta con valores de ubicación inicial, ubicación final, hora de salida, fecha, descripción, conductor asignado, empresa<br><br>**Escenario Nº2: Obtener los viajes realizados de un conductor**<br><br>**Dado que** el endpoint `api/v1/trip/:driverId/doneTrips` está disponible<br>**Cuando** una solicitud `GET` se realiza con el parámetro del identificador del conductor que ha iniciado sesión.<br>**Entonces** se recibe una Respuesta con estado `200`<br>**Y** se devuelve un recurso de usuario de tipo lista de *Viajes* en el cuerpo de la Respuesta con valores de ubicación inicial, ubicación final, hora de salida, fecha, descripción, conductor asignado, empresa | EP-02   |
-| US-024        | Terminar un viaje a través de un RESTful API                                      | **Como** desarrollador <br>**Quiero** dar por terminado un viaje  mediante una solicitud `PATCH` al API<br>**Para** finalizar la tarea del conductor                                                                     | **Escenario Nº1: Finalizar un viaje**<br><br>**Dado que** el endpoint `api/v1/trip/:tripId/done` está disponible<br>**Cuando** una solicitud `PATCH` se realiza con el parámetro del identificador del viaje que se va a modificar<br>**Entonces** se recibe una Respuesta con estado `204`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | EP-02   |
-| US-025        | Cancelar un viaje a través de un RESTful API                                      | **Como** desarrollador <br>**Quiero** cancelar un viaje  mediante una solicitud `DELETE` al API<br>**Para** que el conductor no realice ese viaje                                                                        | **Escenario Nº1: Cancelar un viaje**<br><br>**Dado que** el endpoint `api/v1/trip/:tripId` está disponible<br>**Cuando** una solicitud `DELETE` se realiza con el parámetro del identificador del viaje que se va a eliminar<br>**Entonces** se recibe una Respuesta con estado `204`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | EP-02   |
-| US-026        | Buscar un conductor por su nombre a través de un API                              | **Como** desarrollador <br>**Quiero** listar los conductores por su nombre mediante una solicitud `GET` al API<br>**Para** mostrar los conductores al usuario                                                            | **Escenario Nº1: Nombre existente**<br><br>**Dado que** el endpoint `api/v1/driver/search?name=:name` está disponible<br>**Cuando** una solicitud `GET` se realiza con el parámetro nombre del conductor<br>**Entonces** se recibe una Respuesta con estado `200`<br>**Y** se devuelve un recurso de usuario de tipo lista de *Conductor* en el cuerpo de la Respuesta con valores de nombre, correo electrónico, número de celular y contraseña<br><br>**Escenario Nº2: Nombre inexistente**<br><br>**Dado que** el endpoint `api/v1/driver/search?name=:name` está disponible<br>**Cuando** una solicitud `GET` se realiza con el parámetro nombre del conductor<br>**Y** no existe el nombre buscado<br>**Entonces** se recibe una Respuesta con estado `404`<br>**Y** se devuelve un mensaje en el cuerpo de la Respuesta: *No se encontró el conductor con el nombre :nombre*                                                                                                                                                                                                                                                  | EP-02   |
-| US-027        | Buscar un conductor por el código del sensor de su vehículo a través de un API    | **Como** desarrollador <br>**Quiero** listar los conductores por el código del sensor de su vehículo mediante una solicitud `GET` al API<br>**Para** mostrar los conductores al usuario                                  | **Escenario Nº1: Código del sensor existente**<br><br>**Dado que** el endpoint `api/v1/driver/search?sensorCode=:sensorCode` está disponible<br>**Cuando** una solicitud `GET` se realiza con el parámetro código del sensor<br>**Entonces** se recibe una Respuesta con estado `200`<br>**Y** se devuelve un recurso de usuario de tipo lista de *Conductor* en el cuerpo de la Respuesta con valores de nombre, correo electrónico, número de celular y contraseña<br><br>**Escenario Nº2: Código del sensor inexistente**<br><br>**Dado que** el endpoint `api/v1/driver/search?sensorCode=:sensorCode` está disponible<br>**Cuando** una solicitud `GET` se realiza con el parámetro nombre del código del sensor<br>**Y** no existe el código del sensor buscado<br>**Entonces** se recibe una Respuesta con estado `404`<br>**Y** se devuelve un mensaje en el cuerpo de la Respuesta: *No se encontró el conductor con el código de sensor :sensorCode*                                                                                                                                                                      | EP-02   |
-| US-028        | Obtener un viaje a través de un RESTful API                                       | **Como** desarrollador <br>**Quiero** obtener un viaje  mediante una solicitud `GET` al API<br>**Para** mostrar la información al usuario                                                                                | **Escenario Nº1: Obtener un viaje**<br><br>**Dado que** el endpoint `api/v1/trip/:tripId` está disponible<br>**Cuando** una solicitud `GET` se realiza con el parámetro del identificador del viaje el cual se desea ver la información<br>**Entonces** se recibe una Respuesta con estado `200`<br>**Y** se devuelve un recurso de usuario de tipo *Viaje* en el cuerpo de la Respuesta con valores de ubicación inicial, ubicación final, hora de salida, fecha, descripción, conductor asignado, empresa.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | EP-02   |
-| US-029        | Modificar la información de un conductor a través de un RESTful API               | **Como** desarrollador <br>**Quiero** modificar un conductor  mediante una solicitud `PUT` al API<br>**Para** editar la información solicitada                                                                           | **Escenario Nº1: Editar datos correctamente**<br><br>**Dado que** el endpoint `api/v1/driver/:driverId` está disponible<br>**Cuando** una solicitud `PUT` se realiza con los valores para nombre, correo electrónico, número de celular o contraseña<br>**Entonces** se recibe una Respuesta con estado `200`<br>**Y** se devuelve un recurso de usuario de tipo *Conductor* en el cuerpo de la Respuesta con valores de nombre, correo electrónico, número de celular y contraseña<br><br>**Escenario Nº2: Correo ingresado existente**<br><br>**Dado que** el endpoint `api/v1/driver/:driverId` está disponible<br>**Cuando** una solicitud `PUT` se realiza con los valores para nombre, correo electrónico, número de celular o contraseña<br>**Y** el nuevo correo electrónico ya ha sido registrado<br>**Entonces** se recibe una Respuesta con estado `400`<br>**Y** se devuelve un mensaje en el cuerpo de la Respuesta: *El correo electrónico ya se encuentra registrado en otro usuario*                                                                                                                                | EP-02   |
-| US-030        | Modificar la información de un supervisor a través de un RESTful API              | **Como** desarrollador <br>**Quiero** modificar un supervisor  mediante una solicitud `PUT` al API<br>**Para** editar la información solicitada                                                                          | **Escenario Nº1: Editar datos correctamente**<br><br>**Dado que** el endpoint `api/v1/supervisor/:supervisorId` está disponible<br>**Cuando** una solicitud `PUT` se realiza con los valores para nombre, correo electrónico o contraseña<br>**Entonces** se recibe una Respuesta con estado `200`<br>**Y** se devuelve un recurso de usuario de tipo *Supervisor* en el cuerpo de la Respuesta con valores de nombre, correo electrónico y contraseña<br><br>**Escenario Nº2: Correo ingresado existente**<br><br>**Dado que** el endpoint `api/v1/supervisor/:supervisorId` está disponible<br>**Cuando** una solicitud `PUT` se realiza con los valores para nombre, correo electrónico o contraseña<br>**Y** el nuevo correo electrónico ya ha sido registrado<br>**Entonces** se recibe una Respuesta con estado `400`<br>**Y** se devuelve un mensaje en el cuerpo de la Respuesta: *El correo electrónico ya se encuentra registrado en otro usuario*                                                                                                                                                                        | EP-02   |
-| US-031        | Captura de datos de Fuga de Gas                                                   | **Como** usuario de la aplicación<br>**Quiero** que el sensor capture y envíe los datos de fuga de gas a la aplicación web o móvil<br>**Para** monitorear el estado de los materiales peligrosos transportados           | **Escenario Nº1: Captura y envío de datos de Fuga de Gas**<br>     <br>**Dado que** el sensor se encuentra instalado en el vehículo<br>**Cuando** el sensor detecta la Fuga de Gas<br>**Entonces** envía los datos en tiempo real al sistema de monitoreo<br>**Y** el supervisor de la empresa puede revisar los datos para enviar una alerta al conductor<br>     <br>**Escenario Nº2: Error en la captura de datos**<br><br>**Dado que** el sensor se encuentra instalado en el vehículo<br>**Y** tiene un problema técnico<br>**Cuando** el sensor intenta capturar los datos de Fuga de Gas<br>**Entonces** el sistema muestra que ha ocurrido un error<br>**Y** el usuario de la aplicación puede notificarlo para su revisión                                                                                                                                                                                                                                                                                                                                                                                                 | EP-07   |
-| US-032        | Captura de datos de Temperatura                                                   | **Como** usuario de la aplicación<br>**Quiero** que el sensor capture y envíe los datos de temperatura a la aplicación web o móvil<br>**Para** monitorear el estado de los materiales peligrosos transportados           | **Escenario Nº1: Captura y envío de datos de Temperatura**<br>     <br>**Dado que** el sensor se encuentra instalado en el vehículo<br>**Cuando** el sensor detecta la Temperatura<br>**Entonces** envía los datos en tiempo real al sistema de monitoreo<br>**Y** el supervisor de la empresa puede revisar los datos para enviar una alerta al conductor<br>     <br>**Escenario Nº2: Error en la captura de datos**<br><br>**Dado que** el sensor se encuentra instalado en el vehículo<br>**Y** tiene un problema técnico<br>**Cuando** el sensor intenta capturar los datos de Temperatura<br>**Entonces** el sistema muestra que ha ocurrido un error<br>**Y** el usuario de la aplicación puede notificarlo para su revisión                                                                                                                                                                                                                                                                                                                                                                                                 | EP-07   |
-| US-033        | Captura de datos de Presión                                                       | **Como** usuario de la aplicación<br>**Quiero** que el sensor capture y envíe los datos de presión a la aplicación web o móvil<br>**Para** monitorear el estado de los materiales peligrosos transportados               | **Escenario Nº1: Captura y envío de datos de Presión**<br>     <br>**Dado que** el sensor se encuentra instalado en el vehículo<br>**Cuando** el sensor detecta la Presión<br>**Entonces** envía los datos en tiempo real al sistema de monitoreo<br>**Y** el supervisor de la empresa puede revisar los datos para enviar una alerta al conductor<br>     <br>**Escenario Nº2: Error en la captura de datos**<br><br>**Dado que** el sensor se encuentra instalado en el vehículo<br>**Y** tiene un problema técnico<br>**Cuando** el sensor intenta capturar los datos de Presión<br>**Entonces** el sistema muestra que ha ocurrido un error<br>**Y** el usuario de la aplicación puede notificarlo para su revisión                                                                                                                                                                                                                                                                                                                                                                                                             | EP-07   |
-| US-034        | Envío de datos de Fuga de Gas a través de un Edge Gateway                         | **Como** desarrollador<br>**Quiero** enviar la información de Fuga de Gas al Edge Gateway<br>**Para** que la información pueda estar en el backend                                                                       | **Escenario Nº1: Captura y envío de datos**<br><br>**Dado que** el sensor se encuentra encendido<br>**Cuando** el sensor detecta la Fuga de Gas<br>**Entonces** el Edge Gateway obtiene la información<br>**Y** se almacena en el backend                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | EP-07   |
-| US-035        | Envío de datos de Temperatura a través de un Edge Gateway                         | **Como** desarrollador<br>**Quiero** enviar la información de Temperatura al Edge Gateway<br>**Para** que la información pueda estar en el backend                                                                       | **Escenario Nº1: Captura y envío de datos**<br><br>**Dado que** el sensor se encuentra encendido<br>**Cuando** el sensor detecta la Temperatura<br>**Entonces** el Edge Gateway obtiene la información<br>**Y** se almacena en el backend                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | EP-07   |
-| US-036        | Envío de datos de Presión a través de un Edge Gateway                             | **Como** desarrollador<br>**Quiero** enviar la información de Presión al Edge Gateway<br>**Para** que la información pueda estar en el backend                                                                           | **Escenario Nº1: Captura y envío de datos**<br><br>**Dado que** el sensor se encuentra encendido<br>**Cuando** el sensor detecta la Presión<br>**Entonces** el Edge Gateway obtiene la información<br>**Y** se almacena en el backend                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | EP-07   |
-| US-037        | Enviar la información del sensor desde el Edge Gateway a través de un RESTful API | **Como** desarrollador<br>**Quiero** enviar la información del sensor mediante una solicitud `POST` al API<br>**Para** almacenar la información en el backend                                                            | **Escenario Nº1: Enviar datos del sensor**<br><br>**Dado que** el endpoint `api/v1/sensor/:sensorCode` está disponible<br>**Cuando** una solicitud `POST` se realiza con el parámetro del código del sensor para los valores fuga de gas, temperatura y presión.<br>**Entonces** se recibe una Respuesta con estado `204`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | EP-03   |
-| US-038        | Recibir la información del sensor a través de un RESTful API                      | **Como** desarrollador<br>**Quiero** obtener la información del sensor mediante una solicitud `GET` al API<br>**Para** mostrar la información en la aplicación web o móvil                                               | **Escenario Nº1: Recibir datos del sensor**<br><br>**Dado que** el endpoint `api/v1/sensor/:sensorCode` está disponible<br>**Cuando** una solicitud `GET` se realiza con el parámetro del código del sensor<br>**Entonces** se recibe una Respuesta con estado `200`<br>**Y** se devuelve un recurso de tipo *Sensor* en el cuerpo de la Respuesta con valores para fuga de gas, temperatura y presión.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | EP-03   |
-| US-039        | Sección Principal                                                                 | **Como** visitante de la página de destino<br>**Quiero** saber que me ofrece el producto de inmediato<br>**Para** confirmar si es lo que estoy buscando                                                                  | **Escenario Nº1: Información general**<br><br>**Dado que** el visitante de la página se encuentra en la página de destino<br>**Cuando** se encuentre en la sección Principal<br>**Entonces** ve que es lo que ofrece la aplicación y como contactar con FastPorte<br><br>**Escenario Nº1: Información del Producto**<br><br>**Dado que** el visitante de la página se encuentra en la página de destino<br>**Y** visualiza que ofrece FastPorte<br>**Cuando** deslice hacia abajo<br>**Entonces** ve más detalles del producto y cómo funciona                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | EP-01   |
-| US-040        | Sección Características                                                           | **Como** visitante de la página de destino<br>**Quiero** saber cuáles son las características y beneficios<br>**Para** evaluar la contratación de este                                                                   | **Escenario Nº1: Características del Producto**<br><br>**Dado que** el visitante de la página se encuentra en la página de destino<br>**Cuando** se encuentre en la sección Características<br>**Entonces** verá información adicional sobre las características principales de FastPorte<br><br>**Escenario Nº1: Beneficios para cada segmento objetivo**<br><br>**Dado que** el visitante de la página se encuentra en la página de destino<br>**Y** visualiza las características de FastPorte<br>**Cuando** deslice hacia abajo<br>**Entonces** ve cuáles son los beneficios que se ofrece para cada segmento objetivo                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | EP-01   |
-| US-041        | Sección Sobre Nosotros                                                            | **Como** visitante de la página de destino<br>**Quiero** saber quiénes están involucrados en FastPorte<br>**Para** conocer más sobre esta empresa                                                                        | **Escenario Nº1: Miembros de FastPorte**<br><br>**Dado que** el visitante de la página se encuentra en la página de destino<br>**Cuando** está en la sección Sobre Nosotros<br>**Entonces** ve quiénes son los responsables de hacer FastPorte posible<br><br>**Escenario Nº1: Testimonios de los usuarios**<br><br>**Dado que** el visitante de la página se encuentra en la página de destino<br>**Y** visualiza quienes son los miembros de FastPorte<br>**Cuando** deslice hacia abajo<br>**Entonces** ve testimonios sobre otros usuarios acerca de FastPorte                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | EP-01   |
-| US-042        | Sección Descarga                                                                  | **Como** visitante de la página de destino<br>**Quiero** descargar la aplicación móvil<br>**Para** visualizar la interfaz de esta                                                                                        | **Escenario Nº1: Call to Action**<br><br>**Dado que** el visitante de la página se encuentra en la página de destino<br>**Cuando** esté en la sección Descarga<br>**Entonces** puede descargar la aplicación móvil dando click al botón "Descargar"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | EP-01   |
-| US-043        | Sección Contáctanos                                                               | **Como** visitante de la página de destino<br>**Quiero** contactarme con FastPorte<br>**Para** obtener más información del producto                                                                                      | **Escenario Nº1: Contáctanos**<br><br>**Dado que** el visitante de la página se encuentra en la página de destino<br>**Cuando** este en la sección Contáctanos<br>**Y** ingrese la información solicitada<br>**Entonces** hace click en el botón "Enviar mensaje" para contactar con FastPorte                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | EP-01   |
+| User Story ID | Título                                                                            | Descripción                                                                                                                                                                                                              | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Epic ID |
+| ------------- | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------- |
+| US-001        | Registro de empresa                                                               | **Como** empresa<br>**Quiero** registrarme en la aplicación<br>**Para** supervisar a los conductores a mi cargo                                                                                                          | **Escenario Nº1:**<br><br>**Dado que** el supervisor de la empresa no está registrado<br>**Y** se encuentra en la vista inicial de la aplicación<br>**Cuando** hace click en el botón "Registrarse"<br>**Y** ingresa el código del sensor de su vehículo<br>**Y** elige registrarse como "Empresa"<br>**Y** completa los datos solicitados correctamente<br>**Y** hace click en el botón "Continuar"<br>**Entonces** el sistema registra el usuario como *Empresa*<br>**Y** el usuario puede iniciar sesión con las credenciales creadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | EP-04   |
+| US-002        | Registro de conductor                                                             | **Como** conductor<br>**Quiero** registrarme en la aplicación<br>**Para** recibir información de los viajes que debo realizar                                                                                            | **Escenario Nº1:**<br><br>**Dado que** el conductor no está registrado<br>**Y** se encuentra en la vista inicial de la aplicación<br>**Cuando** hace click en el botón "Registrarse"<br>**Y** ingresa el código del sensor de su vehículo<br>**Y** elige registrarse como "Conductor"<br>**Y** completa los datos solicitados correctamente<br>**Y** hace click en el botón "Continuar"<br>**Entonces** el sistema registra el usuario como *Conductor*<br>**Y** el usuario puede iniciar sesión con las credenciales creadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | EP-04   |
+| US-003        | Inicio de sesión                                                                  | **Como** usuario de la aplicación<br>**Quiero** iniciar sesión en la aplicación<br>**Para** acceder a las funcionalidades de la aplicación                                                                               | **Escenario Nº1:**<br><br>**Dado que** el usuario de la aplicación desea iniciar sesión<br>**Y** se encuentra en la vista inicial de la aplicación<br>**Cuando** hace click en el botón "Iniciar sesión"<br>**Y** ingresa sus credenciales<br>**Y** hace click en el botón "Continuar"<br>**Entonces** accede a las funcionalidades de la aplicación                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | EP-04   |
+| US-004        | Registrar un viaje                                                                | **Como** empresa<br>**Quiero** registrar un viaje<br>**Para** notificar al conductor los servicios que debe realizar                                                                                                     | **Escenario Nº1:**<br><br>**Dado que** el supervisor de la empresa desea registrar un viaje<br>**Y** ha iniciado sesión en la aplicación<br>**Cuando** hace click en el botón "Conductores"<br>**Y** elige al conductor que realizará la entrega<br>**Y** completa la información del viaje<br>**Y** hace click en el botón "Enviar"<br>**Entonces** el sistema crea el viaje<br>**Y** notifica al conductor sobre el viaje que debe realizar                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | EP-05   |
+| US-005        | Viajes pendientes                                                                 | **Como** usuario de la aplicación<br>**Quiero** visualizar los viajes pendientes<br>**Para** gestionar los viajes que se deben realizar                                                                                  | **Escenario Nº1:**<br><br>**Dado que** el usuario de la aplicación desea visualizar los viajes pendientes<br>**Y** ha iniciado sesión en la aplicación<br>**Cuando** hace click en el botón "Viajes"<br>**Entonces** el sistema muestra los viajes pendientes                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | EP-05   |
+| US-006        | Historial de Viajes                                                               | **Como** usuario de la aplicación<br>**Quiero** visualizar el historial de viajes<br>**Para** llevar un registro de los viajes completados                                                                               | **Escenario Nº1:**<br><br>**Dado que** el usuario de la aplicación desea visualizar el historial de viajes<br>**Y** ha iniciado sesión en la aplicación<br>**Y** ha hecho click en el botón "Viajes"<br>**Cuando** hace click en la subsección "Historial"<br>**Entonces** el sistema muestra los viajes realizados del historial                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | EP-05   |
+| US-007        | Concluir viaje                                                                    | **Como** empresa<br>**Quiero** concluir los viajes que ya se han realizado<br>**Para** dar por terminado la tarea del conductor                                                                                          | **Escenario Nº1:**<br><br>**Dado que** el supervisor de la empresa desea  concluir un viaje<br>**Y** ha iniciado sesión en la aplicación<br>**Y** ha hecho click en el botón "Viajes"<br>**Y** ha identificado el viaje en la lista de viajes pendientes<br>**Cuando** hace click en el botón "Hecho" del viaje correspondiente<br>**Entonces** el sistema concluye el viaje<br>**Y** notifica al conductor                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | EP-05   |
+| US-008        | Cancelar viaje                                                                    | **Como** empresa<br>**Quiero** cancelar un viaje<br>**Para** descartar un viaje creado erróneamente                                                                                                                      | **Escenario Nº1:**<br><br>**Dado que** el supervisor de la empresa desea cancelar un viaje<br>**Y** ha iniciado sesión en la aplicación<br>**Y** ha hecho click en el botón "Viajes"<br>**Y** ha identificado el viaje en la lista de viajes pendientes<br>**Cuando** hace click en el botón "Cancelar" del viaje correspondiente<br>**Entonces** el sistema elimina el viaje<br>**Y** notifica al conductor                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | EP-05   |
+| US-009        | Buscar un conductor                                                               | **Como** empresa<br>**Quiero** buscar un conductor<br>**Para** asignarle un viaje                                                                                                                                        | **Escenario Nº1:**<br><br>**Dado que** el supervisor de la empresa desea buscar un conductor<br>**Y** ha iniciado sesión en la aplicación<br>**Y** ha dado click en el botón "Conductores"<br>**Y** ha dado click en la barra de búsqueda<br>**Y** ha ingresado el nombre del conductor o el código del sensor de su vehículo<br>**Cuando** hace click en el ícono de Buscar o presiona la tecla "Enter"<br>**Entonces** el sistema busca y muestra al conductor correspondiente                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | EP-05   |
+| US-010        | Visualizar la información del viaje                                               | **Como** usuario de la aplicación<br>**Quiero** visualizar la información de un viaje<br>**Para** revisar algún dato en concreto                                                                                         | **Escenario Nº1: Visualizar información de un viaje pendiente**<br><br>**Dado que** el usuario de la aplicación desea visualizar la información de un viaje<br>**Y** ha iniciado sesión en la aplicación<br>**Y** ha dado click en el botón "Viajes"<br>**Y** ha identificado el viaje en la lista de viajes pendientes<br>**Cuando** hace click en el viaje correspondiente<br>**Entonces** se muestra la información del viaje<br><br>**Escenario Nº2: Visualizar información de un viaje realizado**<br><br>**Dado que** el usuario de la aplicación desea visualizar la información de un viaje<br>**Y** ha iniciado sesión en la aplicación<br>**Y** ha dado click en el botón "Viajes"<br>**Y** ha dado click en la subsección "Historial"<br>**Cuando** hace click en el viaje correspondiente<br>**Entonces** se muestra información del viaje                                                                                                                                                                                                                                                                         | EP-05   |
+| US-011        | Notificar al conductor del nuevo viaje                                            | **Como** conductor<br>**Quiero** recibir una notificación<br>**Para** saber si se me ha asignado un viaje                                                                                                                | **Escenario Nº1: Notificación de un nuevo viaje en la sección Principal**<br><br>**Dado que** el conductor desea ser notificado de un nuevo viaje<br>**Y** ha iniciado sesión en la aplicación<br>**Cuando** ingresa a la aplicación<br>**Entonces** le llega una notificación del nuevo viaje asignado<br><br>**Escenario Nº2: Notificación de un nuevo viaje en la sección Notificaciones**<br><br>**Dado que** el conductor desea ser notificado de un nuevo viaje<br>**Y** ha iniciado sesión en la aplicación<br>**Cuando** hace click en el ícono de Notificaciones<br>**Entonces** el sistema lista las notificaciones<br>**Y** se muestra la notificación de un nuevo viaje asignado                                                                                                                                                                                                                                                                                                                                                                                                                                   | EP-06   |
+| US-012        | Notificar al conductor del viaje concluido                                        | **Como** conductor<br>**Quiero** recibir una notificación<br>**Para** saber si mi supervisor concluyó el viaje                                                                                                           | **Escenario Nº1: Notificación de un viaje concluido en la sección Principal**<br><br>**Dado que** el conductor desea ser notificado de un viaje concluido<br>**Y** ha iniciado sesión en la aplicación<br>**Cuando** ingresa a la aplicación<br>**Entonces** le llega una notificación del viaje concluido<br><br>**Escenario Nº2: Notificación de un viaje concluido la sección Notificaciones**<br><br>**Dado que** el conductor desea ser notificado de un viaje concluido<br>**Y** ha iniciado sesión en la aplicación<br>**Cuando** hace click en el ícono de Notificaciones<br>**Entonces** el sistema lista las notificaciones<br>**Y** se muestra la notificación del viaje concluido                                                                                                                                                                                                                                                                                                                                                                                                                                  | EP-06   |
+| US-013        | Notificar al conductor del viaje cancelado                                        | **Como** conductor<br>**Quiero** recibir una notificación<br>**Para** saber si un viaje ha sido cancelado                                                                                                                | **Escenario Nº1: Notificación de un viaje cancelado en la sección Principal**<br><br>**Dado que** el conductor desea ser notificado de un viaje cancelado<br>**Y** ha iniciado sesión en la aplicación<br>**Cuando** ingresa a la aplicación<br>**Entonces** le llega una notificación del viaje cancelado<br><br>**Escenario Nº2: Notificación de un viaje cancelado en la sección Notificaciones**<br><br>**Dado que** el conductor desea ser notificado de un viaje cancelado<br>**Y** ha iniciado sesión en la aplicación<br>**Cuando** hace click en el ícono de Notificaciones<br>**Entonces** el sistema lista las notificaciones<br>**Y** se muestra la notificación del viaje cancelado                                                                                                                                                                                                                                                                                                                                                                                                                               | EP-06   |
+| US-014        | Visualizar el estado del viaje por el sensor                                      | **Como** usuario de la aplicación<br>**Quiero** visualizar el estado del viaje por el sensor<br>**Para** saber si ha sucedido algún accidente con el material peligroso transportado                                     | **Escenario Nº1:**<br><br>**Dado que** el usuario de la aplicación desea visualizar el estado del viaje por el sensor<br>**Y** ha iniciado sesión en la aplicación<br>**Cuando** ingresa a la aplicación<br>**Entonces** se muestra el estado del viaje por el sensor en la sección Principal                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | EP-05   |
+| US-015        | Enviar alerta de peligro al conductor                                             | **Como** empresa<br>**Quiero** enviar una alerta de peligro al conductor<br>**Para** alertarlo de algún inconveniente con el material peligroso transportado                                                             | **Escenario Nº1:**<br><br>**Dado que** el supervisor de la empresa desea enviar una alerta de peligro al conductor<br>**Y** ha iniciado sesión en la <br>aplicación<br>**Y** el sensor ha detectado algún inconveniente con el material peligroso transportado<br>**Cuando** el supervisor de la empresa hace click en el  botón "Alerta"<br>**Entonces** el sistema envía una alerta al conductor para advertirle de los inconvenientes                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | EP-06   |
+| US-016        | Editar perfil de Usuario                                                          | **Como** usuario de la aplicación<br>**Quiero** modificar mi información<br>**Para** corregir errores o mantenerla actualizada                                                                                           | **Escenario Nº1:**<br><br>**Dado que** el usuario de la aplicación ha iniciado sesión<br>**Y** ha dado click en el ícono de Perfil<br>**Cuando** hace click en el botón "Editar"<br>**Y** modifica los campos disponibles<br>**Y** hace click en el botón "Guardar"<br>**Entonces** el sistema realiza los cambios <br>**Y** muestra los cambios en la vista "Perfil"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | EP-05   |
+| US-017        | Añadir una empresa a través de un RESTful API                                     | **Como** desarrollador <br>**Quiero** agregar un nuevo usuario de tipo *Empresa* al sistema mediante una solicitud `POST` al API<br>**Para** permitir el acceso de nuevos usuarios de tipo *Empresa* a la aplicación     | **Escenario Nº1: Ingreso de correo único**<br><br>**Dado que** el endpoint `api/v1/company` está disponible<br>**Cuando** una solicitud `POST` se realiza con los valores para nombre, correo electrónico y contraseña<br>**Entonces** se recibe una Respuesta con estado `201`<br>**Y** se devuelve  un recurso de usuario de tipo *Empresa* en el cuerpo de la Respuesta con valores de nombre, correo electrónico y contraseña<br><br>**Escenario Nº2: Ingreso de correo existente**<br><br>**Dado que** el endpoint `api/v1/company` está disponible<br>**Cuando** una solicitud `POST` se realiza con los valores para nombre, correo electrónico y contraseña<br>**Y** el correo electrónico ya existe en el sistema<br>**Entonces** se recibe una Respuesta con estado `400`<br>**Y** se devuelve un mensaje en el cuerpo de la Respuesta: *El correo electrónico ya se encuentra registrado en otro usuario*                                                                                                                                                                                                           | EP-02   |
+| US-018        | Añadir un conductor a través de un RESTful API                                    | **Como** desarrollador <br>**Quiero** agregar un nuevo usuario de tipo *Conductor* al sistema mediante una solicitud `POST` al API<br>**Para** permitir el acceso de nuevos usuarios de tipo *Conductor* a la aplicación | **Escenario Nº1: Ingreso de correo único**<br><br>**Dado que** el endpoint `api/v1/driver` está disponible<br>**Cuando** una solicitud `POST` se realiza con los valores para nombre, correo electrónico, número de celular y contraseña<br>**Entonces** se recibe una Respuesta con estado `201`<br>**Y** se devuelve un recurso de usuario de tipo *Conductor* en el cuerpo de la Respuesta con valores de nombre, correo electrónico, número de celular y contraseña<br><br>**Escenario Nº2: Ingreso de correo existente**<br><br>**Dado que** el endpoint `api/v1/driver` está disponible<br>**Cuando** una solicitud `POST` se realiza con los valores para nombre, correo electrónico, número de celular y contraseña<br>**Y** el correo electrónico ya existe en el sistema<br>**Entonces** se recibe una Respuesta con estado `400`<br>**Y** se devuelve un mensaje en el cuerpo de la Respuesta: *El correo electrónico ya se encuentra registrado en otro usuario*                                                                                                                                                   | EP-02   |
+| US-019        | Obtener a una empresa a través de un RESTful API                                  | **Como** desarrollador <br>**Quiero** obtener una empresa mediante una solicitud `GET` al API<br>**Para** permitir iniciar sesión al usuario                                                                             | **Escenario Nº1: Ingreso de datos existentes**<br><br>**Dado que** el usuario endpoint `api/v1/company/:mail/:password` está disponible<br>**Cuando** una solicitud `GET` se realiza con los parámetros correo electrónico y contraseña<br>**Entonces** se recibe una Respuesta con estado `200`<br>**Y** se devuelve un recurso de usuario de tipo *Empresa* en el cuerpo de la Respuesta con valores de nombre, correo electrónico y contraseña<br><br>**Escenario Nº2: Ingreso de datos inexistentes**<br><br>**Dado que** el endpoint `api/v1/company/:mail/:password` está disponible<br>**Cuando** una solicitud `POST` se realiza con los parámetros correo electrónico y contraseña<br>**Y** el correo electrónico no existe en el sistema<br>**Entonces** se recibe una Respuesta con estado `404`<br>**Y** se devuelve un mensaje en el cuerpo de la Respuesta: *Uno o más valores son incorrectos*                                                                                                                                                                                                                  | EP-02   |
+| US-020        | Obtener a un conductor a través de un RESTful API                                 | **Como** desarrollador <br>**Quiero** obtener un conductor mediante una solicitud `GET` al API<br>**Para** permitir iniciar sesión al usuario                                                                            | **Escenario Nº1: Ingreso de datos existentes**<br><br>**Dado que** el usuario endpoint `api/v1/driver/:mail/:password` está disponible<br>**Cuando** una solicitud `GET` se realiza con los parámetros correo electrónico y contraseña<br>**Entonces** se recibe una Respuesta con estado `200`<br>**Y** se devuelve un recurso de usuario de tipo *Conductor* en el cuerpo de la Respuesta con valores de nombre, correo electrónico, número de celular y contraseña<br><br>**Escenario Nº2: Ingreso de datos inexistentes**<br><br>**Dado que** el endpoint `api/v1/driver/:mail/:password` está disponible<br>**Cuando** una solicitud `POST` se realiza con los parámetros correo electrónico y contraseña<br>**Y** el correo electrónico no existe en el sistema<br>**Entonces** se recibe una Respuesta con estado `404`<br>**Y** se devuelve un mensaje en el cuerpo de la Respuesta: *Uno o más valores son incorrectos*                                                                                                                                                                                               | EP-02   |
+| US-021        | Añadir un viaje a través de un RESTful API                                        | **Como** desarrollador <br>**Quiero** agregar un nuevo viaje al sistema mediante una solicitud `POST` al API<br>**Para** registrar nuevos viajes para los conductores a cargo de la empresa                              | **Escenario Nº1: Ingreso correcto de datos**<br><br>**Dado que** el endpoint `api/v1/trip` está disponible<br>**Cuando** una solicitud `POST` se realiza con los valores para ubicación inicial, ubicación final, hora de salida, fecha, descripción, conductor asignado.<br>**Entonces** se recibe una Respuesta con estado `201`<br>**Y** se devuelve un recurso de usuario de tipo *Viaje* en el cuerpo de la Respuesta con valores de ubicación inicial, ubicación final, hora de salida, fecha, descripción, conductor asignado, empresa.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | EP-02   |
+| US-022        | Obtener los viajes pendientes a través de un RESTful API                          | **Como** desarrollador <br>**Quiero** listar los viajes pendientes  mediante una solicitud `GET` al API<br>**Para** mostrar los viajes pendientes a los usuarios                                                         | **Escenario Nº1: Obtener los viajes pendientes de una empresa**<br><br>**Dado que** el endpoint `api/v1/trip/:companyId/pendingTrips` está disponible<br>**Cuando** una solicitud `GET` se realiza con el parámetro del identificador de la empresa que ha iniciado sesión<br>**Entonces** se recibe una Respuesta con estado `200`<br>**Y** se devuelve un recurso de usuario de tipo lista de *Viajes* en el cuerpo de la Respuesta con valores de ubicación inicial, ubicación final, hora de salida, fecha, descripción, conductor asignado, empresa<br><br>**Escenario Nº2: Obtener los viajes pendientes de un conductor**<br><br>**Dado que** el endpoint `api/v1/trip/:driverId/pendingTrips` está disponible<br>**Cuando** una solicitud `GET` se realiza con el parámetro del identificador del conductor que ha iniciado sesión.<br>**Entonces** se recibe una Respuesta con estado `200`<br>**Y** se devuelve un recurso de usuario de tipo lista de *Viajes* en el cuerpo de la Respuesta con valores de ubicación inicial, ubicación final, hora de salida, fecha, descripción, conductor asignado, empresa      | EP-02   |
+| US-023        | Obtener el historial de viajes a través de un RESTful API                         | **Como** desarrollador <br>**Quiero** listar el historial de viajes  mediante una solicitud `GET` al API<br>**Para** mostrar los viajes realizados del usuario                                                           | **Escenario Nº1: Obtener los viajes realizados asignados por una empresa**<br><br>**Dado que** el endpoint `api/v1/trip/:companyId/doneTrips` está disponible<br>**Cuando** una solicitud `GET` se realiza con el parámetro del identificador de la empresa que ha iniciado sesión<br>**Entonces** se recibe una Respuesta con estado `200`<br>**Y** se devuelve un recurso de usuario de tipo lista de *Viajes* en el cuerpo de la Respuesta con valores de ubicación inicial, ubicación final, hora de salida, fecha, descripción, conductor asignado, empresa<br><br>**Escenario Nº2: Obtener los viajes realizados de un conductor**<br><br>**Dado que** el endpoint `api/v1/trip/:driverId/doneTrips` está disponible<br>**Cuando** una solicitud `GET` se realiza con el parámetro del identificador del conductor que ha iniciado sesión.<br>**Entonces** se recibe una Respuesta con estado `200`<br>**Y** se devuelve un recurso de usuario de tipo lista de *Viajes* en el cuerpo de la Respuesta con valores de ubicación inicial, ubicación final, hora de salida, fecha, descripción, conductor asignado, empresa | EP-02   |
+| US-024        | Terminar un viaje a través de un RESTful API                                      | **Como** desarrollador <br>**Quiero** dar por terminado un viaje  mediante una solicitud `PATCH` al API<br>**Para** finalizar la tarea del conductor                                                                     | **Escenario Nº1: Finalizar un viaje**<br><br>**Dado que** el endpoint `api/v1/trip/:tripId/done` está disponible<br>**Cuando** una solicitud `PATCH` se realiza con el parámetro del identificador del viaje que se va a modificar<br>**Entonces** se recibe una Respuesta con estado `204`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | EP-02   |
+| US-025        | Cancelar un viaje a través de un RESTful API                                      | **Como** desarrollador <br>**Quiero** cancelar un viaje  mediante una solicitud `DELETE` al API<br>**Para** que el conductor no realice ese viaje                                                                        | **Escenario Nº1: Cancelar un viaje**<br><br>**Dado que** el endpoint `api/v1/trip/:tripId` está disponible<br>**Cuando** una solicitud `DELETE` se realiza con el parámetro del identificador del viaje que se va a eliminar<br>**Entonces** se recibe una Respuesta con estado `204`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | EP-02   |
+| US-026        | Buscar un conductor por su nombre a través de un API                              | **Como** desarrollador <br>**Quiero** listar los conductores por su nombre mediante una solicitud `GET` al API<br>**Para** mostrar los conductores al usuario                                                            | **Escenario Nº1: Nombre existente**<br><br>**Dado que** el endpoint `api/v1/driver/search?name=:name` está disponible<br>**Cuando** una solicitud `GET` se realiza con el parámetro nombre del conductor<br>**Entonces** se recibe una Respuesta con estado `200`<br>**Y** se devuelve un recurso de usuario de tipo lista de *Conductor* en el cuerpo de la Respuesta con valores de nombre, correo electrónico, número de celular y contraseña<br><br>**Escenario Nº2: Nombre inexistente**<br><br>**Dado que** el endpoint `api/v1/driver/search?name=:name` está disponible<br>**Cuando** una solicitud `GET` se realiza con el parámetro nombre del conductor<br>**Y** no existe el nombre buscado<br>**Entonces** se recibe una Respuesta con estado `404`<br>**Y** se devuelve un mensaje en el cuerpo de la Respuesta: *No se encontró el conductor con el nombre :nombre*                                                                                                                                                                                                                                             | EP-02   |
+| US-027        | Buscar un conductor por el código del sensor de su vehículo a través de un API    | **Como** desarrollador <br>**Quiero** listar los conductores por el código del sensor de su vehículo mediante una solicitud `GET` al API<br>**Para** mostrar los conductores al usuario                                  | **Escenario Nº1: Código del sensor existente**<br><br>**Dado que** el endpoint `api/v1/driver/search?sensorCode=:sensorCode` está disponible<br>**Cuando** una solicitud `GET` se realiza con el parámetro código del sensor<br>**Entonces** se recibe una Respuesta con estado `200`<br>**Y** se devuelve un recurso de usuario de tipo lista de *Conductor* en el cuerpo de la Respuesta con valores de nombre, correo electrónico, número de celular y contraseña<br><br>**Escenario Nº2: Código del sensor inexistente**<br><br>**Dado que** el endpoint `api/v1/driver/search?sensorCode=:sensorCode` está disponible<br>**Cuando** una solicitud `GET` se realiza con el parámetro nombre del código del sensor<br>**Y** no existe el código del sensor buscado<br>**Entonces** se recibe una Respuesta con estado `404`<br>**Y** se devuelve un mensaje en el cuerpo de la Respuesta: *No se encontró el conductor con el código de sensor :sensorCode*                                                                                                                                                                 | EP-02   |
+| US-028        | Obtener un viaje a través de un RESTful API                                       | **Como** desarrollador <br>**Quiero** obtener un viaje  mediante una solicitud `GET` al API<br>**Para** mostrar la información al usuario                                                                                | **Escenario Nº1: Obtener un viaje**<br><br>**Dado que** el endpoint `api/v1/trip/:tripId` está disponible<br>**Cuando** una solicitud `GET` se realiza con el parámetro del identificador del viaje el cual se desea ver la información<br>**Entonces** se recibe una Respuesta con estado `200`<br>**Y** se devuelve un recurso de usuario de tipo *Viaje* en el cuerpo de la Respuesta con valores de ubicación inicial, ubicación final, hora de salida, fecha, descripción, conductor asignado, empresa.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | EP-02   |
+| US-029        | Modificar la información de un conductor a través de un RESTful API               | **Como** desarrollador <br>**Quiero** modificar un conductor  mediante una solicitud `PUT` al API<br>**Para** editar la información solicitada                                                                           | **Escenario Nº1: Editar datos correctamente**<br><br>**Dado que** el endpoint `api/v1/driver/:driverId` está disponible<br>**Cuando** una solicitud `PUT` se realiza con los valores para nombre, correo electrónico, número de celular o contraseña<br>**Entonces** se recibe una Respuesta con estado `200`<br>**Y** se devuelve un recurso de usuario de tipo *Conductor* en el cuerpo de la Respuesta con valores de nombre, correo electrónico, número de celular y contraseña<br><br>**Escenario Nº2: Correo ingresado existente**<br><br>**Dado que** el endpoint `api/v1/driver/:driverId` está disponible<br>**Cuando** una solicitud `PUT` se realiza con los valores para nombre, correo electrónico, número de celular o contraseña<br>**Y** el nuevo correo electrónico ya ha sido registrado<br>**Entonces** se recibe una Respuesta con estado `400`<br>**Y** se devuelve un mensaje en el cuerpo de la Respuesta: *El correo electrónico ya se encuentra registrado en otro usuario*                                                                                                                           | EP-02   |
+| US-030        | Modificar la información de una empresa a través de un RESTful API                | **Como** desarrollador <br>**Quiero** modificar una empresa  mediante una solicitud `PUT` al API<br>**Para** editar la información solicitada                                                                            | **Escenario Nº1: Editar datos correctamente**<br><br>**Dado que** el endpoint `api/v1/company/:companyId` está disponible<br>**Cuando** una solicitud `PUT` se realiza con los valores para nombre, correo electrónico o contraseña<br>**Entonces** se recibe una Respuesta con estado `200`<br>**Y** se devuelve un recurso de usuario de tipo *Empresa* en el cuerpo de la Respuesta con valores de nombre, correo electrónico y contraseña<br><br>**Escenario Nº2: Correo ingresado existente**<br><br>**Dado que** el endpoint `api/v1/company/:companyId` está disponible<br>**Cuando** una solicitud `PUT` se realiza con los valores para nombre, correo electrónico o contraseña<br>**Y** el nuevo correo electrónico ya ha sido registrado<br>**Entonces** se recibe una Respuesta con estado `400`<br>**Y** se devuelve un mensaje en el cuerpo de la Respuesta: *El correo electrónico ya se encuentra registrado en otro usuario*                                                                                                                                                                                  | EP-02   |
+| US-031        | Captura de datos de Fuga de Gas                                                   | **Como** usuario de la aplicación<br>**Quiero** que el sensor capture y envíe los datos de fuga de gas a la aplicación web o móvil<br>**Para** monitorear el estado de los materiales peligrosos transportados           | **Escenario Nº1: Captura y envío de datos de Fuga de Gas**<br>     <br>**Dado que** el sensor se encuentra instalado en el vehículo<br>**Cuando** el sensor detecta la Fuga de Gas<br>**Entonces** envía los datos en tiempo real al sistema de monitoreo<br>**Y** el supervisor de la empresa puede revisar los datos para enviar una alerta al conductor<br>     <br>**Escenario Nº2: Error en la captura de datos**<br><br>**Dado que** el sensor se encuentra instalado en el vehículo<br>**Y** tiene un problema técnico<br>**Cuando** el sensor intenta capturar los datos de Fuga de Gas<br>**Entonces** el sistema muestra que ha ocurrido un error<br>**Y** el usuario de la aplicación puede notificarlo para su revisión                                                                                                                                                                                                                                                                                                                                                                                            | EP-07   |
+| US-032        | Captura de datos de Temperatura                                                   | **Como** usuario de la aplicación<br>**Quiero** que el sensor capture y envíe los datos de temperatura a la aplicación web o móvil<br>**Para** monitorear el estado de los materiales peligrosos transportados           | **Escenario Nº1: Captura y envío de datos de Temperatura**<br>     <br>**Dado que** el sensor se encuentra instalado en el vehículo<br>**Cuando** el sensor detecta la Temperatura<br>**Entonces** envía los datos en tiempo real al sistema de monitoreo<br>**Y** el supervisor de la empresa puede revisar los datos para enviar una alerta al conductor<br>     <br>**Escenario Nº2: Error en la captura de datos**<br><br>**Dado que** el sensor se encuentra instalado en el vehículo<br>**Y** tiene un problema técnico<br>**Cuando** el sensor intenta capturar los datos de Temperatura<br>**Entonces** el sistema muestra que ha ocurrido un error<br>**Y** el usuario de la aplicación puede notificarlo para su revisión                                                                                                                                                                                                                                                                                                                                                                                            | EP-07   |
+| US-033        | Captura de datos de Presión                                                       | **Como** usuario de la aplicación<br>**Quiero** que el sensor capture y envíe los datos de presión a la aplicación web o móvil<br>**Para** monitorear el estado de los materiales peligrosos transportados               | **Escenario Nº1: Captura y envío de datos de Presión**<br>     <br>**Dado que** el sensor se encuentra instalado en el vehículo<br>**Cuando** el sensor detecta la Presión<br>**Entonces** envía los datos en tiempo real al sistema de monitoreo<br>**Y** el supervisor de la empresa puede revisar los datos para enviar una alerta al conductor<br>     <br>**Escenario Nº2: Error en la captura de datos**<br><br>**Dado que** el sensor se encuentra instalado en el vehículo<br>**Y** tiene un problema técnico<br>**Cuando** el sensor intenta capturar los datos de Presión<br>**Entonces** el sistema muestra que ha ocurrido un error<br>**Y** el usuario de la aplicación puede notificarlo para su revisión                                                                                                                                                                                                                                                                                                                                                                                                        | EP-07   |
+| US-034        | Envío de datos de Fuga de Gas a través de un Edge Gateway                         | **Como** desarrollador<br>**Quiero** enviar la información de Fuga de Gas al Edge Gateway<br>**Para** que la información pueda estar en el backend                                                                       | **Escenario Nº1: Captura y envío de datos**<br><br>**Dado que** el sensor se encuentra encendido<br>**Cuando** el sensor detecta la Fuga de Gas<br>**Entonces** el Edge Gateway obtiene la información<br>**Y** se almacena en el backend                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | EP-07   |
+| US-035        | Envío de datos de Temperatura a través de un Edge Gateway                         | **Como** desarrollador<br>**Quiero** enviar la información de Temperatura al Edge Gateway<br>**Para** que la información pueda estar en el backend                                                                       | **Escenario Nº1: Captura y envío de datos**<br><br>**Dado que** el sensor se encuentra encendido<br>**Cuando** el sensor detecta la Temperatura<br>**Entonces** el Edge Gateway obtiene la información<br>**Y** se almacena en el backend                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | EP-07   |
+| US-036        | Envío de datos de Presión a través de un Edge Gateway                             | **Como** desarrollador<br>**Quiero** enviar la información de Presión al Edge Gateway<br>**Para** que la información pueda estar en el backend                                                                           | **Escenario Nº1: Captura y envío de datos**<br><br>**Dado que** el sensor se encuentra encendido<br>**Cuando** el sensor detecta la Presión<br>**Entonces** el Edge Gateway obtiene la información<br>**Y** se almacena en el backend                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | EP-07   |
+| US-037        | Enviar la información del sensor desde el Edge Gateway a través de un RESTful API | **Como** desarrollador<br>**Quiero** enviar la información del sensor mediante una solicitud `POST` al API<br>**Para** almacenar la información en el backend                                                            | **Escenario Nº1: Enviar datos del sensor**<br><br>**Dado que** el endpoint `api/v1/sensor/:sensorCode` está disponible<br>**Cuando** una solicitud `POST` se realiza con el parámetro del código del sensor para los valores fuga de gas, temperatura y presión.<br>**Entonces** se recibe una Respuesta con estado `204`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | EP-03   |
+| US-038        | Recibir la información del sensor a través de un RESTful API                      | **Como** desarrollador<br>**Quiero** obtener la información del sensor mediante una solicitud `GET` al API<br>**Para** mostrar la información en la aplicación web o móvil                                               | **Escenario Nº1: Recibir datos del sensor**<br><br>**Dado que** el endpoint `api/v1/sensor/:sensorCode` está disponible<br>**Cuando** una solicitud `GET` se realiza con el parámetro del código del sensor<br>**Entonces** se recibe una Respuesta con estado `200`<br>**Y** se devuelve un recurso de tipo *Sensor* en el cuerpo de la Respuesta con valores para fuga de gas, temperatura y presión.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | EP-03   |
+| US-039        | Sección Principal                                                                 | **Como** visitante de la página de destino<br>**Quiero** saber que me ofrece el producto de inmediato<br>**Para** confirmar si es lo que estoy buscando                                                                  | **Escenario Nº1: Información general**<br><br>**Dado que** el visitante de la página se encuentra en la página de destino<br>**Cuando** se encuentre en la sección Principal<br>**Entonces** ve que es lo que ofrece la aplicación y como contactar con FastPorte<br><br>**Escenario Nº1: Información del Producto**<br><br>**Dado que** el visitante de la página se encuentra en la página de destino<br>**Y** visualiza que ofrece FastPorte<br>**Cuando** deslice hacia abajo<br>**Entonces** ve más detalles del producto y cómo funciona                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | EP-01   |
+| US-040        | Sección Características                                                           | **Como** visitante de la página de destino<br>**Quiero** saber cuáles son las características y beneficios<br>**Para** evaluar la contratación de este                                                                   | **Escenario Nº1: Características del Producto**<br><br>**Dado que** el visitante de la página se encuentra en la página de destino<br>**Cuando** se encuentre en la sección Características<br>**Entonces** verá información adicional sobre las características principales de FastPorte<br><br>**Escenario Nº1: Beneficios para cada segmento objetivo**<br><br>**Dado que** el visitante de la página se encuentra en la página de destino<br>**Y** visualiza las características de FastPorte<br>**Cuando** deslice hacia abajo<br>**Entonces** ve cuáles son los beneficios que se ofrece para cada segmento objetivo                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | EP-01   |
+| US-041        | Sección Sobre Nosotros                                                            | **Como** visitante de la página de destino<br>**Quiero** saber quiénes están involucrados en FastPorte<br>**Para** conocer más sobre esta empresa                                                                        | **Escenario Nº1: Miembros de FastPorte**<br><br>**Dado que** el visitante de la página se encuentra en la página de destino<br>**Cuando** está en la sección Sobre Nosotros<br>**Entonces** ve quiénes son los responsables de hacer FastPorte posible<br><br>**Escenario Nº1: Testimonios de los usuarios**<br><br>**Dado que** el visitante de la página se encuentra en la página de destino<br>**Y** visualiza quienes son los miembros de FastPorte<br>**Cuando** deslice hacia abajo<br>**Entonces** ve testimonios sobre otros usuarios acerca de FastPorte                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | EP-01   |
+| US-042        | Sección Descarga                                                                  | **Como** visitante de la página de destino<br>**Quiero** descargar la aplicación móvil<br>**Para** visualizar la interfaz de esta                                                                                        | **Escenario Nº1: Call to Action**<br><br>**Dado que** el visitante de la página se encuentra en la página de destino<br>**Cuando** esté en la sección Descarga<br>**Entonces** puede descargar la aplicación móvil dando click al botón "Descargar"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | EP-01   |
+| US-043        | Sección Contáctanos                                                               | **Como** visitante de la página de destino<br>**Quiero** contactarme con FastPorte<br>**Para** obtener más información del producto                                                                                      | **Escenario Nº1: Call to Action**<br><br>**Dado que** el visitante de la página se encuentra en la página de destino<br>**Cuando** este en la sección Contáctanos<br>**Y** ingrese la información solicitada<br>**Entonces** hace click en el botón "Enviar mensaje" para contactar con FastPorte                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | EP-01   |
 ## 3.3. Impact Mapping
-
-Se realizó el Impact Mapping para los dos User Persona desarrollados, el cuál es una técnica que permite asociar las Historias de Usuario desarrolladas a un objetivo de negocio establecido. Además, de identificar los resultados esperados y los actores involucrados.
-
+Se realizó el Impact Mapping para los dos User Persona desarrollados:
 ![Impact Mapping](assets/capitulo3/impact-mapping.png)
-
 Enlace para una mejor visualización en Figma: [Impact Mapping - Figma](https://www.figma.com/design/kRuNT3xHNIfd0SQ6vAFi9K/Artifacts-FastPorte?node-id=0-1)
 ## 3.4. Product Backlog
+Para la calificación de Story Points empleada en el Product Backlog se siguió la sucesión de Fibonacci. En este caso siendo 1 la mínima prioridad en el desarrollo y 8 siendo la máxima.
 
-Para la calificación de Story Points empleada en el Product Backlog se siguió la sucesión de Fibonacci. En este caso siendo 1 la mínima prioridad en el desarrollo y 8 siendo la máxima. Además, se considero en el orden la realización de los Sprints.
-
-| User Story ID | Título | Descripción                                                                        | Story Points (1/2/3/5/8)                                                                                                                                                                                                 |     |
-| ------------- | ------ | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --- |
-| 1             | US-039 | Sección Principal                                                                  | **Como** visitante de la página de destino<br>**Quiero** saber que me ofrece el producto de inmediato<br>**Para** confirmar si es lo que estoy buscando                                                                  | 3   |
-| 2             | US-040 | Sección Características                                                            | **Como** visitante de la página de destino<br>**Quiero** saber cuáles son las características y beneficios<br>**Para** evaluar la contratación de este                                                                   | 3   |
-| 3             | US-041 | Sección Sobre Nosotros                                                             | **Como** visitante de la página de destino<br>**Quiero** saber quiénes están involucrados en FastPorte<br>**Para** conocer más sobre esta empresa                                                                        | 3   |
-| 4             | US-042 | Sección Descarga                                                                   | **Como** visitante de la página de destino<br>**Quiero** descargar la aplicación móvil<br>**Para** visualizar la interfaz de esta                                                                                        | 3   |
-| 5             | US-043 | Sección Contáctanos                                                                | **Como** visitante de la página de destino<br>**Quiero** contactarme con FastPorte<br>**Para** obtener más información del producto                                                                                      | 3   |
-| 6             | US-001 | Registro de supervisor de la empresa                                               | **Como** supervisor de la empresa<br>**Quiero** registrarme en la aplicación<br>**Para** supervisar a los conductores a mi cargo                                                                                         | 5   |
-| 7             | US-004 | Registrar un viaje                                                                 | **Como** supervisor de la empresa<br>**Quiero** registrar un viaje<br>**Para** notificar al conductor los servicios que debe realizar                                                                                    | 8   |
-| 8             | US-015 | Enviar alerta de peligro al conductor                                              | **Como** supervisor de la empresa<br>**Quiero** enviar una alerta de peligro al conductor<br>**Para** alertarlo de algún inconveniente con el material peligroso transportado                                            | 8   |
-| 9             | US-014 | Visualizar el estado del viaje por el sensor                                       | **Como** usuario de la aplicación<br>**Quiero** visualizar el estado del viaje por el sensor<br>**Para** saber si ha sucedido algún accidente con el material peligroso transportado                                     | 8   |
-| 10            | US-007 | Concluir viaje                                                                     | **Como** supervisor de la empresa<br>**Quiero** concluir los viajes que ya se han realizado<br>**Para** dar por terminado la tarea del conductor                                                                         | 8   |
-| 11            | US-009 | Buscar un conductor                                                                | **Como** supervisor de la empresa<br>**Quiero** buscar un conductor<br>**Para** asignarle un viaje                                                                                                                       | 5   |
-| 12            | US-010 | Visualizar la información del viaje                                                | **Como** usuario de la aplicación<br>**Quiero** visualizar la información de un viaje<br>**Para** revisar algún dato en concreto                                                                                         | 5   |
-| 13            | US-011 | Notificar al conductor del nuevo viaje                                             | **Como** conductor<br>**Quiero** recibir una notificación<br>**Para** saber si se me ha asignado un viaje                                                                                                                | 5   |
-| 14            | US-002 | Registro de conductor                                                              | **Como** conductor<br>**Quiero** registrarme en la aplicación<br>**Para** recibir información de los viajes que debo realizar                                                                                            | 5   |
-| 15            | US-003 | Inicio de sesión                                                                   | **Como** usuario de la aplicación<br>**Quiero** iniciar sesión en la aplicación<br>**Para** acceder a las funcionalidades de la aplicación                                                                               | 5   |
-| 16            | US-005 | Viajes pendientes                                                                  | **Como** usuario de la aplicación<br>**Quiero** visualizar los viajes pendientes<br>**Para** gestionar los viajes que se deben realizar                                                                                  | 5   |
-| 17            | US-006 | Historial de Viajes                                                                | **Como** usuario de la aplicación<br>**Quiero** visualizar el historial de viajes<br>**Para** llevar un registro de los viajes completados                                                                               | 5   |
-| 18            | US-008 | Cancelar viaje                                                                     | **Como** supervisor de la empresa<br>**Quiero** cancelar un viaje<br>**Para** descartar un viaje creado erróneamente                                                                                                     | 5   |
-| 19            | US-012 | Notificar al conductor del viaje concluido                                         | **Como** conductor<br>**Quiero** recibir una notificación<br>**Para** saber si mi supervisor conluyó el viaje                                                                                                            | 5   |
-| 20            | US-013 | Notificar al conductor del viaje cancelado                                         | **Como** conductor<br>**Quiero** recibir una notificación<br>**Para** saber si un viaje ha sido cancelado                                                                                                                | 5   |
-| 21            | US-016 | Editar perfil de Usuario                                                           | **Como** usuario de la aplicación<br>**Quiero** modificar mi información<br>**Para** corregir errores o mantenerla actualizada                                                                                           | 2   |
-| 22            | US-017 | Añadir un supervisor de la empresa a través de un RESTful API                      | **Como** desarrollador <br>**Quiero** agregar un nuevo usuario de tipo *Empresa* al sistema mediante una solicitud `POST` al API<br>**Para** permitir el acceso de nuevos usuarios de tipo *Empresa* a la aplicación     | 5   |
-| 23            | US-018 | Añadir un conductor a través de un RESTful API                                     | **Como** desarrollador <br>**Quiero** agregar un nuevo usuario de tipo *Conductor* al sistema mediante una solicitud `POST` al API<br>**Para** permitir el acceso de nuevos usuarios de tipo *Conductor* a la aplicación | 5   |
-| 24            | US-019 | Obtener a un supervisor de la empresa a través de un RESTful API                   | **Como** desarrollador <br>**Quiero** obtener una empresa mediante una solicitud `GET` al API<br>**Para** permitir iniciar sesión al usuario                                                                             | 5   |
-| 25            | US-020 | Obtener a un conductor a través de un RESTful API                                  | **Como** desarrollador <br>**Quiero** obtener un conductor mediante una solicitud `GET` al API<br>**Para** permitir iniciar sesión al usuario                                                                            | 5   |
-| 26            | US-021 | Añadir un viaje a través de un RESTful API                                         | **Como** desarrollador <br>**Quiero** agregar un nuevo viaje al sistema mediante una solicitud `POST` al API<br>**Para** registrar nuevos viajes para los conductores a cargo de la empresa                              | 5   |
-| 27            | US-022 | Obtener los viajes pendientes a través de un RESTful API                           | **Como** desarrollador <br>**Quiero** listar los viajes pendientes  mediante una solicitud `GET` al API<br>**Para** mostrar los viajes pendientes a los usuarios                                                         | 5   |
-| 28            | US-023 | Obtener el historial de viajes a través de un RESTful API                          | **Como** desarrollador <br>**Quiero** listar el historial de viajes  mediante una solicitud `GET` al API<br>**Para** mostrar los viajes realizados del usuario                                                           | 5   |
-| 29            | US-024 | Terminar un viaje a través de un RESTful API                                       | **Como** desarrollador <br>**Quiero** dar por terminado un viaje  mediante una solicitud `PATCH` al API<br>**Para** finalizar la tarea del conductor                                                                     | 8   |
-| 30            | US-025 | Cancelar viaje a través de un RESTful API                                          | **Como** desarrollador <br>**Quiero** cancelar un viaje  mediante una solicitud `DELETE` al API<br>**Para** que el conductor no realice ese viaje                                                                        | 5   |
-| 31            | US-026 | Buscar un conductor por su nombre a través de un API                               | **Como** desarrollador <br>**Quiero** listar los conductores por su nombre mediante una solicitud `GET` al API<br>**Para** mostrar los conductores al usuario                                                            | 5   |
-| 32            | US-027 | Buscar un conductor por el código del sensor de su vehículo a través de un API     | **Como** desarrollador <br>**Quiero** listar los conductores por el código del sensor de su vehículo mediante una solicitud `GET` al API<br>**Para** mostrar los conductores al usuario                                  | 5   |
-| 33            | US-028 | Obtener un viaje a través de un RESTful API                                        | **Como** desarrollador <br>**Quiero** obtener un viaje  mediante una solicitud `GET` al API<br>**Para** mostrar la información al usuario                                                                                | 5   |
-| 34            | US-029 | Modificar la información de un conductor a través de un RESTful API                | **Como** desarrollador <br>**Quiero** modificar un conductor  mediante una solicitud `PUT` al API<br>**Para** editar la información solicitada                                                                           | 3   |
-| 35            | US-030 | Modificar la información de un supervisor de la empresa a través de un RESTful API | **Como** desarrollador <br>**Quiero** modificar una empresa  mediante una solicitud `PUT` al API<br>**Para** editar la información solicitada                                                                            | 5   |
-| 36            | US-031 | Captura de datos de Fuga de Gas                                                    | **Como** usuario de la aplicación<br>**Quiero** que el sensor capture y envíe los datos de fuga de gas a la aplicación web o móvil<br>**Para** monitorear el estado de los materiales peligrosos transportados           | 8   |
-| 37            | US-032 | Captura de datos de Temperatura                                                    | **Como** usuario de la aplicación<br>**Quiero** que el sensor capture y envíe los datos de temperatura a la aplicación web o móvil<br>**Para** monitorear el estado de los materiales peligrosos transportados           | 8   |
-| 38            | US-033 | Captura de datos de Presión                                                        | **Como** usuario de la aplicación<br>**Quiero** que el sensor capture y envíe los datos de presión a la aplicación web o móvil<br>**Para** monitorear el estado de los materiales peligrosos transportados               | 8   |
-| 39            | US-034 | Envío de datos de Fuga de Gas a través de un Edge Gateway                          | **Como** desarrollador<br>**Quiero** enviar la información de Fuga de Gas al Edge Gateway<br>**Para** que la información pueda estar en el backend                                                                       | 8   |
-| 40            | US-035 | Envío de datos de Temperatura a través de un Edge Gateway                          | **Como** desarrollador<br>**Quiero** enviar la información de Temperatura al Edge Gateway<br>**Para** que la información pueda estar en el backend                                                                       | 8   |
-| 41            | US-036 | Envío de datos de Presión a través de un Edge Gateway                              | **Como** desarrollador<br>**Quiero** enviar la información de Presión al Edge Gateway<br>**Para** que la información pueda estar en el backend                                                                           | 8   |
-| 42            | US-037 | Enviar la información del sensor desde el Edge Gateway a través de un RESTful API  | **Como** desarrollador<br>**Quiero** enviar la información del sensor mediante una solicitud `POST` al API<br>**Para** almacenar la información en el backend                                                            | 8   |
-| 43            | US-038 | Recibir la información del sensor a través de un RESTful API                       | **Como** desarrollador<br>**Quiero** obtener la información del sensor mediante una solicitud `GET` al API<br>**Para** mostrar la información en la aplicación web o móvil                                               | 8   |
-# Capitulo IV: Solution Software Design
+| User Story ID | Título | Descripción                                                                       | Story Points (1/2/3/5/8)                                                                                                                                                                                                 |     |
+| ------------- | ------ | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --- |
+| 1             | US-039 | Sección Principal                                                                 | **Como** visitante de la página de destino<br>**Quiero** saber que me ofrece el producto de inmediato<br>**Para** confirmar si es lo que estoy buscando                                                                  | 3   |
+| 2             | US-040 | Sección Características                                                           | **Como** visitante de la página de destino<br>**Quiero** saber cuáles son las características y beneficios<br>**Para** evaluar la contratación de este                                                                   | 3   |
+| 3             | US-041 | Sección Sobre Nosotros                                                            | **Como** visitante de la página de destino<br>**Quiero** saber quiénes están involucrados en FastPorte<br>**Para** conocer más sobre esta empresa                                                                        | 3   |
+| 4             | US-042 | Sección Descarga                                                                  | **Como** visitante de la página de destino<br>**Quiero** descargar la aplicación móvil<br>**Para** visualizar la interfaz de esta                                                                                        | 3   |
+| 5             | US-043 | Sección Contáctanos                                                               | **Como** visitante de la página de destino<br>**Quiero** contactarme con FastPorte<br>**Para** obtener más información del producto                                                                                      | 3   |
+| 6             | US-001 | Registro de empresa                                                               | **Como** empresa<br>**Quiero** registrarme en la aplicación<br>**Para** supervisar a los conductores a mi cargo                                                                                                          | 5   |
+| 7             | US-002 | Registro de conductor                                                             | **Como** conductor<br>**Quiero** registrarme en la aplicación<br>**Para** recibir información de los viajes que debo realizar                                                                                            | 5   |
+| 8             | US-003 | Inicio de sesión                                                                  | **Como** usuario de la aplicación<br>**Quiero** iniciar sesión en la aplicación<br>**Para** acceder a las funcionalidades de la aplicación                                                                               | 5   |
+| 9             | US-004 | Registrar un viaje                                                                | **Como** empresa<br>**Quiero** registrar un viaje<br>**Para** notificar al conductor los servicios que debe realizar                                                                                                     | 8   |
+| 10            | US-005 | Viajes pendientes                                                                 | **Como** usuario de la aplicación<br>**Quiero** visualizar los viajes pendientes<br>**Para** gestionar los viajes que se deben realizar                                                                                  | 5   |
+| 11            | US-006 | Historial de Viajes                                                               | **Como** usuario de la aplicación<br>**Quiero** visualizar el historial de viajes<br>**Para** llevar un registro de los viajes completados                                                                               | 5   |
+| 12            | US-007 | Concluir viaje                                                                    | **Como** empresa<br>**Quiero** concluir los viajes que ya se han realizado<br>**Para** dar por terminado la tarea del conductor                                                                                          | 8   |
+| 13            | US-008 | Cancelar viaje                                                                    | **Como** empresa<br>**Quiero** cancelar un viaje<br>**Para** descartar un viaje creado erróneamente                                                                                                                      | 5   |
+| 14            | US-009 | Buscar un conductor                                                               | **Como** empresa<br>**Quiero** buscar un conductor<br>**Para** asignarle un viaje                                                                                                                                        | 3   |
+| 15            | US-010 | Visualizar la información del viaje                                               | **Como** usuario de la aplicación<br>**Quiero** visualizar la información de un viaje<br>**Para** revisar algún dato en concreto                                                                                         | 5   |
+| 16            | US-011 | Notificar al conductor del nuevo viaje                                            | **Como** conductor<br>**Quiero** recibir una notificación<br>**Para** saber si se me ha asignado un viaje                                                                                                                | 5   |
+| 17            | US-012 | Notificar al conductor del viaje concluido                                        | **Como** conductor<br>**Quiero** recibir una notificación<br>**Para** saber si mi supervisor conluyó el viaje                                                                                                            | 5   |
+| 18            | US-013 | Notificar al conductor del viaje cancelado                                        | **Como** conductor<br>**Quiero** recibir una notificación<br>**Para** saber si un viaje ha sido cancelado                                                                                                                | 5   |
+| 19            | US-014 | Visualizar el estado del viaje por el sensor                                      | **Como** usuario de la aplicación<br>**Quiero** visualizar el estado del viaje por el sensor<br>**Para** saber si ha sucedido algún accidente con el material peligroso transportado                                     | 8   |
+| 20            | US-015 | Enviar alerta de peligro al conductor                                             | **Como** empresa<br>**Quiero** enviar una alerta de peligro al conductor<br>**Para** alertarlo de algún inconveniente con el material peligroso transportado                                                             | 8   |
+| 21            | US-016 | Editar perfil de Usuario                                                          | **Como** usuario de la aplicación<br>**Quiero** modificar mi información<br>**Para** corregir errores o mantenerla actualizada                                                                                           | 2   |
+| 22            | US-017 | Añadir una empresa a través de un RESTful API                                     | **Como** desarrollador <br>**Quiero** agregar un nuevo usuario de tipo *Empresa* al sistema mediante una solicitud `POST` al API<br>**Para** permitir el acceso de nuevos usuarios de tipo *Empresa* a la aplicación     | 5   |
+| 23            | US-018 | Añadir un conductor a través de un RESTful API                                    | **Como** desarrollador <br>**Quiero** agregar un nuevo usuario de tipo *Conductor* al sistema mediante una solicitud `POST` al API<br>**Para** permitir el acceso de nuevos usuarios de tipo *Conductor* a la aplicación | 5   |
+| 24            | US-019 | Obtener a una empresa a través de un RESTful API                                  | **Como** desarrollador <br>**Quiero** obtener una empresa mediante una solicitud `GET` al API<br>**Para** permitir iniciar sesión al usuario                                                                             | 5   |
+| 25            | US-020 | Obtener a un conductor a través de un RESTful API                                 | **Como** desarrollador <br>**Quiero** obtener un conductor mediante una solicitud `GET` al API<br>**Para** permitir iniciar sesión al usuario                                                                            | 5   |
+| 26            | US-021 | Añadir un viaje a través de un RESTful API                                        | **Como** desarrollador <br>**Quiero** agregar un nuevo viaje al sistema mediante una solicitud `POST` al API<br>**Para** registrar nuevos viajes para los conductores a cargo de la empresa                              | 5   |
+| 27            | US-022 | Obtener los viajes pendientes a través de un RESTful API                          | **Como** desarrollador <br>**Quiero** listar los viajes pendientes  mediante una solicitud `GET` al API<br>**Para** mostrar los viajes pendientes a los usuarios                                                         | 5   |
+| 28            | US-023 | Obtener el historial de viajes a través de un RESTful API                         | **Como** desarrollador <br>**Quiero** listar el historial de viajes  mediante una solicitud `GET` al API<br>**Para** mostrar los viajes realizados del usuario                                                           | 5   |
+| 29            | US-024 | Terminar un viaje a través de un RESTful API                                      | **Como** desarrollador <br>**Quiero** dar por terminado un viaje  mediante una solicitud `PATCH` al API<br>**Para** finalizar la tarea del conductor                                                                     | 8   |
+| 30            | US-025 | Cancelar viaje a través de un RESTful API                                         | **Como** desarrollador <br>**Quiero** cancelar un viaje  mediante una solicitud `DELETE` al API<br>**Para** que el conductor no realice ese viaje                                                                        | 5   |
+| 31            | US-026 | Buscar un conductor por su nombre a través de un API                              | **Como** desarrollador <br>**Quiero** listar los conductores por su nombre mediante una solicitud `GET` al API<br>**Para** mostrar los conductores al usuario                                                            | 5   |
+| 32            | US-027 | Buscar un conductor por el código del sensor de su vehículo a través de un API    | **Como** desarrollador <br>**Quiero** listar los conductores por el código del sensor de su vehículo mediante una solicitud `GET` al API<br>**Para** mostrar los conductores al usuario                                  | 5   |
+| 33            | US-028 | Obtener un viaje a través de un RESTful API                                       | **Como** desarrollador <br>**Quiero** obtener un viaje  mediante una solicitud `GET` al API<br>**Para** mostrar la información al usuario                                                                                | 5   |
+| 34            | US-029 | Modificar la información de un conductor a través de un RESTful API               | **Como** desarrollador <br>**Quiero** modificar un conductor  mediante una solicitud `PUT` al API<br>**Para** editar la información solicitada                                                                           | 3   |
+| 35            | US-030 | Modificar la información de una empresa a través de un RESTful API                | **Como** desarrollador <br>**Quiero** modificar una empresa  mediante una solicitud `PUT` al API<br>**Para** editar la información solicitada                                                                            | 5   |
+| 36            | US-031 | Captura de datos de Fuga de Gas                                                   | **Como** usuario de la aplicación<br>**Quiero** que el sensor capture y envíe los datos de fuga de gas a la aplicación web o móvil<br>**Para** monitorear el estado de los materiales peligrosos transportados           | 8   |
+| 37            | US-032 | Captura de datos de Temperatura                                                   | **Como** usuario de la aplicación<br>**Quiero** que el sensor capture y envíe los datos de temperatura a la aplicación web o móvil<br>**Para** monitorear el estado de los materiales peligrosos transportados           | 8   |
+| 38            | US-033 | Captura de datos de Presión                                                       | **Como** usuario de la aplicación<br>**Quiero** que el sensor capture y envíe los datos de presión a la aplicación web o móvil<br>**Para** monitorear el estado de los materiales peligrosos transportados               | 8   |
+| 39            | US-034 | Envío de datos de Fuga de Gas a través de un Edge Gateway                         | **Como** desarrollador<br>**Quiero** enviar la información de Fuga de Gas al Edge Gateway<br>**Para** que la información pueda estar en el backend                                                                       | 8   |
+| 40            | US-035 | Envío de datos de Temperatura a través de un Edge Gateway                         | **Como** desarrollador<br>**Quiero** enviar la información de Temperatura al Edge Gateway<br>**Para** que la información pueda estar en el backend                                                                       | 8   |
+| 41            | US-036 | Envío de datos de Presión a través de un Edge Gateway                             | **Como** desarrollador<br>**Quiero** enviar la información de Presión al Edge Gateway<br>**Para** que la información pueda estar en el backend                                                                           | 8   |
+| 42            | US-037 | Enviar la información del sensor desde el Edge Gateway a través de un RESTful API | **Como** desarrollador<br>**Quiero** enviar la información del sensor mediante una solicitud `POST` al API<br>**Para** almacenar la información en el backend                                                            | 8   |
+| 43            | US-038 | Recibir la información del sensor a través de un RESTful API                      | **Como** desarrollador<br>**Quiero** obtener la información del sensor mediante una solicitud `GET` al API<br>**Para** mostrar la información en la aplicación web o móvil                                               | 8   |
+# Capitulo IV: Solution Software Desing
 
 ## 4.1. Strategic-Level Domain-Driven Design
 
-### 4.1.1. EventStorming <br>
-Para el desarroolo del EventStorming, nos reunimos para organizar una lluvia de ideas con los temas, datos y funcionalidades necesarias para el desarrollo de la aplicación, resultando en el siguiente gráfico:<br>
+### 4.1.1. EventStorming
 ![EventStorming](./assets/chapter4_img/step8.jpg)
 
-#### 4.1.1.1 Candidate Context Discovery <br>
-A continuación mostraremos el paso a paso para la organizacion del EventStorming: <br>
-<br>Step 1: <br>
-Generar las ideas más importantes del negocio en base a los requerimientos
+#### 4.1.1.1 Candidate Context Discovery
+
+Step 1:
 ![Step 1](./assets/chapter4_img/step1.jpg)
-<br>Step 2: <br>
-Relacionar las ideas entre si para tener secuencias
+Step 2:
 ![Step 2](./assets/chapter4_img/step2.jpg)
-<br>Step 3: <br>
-Identificar las ideas que pueden ocacionar deciciones múltiples o pueden ser puntos críticos, usando preguntas clave
+Step 3:
 ![Step 3](./assets/chapter4_img/step3.jpg)
-<br>Step 4: <br>
-Organizar las relaciones en función secuencial
+Step 4:
 ![Step 4](./assets/chapter4_img/step4.jpg)
-<br> Step 5: <br>
-Clasificar el tipo de usuario que va a usar cada sección
+Step 5:
 ![Step 5](./assets/chapter4_img/step5.jpg)
-<br>Step 6: <br>
-Añadir detalles de visualizacion de interfaz
+Step 6:
 ![Step 6](./assets/chapter4_img/step6.jpg)
-<br> Step 7: <br>
-Detectar si es posible usar una aplicación externa
+Step 7:
 ![Step 7](./assets/chapter4_img/step7.jpg)
-<br> Step 8: <br> 
-Por ultimo se eliminan dellates que fueron descartados y muestra el resultado final
+Step 8:
 ![Step 8](./assets/chapter4_img/step8.jpg)
 
-#### 4.1.1.2 Domain Message Flows Modeling <br>
-En esta seccion mostraremos el proceso seguido para visualizar cómo deben colaborar los bounded contexts para resolver los casos que se presentan en el negocio para los usuarios del sistema. <br>
+#### 4.1.1.2 Domain Message Flows Modeling
 
 Leyenda: <br>
-
 ![Leyenda](./assets/chapter4_img/leyenda.png)
 
-Escenario: Inicio de sesión <br>
-Cuando un usario, ya sea supervisro o conductor, desee registrarse se enviará una solicitud al bounded context 'Profile management' con los datos requeridos, este hará una validacion con la base de datos y si es exitosa, retornará al usuario el inicio de su sesión
+Escenario: Inicio de sesión
 ![Escenario 1](./assets/chapter4_img/escenario1.png)
 
-Escenario: Registro de usuario <br>
-Si el usuario va a registrarse, ingresa los datos solicitados, estos pasaran al bounded context y se alamcenán en su base de datos.
+Escenario: Registro de usuario
 ![Escenario 2](./assets/chapter4_img/escenario2.png)
 
-Escenario: Registro del sensor <br>
-Cuando el usuario registre un sensor, el bounded context 'Profile management' se comunicara con 'Security monitoring' para registrar los datos
+Escenario: Registro del sensor
 ![Escenario 3](./assets/chapter4_img/escenario3.png)
 
-Escenario: Programación de viaje <br>
-Si el usuario supervisor debe registrar un nuevo viaje, 'Transport management' recibe los datos necesarios y se comunica con ' Profile management' para generarle la notificación
+Escenario: Programación de viaje
 ![Escenario 4](./assets/chapter4_img/escenario4.png)
 
-Escenario: Conductor visualiza sus viajes pendientes <br>
-Cuando el usuario desea revisar los viajes programados que tiene, por medio de 'Profile management' y 'Transport management' ingresan a la base de datos respectiva para obtener la lista que retorne con los viajes. 
+Escenario: Conductor visualiza sus viajes pendientes
 ![Escenario 5](./assets/chapter4_img/escenario5.png)
 
-Escenario: Sensor detecta un problema <br>
-En caso de que el sensor detecte un problema por medio de 'Security monitoring', envia una alerta desde 'Alerts system' para que lo reciba el usuario.
+Escenario: Sensor detecta un problema
 ![Escenario 6](./assets/chapter4_img/escenario6.png)
 
 #### 4.1.1.3 Bounded Context Canvases
 
-Bounded context 'Profle management'  <br>
-Autenticación y autorización de usuarios (conductores y supervisores) y manejo de roles dentro del sistema
-![Bounded Context Canvas Usuario](./assets/chapter4_img/canvas_profile.jpg)
+Bounded context 'Usuario'  <br>
+![Bounded Context Canvas Usuario](./assets/chapter4_img/canvas_users.jpg)
 
-Bounded context 'Security monitoring'  <br>
-Capturar y procesar los datos de sensores instalados en las cisternas para garantizar la seguridad durante el transporte de materiales peligrosos. Notificar en tiempo real cuando se excedan los límites críticos de seguridad.
-![Bounded Context Canvas Usuario](./assets/chapter4_img/canvas_security.jpg)
+Bounded context 'Sensor'  <br>
+![Bounded Context Canvas Usuario](./assets/chapter4_img/canvas_sensor.jpg)
 
-Bounded context 'Transport management'  <br>
-Planificar y gestionar el transporte de materiales peligrosos, asignando vehículos y conductores para cada ruta, garantizando el cumplimiento de regulaciones.
-![Bounded Context Canvas Usuario](./assets/chapter4_img/canvas_transport.jpg)
+Bounded context 'Viajes'  <br>
+![Bounded Context Canvas Usuario](./assets/chapter4_img/canvas_viajes.jpg)
 
-Bounded context 'Alerts system'  <br>
-Gestionar el envío de alertas y notificaciones a los conductores y supervisores en tiempo real cuando se detectan problemas en los sensores.
-![Bounded Context Canvas Usuario](./assets/chapter4_img/canvas_alerts.jpg)
-
-### 4.1.2. Context Mapping <br>
-Transport management ↔️ Security monitoring
-
-Relación: Customer-Supplier
-
-Patrón:
-Transport management actúa como un 'Cliente' de Security monitoring. Necesita información en tiempo real sobre el estado de los sensores de seguridad instalados en los vehículos.
-Security monitoring actúa como un 'Proveedor' de datos de gases, temperatura y presión a Transport management.
-
-Security monitoring ↔️ Alerts system
-
-Relación: Customer-Supplier
-
-Patrón:
-Security monitoring es el 'Cliente' que requiere la funcionalidad de notificaciones en tiempo real cuando un sensor detecta un valor crítico.
-Alerts system es el 'Proveedor', que envía mensajes a los usuarios relevantes (conductores, supervisores) cuando se genera una alerta.
-
-Transport management ↔️ Profle management
-
-Relación: Customer-Supplier
-
-Patrón:
-Transport management es el 'Cliente' que requiere la autenticación y autorización de los usuarios (conductores y supervisores) antes de planificar rutas y asignar tareas.
-Profle management es el 'Proveedor' que gestiona los permisos y autenticaciones para permitir el acceso a los usuarios en el sistema de transporte.
-
-Alerts system ↔️ Profle management
-
-Relación: Anticorruption Layer 
-
-Patrón:
-Alerts system se protege contra posibles complejidades o cambios en el sistema de Profle management al establecer una capa anticorrupción. De esta manera, los cambios en el esquema de usuarios o permisos no afectan la lógica de notificaciones.
-
+### 4.1.2. Context Mapping
 ![Context Mapping](./assets/chapter4_img/context_mapping.jpg)
 
 ### 4.1.3. Software Architecture
 
-#### 4.1.3.1. Software Architecture System Landscape Diagram <br>
-
-Este diagrama describe la arquitectura a nivel de sistema de FastPorte, un servicio que conecta conductores y empresas para la gestión eficiente de la logística y transporte. Los actores involucrados son: <br>
-
-Conductor: Se comunica con el sistema para obtener asignaciones de transporte y actualizar el estado de las entregas.<br>
-Supervisor: Utiliza el sistema para gestionar los viajes de los conductores. El sistema gestiona el intercambio de información entre conductores y supervisores para optimizar las operaciones logísticas. <br>
-
+#### 4.1.3.1. Software Architecture System Landscape Diagram
 ![C4 Diagrama de Contexto](./assets/chapter4_img/landscape.jpg)
 
-#### 4.1.3.2. Software Architecture Context Level Diagrams <br>
-
-El diagrama de nivel de contexto de FastPorte muestra las interacciones clave entre el sistema y sus usuarios principales:<br>
-
-Conductor: Recibe notificaciones, alertas del sensor y actualizaciones de rutas.<br>
-Supervisar: Utiliza el sistema para gestionar los viajes de los conductores. El sistema gestiona el intercambio de información entre conductores y supervisores para optimizar las operaciones logísticas.<br>
-
+#### 4.1.3.2. Software Architecture Context Level Diagrams
 ![C4 Diagrama de Contexto](./assets/chapter4_img/c4_context.png)
 
-#### 4.1.3.2. Software Architecture Container Level Diagrams. <br>
+#### 4.1.3.2. Software Architecture Container Level Diagrams.
+![C4 Diagrama de Componentes](./assets/chapter4_img/c4_component.jpg)
 
-Este diagrama detalla la arquitectura de los contenedores de FastPorte, mostrando los componentes principales del sistema:<br>
-
-Landing Page: La interfaz web pública para que los usuarios obtengan información sobre el servicio.<br>
-Web Application: Aplicación utilizada por los supervisores para gestionar envíos.<br>
-Mobile App: Aplicación móvil destinada a los conductores para recibir las alertas o notificaciones de viaje<br>
-Backend: Servicio REST que gestiona y procesa la información de los datos. <br>
-Database: Base de datos donde se almacena la información relacionada con los envíos, conductores, y empresas.<br>
-Edge API: Conexion con el sistema IoT para el envio de alertas.<br>
-
-![C4 Diagrama de Componentes](./assets/chapter4_img/c4_component.png)
-
-#### 4.1.3.3. Software Architecture Deployment Diagrams <br>
-
-Para el despliegue de nuestra landing page, app web nos apoyaremos de Firebase, servicio gratuito y de facil uso de hosting para paginas web, y para nuestro servidor backend y base de datos nos apoyaremos de la nube de Azure<br>
-
+#### 4.1.3.3. Software Architecture Deployment Diagrams
 ![Software Architecture Deployment Diagrams](./assets/chapter4_img/ArchDeploy.png)
 
 ## 4.2. Tactical-Level Domain-Driven Design
-### 4.2.1. Bounded Context: Profle management
+### 4.2.1. Bounded Context: Usuario
+Este bounded context está relacionado con la gestión de cuentas de usuario, autenticación y la gestión de perfiles dentro de un sistema.
 
-Este Bounded Context "Profile Management" se encarga exclusivamente de 
-la gestión de la información de los usuarios dentro del sistema, sin 
-involucrar los aspectos relacionados con la autenticación o autorización. 
-Su objetivo es permitir a los usuarios visualizar y actualizar su 
-información personal, gestionar sus preferencias, y administrar los 
-roles asignados.
+<table class="tg">
+  <thead>
+    <tr>
+      <th class="tg-fymr" colspan="2">Nombre</th>
+      <th class="tg-0pky" colspan="3">Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="tg-fymr" colspan="2" style="text-align:center">Usuario</td>
+      <td class="tg-0pky" colspan="3">Representa a un usuario en el sistema, con credenciales y estado de autenticación</td>
+    </tr>
+    <tr>
+    <td class="tg-fymr" colspan="2">Atributos</td>
+    <td class="tg-fymr" colspan="2">Relaciones</td>
+    <td class="tg-fymr" rowspan="2">Metodos</td>
+    </tr>
+    <tr>
+      <td class="tg-1wig">Nombre</td>
+      <td class="tg-1wig">Tipo de dato</td>
+      <td class="tg-1wig">Tipo</td>
+      <td class="tg-1wig">Clases/Enums</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">userID</td>
+      <td class="tg-0lax">Int</td>
+      <td class="tg-0lax">Composicón</td>
+      <td class="tg-0lax">UserProfile</td>
+      <td class="tg-0lax">authenticateUser()</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">email</td>
+      <td class="tg-0lax">String</td>
+      <td class="tg-0lax">Agregación</td>
+      <td class="tg-0lax">Token</td>
+      <td class="tg-0lax">validateToken()</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">password</td>
+      <td class="tg-0lax">String</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax">invalidateToken()</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">isActive</td>
+      <td class="tg-0lax">String</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+  </tbody>
+</table>
+
+<table class="tg">
+  <thead>
+    <tr>
+      <th class="tg-fymr" colspan="2">Nombre</th>
+      <th class="tg-0pky" colspan="3">Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="tg-fymr" colspan="2" style="text-align:center">UserProfile</td>
+      <td class="tg-0pky" colspan="3">Contiene la información personal y preferencias del usuario</td>
+    </tr>
+    <tr>
+    <td class="tg-fymr" colspan="2">Atributos</td>
+    <td class="tg-fymr" colspan="2">Relaciones</td>
+    <td class="tg-fymr" rowspan="2">Metodos</td>
+    </tr>
+    <tr>
+      <td class="tg-1wig">Nombre</td>
+      <td class="tg-1wig">Tipo de dato</td>
+      <td class="tg-1wig">Tipo</td>
+      <td class="tg-1wig">Clases/Enums</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">name</td>
+      <td class="tg-0lax">String</td>
+      <td class="tg-0lax">Asociación</td>
+      <td class="tg-0lax">Usuario</td>
+      <td class="tg-0lax">updateUserProfile()</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">address</td>
+      <td class="tg-0lax">String</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax">retrieveUserProfile()</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">phone</td>
+      <td class="tg-0lax">String</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">profileImg</td>
+      <td class="tg-0lax">String</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+  </tbody>
+</table>
+
+<table class="tg">
+  <thead>
+    <tr>
+      <th class="tg-fymr" colspan="2">Nombre</th>
+      <th class="tg-0pky" colspan="3">Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="tg-fymr" colspan="2" style="text-align:center">Token</td>
+      <td class="tg-0pky" colspan="3">Token utilizado para validar sesiones activas del usuario</td>
+    </tr>
+    <tr>
+    <td class="tg-fymr" colspan="2">Atributos</td>
+    <td class="tg-fymr" colspan="2">Relaciones</td>
+    <td class="tg-fymr" rowspan="2">Metodos</td>
+    </tr>
+    <tr>
+      <td class="tg-1wig">Nombre</td>
+      <td class="tg-1wig">Tipo de dato</td>
+      <td class="tg-1wig">Tipo</td>
+      <td class="tg-1wig">Clases/Enums</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">tokenId</td>
+      <td class="tg-0lax">Int</td>
+      <td class="tg-0lax">Asociación</td>
+      <td class="tg-0lax">Usuario</td>
+      <td class="tg-0lax">generateToken()</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">creationDate</td>
+      <td class="tg-0lax">Date</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax">validateToken()</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">expirationDate</td>
+      <td class="tg-0lax">Date</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax">invalidateToken()</td>
+    </tr>
+  </tbody>
+</table>
+
+<table class="tg">
+  <thead>
+    <tr>
+      <th class="tg-fymr" colspan="2">Nombre</th>
+      <th class="tg-0pky" colspan="3">Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="tg-fymr" colspan="2" style="text-align:center">Notification</td>
+      <td class="tg-0pky" colspan="3">Gestiona las notificaciones enviadas al usuario</td>
+    </tr>
+    <tr>
+    <td class="tg-fymr" colspan="2">Atributos</td>
+    <td class="tg-fymr" colspan="2">Relaciones</td>
+    <td class="tg-fymr" rowspan="2">Metodos</td>
+    </tr>
+    <tr>
+      <td class="tg-1wig">Nombre</td>
+      <td class="tg-1wig">Tipo de dato</td>
+      <td class="tg-1wig">Tipo</td>
+      <td class="tg-1wig">Clases/Enums</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">notificationId</td>
+      <td class="tg-0lax">Int</td>
+      <td class="tg-0lax">Asociación</td>
+      <td class="tg-0lax">Usuario</td>
+      <td class="tg-0lax">sendUserNotification()</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">message</td>
+      <td class="tg-0lax">String</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax">sendAccountActivityAlert()</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">sentDate</td>
+      <td class="tg-0lax">Date</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+  </tbody>
+</table>
 
 #### 4.2.1.1. Domain Layer.
 
-En esta capa se encuentran las entidades y objetos de valor que forman parte del dominio del perfil de usuario. Esta capa representa la lógica central de negocio que se ocupa de gestionar los perfiles de los usuarios.
-
-* **Usuario:** Es la entidad principal que contiene la información del perfil del usuario, como su nombre, dirección de correo, número de teléfono, y otras propiedades que lo definen.
-* **Rol:** Esta entidad representa los distintos roles que pueden ser asignados a los usuarios, como conductores o supervisores, con diferentes permisos asociados para interactuar con el sistema.
-* **Notificación de Usuario:** Es un objeto de valor que maneja las preferencias del usuario relacionadas con el envío de notificaciones (por ejemplo, preferencia de recibir alertas por correo electrónico).
-* **Historial de Perfil:** Un objeto de valor que rastrea las modificaciones realizadas en el perfil del usuario, permitiendo auditoría o consultas de cambios.
-
+* **Usuario:** Define las propiedades y el comportamiento de un usuario en el sistema.
+* **Perfil de Usuario:** Gestiona la información del perfil del usuario (nombre, dirección, teléfono, etc.).
+* **Token de Autenticación:** Representa los tokens utilizados para manejar las sesiones de usuario.
+* **Notificación:** Representa las notificaciones enviadas a los usuarios sobre actividades importantes o alertas.
 #### 4.2.1.2. Interface Layer.
+En esta capa presentamos los endpoints de la API que interactúan con las entidades del dominio:
 
-Esta capa proporciona la interfaz para que el sistema interactúe con otros sistemas o interfaces de usuario. Permite que los usuarios actualicen y accedan a la información de su perfil.
-
-* **Gestión de Perfiles:** Interfaz que ofrece la capacidad de ver y actualizar los datos del perfil del usuario. Desde esta capa, el usuario puede modificar su información personal y preferencias.
-* **Notificaciones de Usuario:** Interface que controla cómo los usuarios gestionan la configuración de notificaciones dentro de su perfil (por ejemplo, activar o desactivar notificaciones push).
-
+* **Autenticación de Usuario:** Servicios como authenticateUser(), validateToken() y invalidateToken() para la validación y gestión de autenticación.
+* **Gestión de Perfiles:** Servicios como updateUserProfile() y retrieveUserProfile() para la actualización y recuperación del perfil del usuario.
+* **Notificaciones:** Servicios como sendUserNotification() para el envío de alertas al usuario.
 #### 4.2.1.3. Application Layer.
 
-La capa de aplicación coordina las operaciones del sistema que involucran la gestión de perfiles, sin involucrarse directamente en la lógica de negocio ni en la infraestructura.
-
-* **Actualización de Perfil:** Orquesta las operaciones necesarias para que el perfil de un usuario sea actualizado, comunicándose con las entidades de la capa de dominio.
-* **Consulta de Perfil:** Se encarga de proporcionar los datos de perfil cuando se realiza una solicitud de consulta desde la interfaz.
-* **Gestión de Roles:** Encargada de coordinar las actualizaciones y consultas de los roles de los usuarios.
-
+* **Inicio de sesión:** Se gestiona la autenticación y validación de tokens.
+* **Gestión de perfiles:** Actualización y consulta de información de perfiles de usuario.
+* **Envío de notificaciones:** Envía notificaciones o alertas al usuario, tales como actividades sospechosas o cambios en la cuenta.
 #### 4.2.1.4. Infrastructure Layer.
 
-Esta capa se ocupa de implementar los detalles técnicos relacionados con la persistencia de los datos, y las interacciones con otras herramientas externas.
-
-* **Repositorios de Usuarios y Roles:** Componentes encargados de almacenar, recuperar y actualizar la información del usuario y los roles en la base de datos.
-* **Servicio de Notificaciones:** Enlace a servicios externos para gestionar el envío de notificaciones a los usuarios, basándose en sus preferencias.
-
+* **Persistencia de Usuario:** Manejo de la persistencia de los datos del usuario y su perfil en una base de datos.
+* **Autenticación:** Comunicación con servicios de autenticación y generación de tokens.
+* **Notificaciones:** Envío de notificaciones a través de servicios de mensajería (por ejemplo, email, SMS, notificaciones push).
 #### 4.2.1.6. Bounded Context Software Architecture Component Level Diagrams.
-
-Diagrama de componentes para el bounded context de Profile Management:
-
-![C4 Diagrama de Componentes](./assets/chapter4_img/profileManagementComponentDiagram.png)
-
+![C4 Diagrama de Componentes](./assets/chapter4_img/bounded_context_user.jpeg)
 #### 4.2.1.7. Bounded Context Software Architecture Code Level Diagrams.
 ###### 4.2.1.7.1. Bounded Context Domain Layer Class Diagrams.
-
-Diagrama de clases para el bounded context de Profile Management:
-
-![Diagrama_de_clases_perfil](./assets/chapter4_img/profile_management_class_diagram.png)
-
+![Diagrama_de_clases_usuario](./assets/chapter4_img/user_bounded_context-class_diagram.png)
 ###### 4.2.1.7.2. Bounded Context Database Design Diagram.
+![Diagrama_de_base_de_Datos_usuario](./assets/chapter4_img/user_bounded_context-database_diagram.png)
+### 4.2.2. Bounded Context: Sensor
+Este bounded context es responsable de la gestión de los sensores y la captura de sus datos de telemetría, así como de la generación de alertas cuando se detectan valores fuera de los rangos establecidos.
 
-Diagrama del modelado de la base de datos para el bounded context de Profile Management:
+<table class="tg">
+  <thead>
+    <tr>
+      <th class="tg-fymr" colspan="2">Nombre</th>
+      <th class="tg-0pky" colspan="3">Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="tg-fymr" colspan="2" style="text-align:center">Sensor</td>
+        <td class="tg-0pky" colspan="3">Captura datos de telemetría y genera alertas si los valores detectados están fuera de los parámetros establecidos</td>
+    </tr>
+    <tr>
+    <td class="tg-fymr" colspan="2">Atributos</td>
+    <td class="tg-fymr" colspan="2">Relaciones</td>
+    <td class="tg-fymr" rowspan="2">Metodos</td>
+    </tr>
+    <tr>
+      <td class="tg-1wig">Nombre</td>
+      <td class="tg-1wig">Tipo de dato</td>
+      <td class="tg-1wig">Tipo</td>
+      <td class="tg-1wig">Clases/Enums</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">sensorId</td>
+      <td class="tg-0lax">Int</td>
+      <td class="tg-0lax">Agregación</td>
+      <td class="tg-0lax">Telemetry</td>
+      <td class="tg-0lax">registrarSensor()</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">nombre</td>
+      <td class="tg-0lax">String</td>
+      <td class="tg-0lax">Agregación</td>
+      <td class="tg-0lax">Alert</td>
+      <td class="tg-0lax">actualizarEstado()</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">tipo</td>
+      <td class="tg-0lax">String</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">ubicación</td>
+      <td class="tg-0lax">String</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">estado</td>
+      <td class="tg-0lax">String</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">fecha de registro</td>
+      <td class="tg-0lax">Date</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+  </tbody>
+</table>
 
-![Diagrama_de_base_de_Datos_perfil](./assets/chapter4_img/profle_management_database_diagram.png)
+<table class="tg">
+  <thead>
+    <tr>
+      <th class="tg-fymr" colspan="2">Nombre</th>
+      <th class="tg-0pky" colspan="3">Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="tg-fymr" colspan="2" style="text-align:center">Telemetry</td>
+        <td class="tg-0pky" colspan="3">Contiene los datos capturados por los sensores en un momento dado, como temperatura, presión, o cualquier otra métrica</td>
+    </tr>
+    <tr>
+    <td class="tg-fymr" colspan="2">Atributos</td>
+    <td class="tg-fymr" colspan="2">Relaciones</td>
+    <td class="tg-fymr" rowspan="2">Metodos</td>
+    </tr>
+    <tr>
+      <td class="tg-1wig">Nombre</td>
+      <td class="tg-1wig">Tipo de dato</td>
+      <td class="tg-1wig">Tipo</td>
+      <td class="tg-1wig">Clases/Enums</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">telemetryId</td>
+      <td class="tg-0lax">Int</td>
+      <td class="tg-0lax">Composición</td>
+      <td class="tg-0lax">Sensor</td>
+      <td class="tg-0lax">actualizarDatos()</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">sensorId</td>
+      <td class="tg-0lax">Int (FK)</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">fecha captura</td>
+      <td class="tg-0lax">Date</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">valor</td>
+      <td class="tg-0lax">Float</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">unidad</td>
+      <td class="tg-0lax">String</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+  </tbody>
+</table>
 
-### 4.2.2. Bounded Context: Security Monitoring
-Este Bounded Context se encarga de la monitorización de la seguridad relacionada con el transporte de materiales peligrosos. Captura y procesa los datos de sensores instalados en las cisternas para garantizar la seguridad durante el transporte. Además, envía notificaciones en tiempo real cuando los sensores detectan que se exceden los límites críticos de seguridad.
+<table class="tg">
+  <thead>
+    <tr>
+      <th class="tg-fymr" colspan="2">Nombre</th>
+      <th class="tg-0pky" colspan="3">Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="tg-fymr" colspan="2" style="text-align:center">Alert</td>
+        <td class="tg-0pky" colspan="3">Representa una notificación que se genera cuando un sensor detecta valores fuera de los parámetros normales, como una temperatura excesiva o una fuga de gas</td>
+    </tr>
+    <tr>
+    <td class="tg-fymr" colspan="2">Atributos</td>
+    <td class="tg-fymr" colspan="2">Relaciones</td>
+    <td class="tg-fymr" rowspan="2">Metodos</td>
+    </tr>
+    <tr>
+      <td class="tg-1wig">Nombre</td>
+      <td class="tg-1wig">Tipo de dato</td>
+      <td class="tg-1wig">Tipo</td>
+      <td class="tg-1wig">Clases/Enums</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">alertaId</td>
+      <td class="tg-0lax">Int</td>
+      <td class="tg-0lax">Composición</td>
+      <td class="tg-0lax">Sensor</td>
+      <td class="tg-0lax">generarAlerta()</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">sensorId</td>
+      <td class="tg-0lax">Int (FK)</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax">cerrarAlerta()</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">tipo alerta</td>
+      <td class="tg-0lax">String</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">fecha generacion</td>
+      <td class="tg-0lax">Date</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">estado</td>
+      <td class="tg-0lax">String</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+  </tbody>
+</table>
 
 #### 4.2.2.1. Domain Layer.
+Este Domain Layer contiene las entidades y lógica de negocio relacionadas con los sensores y la telemetría. Incluye las siguientes clases principales:
 
-En esta capa se encuentran las entidades y objetos de valor que representan los conceptos fundamentales de la monitorización de seguridad.
+* **Sensor:** Representa un sensor que captura datos de telemetría.
+* **Telemetry:** Registra los datos capturados por los sensores.
+* **Alert:** Representa las alertas que se generan cuando se detectan condiciones anormales en los datos de los sensores.
 
-* **Sensor:** Entidad principal que representa los sensores instalados en las cisternas. Cada sensor tiene atributos como identificador, ubicación y valores de medida como temperatura o presión.
-* **Estado del Sensor:** Un objeto de valor que refleja el estado actual de un sensor (por ejemplo, normal, crítico, fuera de servicio) en función de los datos registrados por los sensores.
-* **Alerta de Seguridad:** Un objeto de valor que encapsula la información relacionada con una alerta generada cuando los valores del sensor superan ciertos umbrales críticos.
-* **Historial del Sensor:** Objeto de valor que registra los cambios de estado y los datos históricos del sensor, permitiendo auditoría y análisis.
-
+Este dominio modela la lógica para registrar, actualizar y monitorear el estado de los sensores.
 #### 4.2.2.2. Interface Layer.
 
-Esta capa gestiona las interacciones entre el sistema y las interfaces externas (ya sean interfaces de usuario o sistemas de terceros) para monitorizar la seguridad de las cisternas y obtener información en tiempo real.
+Este Interface Layer define las interfaces de comunicación del sistema. Incluye APIs REST y eventos que permiten interactuar con el sistema. Los puntos de comunicación son:
 
-* **Consulta de Estado del Sensor:** Interfaz que permite a los operadores o sistemas externos consultar el estado actual de los sensores instalados en las cisternas.
-* **Gestión de Sensores:** Proporciona la capacidad de registrar nuevos sensores en el sistema o actualizar los datos de los sensores existentes.
-
+* **API REST de Sensores:** Permite registrar, actualizar y consultar el estado de los sensores.
+* **Mensajes/Eventos de Telemetría:** Comunicación para enviar y recibir datos de los sensores en tiempo real.
+* **Notificaciones de Alertas:** Eventos que disparan alertas cuando se detectan condiciones fuera de rango.
 #### 4.2.2.3. Application Layer.
 
-La capa de aplicación coordina las operaciones de monitoreo y alertas, manejando la lógica de la aplicación que no está directamente relacionada con la infraestructura o la lógica central del dominio.
+En este caso, el Application Layer maneja:
 
-* **Registro de Sensores:** Coordina el proceso de registrar nuevos sensores en el sistema y asociarlos a las cisternas correspondientes.
-* **Actualización de Datos del Sensor:** Orquesta la actualización periódica de los datos de los sensores (por ejemplo, temperatura, presión).
-* **Generación de Alertas:** Se encarga de generar alertas en tiempo real cuando los sensores detectan condiciones peligrosas que superan los umbrales establecidos.
-
+* **Registro de Sensores:** Maneja la creación y registro de nuevos sensores en el sistema.
+* **Recepción de Telemetría:** Procesa los datos recibidos por los sensores y genera alertas si es necesario.
+* **Notificaciones de Alertas:** Coordina la emisión de notificaciones a los administradores en caso de alertas críticas.
 #### 4.2.2.4. Infrastructure Layer.
 
-La capa de infraestructura se encarga de los detalles técnicos y de soporte, como el almacenamiento de los datos de sensores y la conexión con otros sistemas externos.
+Este apartado se encarga de la persistencia y comunicación externa. Aquí se incluyen:
 
-* **Repositorio de Sensores:** Componente encargado de almacenar los datos de los sensores, incluyendo la información histórica y las alertas generadas.
-* **Servicio de Alertas:** Responsable de enviar notificaciones a los operadores o sistemas externos cuando se detecta una condición de alerta. Puede estar vinculado a servicios de mensajería o correo electrónico.
-* **Servicio de Comunicación con Sensores:** Interfaz técnica que permite recibir y procesar los datos enviados por los sensores en tiempo real.
+* **Base de Datos de Sensores:** Donde se almacenan los registros de los sensores, la telemetría y las alertas.
+* **Sistemas de Notificación:** Mecanismos para enviar notificaciones de alerta por diferentes medios (email, SMS).
+* **Integración con sistemas de monitoreo:** Comunicación con plataformas externas que reciben los datos de los sensores.
 
 #### 4.2.2.6. Bounded Context Software Architecture Component Level Diagrams.
-
-Diagrama de componentes para el bounded context de Security Monitoring:
-
-![C4 Diagrama de Componentes](./assets/chapter4_img/securityMonitoringComponentDiagram.jpeg)
-
+![C4 Diagrama de Componentes](./assets/chapter4_img/bounded_context_sensor.jpeg)
 #### 4.2.2.7. Bounded Context Software Architecture Code Level Diagrams.
 ##### 4.2.2.7.1. Bounded Context Domain Layer Class Diagrams.
-
-Diagrama de clases para el bounded context de Security Monitoring:
-
-![Diagrama de clases_security](./assets/chapter4_img/security_monitoring_class_diagram.png)
-
+![Diagrama de clases_sensor](./assets/chapter4_img/sensor_bounded_context-class_diagram.png)
 ##### 4.2.2.7.2. Bounded Context Database Design Diagram.
+![Diagrama de base_de_datos_sensor](./assets/chapter4_img/sensor_bounded_context-database_diagram.png)
+### 4.2.3. Bounded Context: Viajes
 
-Diagrama del modelado de la base de datos para el bounded context de Security Monitoring:
+<table class="tg">
+  <thead>
+    <tr>
+      <th class="tg-fymr" colspan="2">Nombre</th>
+      <th class="tg-0pky" colspan="3">Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="tg-fymr" colspan="2" style="text-align:center">Viaje</td>
+        <td class="tg-0pky" colspan="3">Representa un viaje realizado por un usuario en el sistema</td>
+    </tr>
+    <tr>
+    <td class="tg-fymr" colspan="2">Atributos</td>
+    <td class="tg-fymr" colspan="2">Relaciones</td>
+    <td class="tg-fymr" rowspan="2">Metodos</td>
+    </tr>
+    <tr>
+      <td class="tg-1wig">Nombre</td>
+      <td class="tg-1wig">Tipo de dato</td>
+      <td class="tg-1wig">Tipo</td>
+      <td class="tg-1wig">Clases/Enums</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">viajeId</td>
+      <td class="tg-0lax">Int</td>
+      <td class="tg-0lax">Agregación</td>
+      <td class="tg-0lax">Conductor</td>
+      <td class="tg-0lax">iniciarViaje()</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">origen</td>
+      <td class="tg-0lax">String</td>
+      <td class="tg-0lax">Agregación</td>
+      <td class="tg-0lax">EstadoViaje</td>
+      <td class="tg-0lax">finalizarViaje()</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">destino</td>
+      <td class="tg-0lax">String</td>
+      <td class="tg-0lax">Agregación</td>
+      <td class="tg-0lax">HistorialViaje</td>
+      <td class="tg-0lax">actualizarEstado()</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">fecha inicio</td>
+      <td class="tg-0lax">Date</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">fecha fin</td>
+      <td class="tg-0lax">Date</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">estado</td>
+      <td class="tg-0lax">EstadoViaje</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">conductor</td>
+      <td class="tg-0lax">Conductor</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+  </tbody>
+</table>
 
-![Diagrama de base_de_datos_security](./assets/chapter4_img/security_monitoring_database_diagram.png)
+<table class="tg">
+  <thead>
+    <tr>
+      <th class="tg-fymr" colspan="2">Nombre</th>
+      <th class="tg-0pky" colspan="3">Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="tg-fymr" colspan="2" style="text-align:center">Conductor</td>
+        <td class="tg-0pky" colspan="3">Representa a un conductor que puede ser asignado a uno o más viajes en el sistema</td>
+    </tr>
+    <tr>
+    <td class="tg-fymr" colspan="2">Atributos</td>
+    <td class="tg-fymr" colspan="2">Relaciones</td>
+    <td class="tg-fymr" rowspan="2">Metodos</td>
+    </tr>
+    <tr>
+      <td class="tg-1wig">Nombre</td>
+      <td class="tg-1wig">Tipo de dato</td>
+      <td class="tg-1wig">Tipo</td>
+      <td class="tg-1wig">Clases/Enums</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">conductorId</td>
+      <td class="tg-0lax">Int</td>
+      <td class="tg-0lax">Agregación</td>
+      <td class="tg-0lax">Viaje</td>
+      <td class="tg-0lax">asignarViaje()</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">nombre</td>
+      <td class="tg-0lax">String</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">licencia</td>
+      <td class="tg-0lax">String</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">telefono</td>
+      <td class="tg-0lax">String</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+  </tbody>
+</table>
 
-### 4.2.3. Bounded Context: Transport management
+<table class="tg">
+  <thead>
+    <tr>
+      <th class="tg-fymr" colspan="2">Nombre</th>
+      <th class="tg-0pky" colspan="3">Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="tg-fymr" colspan="2" style="text-align:center">EstadoViaje</td>
+        <td class="tg-0pky" colspan="3">Representa el estado de un viaje en un momento dado, incluyendo una descripción y un timestamp</td>
+    </tr>
+    <tr>
+    <td class="tg-fymr" colspan="2">Atributos</td>
+    <td class="tg-fymr" colspan="2">Relaciones</td>
+    <td class="tg-fymr" rowspan="2">Metodos</td>
+    </tr>
+    <tr>
+      <td class="tg-1wig">Nombre</td>
+      <td class="tg-1wig">Tipo de dato</td>
+      <td class="tg-1wig">Tipo</td>
+      <td class="tg-1wig">Clases/Enums</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">estadoViajeId</td>
+      <td class="tg-0lax">Int</td>
+      <td class="tg-0lax">Agregación</td>
+      <td class="tg-0lax">Viaje</td>
+      <td class="tg-0lax"></td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">nombre</td>
+      <td class="tg-0lax">String</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">descripcion</td>
+      <td class="tg-0lax">String</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">timestamp</td>
+      <td class="tg-0lax">Date</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+  </tbody>
+</table>
 
-El bounded context Transport Management se encarga de planificar y gestionar el transporte de materiales peligrosos, asegurando el cumplimiento de regulaciones. Este contexto incluye la asignación de vehículos y conductores, y monitorea los viajes en tiempo real para garantizar que se realicen de manera segura.
+<table class="tg">
+  <thead>
+    <tr>
+      <th class="tg-fymr" colspan="2">Nombre</th>
+      <th class="tg-0pky" colspan="3">Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="tg-fymr" colspan="2" style="text-align:center">HistorialViaje</td>
+        <td class="tg-0pky" colspan="3">Representa el historial de cambios en el estado de un viaje, registrando cada cambio con su fecha y hora</td>
+    </tr>
+    <tr>
+    <td class="tg-fymr" colspan="2">Atributos</td>
+    <td class="tg-fymr" colspan="2">Relaciones</td>
+    <td class="tg-fymr" rowspan="2">Metodos</td>
+    </tr>
+    <tr>
+      <td class="tg-1wig">Nombre</td>
+      <td class="tg-1wig">Tipo de dato</td>
+      <td class="tg-1wig">Tipo</td>
+      <td class="tg-1wig">Clases/Enums</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">historialViajeId</td>
+      <td class="tg-0lax">Int</td>
+      <td class="tg-0lax">Agregación</td>
+      <td class="tg-0lax">Viaje</td>
+      <td class="tg-0lax">registrarCambio()</td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">viajeId</td>
+      <td class="tg-0lax">Int</td>
+      <td class="tg-0lax">Agregación</td>
+      <td class="tg-0lax">EstadoViaje</td>
+      <td class="tg-0lax"></td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">fechaCambio</td>
+      <td class="tg-0lax">Date</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">timestamp</td>
+      <td class="tg-0lax">Date</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">estadoAnterior</td>
+      <td class="tg-0lax">EstadoViaje</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+    <tr>
+      <td class="tg-0lax">estadoNuevo</td>
+      <td class="tg-0lax">EstadoViaje</td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+      <td class="tg-0lax"></td>
+    </tr>
+  </tbody>
+</table>
 
 #### 4.2.3.1. Domain Layer.
+Para este bounded context se definen las entidades principales, los agregados y las políticas que rigen el comportamiento de los viajes.
 
-El domain layer en el contexto de Transport Management maneja la lógica central del negocio relacionada con la planificación y gestión del transporte de materiales peligrosos. Aquí se definen las entidades principales y los servicios relacionados con las operaciones de transporte. En este bounded context, la lógica central incluye:
+**Entidades principales:**
 
-* **Viaje:** Representa el transporte de materiales peligrosos desde un origen a un destino, que incluye datos como el origen, destino, conductor asignado, vehículo, estado actual, y materiales transportados.
-* **Conductor:** Es el encargado de operar el vehículo y realizar el transporte de los materiales peligrosos.
-* **Vehículo:** Describe el vehículo asignado para cada viaje, con detalles sobre su capacidad y características especiales para transportar materiales peligrosos.
-* **Estado del Viaje:** Representa las diferentes etapas del viaje, desde su inicio hasta su finalización, incluyendo alertas y situaciones anómalas.
-* **Historial de Viajes:** Mantiene un registro de todos los viajes realizados, con sus estados y eventos importantes.
+* **Viaje:** Representa un viaje de un conductor desde un origen hasta un destino
+* **Conductor:** Persona responsable de realizar el viaje
+* **EstadoViaje:** Representa los distintos estados que un viaje puede tener (e.g., "En curso", "Finalizado", "Cancelado")
 
+**Agregados:**
+
+El Viaje es el agregado raíz que contiene la lógica para gestionar su ciclo de vida completo, incluyendo su asociación con un Conductor y la actualización de su Estado.
 #### 4.2.3.2. Interface Layer.
 
-La interface layer proporciona los puntos de acceso para los usuarios y sistemas externos que interactúan con el contexto de Transport Management. En este caso, incluye:
-
-* **Registrar Viaje:** Una interfaz para que los usuarios ingresen un nuevo viaje en el sistema, asignando conductor, vehículo, y materiales a transportar.
-* **Actualizar Estado de Viaje:** Permite actualizar la información del viaje en curso, como la ubicación actual, problemas detectados, o si se ha completado.
-* **Consultar Historial de Viajes:** Interfaz para obtener un resumen o detalle completo de viajes anteriores, con información sobre eventos, incidentes, o irregularidades.
-
+* **API REST:** Se expone a través de servicios web que permiten a la empresa registrar nuevos viajes, actualizar estados, y a los conductores consultar sus viajes asignados.
+* **UI Móvil:** La aplicacione móvile permite la interacción con la funcionalidad del sistema, proporcionando interfaces amigables para visualizar los viajes, gestionarlos y realizar cambios de estado.
 #### 4.2.3.3. Application Layer.
 
-La application layer orquesta el comportamiento entre la capa de dominio y las interfaces externas. Aquí se encapsulan las reglas del negocio y se coordinan los procesos dentro del contexto de transporte. Las responsabilidades incluyen:
-
-* **Asignación de Transporte:** Un servicio de la aplicación que asigna automáticamente conductores y vehículos disponibles según las necesidades del transporte.
-* **Monitoreo de Viajes:** Coordinación con el contexto de Security Monitoring para obtener actualizaciones en tiempo real sobre el estado del viaje, asegurando el cumplimiento de regulaciones de seguridad.
-* **Gestión de Incidentes:** Gestión de incidentes críticos en tiempo real, generando alertas cuando se detectan situaciones peligrosas durante el transporte.
-
+* **Servicio de Gestión de Viajes:** Orquesta la creación y actualización de viajes.
+* **Servicio de Actualización de Estado:** Permite a los conductores actualizar el estado de un viaje.
+* **Servicio de Consultas de Historial de Viajes:** Permite consultar el historial completo de los viajes de un conductor.
 #### 4.2.3.4. Infrastructure Layer.
 
-La infrastructure layer gestiona la interacción con recursos externos como bases de datos, sistemas de monitoreo, y APIs de otros contextos. En el contexto de Transport Management, esta capa maneja:
-
-* **Base de Datos de Viajes:** Una base de datos que almacena todos los detalles de los viajes, estados y eventos importantes asociados a cada uno.
-* **Integración con Sensores:** Interacciones con sensores de monitoreo (a través del contexto Security Monitoring) para obtener información en tiempo real sobre el estado del vehículo y materiales.
-* **Comunicación con otros Contextos:** Integración con otros sistemas relevantes, como el contexto de Profile Management para obtener detalles de los conductores, o Security Monitoring para actualizaciones de seguridad.
-
+* **Base de datos relacional:** Almacena la información de los viajes, conductores y sus estados.
+* **Servicios de monitoreo:** Notifica eventos críticos relacionados con el estado de los viajes.
 #### 4.2.3.6. Bounded Context Software Architecture Component Level Diagrams.
-
-Diagrama de componentes para el bounded context de Transport management:
-
-![C4 Diagrama de Componentes](./assets/chapter4_img/transportManagementComponentDiagram.jpeg)
-
+![C4 Diagrama de Componentes](./assets/chapter4_img/bounded_context_travel.jpeg)
 #### 4.2.3.7. Bounded Context Software Architecture Code Level Diagrams.
 ###### 4.2.3.7.1. Bounded Context Domain Layer Class Diagrams.
-
-Diagrama de clases para el bounded context de Transport management:
-
-![diagrama de clases transport management](./assets/chapter4_img/transport_management_class_diagram.png)
-
+![Diagrama de clases_viajes](./assets/chapter4_img/travel_bounded_context-class_diagram.png)
 ###### 4.2.3.7.2. Bounded Context Database Design Diagram.
-
-Diagrama del modelado de la base de datos para el bounded context de Transport management:
-
-![diagrama de base de datos transport management](./assets/chapter4_img/transport_management_database_diagram.png)
-
-### 4.2.4. Bounded Context: Alerts system
-
-Este Bounded Context se encarga de la gestión y envío de alertas y notificaciones en tiempo real a conductores y supervisores cuando se detectan problemas críticos a través de los sensores de monitoreo. El sistema prioriza las alertas según su criticidad y asegura que los usuarios clave reciban la información necesaria para tomar acción.
-
-#### 4.2.4.1. Domain Layer.
-
-En esta capa se encuentran las entidades y objetos de valor que representan los conceptos fundamentales relacionados con la gestión de alertas y notificaciones.
-
-* **Alerta:** Entidad principal que encapsula los detalles de una situación crítica detectada por el sistema de sensores. Una alerta tiene atributos como el tipo de alerta, el sensor que la disparó, la prioridad, y el tiempo en el que fue generada.
-* **Notificación:** Objeto de valor que contiene la información enviada a los usuarios (conductores y supervisores) respecto a una alerta generada. Incluye el destinatario, el canal de comunicación y el estado de la notificación (enviada, recibida, pendiente).
-* **Incidente:** Objeto de valor que registra un problema crítico detectado por los sensores. Los incidentes pueden incluir fallos en el sistema, situaciones peligrosas o interrupciones en el servicio.
-* **Usuario:** Entidad que representa a los conductores y supervisores que reciben las alertas. Cada usuario tiene atributos como su rol (conductor o supervisor), preferencias de notificación, y disponibilidad.
-* **Sensor:** Dispositivo que recoge datos del entorno. Cada sensor tiene atributos como su identificador, tipo, y los umbrales críticos que, al ser excedidos, generan una alerta.
-
-#### 4.2.4.2. Interface Layer.
-
-Esta capa gestiona las interacciones entre el sistema de alertas y las interfaces externas, permitiendo la notificación en tiempo real de los incidentes a conductores y supervisores.
-
-* **Interfaz de Notificaciones:** Proporciona la capacidad de visualizar y gestionar las notificaciones enviadas a los usuarios. Los conductores y supervisores reciben alertas en sus dispositivos móviles o aplicaciones internas.
-* **Interfaz de Consulta de Historial de Alertas:** Permite a los supervisores acceder a un registro detallado de alertas generadas y su estado (enviada, recibida, o fallida).
-* **Interfaz de Configuración de Sensores y Alertas:** Permite a los administradores del sistema configurar los sensores y definir los umbrales que disparan alertas.
-
-#### 4.2.4.3. Application Layer.
-
-La capa de aplicación coordina la lógica que gestiona el flujo de alertas y notificaciones en el sistema.
-
-* **Generación de Alertas:** Módulo que orquesta la creación de alertas cuando los datos de los sensores exceden los umbrales críticos definidos.
-* **Envío de Notificaciones:** Responsable de enviar las notificaciones de alertas a los conductores y supervisores. Este módulo asegura que las notificaciones se entreguen a tiempo y monitorea el estado de las mismas.
-* **Gestión de Incidentes:** Se encarga de registrar y gestionar incidentes críticos detectados, permitiendo a los supervisores tomar acciones correctivas en tiempo real.
-* **Prioridad de Alertas:** Lógica que organiza y prioriza las alertas cuando varios eventos críticos ocurren simultáneamente, para garantizar una respuesta eficiente.
-
-#### 4.2.4.4. Infrastructure Layer.
-
-La capa de infraestructura se encarga de la operación técnica del sistema, asegurando la persistencia de los datos y la conectividad entre componentes.
-
-* **Repositorio de Alertas:** Almacena los datos de las alertas generadas, incluyendo la fecha, tipo de alerta, sensor asociado, y el estado de la notificación.
-* **Servicio de Notificaciones:** Componente encargado de enviar las notificaciones a través de diversos canales (SMS, email, aplicaciones internas) y gestionar el estado de entrega.
-* **Servicio de Monitoreo de Sensores:** Recibe datos en tiempo real de los sensores, los analiza y genera alertas cuando los valores críticos son excedidos.
-* **Integración con el Contexto de Monitoreo de Seguridad:** Permite la conexión con el sistema de monitoreo de seguridad para compartir datos sobre incidentes y generar alertas en caso de condiciones peligrosas.
-
-#### 4.2.4.6. Bounded Context Software Architecture Component Level Diagrams.
-
-Diagrama de componentes para el bounded context de Alerts System:
-
-![diagrama de componentes alerts system](assets/chapter4_img/alertSystemComponentDiagram.jpeg)
-
-#### 4.2.4.7. Bounded Context Software Architecture Code Level Diagrams.
-###### 4.2.4.7.1. Bounded Context Domain Layer Class Diagrams.
-
-Diagrama de clases para el bounded context de Alerts System:
-
-![diagrama de clases de alertas](assets/chapter4_img/alerts_system_class_diagram.png)
-
-###### 4.2.4.7.2. Bounded Context Database Design Diagram.
-
-Diagrama del modelado de la base de datos para el bounded context de Alerts System:
-
-![diagrama de base de datos alertas](assets/chapter4_img/alerts_system_database_diagram.png)
-
-# Capítulo V: Solution UI/UX Design
-## 5.1. Style Guidelines
-### 5.1.1. General Style Guidelines
-### 5.1.2. Web, Mobile and IoT Style Guidelines
-## 5.2. Information Architecture
-### 5.2.1. Organization Systems
-### 5.2.2. Labeling Systems
-### 5.2.3. SEO Tags and Meta Tags
-### 5.2.4. Searching Systems
-### 5.2.5. Navigation Systems
-## 5.3. Landing Page UI Design
-### 5.3.1. Landing Page Wireframe
-### 5.3.2. Landing Page Mock-up
-## 5.4. Applications UX/UI Design
-### 5.4.1. Applications Wireframes
-### 5.4.2. Applications Wireflow Diagrams
-### 5.4.4. Applications Mock-ups
-### 5.4.4. Applications User Flow Diagrams
-## 5.5. Applications Prototyping
-# Capítulo VI: Product Implementation, Validation & Deployment
-## 6.1. Software Configuration Management
-### 6.1.1. Software Development Environment Configuration
-### 6.1.2. Source Code Management
-### 6.1.3. Source Code Style Guide & Conventions
-### 6.1.4. Software Deployment Configuration
-## 6.2. Landing Page, Services & Applications Implementation
-### 6.2.1. Sprint 1
-#### 6.2.1.1. Sprint Planning 1
-#### 6.2.1.2. Sprint Backlog 1
-#### 6.2.1.3. Development Evidence for Sprint Review
-#### 6.2.1.4. Testing Suite Evidence for Sprint Review
-#### 6.2.1.5. Execution Evidence for Sprint Review
-#### 6.2.1.6. Services Documentation Evidence for Sprint Review
-#### 6.2.1.7. Software Deployment Evidence for Sprint Review
-#### 6.2.1.8. Team Collaboration Insights during Sprint
-
----
+![Diagrama de base_de_datos_sensor](./assets/chapter4_img/travel_bounded_context-database_diagram.png)
 # Conclusiones
 
 - El desarrollo del Lean UX Process ayudó a comprender mejor y aplicar efectivamente las herramientas en nuestra propuesta enfocada al servicio de transportistas hacia clientes. De la misma forma, contribuyó a definir de manera más clara nuestro público objetivo o llámese segmento hacia el cual va enfocada nuestra aplicación.
 - Después de culminar la primera parte de nuestro proyecto e identificar los principales problemas que tienen nuestros segmentos, concluimos que sería de mucha ayuda el desarrollo de FastPorte con el fin de mejorar la experiencia y seguridad de los transportistas durante el transporte de material peligroso.
 - El desarrollo de entrevistas nos ayudó a esclarecer la visión del proyecto, en cuanto a la perspectiva del usuario y por lo tanto fue importante para mejorar los aspectos de las funcionalidades de la aplicación.
 
----
-# Bibliografía
-
----
 # Anexos
 ## Anexo A
 Enlace al video de exposición TB1:
