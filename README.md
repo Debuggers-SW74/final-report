@@ -1815,9 +1815,85 @@ El Viaje es el agregado raíz que contiene la lógica para gestionar su ciclo de
 ![Diagrama de clases_viajes](./assets/chapter4_img/travel_bounded_context-class_diagram.png)
 ###### 4.2.3.7.2. Bounded Context Database Design Diagram.
 ![Diagrama de base_de_datos_sensor](./assets/chapter4_img/travel_bounded_context-database_diagram.png)
+
 # Capítulo V: Solution UI/UX Design
 ## 5.1. Style Guidelines
+
+En esta sección, nuestro equipo gestionará de manera coherente los elementos visuales y de diseño utilizados en el proyecto. Aquí se incluyen recursos como assets, tipografías, y otros componentes esenciales que permiten mantener una presentación visual consistente y alineada en todos los aspectos del proyecto. Las guías se dividen en tres áreas clave: Guías Generales de Estilo, Guías de Estilo Web y Guías de Estilo para Móviles, asegurando un enfoque unificado independientemente de la plataforma o medio.
+
 ### 5.1.1. General Style Guidelines
+
+Esta sección detalla las decisiones clave y las referencias visuales en torno a conceptos básicos como Branding, Tipografía, Colores y Espaciado, así como las dimensiones relacionadas con el tono de comunicación y el estilo de lenguaje utilizado formal y respetuoso. Además, se incluye el fundamento de los principios y elementos de diseño considerados en cada decisión, garantizando una alineación clara y estratégica en todas las instancias visuales del proyecto.
+
+**Tipografía:**
+
+Para este proyecto, se ha decidido utilizar la tipografía Inter debido a su diseño moderno, legibilidad y versatilidad en una amplia variedad de dispositivos y tamaños de pantalla. Inter está diseñada específicamente para ofrecer legibilidad en interfaces, lo que la convierte en una opción ideal para plataformas web y móviles.
+
+[![image.png](https://i.postimg.cc/Dy6r4RnW/1-Inter-Font-Family.png)](https://postimg.cc/8jFJqKFD)
+
+<br>
+
+[![image.png](https://i.postimg.cc/W14MGS15/2-Inter-Font-Family.png)](https://postimg.cc/crVgZRY3)
+
+**Tipografía Fluida:**
+
+La tipografía fluida es una técnica moderna que permite que el tamaño de las fuentes se ajuste automáticamente según el tamaño de la pantalla. En lugar de establecer un tamaño de fuente fijo para cada tipo de dispositivo, por ejemplo de 16px para móviles y 24px para escritorio, se puede establecer una fórmula que permita que el tamaño de la fuente "fluya" entre un valor mínimo y un valor máximo dependiendo del ancho de la pantalla.
+
+[![image.png](https://i.postimg.cc/7ZQSm7Cw/2-Modern-fluid-typography.png)](https://postimg.cc/PCYLqCzR)
+
+
+**Parámetros de Tipografía Fluida:**
+
+- Root Font Size (Tamaño de Fuente Base): Establece el tamaño de la fuente raíz (generalmente 16px) y es el valor de referencia para los tamaños relativos.
+
+- Min Size (Tamaño Mínimo): El tamaño más pequeño que la tipografía debe tener en cualquier dispositivo o pantalla.
+
+- Max Size (Tamaño Máximo): El tamaño más grande que la tipografía debe alcanzar en pantallas grandes.
+
+- Fluid Size: Controla cómo la tipografía crece o decrece en función del ancho de la pantalla.
+
+- Relative Size: Este es un ajuste que respeta las configuraciones del usuario en el navegador, utilizando valores relativos como rem en lugar de valores absolutos como px. 
+
+[![image.png](https://i.postimg.cc/Gp8GN2YY/2-Modern-fluid-typography2.png)](https://postimg.cc/5HJXQfsN)
+
+<br><br>
+
+**Colores:**
+
+La elección de una paleta de colores predominantemente azul para nuestra solución de software de gestión de flotas y transporte de materiales peligrosos se basa en consideraciones psicológicas y funcionales específicas para nuestro público objetivo.
+
+[![image.png](https://i.postimg.cc/vB59YN0Z/3-colors.png)](https://postimg.cc/0M2rZcgT)
+
+- **Confianza y seguridad:** El azul transmite una sensación de confiabilidad y seguridad.
+
+- **Calma y concentración:** Los tonos azules claros promueven la calma y ayudan a mantener la concentración.
+
+- **Profesionalismo:** El azul oscuro aporta un toque de profesionalismo y seriedad, reflejando la naturaleza crítica del negocio.
+
+- **Contraste y legibilidad:** La combinación de azules con fondos oscuros y texto claro (--text-100:#FFFFFF) asegura una excelente legibilidad en diversas condiciones de iluminación.
+
+- **Asociación con la tecnología:** El azul se asocia comúnmente con la tecnología y la innovación, reforzando la percepción de una solución de software avanzada.
+
+[![image.png](https://i.postimg.cc/L5RPn3WB/3-colors2.png)](https://postimg.cc/0MWj4DPb)
+
+[![image.png](https://i.postimg.cc/90p7Tq53/3-colors3.png)](https://postimg.cc/jnD2Y2Sv)
+
+<br>
+
+**Espaciado:**
+
+[![image.png](https://i.postimg.cc/m2LM4VCT/4-spacing.png)](https://postimg.cc/jC1CQHM1)
+
+Se utilizará un sistema de espaciado coherente en toda la aplicación para crear una experiencia visual uniforme y predecible.También, se empleará diferentes tamaños de espaciado para establecer una clara jerarquía entre elementos, facilitando la comprensión rápida de la información. El sistema de espaciado es flexible y se adapta a diferentes tamaños de pantalla, garantizando una experiencia consistente en diversos dispositivos.
+
+Por otro lado, nos aseguraremos de tener un espaciado adecuado entre líneas y párrafos para mejorar la legibilidad, especialmente importante en condiciones de baja visibilidad o durante la conducción. Además, se utilizará el espaciado para agrupar elementos relacionados y separar distintas secciones de información, mejorando la organización visual.Se incorporará espacios en blanco estratégicos para reducir la sobrecarga visual y ayudar a los usuarios a enfocarse en la información crítica.
+
+**Branding:**
+
+[![image.png](https://i.postimg.cc/JzgBbLgh/5-fastporte-Logo.png)](https://postimg.cc/dh21YzJM)
+
+Nuestro logo presenta la silueta estilizada de un camión dirigiéndose hacia la derecha. Esta imagen fue elegida por varias razones.El camión es una representación directa de la industria del transporte, lo que comunica instantáneamente el campo en el que operamos. La dirección del camión hacia la derecha simboliza avance, progreso y movimiento hacia adelante, alineándose con nuestra visión de impulsar la industria hacia el futuro. Además, La silueta simplificada del camión permite un reconocimiento rápido y fácil, incluso a pequeña escala o en diferentes aplicaciones. La claridad y precisión del diseño transmiten un sentido de profesionalismo y confiabilidad.
+
 ### 5.1.2. Web, Mobile and IoT Style Guidelines
 ## 5.2. Information Architecture
 ### 5.2.1. Organization Systems
