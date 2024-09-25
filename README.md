@@ -1181,12 +1181,24 @@ Esta capa se ocupa de implementar los detalles técnicos relacionados con la per
 * **Servicio de Notificaciones:** Enlace a servicios externos para gestionar el envío de notificaciones a los usuarios, basándose en sus preferencias.
 
 #### 4.2.1.6. Bounded Context Software Architecture Component Level Diagrams.
-![C4 Diagrama de Componentes](./assets/chapter4_img/bounded_context_user.jpeg)
+
+Diagrama de componentes para el bounded context de Profile Management:
+
+![C4 Diagrama de Componentes](./assets/chapter4_img/profileManagementComponentDiagram.png)
+
 #### 4.2.1.7. Bounded Context Software Architecture Code Level Diagrams.
 ###### 4.2.1.7.1. Bounded Context Domain Layer Class Diagrams.
-![Diagrama_de_clases_usuario](./assets/chapter4_img/user_bounded_context-class_diagram.png)
+
+Diagrama de clases para el bounded context de Profile Management:
+
+![Diagrama_de_clases_perfil](./assets/chapter4_img/profile_management_class_diagram.png)
+
 ###### 4.2.1.7.2. Bounded Context Database Design Diagram.
-![Diagrama_de_base_de_Datos_usuario](./assets/chapter4_img/user_bounded_context-database_diagram.png)
+
+Diagrama del modelado de la base de datos para el bounded context de Profile Management:
+
+![Diagrama_de_base_de_Datos_perfil](./assets/chapter4_img/profle_management_database_diagram.png)
+
 ### 4.2.2. Bounded Context: Security Monitoring
 Este Bounded Context se encarga de la monitorización de la seguridad relacionada con el transporte de materiales peligrosos. Captura y procesa los datos de sensores instalados en las cisternas para garantizar la seguridad durante el transporte. Además, envía notificaciones en tiempo real cuando los sensores detectan que se exceden los límites críticos de seguridad.
 
@@ -1223,12 +1235,24 @@ La capa de infraestructura se encarga de los detalles técnicos y de soporte, co
 * **Servicio de Comunicación con Sensores:** Interfaz técnica que permite recibir y procesar los datos enviados por los sensores en tiempo real.
 
 #### 4.2.2.6. Bounded Context Software Architecture Component Level Diagrams.
-![C4 Diagrama de Componentes](./assets/chapter4_img/bounded_context_sensor.jpeg)
+
+Diagrama de componentes para el bounded context de Security Monitoring:
+
+![C4 Diagrama de Componentes](./assets/chapter4_img/securityMonitoringComponentDiagram.jpeg)
+
 #### 4.2.2.7. Bounded Context Software Architecture Code Level Diagrams.
 ##### 4.2.2.7.1. Bounded Context Domain Layer Class Diagrams.
-![Diagrama de clases_sensor](./assets/chapter4_img/sensor_bounded_context-class_diagram.png)
+
+Diagrama de clases para el bounded context de Security Monitoring:
+
+![Diagrama de clases_security](./assets/chapter4_img/security_monitoring_class_diagram.png)
+
 ##### 4.2.2.7.2. Bounded Context Database Design Diagram.
-![Diagrama de base_de_datos_sensor](./assets/chapter4_img/sensor_bounded_context-database_diagram.png)
+
+Diagrama del modelado de la base de datos para el bounded context de Security Monitoring:
+
+![Diagrama de base_de_datos_security](./assets/chapter4_img/security_monitoring_database_diagram.png)
+
 ### 4.2.3. Bounded Context: Transport management
 
 El bounded context Transport Management se encarga de planificar y gestionar el transporte de materiales peligrosos, asegurando el cumplimiento de regulaciones. Este contexto incluye la asignación de vehículos y conductores, y monitorea los viajes en tiempo real para garantizar que se realicen de manera segura.
@@ -1268,12 +1292,23 @@ La infrastructure layer gestiona la interacción con recursos externos como base
 * **Comunicación con otros Contextos:** Integración con otros sistemas relevantes, como el contexto de Profile Management para obtener detalles de los conductores, o Security Monitoring para actualizaciones de seguridad.
 
 #### 4.2.3.6. Bounded Context Software Architecture Component Level Diagrams.
-![C4 Diagrama de Componentes](./assets/chapter4_img/bounded_context_travel.jpeg)
+
+Diagrama de componentes para el bounded context de Transport management:
+
+![C4 Diagrama de Componentes](./assets/chapter4_img/transportManagementComponentDiagram.jpeg)
+
 #### 4.2.3.7. Bounded Context Software Architecture Code Level Diagrams.
 ###### 4.2.3.7.1. Bounded Context Domain Layer Class Diagrams.
-![Diagrama de clases_viajes](./assets/chapter4_img/travel_bounded_context-class_diagram.png)
+
+Diagrama de clases para el bounded context de Transport management:
+
+![diagrama de clases transport management](./assets/chapter4_img/transport_management_class_diagram.png)
+
 ###### 4.2.3.7.2. Bounded Context Database Design Diagram.
-![Diagrama de base_de_datos_sensor](./assets/chapter4_img/travel_bounded_context-database_diagram.png)
+
+Diagrama del modelado de la base de datos para el bounded context de Transport management:
+
+![diagrama de base de datos transport management](./assets/chapter4_img/transport_management_database_diagram.png)
 
 ### 4.2.4. Bounded Context: Alerts system
 
@@ -1316,9 +1351,23 @@ La capa de infraestructura se encarga de la operación técnica del sistema, ase
 * **Integración con el Contexto de Monitoreo de Seguridad:** Permite la conexión con el sistema de monitoreo de seguridad para compartir datos sobre incidentes y generar alertas en caso de condiciones peligrosas.
 
 #### 4.2.4.6. Bounded Context Software Architecture Component Level Diagrams.
+
+Diagrama de componentes para el bounded context de Alerts System:
+
+![diagrama de componentes alerts system](assets/chapter4_img/alertSystemComponentDiagram.jpeg)
+
 #### 4.2.4.7. Bounded Context Software Architecture Code Level Diagrams.
 ###### 4.2.4.7.1. Bounded Context Domain Layer Class Diagrams.
+
+Diagrama de clases para el bounded context de Alerts System:
+
+![diagrama de clases de alertas](assets/chapter4_img/alerts_system_class_diagram.png)
+
 ###### 4.2.4.7.2. Bounded Context Database Design Diagram.
+
+Diagrama del modelado de la base de datos para el bounded context de Alerts System:
+
+![diagrama de base de datos alertas](assets/chapter4_img/alerts_system_database_diagram.png)
 
 # Capítulo V: Solution UI/UX Design
 ## 5.1. Style Guidelines
