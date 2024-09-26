@@ -33,7 +33,12 @@ ___
 | 1.5     | 16/09/2024 | Sebastián Lévano                  | Actualización de índice, títulos y subtítulos para el Trabajo Parcial      |
 | 1.6     | 19/09/2024 | Sebastián Lévano                  | Correcciones del Capítulo I y Outcomes                                     |
 | 1.7     | 21/09/2024 | Anthony Botello                   | Correcciones del Capítulo I y Putcomes                                     |
-| 1.8     | 22/09/2024 | Anthony Botello                   | Desarrollo del Capítulo 5                                                  |
+| 1.8     | 21/09/2024 | Sebastián Lévano                  | Desarrollo del Capítulo 5: Landing Page UI Design                          |
+| 1.9     | 22/09/2024 | Anthony Botello                   | Desarrollo del Capítulo 5: Applications UX/UI Design                       |
+| 2.0     | 26/09/2024 | Claudio Moreno                    | Desarrollo del Capítulo 5: Information Architecture                        |
+| 2.1     | 26/09/2024 | Josue Arrunategui                 | Desarrollo del Capítulo 6: Software Configuration Management               |
+| 2.2     | 26/09/2024 | Eduardo Chero                     | Desarrollo del Capítulo 6: Sprint 1                                        |
+| 2.3.    | 26/09/2024 | Sebastián Lévano                  | Outcomes Conclusiones                                                      |
 
 ---
 
@@ -143,10 +148,10 @@ La presenta entrega cubrió el cumplimiento de los capítulos V y VI del informe
 
 # Student Outcome
 
-| Criterio Específico                                                                             | Acciones Realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | Conclusiones                                                                                                                                                                                                                                                                                                                                                                     |
-| ----------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta.                                | *Eduardo Sebastián Lévano Cavero*<br>**TB1:**<br>A través de la realización de los To Be Scenario Mapping y User Stories, lideré la definición de escenarios futuros y necesidades del usuario, respectivamente, lo que permitió al equipo visualizar y priorizar funcionalidades clave. Mediante el Impact Mapping, pudimos establecer en conjunto relaciones claras entre los objetivos estratégicos y las características del producto, garantizando un enfoque alineado con las metas organizacionales. Finalmente, en el Product Backlog, se gestionaron las tareas de manera colaborativa, facilitando una planificación y ejecución eficientes que reflejan las prioridades acordadas en equipo. <br><br>*Anthony Botello Saldarriaga* <br>**TB1:**<br>En el presente proyecto, colaboré activamente en el liderazgo conjunto del equipo. Contribuí en la definición del startup y solution profile, y participé en la creación de los Lean UX Problem Statements y su análisis. Además, apoyé en la elaboración del Lean UX Canvas, tomando decisiones clave en conjunto con el equipo para asegurar un desarrollo efectivo y alineado con los objetivos del proyecto.<br>**TP:**<br>Durante el desarrollo de los prototipos y flujos de usuario para la aplicación FastPorte, se trabajó en equipo para asegurar un liderazgo conjunto, donde se tomaron decisiones colaborativas que integraron las necesidades de los diferentes usuarios. A través de la planificación de tareas como la creación de wireflows y prototipos, cada miembro del equipo asumió un rol de liderazgo en distintas áreas y se garantizó que se cumplieran los objetivos de manera eficaz, y asegurando que la plataforma reflejara las expectativas de los usuarios involucrados.<br><br>*Eduardo André Chero Emé*<br>**TB1:**<br>El desarrollo del event Storming nos ayudó para tener una visualizacion más definida de nuestros bounded context para una mejor implementación en el código. Clasificar los escenarios mediante el modelado de Message flows y generar los Bounded Context Canvas nos brindan un mejor entendimiento de las variables, conexiones y propisitos de los bounded context que impementamos. Por ultimo el desarrollo del diseño de la arquitectura de software en C4 para una mejor ejemplificacion de como va a realizarce nuestras conexiones de los respectivos servicios.<br><br>*Claudio Jesús Moreno Rosales*<br>**TB1:**<br>Para realizar y encontrar los requisitos de los segmentos objetivos se tuvo que realizar cada parte con los miembros del equipo para establecer cuales son los requisitos encontrados, como se debería ver los User Persona, User Journey Map, entre otros para entender y empatizar a profundidad con los usuarios.<br><br>*Josue David Arrunategui Aguilar*<br>**TB1:**<br>En el desarrollo del proyecto, asumí un papel clave en el diseño y la implementación de los bounded contexts de Usuario, Viaje y Sensor. Mi enfoque incluyó la definición precisa de cada contexto para garantizar una integración efectiva en el sistema. | *TB1*<br>La presente entrega sirvió para validar que la solución propuesta es adecuada para los segmentos objetivo abordados, esto en base al trabajo colaborativo realizado durante las entrevistas y el análisis de estas. Asimismo, por el desarrollo de los apartados involucrados desde la Introducción hasta la estructuración de la arquitectura durante el empleo de C4. |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | *Eduardo Sebastián Lévano Cavero*<br>**TB1:**<br>Por medio de los To Be Scenario Mapping y las User Stories, identificamos y documentamos las necesidades y expectativas de los usuarios, asegurando que todas las voces fueran escuchadas y consideradas. Mediante el Impact Mapping, en grupo alineamos las metas estratégicas con las funcionalidades del producto, permitiendo una planificación clara y enfocada. En el Product Backlog, priorizamos y planificamos las tareas de forma conjunta, lo que facilitó el cumplimiento de los objetivos establecidos dentro de un marco de trabajo inclusivo y bien organizado.<br><br>*Anthony Botello Saldarriaga* <br>**TB1:**<br>En el desarrollo, fomenté un entorno colaborativo e inclusivo asegurando que todas las ideas fueran escuchadas y valoradas. Participé en la definición de metas claras para el proyecto, colaborando en la planificación de tareas específicas como el desarrollo de los diferentes puntos del informe. Además, me aseguré de que los plazos y objetivos se cumplieran de manera eficiente, distribuyendo responsabilidades entre los miembros del equipo.<br>**TP:**<br>Durante el desarrollo de los prototipos, wireflows y user flows para la aplicación FastPorte, se fomentó un entorno colaborativo al integrar las necesidades de distintos usuarios, estableciendo metas claras para que ellos puedan cumplirlas. Planificamos tareas detalladas, como la creación de wireflows y prototipos de UI, lo que permitió cumplir con los objetivos de mejorar la experiencia del usuario de manera inclusiva y eficiente.<br><br>*Eduardo André Chero Emé*<br>**TB1:**<br>A través de EventStorming, se identificaron los contextos potenciales y se modelaron los flujos de mensajes del dominio; esto permitió utilizar los Bounded Context Canvases para encontrar contextos delimitados. Posteriormente, se trabajó en el mapeo de contextos y el diseño de la arquitectura de software, creando diagramas a nivel de sistema, contexto, contenedor y despliegue, lo que proporcionó una visión clara de las conexiones y dependencias entre los servicios.<br><br>*Claudio Jesús Moreno Rosales*<br>**TB1:**<br> En la elaboración de las técnicas de Design Thinking como los User Persona, User Journey Map, entre otros, se pudo apreciar que los miembros del equipo colaboraron realizando sus entrevistas, analisando cuantiativamente las entrevistas y al final sacando los resultados finales para empatizar con nuestros segmentos objetivo.<br><br>*Josue David Arrunategui Aguilar*<br>**TB1:**<br>En el desarrollo del proyecto, asumí un papel clave en el diseño y la implementación de los bounded contexts de Usuario, Viaje y Sensor. Mi enfoque incluyó la definición precisa de cada contexto para garantizar una integración efectiva en el sistema.                                                                                                                                                                                                                         | *TB1*<br>Se lograron los objetivos diseñados en grupo al completar la base del proyecto tanto a nivel de diseño como de arquitectura. Asimismo, al planear los elementos a desarrollar durante los siguientes Sprints.                                                                                                                                                           |
+| Criterio Específico                                                                             | Acciones Realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Conclusiones                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| ----------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta.                                | *Eduardo Sebastián Lévano Cavero*<br>**TB1:**<br>A través de la realización de los To Be Scenario Mapping y User Stories, lideré la definición de escenarios futuros y necesidades del usuario, respectivamente, lo que permitió al equipo visualizar y priorizar funcionalidades clave. Mediante el Impact Mapping, pudimos establecer en conjunto relaciones claras entre los objetivos estratégicos y las características del producto, garantizando un enfoque alineado con las metas organizacionales. Finalmente, en el Product Backlog, se gestionaron las tareas de manera colaborativa, facilitando una planificación y ejecución eficientes que reflejan las prioridades acordadas en equipo.<br>**TP:**<br>Para el desarrollo del wireframe y el mock-up de la Landing Page, adoptamos un enfoque compartido donde participé activamente en la conceptualización, diseño y revisión, asegurando que las decisiones fueran tomadas de manera colectiva y reflejaran las necesidades del proyecto. Del mismo modo, en la creación de los wireframes y mock-ups de las aplicaciones, trabajé en equipo para definir las características clave y su representación visual, asegurando que cada etapa del proceso fuera gestionada con una visión conjunta, promoviendo un liderazgo colaborativo para garantizar la calidad y coherencia de los entregables. <br><br>*Anthony Botello Saldarriaga* <br>**TB1:**<br>En el presente proyecto, colaboré activamente en el liderazgo conjunto del equipo. Contribuí en la definición del startup y solution profile, y participé en la creación de los Lean UX Problem Statements y su análisis. Además, apoyé en la elaboración del Lean UX Canvas, tomando decisiones clave en conjunto con el equipo para asegurar un desarrollo efectivo y alineado con los objetivos del proyecto.<br>**TP:**<br>Durante el desarrollo de los prototipos y flujos de usuario para la aplicación FastPorte, se trabajó en equipo para asegurar un liderazgo conjunto, donde se tomaron decisiones colaborativas que integraron las necesidades de los diferentes usuarios. A través de la planificación de tareas como la creación de wireflows y prototipos, cada miembro del equipo asumió un rol de liderazgo en distintas áreas y se garantizó que se cumplieran los objetivos de manera eficaz, y asegurando que la plataforma reflejara las expectativas de los usuarios involucrados.<br><br>*Eduardo André Chero Emé*<br>**TB1:**<br>El desarrollo del event Storming nos ayudó para tener una visualizacion más definida de nuestros bounded context para una mejor implementación en el código. Clasificar los escenarios mediante el modelado de Message flows y generar los Bounded Context Canvas nos brindan un mejor entendimiento de las variables, conexiones y propisitos de los bounded context que impementamos. Por ultimo el desarrollo del diseño de la arquitectura de software en C4 para una mejor ejemplificacion de como va a realizarce nuestras conexiones de los respectivos servicios.<br><br>*Claudio Jesús Moreno Rosales*<br>**TB1:**<br>Para realizar y encontrar los requisitos de los segmentos objetivos se tuvo que realizar cada parte con los miembros del equipo para establecer cuales son los requisitos encontrados, como se debería ver los User Persona, User Journey Map, entre otros para entender y empatizar a profundidad con los usuarios.<br><br>*Josue David Arrunategui Aguilar*<br>**TB1:**<br>En el desarrollo del proyecto, asumí un papel clave en el diseño y la implementación de los bounded contexts de Usuario, Viaje y Sensor. Mi enfoque incluyó la definición precisa de cada contexto para garantizar una integración efectiva en el sistema. | *TB1*<br>La presente entrega permitió validar que la solución propuesta es adecuada para los segmentos objetivo, gracias al liderazgo colaborativo ejercido durante las entrevistas y el análisis de estas. Se trabajo en conjunto para asegurar que todas las perspectivas fueran consideradas en cada etapa, desde el desarrollo de la Introducción hasta la estructuración de la arquitectura utilizando C4. Este enfoque conjunto en la toma de decisiones y el liderazgo compartido permitió que cada fase del proyecto fuera abordada de manera coherente, asegurando que las metas se alinearan con las necesidades del proyecto y se tomaran en cuenta las aportaciones de todo el equipo.<br><br>*TP*<br>En equipo se diseño la aplicación web y la página de aterrizaje, Landing Page, empleando Figma. Trabajar estos apartados juntos nos permitió establecer en conjunto los apartados que contendrá la aplicación y como funcionará. Además, de elegir una guía de estilos adecuada con la que todos estén satisfechos. Por otro lado, cada miembro desempeño el rol de líder durante la implementación de cada artefacto de software y la elaboración y ejecución del primer Sprint. |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | *Eduardo Sebastián Lévano Cavero*<br>**TB1:**<br>Por medio de los To Be Scenario Mapping y las User Stories, identificamos y documentamos las necesidades y expectativas de los usuarios, asegurando que todas las voces fueran escuchadas y consideradas. Mediante el Impact Mapping, en grupo alineamos las metas estratégicas con las funcionalidades del producto, permitiendo una planificación clara y enfocada. En el Product Backlog, priorizamos y planificamos las tareas de forma conjunta, lo que facilitó el cumplimiento de los objetivos establecidos dentro de un marco de trabajo inclusivo y bien organizado.<br>**TP:**<br>Durante el desarrollo del wireframe y el mock-up de la Landing Page, colaboré con el equipo para establecer metas claras y asegurar que todos los puntos de vista fueran escuchados, lo que permitió que las decisiones reflejaran las necesidades del proyecto de manera equitativa. De igual manera, en la creación de los wireframes y mock-ups de las aplicaciones, planifiqué junto al equipo las tareas necesarias, asignando responsabilidades y asegurando que cada objetivo se cumpliera dentro de los plazos establecidos, siempre manteniendo un ambiente de trabajo inclusivo y alineado con las metas acordadas.<br><br>*Anthony Botello Saldarriaga* <br>**TB1:**<br>En el desarrollo, fomenté un entorno colaborativo e inclusivo asegurando que todas las ideas fueran escuchadas y valoradas. Participé en la definición de metas claras para el proyecto, colaborando en la planificación de tareas específicas como el desarrollo de los diferentes puntos del informe. Además, me aseguré de que los plazos y objetivos se cumplieran de manera eficiente, distribuyendo responsabilidades entre los miembros del equipo.<br>**TP:**<br>Durante el desarrollo de los prototipos, wireflows y user flows para la aplicación FastPorte, se fomentó un entorno colaborativo al integrar las necesidades de distintos usuarios, estableciendo metas claras para que ellos puedan cumplirlas. Planificamos tareas detalladas, como la creación de wireflows y prototipos de UI, lo que permitió cumplir con los objetivos de mejorar la experiencia del usuario de manera inclusiva y eficiente.<br><br>*Eduardo André Chero Emé*<br>**TB1:**<br>A través de EventStorming, se identificaron los contextos potenciales y se modelaron los flujos de mensajes del dominio; esto permitió utilizar los Bounded Context Canvases para encontrar contextos delimitados. Posteriormente, se trabajó en el mapeo de contextos y el diseño de la arquitectura de software, creando diagramas a nivel de sistema, contexto, contenedor y despliegue, lo que proporcionó una visión clara de las conexiones y dependencias entre los servicios.<br><br>*Claudio Jesús Moreno Rosales*<br>**TB1:**<br> En la elaboración de las técnicas de Design Thinking como los User Persona, User Journey Map, entre otros, se pudo apreciar que los miembros del equipo colaboraron realizando sus entrevistas, analisando cuantiativamente las entrevistas y al final sacando los resultados finales para empatizar con nuestros segmentos objetivo.<br><br>*Josue David Arrunategui Aguilar*<br>**TB1:**<br>En el desarrollo del proyecto, asumí un papel clave en el diseño y la implementación de los bounded contexts de Usuario, Viaje y Sensor. Mi enfoque incluyó la definición precisa de cada contexto para garantizar una integración efectiva en el sistema.                                                                                                                                                                                                                                         | *TB1*<br>Se lograron los objetivos diseñados en grupo al completar la base del proyecto tanto a nivel de diseño como de arquitectura. Asimismo, al planear los elementos a desarrollar durante los siguientes Sprints.<br><br>*TP*<br>Se puede evidenciar el trabajo colaborativo mediante el desarrollo de la primera versión de la aplicación web y la landing page. Se establecieron los objetivos a cumplir para este primer Sprint y se llevaron a cabo por medio del desarrollo. Asimismo, cada integrante cumplió un rol fundamental ya sea en la sección de desarrollo frontend, desarrollo del fake API, desarrollo del landing page o realización del informe.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 
 ---
 # Capítulo I: Introducción
@@ -418,9 +423,12 @@ El segundo segmento objetivo está compuesto por los conductores de transporte d
 **- Preguntas demográficas:**
 - ¿Cuál es tu nombre?
 - ¿Qué edad tienes?
-- ¿Actualmente a que rol desempeñas en la empresa?
+- ¿Dónde vives actualmente?
+- ¿Qué rol desempeñas en la empresa en la que trabajas?
 
 **- Preguntas principales:**
+- ¿Cómo llegaste a trabajar en esa empresa?
+- ¿Me podrías comentar a qué se dedica y cuál es su forma de trabajo de la empresa?
 - ¿Qué desafíos enfrentas actualmente en términos de seguridad durante el transporte de materiales peligrosos?
 - ¿Puedes describir alguna situación en la que te hayas sentido preocupado por la seguridad debido a la carga que transportas?
 - ¿Cómo afectan las condiciones del entorno en el que trabajas (por ejemplo, temperatura, presión) la seguridad durante el transporte?
@@ -428,16 +436,26 @@ El segundo segmento objetivo está compuesto por los conductores de transporte d
 - ¿Cuáles son los problemas más comunes que enfrentas  o fallos en el sistema de transporte?
 - ¿Cómo sueles darte cuenta de un problema con la carga o el vehículo durante el transporte?
 - ¿Cuál es tu proceso actual para manejar un problema relacionado con la carga mientras estás en ruta?
+- ¿Cuáles crees que han sido tus principales habilidades para desempeñar el cargo de conductor?
+- ¿Cuáles crees que han sido las marcas u otros empresas con las que han trabajado?
+- ¿Qué medios digitales sules usar con frecuencias?
+- En tu trabajo ¿cuáles son los dispositivos tecnológicos que suelen usar con frecuencia?
 
-**Segmento objetivo: Empresas**
+
+<br>
+
+**Segmento objetivo: Supervisores**
 
 **- Preguntas demográficas:**
 
 - ¿Cuál es tu nombre?
 - ¿Qué edad tienes?
--  ¿Actualmente a que rol desempeñas en la empresa?
+- ¿Dónde vives actualmente?
+- ¿Qué rol desempeñas en la empresa en la que trabajas?
 
 **- Preguntas principales:** 
+- ¿Cómo llegaste a trabajar en esa empresa?
+- ¿Me podrías comentar un poco a qué se dedica y cuál es su forma de trabajo de la empresa?
 - ¿Qué medidas actuales tomas para asegurar la integridad de los materiales peligrosos durante el transporte?
 - ¿Cuáles son los principales riesgos asociados con el transporte de materiales peligrosos que enfrentas en tu operación diaria?
 - ¿Cómo supervisas y gestionas las condiciones de los vehículos que transportan materiales peligrosos?
@@ -445,131 +463,157 @@ El segundo segmento objetivo está compuesto por los conductores de transporte d
 - ¿Qué desafíos enfrentas para cumplir con las regulaciones y estándares de seguridad en el transporte de materiales peligrosos?
 - ¿Cuál es el proceso actual para responder a incidentes de seguridad o problemas con la carga durante el transporte?
 - ¿Qué tipo de soporte adicional consideras necesario para mejorar la respuesta a emergencias relacionadas con el transporte de materiales peligrosos?
+- ¿Cuáles crees que han sido tus principales habilidades para desempeñar el cargo de supervisor?
+- ¿Cuáles crees que han sido las marcas u otras empresas con las que han trabajado?
+- ¿Qué medios digitales sules usar con frecuencias?
+- En tu trabajo ¿cuáles son los dispositivos tecnológicos que suelen usar con frecuencia?
+
 
 ### 2.2.2. Registro de entrevistas
 
-Entrevista 1: Segmento objetivo empresa
+Entrevista 1: Segmento objetivo supervisores
+
+Nombres y apellidos: Jorge Chero
+
+Edad:  52 años
+
+Cargo actual: Supervisor de Transportes en Convoy de materiales peligrosos
 
 [![interview1.png](https://i.postimg.cc/9XT566xK/entrevista-empresa-1.png)](https://postimg.cc/Wt2HrHcw)
 
-URL: https://youtu.be/Q5w1AZyZ7cU
+URL: https://upcedupe-my.sharepoint.com/personal/u20201c172_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20201c172_upc_edu_pe%2FDocuments%2Fupc-pre-202402-si572-sw74-Debuggers-needfinding-interviews%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E6ed7c1cd-8118-4016-baf7-6b5e58e1d318
 
-Timing: 0:05
+Timing: 0:08
 
 Duración: 8:04 minutos 
 
 **Resúmen de la entrevista:**
-Entrevistado: Jorge tiene 52 años y es Supervisor de Transportes en Convoy de materiales peligrosos (transporte de hidrocarburos a empresas mineras).
 
-Características clave mencionadas por el entrevistado:
-- **Medidas de seguridad:** Utilización de unidades adecuadas para el tipo de transporte, personal capacitado, documentación correcta, y un checklist exhaustivo de la unidad antes de cada transporte. El conductor debe descansar al menos 7 horas antes del turno, se realizan controles de alcoholemia y se prohíbe el uso de celulares durante el transporte.
+Jorge es supervisor de transportes en una empresa que se dedica al traslado de materiales peligrosos, principalmente hidrocarburos, a compañías mineras. Él menciona la importancia de contar con unidades adecuadas para el transporte y personal capacitado. Se asegura de que todo el personal tenga la documentación en regla y que los conductores descansen al menos 7 horas continuas antes de iniciar su turno. Las principales dificultades que enfrenta están relacionadas con las malas condiciones de las carreteras, el clima y otros conductores que no siguen las mismas normas de seguridad.
 
-- **Riesgos principales:** Carreteras en mal estado, condiciones climáticas adversas (neblina, lluvia, tormentas de arena), y el riesgo de robo en zonas peligrosas.
+Jorge implementa un estricto control de las condiciones de los vehículos mediante checklists y la instalación de cámaras de seguridad que monitorizan tanto la carretera como el estado de los conductores. Una de las mayores dificultades en el monitoreo es la falta de señal GPS en zonas montañosas o desérticas, lo que complica el seguimiento en tiempo real. Considera que los mayores desafíos son cumplir con las regulaciones de las empresas y las capacitaciones constantes, esenciales para mantener al personal actualizado sobre los protocolos de seguridad.
 
-- **Supervisión:** Monitoreo constante con GPS, aunque existen problemas en áreas sin señal, como desiertos o montañas.
+En caso de emergencias, Jorge sigue un plan de contingencia bien definido, asegurándose de que todo el personal esté preparado para responder a derrames o incidentes. Propone mejorar la respuesta a emergencias mediante simulacros constantes y la implementación de tecnologías que ayuden a detectar problemas en las primeras etapas del transporte.
 
-- **Cumplimiento de regulaciones:** Conocimiento y cumplimiento de procedimientos y políticas de seguridad tanto de la empresa de transporte como de las empresas mineras. Capacitación constante del personal, con charlas diarias sobre seguridad.
+Por otro lado, Jorge posee las habilidades como manejo defensivo, conocimiento profundo de rutas y condiciones climáticas, y capacidad de mantener la calma en situaciones de alto riesgo, ya que son esenciales para el transporte seguro de materiales peligrosos. También destacaría la importancia de la experiencia en la supervisión de convoyes y gestión de equipos de trabajo. Adicionalmente, Jorge podría haber trabajado con empresas mineras y compañías de transporte de hidrocarburos, y que podrían ser marcas reconocidas dentro del sector minero y de energía.
 
-- **Respuesta a emergencias:** Planes de contingencia claros para derrames o emergencias personales, con necesidad de entrenamientos y simulacros regulares para mejorar la respuesta.
+También, en cuanto a los medios digitales es probable que Jorge utilice sistemas de monitoreo GPS, así como cámaras de seguridad instaladas en los vehículos. También menciona el uso de aplicaciones para seguimiento de alcoholemia y el software de monitoreo que emplea su empresa para verificar las rutas. Además, Jorge mencionó el uso de cámaras de seguridad para monitorear los convoyes, así como dispositivos de monitoreo GPS. También es probable que utilice teléfonos móviles (aunque él especificó que los conductores no pueden usarlos mientras manejan), y kits de emergencia que incluyen tecnología para controlar derrames.
 
-Entrevista 2: Segmento objetivo empresa
+<br><br>
+
+Entrevista 2: Segmento objetivo Supervisores
+
+Nombres y apellidos: Arquímedes Ordoño Gutiérrez
+
+Edad:  55 años
+
+Cargo actual: Jefe de Supervisores en Transcor SRL
 
 [![interview1.png](https://i.postimg.cc/9Fh5CLKM/entrevista-empresa-2.png)](https://postimg.cc/Z0VDLxTt)
 
-URL: https://youtu.be/5VN1W9JiBUE
+URL: https://upcedupe-my.sharepoint.com/personal/u20201c172_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20201c172_upc_edu_pe%2FDocuments%2Fupc-pre-202402-si572-sw74-Debuggers-needfinding-interviews%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E6ed7c1cd-8118-4016-baf7-6b5e58e1d318
 
-Timing: 0:03
+Timing: 8:11
 
 Duración: 25:11 minutos 
 
 **Resúmen de la entrevista:**
-Entrevistado: Arquímedes Ordoño Gutiérrez tiene 55 años y es Jefe de Supervisores en Transcor SRL.
 
-Características clave mencionadas por el entrevistado:
+Arquímedes es jefe de supervisores en Transcor SRL, una empresa dedicada al transporte terrestre de combustibles. Uno de los puntos clave en su enfoque es la preparación del conductor, ya que considera que sin un conductor bien capacitado y descansado, no importa cuán moderna o segura sea la unidad de transporte. El uso de tecnología avanzada como pulseras que monitorizan las horas de sueño y sensores en los camiones para detectar fatiga son fundamentales en su operación diaria.
 
-- **Medidas de seguridad:** Enfoque en la capacitación y descanso de los conductores. Uso de tecnologías avanzadas como pulseras para monitorear el sueño, cámaras de fatiga, y sistemas de alerta.
+Entre los principales riesgos que enfrenta están el tráfico y las condiciones geográficas adversas, especialmente en rutas de montaña. Para mitigarlos, su empresa realiza capacitaciones regulares sobre manejo defensivo y seguridad vial. Además, utilizan teléfonos satelitales para comunicarse en zonas sin señal y mantener un control constante del convoy.
 
-- **Riesgos principales:** Tráfico y la actitud de otros conductores en la carretera. Capacitación constante en seguridad vial y manejo defensivo, especialmente en zonas geográficas difíciles como la sierra.
+Uno de los principales desafíos que identifica Arquímedes es la burocracia en la obtención de permisos para el transporte de materiales peligrosos, lo cual a veces retrasa las operaciones. Además, destaca la importancia de realizar simulacros en coordinación con las minas para estar preparados ante cualquier emergencia. Arquímedes propone reducir las distancias entre las unidades de apoyo vial para mejorar la respuesta en caso de incidentes.
 
-- **Supervisión:** Uso de geocercas, control de velocidad, pruebas de alcoholemia, y teléfonos satelitales en zonas sin cobertura celular.
+Por otro lado, Arquímedes destaca habilidades como conocimiento técnico de los vehículos modernos, especialmente los sistemas avanzados de seguridad, y la capacidad de liderazgo y supervisión, ya que está a cargo de equipos de conductores. También haría hincapié en la importancia de la capacidad de tomar decisiones rápidas en situaciones difíciles. Además, él probablemente ha trabajado con marcas de vehículos como Volvo, ya que menciona que sus conductores reciben capacitación específica de esta marca. Además, ha trabajado con empresas que requieren transporte de combustibles, posiblemente empresas del sector energético y minero.
 
-- **Cumplimiento de regulaciones:** Burocracia en la obtención de permisos de transporte, a pesar de tener una flota moderna y certificada. Se requiere mayor agilidad en los trámites para homologar unidades.
+Finalmente, Arquímedes mencionó utiliza sistemas como teléfonos satelitales y software de geocercas para el monitoreo constante de las unidades. También hace uso de sensores de fatiga y tecnologías integradas en los vehículos para detectar problemas y el entrevistado mencionó el uso de teléfonos satelitales, sensores de fatiga, cámaras de seguridad y sistemas de monitoreo GPS. Además, habló sobre kits antiderrame con tecnología avanzada y otros dispositivos relacionados con la seguridad de los conductores y los materiales peligrosos.
 
-- **Respuesta a emergencias:** Simulacros regulares y un kit antiderrame avanzado para controlar fugas. Implementación de tecnología alemana para sellar fisuras en cisternas.
+<br><br>
 
-Entrevista 3: Segmento objetivo empresa
+Entrevista 3: Segmento objetivo supervisores
+
+Nombres y apellidos: Estuardo Chero
+
+Edad:  46 años
+
+Cargo actual: Supervisor Escolta de Materiales Peligrosos
 
 [![interview1.png](https://i.postimg.cc/MGFJwqJ2/entrevista-empresa-3.png)](https://postimg.cc/Ff3BgtKD)
 
-URL: https://youtu.be/Q5w1AZyZ7cU
+URL: https://upcedupe-my.sharepoint.com/personal/u20201c172_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20201c172_upc_edu_pe%2FDocuments%2Fupc-pre-202402-si572-sw74-Debuggers-needfinding-interviews%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E6ed7c1cd-8118-4016-baf7-6b5e58e1d318
 
-Timing: 0:05
+Timing: 33:21
 
-Duración: 8:04 minutos 
+Duración: 16:04 minutos 
 
 **Resúmen de la entrevista:**
-Entrevistado: Estuardo Chero tiene 46 años y es Supervisor Escolta de Materiales Peligrosos.
 
-Características clave mencionadas por el entrevistado:
-- **Medidas de seguridad:** Verificación del estado de las unidades y la condición de los conductores antes de iniciar el viaje. Cumplimiento estricto de las normas de seguridad.
+Estuardo trabaja como supervisor escolta de materiales peligrosos, con un enfoque en el transporte seguro de concentrado de cobre. Antes de cada operación, se asegura de que tanto los vehículos como los conductores estén en condiciones óptimas. Realiza charlas de seguridad de 5 minutos con los conductores antes de cada jornada para asegurarse de que estén listos tanto física como mentalmente.
 
-- **Riesgos principales:** Accidentes de tránsito, especialmente debido a la falta de cumplimiento de estándares de seguridad por parte de otros conductores.
+El principal riesgo que enfrenta es el de accidentes de tránsito, ya que muchas veces otros conductores no cumplen con las normativas de seguridad. El transporte del concentrado de cobre se realiza en tolvas, las cuales tienen ciertas medidas de seguridad, aunque no están completamente herméticas. Las dificultades en el monitoreo de la carga son mínimas, ya que las tolvas están cerradas, pero la preocupación principal es garantizar que no haya incidentes durante el trayecto.
 
-- **Supervisión:** Control continuo durante el trayecto, con charlas de seguridad previas y evaluación constante del estado del convoy.
+En cuanto al cumplimiento de regulaciones, Estuardo destaca que su empresa cumple estrictamente con los estándares de seguridad y que la actitud de los conductores es clave para mantener ese nivel de cumplimiento. En caso de un incidente, siguen un plan de contingencia que incluye el uso de radios para reportar y coordinar con agentes viales que supervisan el convoy. Estuardo sugiere que, para mejorar la respuesta a emergencias, sería útil reducir la distancia entre las unidades de apoyo vial y mejorar los sistemas de monitoreo automáticos de los camiones.
 
-- **Cumplimiento de regulaciones:** Cumplimiento total de los estándares de seguridad, basado en la convicción del personal. Los procedimientos están documentados en un plan de contingencia que incluye pasos detallados para emergencias.
+Por otro lado, Estuardo destaca su habilidad para supervisar y gestionar convoyes, así como su conocimiento en cumplimiento de normativas de seguridad. También podría hablar de su capacidad para reaccionar ante emergencias y su atención al detalle en el control de los vehículos y la carga. Adicionalmente, él mencionó trabajar en Noat Logistics Perú, una empresa que realiza transporte para mineras. Es probable que haya trabajado con otras marcas y empresas en el sector de transporte de carga pesada y materiales peligrosos.
 
-- **Respuesta a emergencias:** Supervisión continua del convoy y rápida implementación del plan de contingencia en caso de accidentes. Uso de comunicaciones radiales y soporte de agentes viales en zonas peligrosas.
+En adición, el entrevistado mencionó el uso de radios base para la comunicación constante con su equipo y con los agentes viales. También utiliza sistemas de monitoreo y software para la gestión de contingencias, como el plan de contingencias que debe seguir en caso de incidentes y los radios base, sistemas de monitoreo GPS, y las camionetas de soporte que monitorean el convoy. Se mencionó el uso de sensores en los vehículos para verificar fallas mecánicas, lo que sugiere que está familiarizado con la tecnología avanzada integrada en los camiones.
 
 <br><br>
 
 Entrevista 4: Segmento objetivo conductores
 
+Nombres y apellidos: José Gonzales 
+
+Edad:  27 años
+
+Cargo actual: Conductor de Cisternas
+
 [![interview1.png](https://i.postimg.cc/5t8S9PQL/entrevista-conductor-2.png)](https://postimg.cc/bGNt39Tw)
 
-URL: https://www.youtube.com/watch?v=KEh32dSaK2w
+URL: https://upcedupe-my.sharepoint.com/personal/u20201c172_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20201c172_upc_edu_pe%2FDocuments%2Fupc-pre-202402-si572-sw74-Debuggers-needfinding-interviews%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E6ed7c1cd-8118-4016-baf7-6b5e58e1d318
 
-Timing: 0:01
+Timing: 1:00:47
 
 Duración: 6:25 minutos 
 
 **Resúmen de la entrevista:**
-Entrevistado: José Gonzales tiene 27 años y es Conductor de Sisternas.
 
-- **Seguridad:** La seguridad del transporte depende de asegurar que la carga esté bien sujeta y que el vehículo esté en óptimas condiciones. El transporte nocturno es particularmente peligroso debido a la visibilidad limitada y condiciones como la neblina.
+José Daniel trabaja como conductor de cisternas para una empresa que transporta materiales peligrosos. En su trabajo, se enfrenta a desafíos relacionados con la seguridad, especialmente en asegurar que la carga esté bien sujeta y que el vehículo esté en óptimas condiciones. Las carreteras en mal estado y la neblina densa en las noches son fuentes de gran preocupación, ya que aumentan el riesgo de accidentes. Menciona que las condiciones climáticas extremas, como el calor intenso en verano o las lluvias en invierno, también representan un riesgo significativo, ya que pueden afectar la presión interna de los tanques o las condiciones del asfalto.
 
-- **Situación de riesgo:** Durante las noches con neblina y carreteras mojadas, José se siente preocupado por los riesgos adicionales, especialmente en zonas mal diseñadas.
+José cuenta con sistemas de alerta en su vehículo, pero reconoce que no siempre funcionan de manera eficiente, lo que puede retrasar la detección de problemas. Los fallos más comunes que enfrenta incluyen problemas con las válvulas, los frenos, o la estabilidad de la carga. En caso de detectar un problema, su proceso consiste en detenerse en un lugar seguro, revisar el vehículo, y en casos graves, contactar con su base para recibir asistencia técnica.
 
-- **Condiciones ambientales:** El calor extremo en verano puede aumentar la presión en los tanques y generar riesgos de explosión. En invierno, las lluvias intensas y la neblina representan riesgos al conducir en carreteras mojadas.
+Por otro lado, José destacaría por su atención al detalle en la seguridad del vehículo y la carga, así como su capacidad para mantener la calma bajo condiciones climáticas adversas. Además, tiene experiencia en la detección temprana de fallos en el vehículo y la carga. También, él mencionó el transporte de gases y materiales peligrosos, lo que sugiere que ha trabajado para empresas de transporte de hidrocarburos o químicos, aunque no mencionó marcas específicas.
 
-- **Monitoreo en movimiento:** Aunque su vehículo tiene sistemas de alerta, estos a veces fallan o se activan con retraso, lo que genera incertidumbre.
+En adición, es probable que José use sistemas de monitoreo de alertas en el vehículo, así como sistemas de comunicación con su base para gestionar emergencias. Y él Mencionó sistemas de alerta en el vehículo, así como herramientas de diagnóstico para revisar el estado de las válvulas y frenos.
 
-- **Problemas comunes:** Las fallas más frecuentes incluyen problemas con válvulas y frenos. Es esencial revisar estos componentes antes de cada viaje.
+<br><br>
 
-- **Proceso para manejar problemas:** Ante un problema en ruta, José se detiene en un lugar seguro y contacta a la base o al centro de emergencias para recibir instrucciones. Sugiere contar con técnicos especializados para acompañar los viajes y ayudar en casos graves.
+Entrevista 5: Segmento objetivo 
 
-Entrevista 5: Segmento objetivo conductores
+Nombres y apellidos: Juan Cueto Dominguez
+
+Edad: 28 años
+
+Cargo actual: Conductor de camiones de transporte de Materiales Peligrosos
 
 [![interview1.png](https://i.postimg.cc/nzZYXvq5/entrevista-conductor-1.png)](https://postimg.cc/kV1tZR1F)
 
-URL: https://www.youtube.com/watch?v=dP9vHbNym4c
+URL: https://upcedupe-my.sharepoint.com/personal/u20201c172_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20201c172_upc_edu_pe%2FDocuments%2Fupc-pre-202402-si572-sw74-Debuggers-needfinding-interviews%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E6ed7c1cd-8118-4016-baf7-6b5e58e1d318
 
-Timing: 0:04
+Timing: 50:23
 
 Duración: 10:26 minutos 
 
 **Resúmen de la entrevista:**
-Entrevistado: Juan Cueto Dominguez tiene 28 años y es Conductor de Materiales Peligrosos.
 
-- **Seguridad:** El principal reto es garantizar que el vehículo y la carga cumplan con todas las normativas de seguridad. Esto implica un monitoreo constante de la estabilidad de la carga, el mantenimiento del vehículo, y el respeto a regulaciones locales. Las condiciones ambientales, como el calor y la fricción, también representan riesgos.
+Juan trabaja como conductor especializado en el transporte de materiales peligrosos y enfrenta desafíos constantes relacionados con la seguridad. Uno de sus principales retos es asegurarse de que tanto la carga como el vehículo cumplan con las normativas de seguridad, especialmente cuando se trata de sustancias inflamables o explosivas. Destaca que sigue estrictamente las regulaciones internacionales y locales, y que las condiciones ambientales, como el calor o el viento, pueden alterar la estabilidad de los materiales peligrosos.
 
-- **Situación de riesgo:** Durante el transporte de gases inflamables, Juan vió el aumento de la temperatura exterior que elevó la presión en los contenedores. Tuvo que estacionar en un lugar seguro y activar el plan de contingencia para evitar un accidente mayor.
+Una experiencia que lo marcó fue transportar gases inflamables bajo temperaturas extremas, lo que lo llevó a tomar medidas inmediatas para garantizar su seguridad y la del entorno. En cuanto al monitoreo del vehículo, Juan confía en sistemas de alerta y monitoreo visual, aunque reconoce que el ruido de la carretera y las vibraciones del vehículo pueden afectar la capacidad para detectar problemas a tiempo. Los fallos más comunes que enfrenta incluyen problemas con los sistemas de sujeción de la carga, los frenos, y los sistemas de enfriamiento. Cuando se presenta un problema, sigue un estricto protocolo de seguridad, deteniéndose en áreas seguras y notificando a los equipos de emergencia.
 
-- **Monitoreo en movimiento:** Es difícil verificar la carga mientras se conduce, y el ruido o la vibración del vehículo pueden ocultar señales de posibles problemas. Los sistemas de alerta no siempre detectan fallas como inestabilidad de la carga o fugas.
+Por otro lado, Juan destaca su conocimiento profundo de las normativas internacionales de seguridad, como el CFR 49 de Estados Unidos, así como su capacidad para tomar decisiones rápidas en situaciones de riesgo. También, es probable que Juan haya trabajado para empresas de transporte de gases inflamables y explosivos que requieren un alto nivel de cumplimiento normativo.
 
-- **Problemas comunes:** Los fallos más frecuentes incluyen problemas con los sistemas de sujeción de la carga, desgaste de etiquetas de seguridad y sistemas de enfriamiento ineficientes.
-
-- **Proceso para manejar problemas:** Ante cualquier indicio de riesgo, Juan se estaciona en una zona segura y notifica a los números de emergencia para activar el protocolo de seguridad. Luego, el sigue las instrucciones de los expertos y revisa las hojas de seguridad del material transportado.
+<br><br>
 
 ### 2.2.3. Análisis de entrevistas
 
@@ -585,30 +629,53 @@ Entrevistado: Juan Cueto Dominguez tiene 28 años y es Conductor de Materiales P
 
 [![interview1.png](https://i.postimg.cc/t41mQPkk/gr-fico3-tecnolog-a-normas-simulacros.png)](https://postimg.cc/DSTc1St4)
 
+<br><br>
+
 ## 2.3. Needfinding
+
+En la fase de NeedFinding, el equipo se ha centrado en analizar la información recolectada a través de entrevistas diseñadas previamente, realizadas con Supervisores de Transportes de Materiales Peligrosos y Conductores de Camiones que transportan materiales como gases inflamables, tóxicos y explosivos. Estas entrevistas, realizadas en plataformas digitales como Google Meet, han permitido una interacción directa con los segmentos objetivos, ofreciendo una valiosa oportunidad para profundizar en sus necesidades, desafíos y expectativas.
+
+Los artefactos resultantes de este análisis incluyen herramientas clave como el User Task Matrix, User Journey Maps, Empathy Mapping y As-Is Scenario Mapping, todos enfocados en identificar patrones, comportamientos y necesidades ocultas dentro de los roles específicos de cada grupo objetivo. Este proceso nos ha permitido estructurar información crítica para guiar el diseño y solución del problema identificado.
+
 ### 2.3.1. User Personas
 
-- **Segmento objetivo empresas: Arquetipo de las empresas**
+En la sección de User Personas, presentamos fichas detalladas que representan los perfiles de los segmentos objetivos: Supervisores de Transportes de Materiales Peligrosos y Conductores de Camiones. Estas fichas son el resultado del análisis de las entrevistas, donde se ha extraído información clave para crear arquetipos que reflejen sus características, motivaciones, frustraciones y necesidades.
 
-[![interview1.png](https://i.postimg.cc/TwC09qF5/User-Persona-Empresas-new.png)](https://postimg.cc/9RwyXTWc)
+Cada ficha de User Persona incluye datos esenciales que fueron recopilados durante el proceso de entrevistas, integrando las mejores prácticas en cuanto a especificación de arquetipos. Estas fichas nos permitirán profundizar en la comprensión del usuario final y orientar las próximas fases del proyecto.
+
+- **Segmento objetivo supervisores: Arquetipo del supervisor**
+
+El User Persona de Supervisores de Transportes de Materiales Peligrosos se enfoca en los roles, responsabilidades y desafíos que enfrentan estos profesionales a la hora de gestionar el transporte de materiales como gases inflamables, tóxicos y explosivos. A través de las entrevistas realizadas, hemos identificado las características principales de estos supervisores, quienes suelen lidiar con altos niveles de responsabilidad, asegurando que las normativas de seguridad sean cumplidas estrictamente y que la cadena de transporte opere sin contratiempos.
+
+[![interview1.png](https://i.postimg.cc/P5CKLmkj/User-Persona-Supervisor-Update.png)](https://postimg.cc/3kH2V0RS)
 
 - **Segmento objetivo conductores: Arquetipo del conductor**
 
-[![interview1.png](https://i.postimg.cc/d3jmYn3n/User-Persona-Conductores-new.png)](https://postimg.cc/ct687RQ8)
+El User Persona de Conductores de Camiones de Materiales Peligrosos nos permite entender a aquellos que están directamente a cargo del transporte de materiales altamente peligrosos en la carretera. A través de las entrevistas realizadas, hemos descubierto que estos conductores deben cumplir con estrictas normativas y enfrentan situaciones de alta presión, como condiciones climáticas adversas y riesgos constantes durante el trayecto. La creación de este perfil es esencial para diseñar soluciones que se alineen con sus necesidades diarias y sus experiencias en ruta.
+
+[![interview1.png](https://i.postimg.cc/k58csq4Y/User-Persona-Conductores-Update.png)](https://postimg.cc/HJYXsGbb)
+
+<br><br>
 
 ### 2.3.2. User Task Matrix
 
-- **Segmento objetivo empresas: Matriz de tareas**
+En esta sección se presenta el User Task Matrix, que presenta las tareas esenciales que los User Persona, Juan Navarro para el segmento de supervisores y Miguel Herrera para el segmento de conductores, deben realizar para alcanzar sus objetivos. La matriz incluye columnas para cada User Persona, con sub-columnas que reflejan la frecuencia y la importancia de cada tarea. Las filas enumeran las tareas identificadas, y posteriormente se ofrecerá un análisis de las tareas más relevantes, destacando diferencias y similitudes entre ambos segmentos.
 
-[![interview1.png](https://i.postimg.cc/G3NQV1bD/User-Task-Matrix-Empresas.png)](https://postimg.cc/jCHPnmwq)
+[![interview1.png](https://i.postimg.cc/KYxSZQR0/User-Task-Matrix-Update.png)](https://postimg.cc/nXRw24Km)
 
-- **Segmento objetivo conductores: Matriz de tareas**
+La mayoría de tareas tiene una frecuencia e importancia alta, ya que al tratarse y trabajar con materiales peligrosos de alto riesgo cada tarea es crítica, de estas tareas depende la seguridad y la vida de los conductores y la reputación de la empresa que supervisa este tipo de trabajos.
 
-[![interview1.png](https://i.postimg.cc/FHVykTx4/User-Task-Matrix-Conductores.png)](https://postimg.cc/0zrMLd3W)
+**Tareas más frecuentes e importantes:** Tanto para Juan Navarro como Miguel Herrera se ve la importancia de inspeccionar las condiciones del vehículo, supervisar el aseguramiento de la carga y gestionar el cumplimiento de normativas. Estas actividades son esenciales para ambos, ya que contribuyen directamente a la seguridad del transporte de materiales peligrosos.
+
+**Principales diferencias:** Los supervisores como Juan Navarro están más enfocados en monitorear el estado del conductor y realizar informes de seguridad, que son cruciales en su rol de supervisión. Para los conductores como Miguel Herrera, estas tareas son menos frecuentes o de menor importancia, ya que su enfoque principal está en el monitoreo de los sistemas de alerta y reaccionar ante incidentes.
+
+**Coincidencias:** Ambos coinciden en la importancia de mantener la comunicación con la base y tomar decisiones en situaciones de emergencia. Estas actividades, aunque realizadas con diferente frecuencia, son críticas para la seguridad del transporte y la gestión de incidentes en ruta.
 
 ### 2.3.3. User Journey Mapping
 
-- **Segmento objetivo empresas: Mapa del viaje del usuario**
+En esta sección, se presentan los User Journey Maps para cada User Persona, Juan Navarro y Miguel Herrera. Estos mapas va a presentar el recorrido actual de los usuarios, reflejando sus interacciones y experiencias sin la intervención de una solución tecnológica. A través de diagramas elaborados en la herramienta indicada de UXPressia, se destacan las etapas clave del journey de cada segmento, permitiendo una comprensión más profunda de sus necesidades y desafíos en la situación actual.
+
+- **Segmento objetivo supervisores: Mapa del viaje del usuario**
 
 [![interview1.png](https://i.postimg.cc/fyPK4Www/Customer-Journey-Map-Empresas-new.png)](https://postimg.cc/YL1gYHGV)
 
@@ -618,7 +685,9 @@ Entrevistado: Juan Cueto Dominguez tiene 28 años y es Conductor de Materiales P
 
 ### 2.3.4. Empathy Mapping
 
-- **Segmento objetivo empresas: Mapa de empatía**
+En esta sección, se detalla el proceso de creación de los Empathy Maps para cada User Persona. Estos mapas ayudan a entender las emociones y pensamientos de los usuarios, abordando preguntas fundamentales sobre lo que piensan, sienten y experimentan en su contexto. Con capturas de los Empathy Maps elaborados, se busca responder a interrogantes sobre las necesidades, preocupaciones y motivaciones de Juan Navarro (segmento supervisor) y Miguel Herrera (segmento conductor), identificando así sus Pains y Gains para guiar el desarrollo de soluciones efectivas.
+
+- **Segmento objetivo supervisores: Mapa de empatía**
 
 [![interview1.png](https://i.postimg.cc/sXD9vGxj/Empathy-Map-Empresas-new.png)](https://postimg.cc/mcJFnD7J)
 
@@ -628,49 +697,37 @@ Entrevistado: Juan Cueto Dominguez tiene 28 años y es Conductor de Materiales P
 
 ### 2.3.5. As-is Scenario Mapping
 
+Esta sección introduce el As-Is Scenario Mapping, que resume el proceso realizado por el equipo para cada User Persona. A través de un diagrama que incluye las fases de acción, pensamiento y sentimiento, se analizan las experiencias actuales de los usuarios. El proceso implica la identificación de áreas positivas y negativas, así como la señalización de blank areas que requieren más investigación, lo que proporciona una visión clara de cómo mejorar las experiencias de Juan Navarro (segmento supervisor) y Miguel Herrera (segmento conductor) en su entorno actual.
+
 - **Mapa As-Is: Segmento objetivo antes de conocer la solución de software:**
 
 [![interview1.png](https://i.postimg.cc/0yCXLHWq/Mapa-As-Is-Empresas.png)](https://postimg.cc/3kdZG9QL)
 
 ## 2.4. Ubiquitous Language
 
+En esta sección se presenta el glosario de términos y conceptos relevantes al business domain, conocido como Ubiquitous Language. Este glosario es esencial para mantener una comunicación clara y precisa entre todos los miembros del equipo y los stakeholders. Incluye definiciones de términos específicos del área de especialidad, evitando ambigüedades y garantizando que todos compartan un entendimiento común del lenguaje utilizado en el contexto del problema y la solución. Las definiciones se presentan en español, mientras que los términos están en inglés, facilitando así una referencia accesible para todos.
+
+- **Itinerary (Itinerario):**  Ruta planificada para el transporte de materiales peligrosos, incluyendo puntos de carga y descarga.
+- **Manifest (Manifiesto):**  Documento que detalla la carga transportada, asegurando que todos los materiales peligrosos estén correctamente identificados y documentados.
+- **Safety Conditions (Condiciones de seguridad):** Conjunto de normas y regulaciones que deben cumplirse para garantizar un transporte seguro de materiales peligrosos.
+- **Quality Indicators (Indicadores de calidad):**  Métricas que evalúan la efectividad y seguridad de un medio de transporte, como el estado del vehículo, el cumplimiento de normativas y la capacitación del personal.
+
 - **Hazardous Materials (Materiales Peligrosos):** Materiales que, debido a su naturaleza química, física o biológica, pueden causar daños a las personas, bienes o el medio ambiente durante el transporte o almacenamiento.
 
 - **Gas Leak (Fuga de Gas):** Escape no controlado de gas de un contenedor, lo que puede representar un riesgo de explosión o intoxicación.
 
-- **Real-Time Monitoring (Monitoreo en Tiempo Real):** Supervisión continua de las condiciones de seguridad durante el transporte, como la detección de fugas, cambios de temperatura o presión.
-
-- **Sensor:** Dispositivo que detecta y mide condiciones específicas como temperatura, presión o fugas de gas, enviando información en tiempo real a los sistemas de monitoreo.
-
-- **Company Profile (Perfil de Empresa):** Perfil dentro de la aplicación que permite a las empresas de transporte gestionar y monitorear los viajes de los conductores y las condiciones del material peligroso transportado.
-
-- **Driver Profile (Perfil de Conductor):** Perfil en la aplicación utilizado por los conductores para visualizar los detalles de sus viajes, recibir alertas de seguridad y acceder a la información relacionada con la empresa y el transporte de materiales peligrosos.
-
-- **Explosive Materials (Materiales Explosivos):** Tipos de materiales peligrosos que, al sufrir una alteración física o química (como una fuga), pueden detonar o incendiarse.
-
 - **Transportation Incident (Incidente de Transporte):** Evento inesperado que ocurre durante el transporte, como accidentes, fugas o cambios en las condiciones ambientales, que puede afectar la seguridad del conductor o los materiales.
-
-- **Safety Alerts (Alertas de Seguridad):** Notificaciones enviadas automáticamente por la aplicación cuando se detectan condiciones peligrosas, como fugas de gas o cambios extremos de temperatura.
-
-- **Fleet Management (Gestión de Flotas):** Proceso de supervisión y coordinación de una flota de vehículos, con el objetivo de mejorar la seguridad, eficiencia y cumplimiento de normativas en el transporte de materiales peligrosos.
-
-- **Compliance (Cumplimiento Normativo):** Adherencia a las leyes, regulaciones y estándares establecidos para garantizar la seguridad y legalidad en el transporte de materiales peligrosos.
-
-- **Gas Combustible Natural (GNV):** Combustible basado en gas natural utilizado para vehículos, el cual puede representar un riesgo de explosión si no se maneja adecuadamente.
 
 - **Safety Procedures (Procedimientos de Seguridad):** Conjunto de acciones o medidas establecidas para minimizar los riesgos durante el transporte de materiales peligrosos, incluyendo el uso adecuado de sensores y notificaciones en tiempo real.
 
-- **Operational Efficiency (Eficiencia Operativa):** Medida de la efectividad con la que las empresas gestionan sus operaciones de transporte, optimizando recursos y minimizando riesgos mediante el uso de herramientas tecnológicas.
-
 - **Transportation Request (Solicitud de Transporte):** Petición formal de una empresa para transportar materiales peligrosos, detallando las rutas, condiciones, y asignación de conductores y vehículos.
 
-- **Pressure Sensor (Sensor de Presión):** Dispositivo que mide la presión dentro de un contenedor o tanque, alertando a los usuarios sobre cambios peligrosos que podrían comprometer la seguridad del transporte.
+- **Incident Report (Reporte de Incidente):** Documento generado que detalla un incidente ocurrido durante el transporte de materiales peligrosos, incluyendo detalles como el tipo de incidente, la respuesta y las acciones tomadas.
 
-- **Temperature Sensor (Sensor de Temperatura):** Dispositivo que mide la temperatura de los materiales peligrosos transportados, enviando alertas si la temperatura se eleva o desciende a niveles peligrosos.
+- **Real-time Monitoring (Monitoreo en tiempo real):** Supervisión continua de las condiciones del transporte, incluyendo la ubicación y el estado de la carga.
+- **Driver Training (Capacitación del conductor):** Formación específica que garantiza que los conductores estén preparados para manejar materiales peligrosos y responder a situaciones de emergencia.
+- **Contingency Plan (Plan de contingencia):** Estrategia definida para abordar emergencias durante el transporte, incluyendo procedimientos en caso de derrames o accidentes.
 
-- **Incident Report (Reporte de Incidente):** Documento generado por la aplicación que detalla un incidente ocurrido durante el transporte de materiales peligrosos, incluyendo detalles como el tipo de incidente, la respuesta y las acciones tomadas.
-
-- **Supervision (Supervisión):** Actividad de control y monitoreo continuo de los vehículos, conductores y condiciones del transporte para asegurar la integridad de los materiales peligrosos.
 # Capítulo III: Requirements Specification
 ## 3.1. To-Be Scenario Mapping:
 
