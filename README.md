@@ -38,7 +38,7 @@ ___
 | 2.0     | 26/09/2024 | Claudio Moreno                    | Desarrollo del Capítulo 5: Information Architecture                        |
 | 2.1     | 26/09/2024 | Josue Arrunategui                 | Desarrollo del Capítulo 6: Software Configuration Management               |
 | 2.2     | 26/09/2024 | Eduardo Chero                     | Desarrollo del Capítulo 6: Sprint 1                                        |
-| 2.3.    | 26/09/2024 | Sebastián Lévano                  | Outcomes Conclusiones                                                      |
+| 2.3     | 26/09/2024 | Sebastián Lévano                  | Outcomes, Conclussions & Insights                                                      |
 
 ---
 
@@ -2680,6 +2680,9 @@ Para esta entrega todos los miembros del equipo colaboraron en el desarrollo de 
 - El desarrollo del Lean UX Process ayudó a comprender mejor y aplicar efectivamente las herramientas en nuestra propuesta enfocada al servicio de transportistas hacia clientes. De la misma forma, contribuyó a definir de manera más clara nuestro público objetivo o llámese segmento hacia el cual va enfocada nuestra aplicación.
 - Después de culminar la primera parte de nuestro proyecto e identificar los principales problemas que tienen nuestros segmentos, concluimos que sería de mucha ayuda el desarrollo de FastPorte con el fin de mejorar la experiencia y seguridad de los transportistas durante el transporte de material peligroso.
 - El desarrollo de entrevistas nos ayudó a esclarecer la visión del proyecto, en cuanto a la perspectiva del usuario y por lo tanto fue importante para mejorar los aspectos de las funcionalidades de la aplicación.
+- A través de las Style Guidelines y la Information Architecture, se garantiza que tanto la experiencia visual como la organización de la información en la web, móvil e IoT sigan un esquema coherente y bien estructurado, lo cual es esencial para crear una interfaz intuitiva y atractiva. Esto asegura una experiencia consistente para los usuarios en diferentes plataformas.
+- Los apartados dedicados a los Organization Systems, Labeling Systems, SEO Tags, Searching Systems, y Navigation Systems establecen una base sólida para que los usuarios puedan acceder fácilmente a la información deseada. El enfoque en estas áreas mejora tanto la accesibilidad como la optimización en motores de búsqueda, facilitando una mejor experiencia de usuario y mayor visibilidad de la plataforma.
+- A través del diseño de Wireframes, Mock-ups, Wireflow Diagrams y User Flow Diagrams, se facilita un enfoque centrado en el usuario, permitiendo iterar rápidamente sobre la experiencia visual y funcional de la aplicación. Esto, junto con la fase de Prototyping, habilita la validación y el refinamiento continuo del diseño antes de su implementación final, mejorando tanto la usabilidad como la satisfacción del usuario final.
 
 ---
 # Bibliografía
