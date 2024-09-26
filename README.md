@@ -1856,7 +1856,426 @@ _Esta sección se solo se encuentra disponible para los usuarios de tipo Supervi
 ![Mobile Drivers - Trip Management](assets/capitulo5/MobileFastPorteWireframes/Drivers-TripManagement.png)
 
 ### 5.4.2. Applications Wireflow Diagrams
-### 5.4.4. Applications Mock-ups
+
+En este apartado se presentan los wireflows correspondientes a las versiones móvil y web de la aplicación FastPorte. Estos diagramas detallan el recorrido que los usuarios realizan dentro de la plataforma, desde su interacción inicial hasta la finalización de las principales tareas. Mediante los wireflows, se busca proporcionar una visión clara de las transiciones entre las diferentes pantallas, lo que facilita una mejor comprensión de la experiencia de usuario tanto en la versión móvil como en la web. Para esta sección, se han considerado los user goals (UG) de los roles de Conductor y Supervisor, los cuales representan las principales funcionalidades y tareas que estos usuarios llevan a cabo en la aplicación. A continuación, se detalla cada uno de los user goals y su respectivo wireflow:
+
+##### TaskFlow
+-	**Conductor**
+	- Registrarse en la aplicación
+	- Iniciar sesión en la aplicación
+	- Recuperar contraseña de la cuenta
+	- Editar información básica del perfil
+	- Visualizar información del viaje en curso
+	- Revisar notificaciones sobre viajes
+	- Visualizar los viajes por estado
+	- Obtener contactos de soporte de la app
+-	**Supervisor**
+	- Registrarse en la aplicación
+	- Iniciar sesión en la aplicación
+	- Recuperar contraseña de la cuenta
+	- Visualizar estado del viaje en curso
+	- Editar información del perfil
+	- Asignar un viaje a un conductor
+	- Visualizar los viajes por estado
+	- Visualizar notificaciones
+	- Obtener contacto del soporte
+
+##### Conductor
+
+Para el wireflow del Conductor, se ha decidido utilizar la versión móvil, ya que esta será la principal herramienta que emplearán. A continuación, se describen los user goals correspondientes y sus respectivos wireflows:
+
+###### UG01: Registrarse en la aplicación
+
+El conductor accede a la aplicación y selecciona la opción de registrarse. Luego de ello, se le pedirá ingresar un código que corresponde al sensor que se le ha asignado. Una vez validado esto, tendrá que elegir su tipo de perfil, en este caso conductor, para posteriormente completar su información personal y de contacto. Asímismo, deberá aceptar los términos y condiciones de la aplicación. Por último, confirma la creación de la cuenta.
+
+![Wireflow_Conductor_1](./assets/capitulo5/wireflow/mobile%20app/Conductor_1.png)
+
+###### UG02: Iniciar sesión en la aplicación
+
+Para iniciar sesión en la aplicación, deberá ingresar su correo electrónico y contraseña.  Una vez validadas sus credenciales, se le redirigirá a la pantalla principal de la aplicación donde podrá acceder al menú de opciones.
+
+![Wireflow_Conductor_2.png](./assets/capitulo5/wireflow/mobile%20app/Conductor_2.png)
+
+###### UG03: Recuperar contraseña de la cuenta
+
+En caso de olvidar su contraseña, el conductor podrá recuperarla ingresando su correo electrónico. Posteriormente, se le mostrará una vista para ingresar un nuevo password y confirmarlo. Una vez realizado este proceso, se le notificará que la contraseña ha sido actualizada con éxito. 
+
+![Wireflow_Conductor_3.png](./assets/capitulo5/wireflow/mobile%20app/Conductor_3.png)
+
+###### UG04: Editar información básica del perfil
+
+El conductor podrá editar su información personal y de contacto en cualquier momento. Para ello, deberá acceder a la sección de perfil y seleccionar la opción de editar. Posteriormente, podrá modificar los campos que desee y guardar los cambios realizados.
+
+![Wireflow_Conductor_4.png](./assets/capitulo5/wireflow/mobile%20app/Conductor_4.png)
+
+###### UG05: Visualizar información del viaje en curso
+
+Al iniciar sesión, el conductor podrá ver dos posibles vistas: en caso no esté en un viaje en curso, se le mostrarán sus viajes recientes en la pantalla de home. En caso de estar en un viaje, podrá visualizar la información del mismo, como el origen y destino. Pero principalmente podrá ver la información del sensor que lleva consigo, como la temperatura y la presión, si hay fuga de gas y el nivel de humedad.
+
+![Wireflow_Conductor_5.png](./assets/capitulo5/wireflow/mobile%20app/Conductor_5.png)
+
+###### UG06: Revisar notificaciones sobre viajes
+
+El conductor podrá revisar las notificaciones sobre es estado de sus viajes: si le asignan uno o si cancelan uno que tenía programado. Para ello, deberá acceder a la sección de notificaciones en la aplicación. Allí podrá ver los mensajes recibidos y también las alertas generadas por los sensores.
+
+![Wireflow_Conductor_6.png](./assets/capitulo5/wireflow/mobile%20app/Conductor_6.png)
+
+###### UG07: Visualizar los viajes por estado
+
+El conductor podrá visualizar los viajes que ha realizado y los que tiene programados. Para ello, deberá acceder a la sección de viajes en la aplicación. Allí podrá ver los detalles de cada viaje, como el origen, destino, fecha y hora.
+
+![Wireflow_Conductor_7.png](./assets/capitulo5/wireflow/mobile%20app/Conductor_7.png)
+
+###### UG08: Obtener contactos de soporte de la app
+
+En caso de necesitar ayuda o soporte técnico, el conductor podrá acceder a la sección de soporte en la aplicación. Allí encontrará el número de teléfono y correo electrónico de soporte técnico para comunicarse en caso de emergencia o dudas, así como también, redes sociales de contacto como WhatsApp.
+
+![Wireflow_Conductor_8.png](./assets/capitulo5/wireflow/mobile%20app/Conductor_8.png)
+
+Enlace a Lucidchart: [Wireflows - Conductor](https://lucid.app/lucidchart/bee2da3c-eaf6-41b4-aa3c-b9cbfc69825e/edit?invitationId=inv_cb01a0c3-90db-4460-b553-8d064ac80e6b)
+
+##### Supervisor
+
+###### UG09: Registrarse en la aplicación
+
+El supervisor accede a la aplicación y selecciona la opción de registrarse. Luego de ello, se le pedirá ingresar un código que corresponde al sensor que se le ha asignado. Una vez validado esto, tendrá que elegir su tipo de perfil, en este caso supervisor, para posteriormente completar su información personal y de contacto. Asímismo, deberá aceptar los términos y condiciones de la aplicación. Por último, confirma la creación de la cuenta como supervisor.
+
+![Wireflow_Supervisor_9.png](./assets/capitulo5/wireflow/web%20app/Supervisor_9.png)
+
+###### UG10: Iniciar sesión en la aplicación
+
+Para iniciar sesión en la aplicación, deberá ingresar su correo electrónico y contraseña.  Una vez validadas sus credenciales, se le redirigirá a la pantalla principal de la aplicación donde podrá acceder al menú de opciones que tiene disponibles en su rol de supervisor.
+
+![Wireflow_Supervisor_10.png](./assets/capitulo5/wireflow/web%20app/Supervisor_10.png)
+
+###### UG11: Recuperar contraseña de la cuenta
+
+En caso de olvidar su contraseña, el supervisor podrá recuperarla ingresando su correo electrónico. Posteriormente, se le mostrará una vista para ingresar un nuevo password y confirmarlo. Una vez realizado este proceso, le aparecerá un mensaje que diga que la contraseña ha sido actualizada con éxito y, por ende, podrá volver a iniciar sesión con sus nuevas credenciales.
+
+![Wireflow_Supervisor_11.png](./assets/capitulo5/wireflow/web%20app/Supervisor_11.png)
+
+###### UG12: Visualizar estado del viaje en curso
+
+El supervisor podrá visualizar el estado del viaje en curso, así como también la información del conductor asignado y los detalles del viaje. Para ello, al iniciar sesión en la aplicación y si hay un viaje en curso, podrá visualizar el estado del mismo en la pantalla principal y se mostrará información del sensor que lleva consigo el conductor. En caso no haya algún problema, la aplicación mostrará un mensaje de que todo está en orden. Caso contrario, se mostrará una alerta con la información del problema detectado.
+
+![Wireflow_Supervisor_12.png](./assets/capitulo5/wireflow/web%20app/Supervisor_12.png)
+
+###### UG13: Editar información del perfil
+
+El supervisor podrá editar su información personal y de contacto en cualquier momento. Para ello, deberá acceder a la sección de perfil y seleccionar la opción de editar. Posteriormente, podrá modificar los campos que desee y guardar los cambios realizados.
+
+![Wireflow_Supervisor_13.png](./assets/capitulo5/wireflow/web%20app/Supervisor_13.png)
+
+###### UG14: Asignar un viaje a un conductor
+
+El supervisor podrá asignar un viaje a un conductor en la aplicación. Para ello, deberá acceder a la sección de conductores, buscar algún conductor que tenga a su carga, seleccionarlo y posteriormente rellenar un formulario con la información relevante para que pueda realizar su viaje. Finalmente, cuando todo ha sido completado de manera correcta, se mostrará un mensaje que diga que el conductor ha sido notificado de su nuevo viaje.
+
+![Wireflow_Supervisor_14.png](./assets/capitulo5/wireflow/web%20app/Supervisor_14.png)
+
+###### UG15: Visualizar los viajes por estado
+
+El supervisor podrá visualizar los viajes que tienen estado pendiente y los que ya se han realizado. Para acceder a este apartado, deberá seleccionar la sección de viajes en la aplicación. Allí podrá ver los detalles de cada viaje, como el origen, destino, fecha y hora.
+
+![Wireflow_Supervisor_15.png](./assets/capitulo5/wireflow/web%20app/Supervisor_15.png)
+
+###### UG16: Visualizar notificaciones
+
+El supervisor podrá visualizar las notificaciones que recibe en la aplicación. Para ello, deberá acceder a la sección de notificaciones. Allí será notificado acerca del estado de los viajes y también las alertas generadas por los sensores.
+
+![Wireflow_Supervisor_16.png](./assets/capitulo5/wireflow/web%20app/Supervisor_16.png)
+
+###### UG17: Obtener contacto del soporte
+
+En caso de necesitar ayuda o soporte técnico, el supervisor podrá acceder a la sección de soporte en la aplicación. Allí encontrará el número de teléfono y correo electrónico de soporte técnico para comunicarse en caso de emergencia o dudas.
+
+![Wireflow_Supervisor_17.png](./assets/capitulo5/wireflow/web%20app/Supervisor_17.png)
+
+Enlace a Figma: [Wireflows - Supervisor](https://lucid.app/lucidchart/bee2da3c-eaf6-41b4-aa3c-b9cbfc69825e/edit?viewport_loc=-28132%2C3528%2C6656%2C3260%2CxHlbvWFvACDV&invitationId=inv_cb01a0c3-90db-4460-b553-8d064ac80e6b)
+
+### 5.4.3. Applications Mock-ups
+
+A continuación, se mostrará los mock-ups de FastPorte, representaciones visuales detalladas de la interfaz, mostrando cómo se verá y funcionará el producto final antes de su desarrollo. Estos prototipos incluyen el diseño de cada pantalla, la disposición de los elementos visuales, la tipografía y la paleta de colores, proporcionando una visión realista de la aplicación. Los _mock-ups_ permiten a los equipos de diseño, desarrollo y a las partes interesadas visualizar y evaluar el flujo de la aplicación, asegurando que todos los elementos estén alineados con los objetivos de la experiencia de usuario (UX) y la interfaz de usuario (UI) antes de proceder a la codificación y producción final.
+
+**Sing In: Inicio de sesión en la aplicación FastPorte**
+
+- Versión web: 
+
+![Web App Sign In](assets/capitulo5/WebFastPorteMockups/SignIn.png)
+
+- Versión móvil:
+
+![Mobile Sign In](assets/capitulo5/MobileFastPorteMockups/SignIn.png)
+
+**Sign Up: Registro en la aplicación FastPorte**
+
+- Versión web: 
+
+1. Ingreso del código de sensor
+
+![Web App Sign Up - Sensor Code](assets/capitulo5/WebFastPorteMockups/Signup-SensorCode.png)
+
+2. Elección del tipo de usuario
+
+![Web App Sign Up - User Type](assets/capitulo5/WebFastPorteMockups/Signup-UserType.png)
+
+3. Registro de usuario
+
+![Web App Sign Up - Register](assets/capitulo5/WebFastPorteMockups/Signup-Register.png)
+
+4. Ingreso de datos básicos
+
+![Web App Sign Up - Basic Data](assets/capitulo5/WebFastPorteMockups/Signup-FillInformation.png)
+
+- Versión móvil:
+
+1. Ingreso del código de sensor
+
+![Mobile Sign Up - Sensor Code](assets/capitulo5/MobileFastPorteMockups/Signup-SensorCode.png)
+
+2. Elección del tipo de usuario
+
+![Mobile Sign Up - User Type](assets/capitulo5/MobileFastPorteMockups/Signup-UserType.png)
+
+3. Registro de usuario
+
+![Mobile Sign Up - Register](assets/capitulo5/MobileFastPorteMockups/Signup-Register.png)
+
+4. Ingreso de datos básicos
+
+![Mobile Sign Up - Basic Data](assets/capitulo5/MobileFastPorteMockups/Signup-FillInformation.png)
+
+**Forgot Password: Recuperar contraseña de la cuenta**
+
+- Versión web: 
+
+1. Ingreso del correo electrónico
+
+![Web App Forgot Password - Send Email](assets/capitulo5/WebFastPorteMockups/ForgotPassword-SendEmail.png)
+
+2. Ingreso de nueva contraseña
+
+![Web App Forgot Password - New Password](assets/capitulo5/WebFastPorteMockups/ForgotPassword-NewPassword.png)
+
+- Versión móvil:
+
+1. Ingreso del correo electrónico
+
+![Mobile Forgot Password - Send Email](assets/capitulo5/WebFastPorteMockups/ForgotPassword-SendEmail.png)
+
+2. Ingreso de nueva contraseña
+
+![Mobile Forgot Password - New Password](assets/capitulo5/WebFastPorteMockups/ForgotPassword-NewPassword.png)
+
+**Home: Página de inicio de la aplicación FastPorte**
+
+- Versión web (Conductor):
+
+1. Página de inicio sin viajes
+
+![Web App Home - No Trips](assets/capitulo5/WebFastPorteMockups/Home-NoTrips-Conductor.png)
+
+2. Página de inicio con viaje pendiente
+
+![Web App Home - Trips](assets/capitulo5/WebFastPorteMockups/Home-TripOk-Conductor.png)
+
+- Versión web (Supervisor):
+
+1. Página de inicio sin viajes
+
+![Web App Home - No Trips](assets/capitulo5/WebFastPorteMockups/Home-NoTrips-Supervisor.png)
+
+2. Página de inicio con viaje pendiente
+
+![Web App Home - Trips](assets/capitulo5/WebFastPorteMockups/Home-TripOk-Supervisor.png)
+
+- Versión móvil (Conductor):
+
+1. Página de inicio sin viajes
+
+![Web App Home - No Trips](assets/capitulo5/MobileFastPorteMockups/Home-NoTrips-Conductor.png)
+
+2. Página de inicio con viaje pendiente
+
+![Web App Home - Trips](assets/capitulo5/MobileFastPorteMockups/Home-TripOk-Conductor.png)
+
+- Versión móvil (Supervisor):
+
+1. Página de inicio sin viajes
+
+![Mobile Home - No Trips](assets/capitulo5/MobileFastPorteMockups/Home-NoTrips-Supervisor.png)
+
+2. Página de inicio con viaje pendiente
+
+![Mobile Home - Trips](assets/capitulo5/MobileFastPorteMockups/Home-TripOk-Supervisor.png)
+
+**Notifications: Página de notificaciones de la aplicación FastPorte**
+
+- Versión web (Conductor):
+
+1. Notificación de viaje asignado
+
+![Web App Notifications - Trip Assigned](assets/capitulo5/WebFastPorteMockups/Notifications-TripAssigned-Conductor.png)
+
+2. Notificación de viaje cancelado
+
+![Web App Notifications - Trip Cancelled](assets/capitulo5/WebFastPorteMockups/Notifications-TripCancelled-Conductor.png)
+
+- Versión web (Supervisor):
+
+1. Notificación de viaje finalizado
+
+![Web App Notifications - Trip Finished](assets/capitulo5/WebFastPorteMockups/Notifications-TripFinished-Supervisor.png)
+
+2. Notificación de viaje creado
+
+![Web App Notifications - Trip Created](assets/capitulo5/WebFastPorteMockups/Notifications-TripCreated-Supervisor.png)
+
+- Versión móvil (Conductor):
+
+1. Notificación de viaje asignado
+
+![Mobile Notifications - Trip Assigned](assets/capitulo5/MobileFastPorteMockups/Notifications-TripAssigned-Conductor.png)
+
+2. Notificación de viaje cancelado
+
+![Mobile Notifications - Trip Cancelled](assets/capitulo5/MobileFastPorteMockups/Notifications-TripCancelled-Conductor.png)
+
+- Versión móvil (Supervisor):
+
+1. Notificación de viaje finalizado
+
+![Mobile Notifications - Trip Finished](assets/capitulo5/MobileFastPorteMockups/Notifications-TripFinished-Supervisor.png)
+
+2. Notificación de viaje creado
+
+![Mobile Notifications - Trip Created](assets/capitulo5/MobileFastPorteMockups/Notifications-TripCreated-Supervisor.png)
+
+**Trips: Página sobre los servicios de transporte de la aplicación FastPorte**
+
+- Versión web (Conductor):
+
+1. Página de viajes pendientes
+
+![Web App Trips - Pending Trips](assets/capitulo5/WebFastPorteMockups/Trips-PendingTrips-Conductor.png)
+
+2. Página de viajes finalizados (historial)
+
+![Web App Trips - Finished Trips](assets/capitulo5/WebFastPorteMockups/Trips-FinishedTrips-Conductor.png)
+
+- Versión web (Supervisor):
+
+1. Página de viajes pendientes
+
+![Web App Trips - Pending Trips](assets/capitulo5/WebFastPorteMockups/Trips-PendingTrips-Supervisor.png)
+
+2. Página de viajes finalizados (historial)
+
+![Web App Trips - Finished Trips](assets/capitulo5/WebFastPorteMockups/Trips-FinishedTrips-Supervisor.png)
+
+- Versión móvil (Conductor):
+
+1. Página de viajes pendientes
+
+![Mobile Trips - Pending Trips](assets/capitulo5/MobileFastPorteMockups/Trips-PendingTrips-Conductor.png)
+
+2. Página de viajes finalizados (historial)
+
+![Mobile Trips - Finished Trips](assets/capitulo5/MobileFastPorteMockups/Trips-FinishedTrips-Conductor.png)
+
+- Versión móvil (Supervisor):
+
+1. Página de viajes pendientes
+
+![Mobile Trips - Pending Trips](assets/capitulo5/MobileFastPorteMockups/Trips-PendingTrips-Supervisor.png)
+
+2. Página de viajes finalizados (historial)
+
+![Mobile Trips - Finished Trips](assets/capitulo5/MobileFastPorteMockups/Trips-FinishedTrips-Supervisor.png)
+
+**Edit Profile: Editar información básica del perfil**
+
+- Versión web (Conductor):
+
+1. Menú de opciones
+
+![Web App Edit Profile - Menu](assets/capitulo5/WebFastPorteMockups/EditProfile-Menu-Conductor.png)
+
+2. Editar información básica
+
+![Web App Edit Profile - Basic Information](assets/capitulo5/WebFastPorteMockups/EditProfile-BasicInformation-Conductor.png)
+
+- Versión web (Supervisor):
+
+1. Menú de opciones
+
+![Web App Edit Profile - Menu](assets/capitulo5/WebFastPorteMockups/EditProfile-Menu-Supervisor.png)
+
+2. Editar información básica
+
+![Web App Edit Profile - Basic Information](assets/capitulo5/WebFastPorteMockups/EditProfile-BasicInformation-Supervisor.png)
+
+- Versión móvil (Conductor):
+
+1. Menú de opciones
+
+![Mobile Edit Profile - Menu](assets/capitulo5/MobileFastPorteMockups/EditProfile-Menu-Conductor.png)
+
+2. Editar información básica
+
+![Mobile Edit Profile - Basic Information](assets/capitulo5/MobileFastPorteMockups/EditProfile-BasicInformation-Conductor.png)
+
+- Versión móvil (Supervisor):
+
+1. Menú de opciones
+
+![Mobile Edit Profile - Menu](assets/capitulo5/MobileFastPorteMockups/EditProfile-Menu-Supervisor.png)
+
+2. Editar información básica
+
+![Mobile Edit Profile - Basic Information](assets/capitulo5/MobileFastPorteMockups/EditProfile-BasicInformation-Supervisor.png)
+
+**Support: Página de soporte de la aplicación FastPorte**
+
+- Versión web (Conductor):
+
+![Web App Support - Conductor](assets/capitulo5/WebFastPorteMockups/Support-Conductor.png)
+
+- Versión web (Supervisor):
+
+![Web App Support - Supervisor](assets/capitulo5/WebFastPorteMockups/Support-Supervisor.png)
+
+- Versión móvil (Conductor):
+
+![Mobile Support - Conductor](assets/capitulo5/MobileFastPorteMockups/Support-Conductor.png)
+
+- Versión móvil (Supervisor):
+
+![Mobile Support - Supervisor](assets/capitulo5/MobileFastPorteMockups/Support-Supervisor.png)
+
+**Drivers: Página para la búsqueda de conductores y gestión del itinerario de viajes**
+
+_Esta sección se solo se encuentra disponible para los usuarios de tipo Supervisor._
+
+- Versión web:
+
+1. Búsqueda de conductores
+
+![Web App Drivers - Search Driver](assets/capitulo5/WebFastPorteMockups/Drivers-SearchDriver.png)
+
+2. Gestión del itinerario de viajes
+
+![Web App Drivers - Trip Management](assets/capitulo5/WebFastPorteMockups/Drivers-TripManagement.png)
+
+- Versión móvil:
+
+1. Búsqueda de conductores
+
+![Mobile Drivers - Search Driver](assets/capitulo5/MobileFastPorteMockups/Drivers-SearchDriver.png)
+
+2. Gestión del itinerario de viajes
+
+![Mobile Drivers - Trip Management](assets/capitulo5/MobileFastPorteMockups/Drivers-TripManagement.png)
+
 ### 5.4.4. Applications User Flow Diagrams
 
 En esta sección se presentan los user flows de la aplicación FastPorte, los cuales muestran de manera detallada los diferentes caminos que los usuarios pueden tomar al interactuar con la plataforma. Estos diagramas representan las decisiones y acciones clave que los usuarios, en sus distintos roles, realizan para completar tareas específicas dentro de la aplicación. Los user flows son fundamentales para entender cómo se desarrollan las interacciones y para identificar posibles mejoras en la experiencia de usuario. A continuación, se detallan los user flows correspondientes a los roles de Conductor y Supervisor:
