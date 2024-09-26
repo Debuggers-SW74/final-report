@@ -18,7 +18,7 @@
 #### Profesor: Angel Augusto Velasquez Nuñez
 #### Producto: FastPorte
 #### Ciclo: 2024-02
-<h4 align="center"> Agosto, 2024</h4>
+<h4 align="center"> Setiembre, 2024</h4>
 
 ___
 # Registro de Versiones del Informe
