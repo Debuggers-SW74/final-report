@@ -1844,6 +1844,18 @@ Demostración de petición GET endpoint https://my-json-server.typicode.com/Debu
 ![get_trips](/assets/chapter6_img/host_get_trips.png)
 
 #### 6.2.1.7. Software Deployment Evidence for Sprint Review
+
+Para el despliegue de la landing page se uso el servicio gratuito de GitHub Pages: https://debuggers-sw74.github.io/landing-page/
+
+![github pages1](assets/chapter6_img/githubpagesLanding1.jpeg)
+
+En el caso de la applicacion web usamos los servicios de firebase, ya que tienen una buena integracion con Angular: https://debuggers-d82cd.web.app/sign-in
+
+![firebase](./assets/chapter6_img/firebase.png)
+
+Por ultimo para el host de la API fake usamos un servicio gratuito llamado My Json Server que nos permite desplegar una API fake dentro de un repositorio de GitHub: https://my-json-server.typicode.com/Debuggers-SW74/dbiot/db
+![apifake host](./assets/chapter6_img/apifakehost.png)
+
 #### 6.2.1.8. Team Collaboration Insights during Sprint
 
 ---
