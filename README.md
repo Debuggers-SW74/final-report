@@ -1858,6 +1858,16 @@ Por ultimo para el host de la API fake usamos un servicio gratuito llamado My Js
 
 #### 6.2.1.8. Team Collaboration Insights during Sprint
 
+Para esta entrega todos los miembros del equipo colaboraron en el desarrollo de la landing page y aplicacion web:
+
+- Evidencia del repositorio 'landing-page'
+  
+  ![pulselp](./assets/chapter6_img/pulse.png)
+
+- Evidencia del repositorio 'web-application'
+  
+  ![pulsewa](./assets/chapter6_img/wa.png)
+
 ---
 # Conclusiones
 
