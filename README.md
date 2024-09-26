@@ -3039,13 +3039,13 @@ Para este Sprint se implementó una Api Fake para el inicio de sesión y registr
 Estos endopoints sirven para desarrollar un entorno de pruebas de manera local por medio del paquete de npm llamado JSON Server.
 
 Demostración de petición GET endpoint http://localhost:3000/users 
-![get_users](/assets/chapter6_img/get_users.jpg)
+![get_users](./assets/chapter6_img/get_users.jpg)
 
 Demostración de petición POST endpoint http://localhost:3000/users 
-![post_users](/assets/chapter6_img/post_users.jpg)
+![post_users](./assets/chapter6_img/post_users.jpg)
 
 Demostración de petición GET endpoint http://localhost:3000/trips 
-![get_trips](/assets/chapter6_img/get_trips.jpg)
+![get_trips](./assets/chapter6_img/get_trips.jpg)
 
 También se desplegó la API fake en un hosting gratuito para usarse al momento del despliegue de la version incial de la app web.
 
@@ -3056,13 +3056,13 @@ También se desplegó la API fake en un hosting gratuito para usarse al momento 
 | https://my-json-server.typicode.com/Debuggers-SW74/dbiot/trips      | GET, POST            |
 
 Demostración de petición GET endpoint https://my-json-server.typicode.com/Debuggers-SW74/dbiot/users 
-![get_users](/assets/chapter6_img/host_get_users.png)
+![get_users](./assets/chapter6_img/host_get_users.png)
 
 Demostración de petición POST endpoint https://my-json-server.typicode.com/Debuggers-SW74/dbiot/users 
-![post_users](/assets/chapter6_img/host_post_users.jpg)
+![post_users](./assets/chapter6_img/host_post_users.jpg)
 
 Demostración de petición GET endpoint https://my-json-server.typicode.com/Debuggers-SW74/dbiot/trips 
-![get_trips](/assets/chapter6_img/host_get_trips.png)
+![get_trips](./assets/chapter6_img/host_get_trips.png)
 
 #### 6.2.1.7. Software Deployment Evidence for Sprint Review
 
