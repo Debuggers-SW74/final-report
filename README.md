@@ -1388,49 +1388,12 @@ En esta sección, se detallará los medios de ayuda que se brindarán a los usua
 
 **Opciones de Búsqueda**
 
-  **1. Búsqueda por Palabras Clave:**
+La principal opción de búsqueda se realizará en la aplicación web que está destinado para que los usen los usuarios de tipo supervisor. En esta opción el supervisor para genera un nuevo viaje y para asignar a los encargados de esta nuevo viaje, se el supervisor ingresará el nombre del conductor o el ID del sensor que para encontrarlos. 
 
-  Los usuarios podrán ingresar palabras clave relacionadas con la información que buscan. Esta opción será útil para encontrar viajes, conductores o notificaciones específicas.
-    
-  Ejemplo: Un supervisor puede buscar "viaje urgente" para localizar rápidamente información sobre un viaje clasificado como urgente.
+El resultado de la búsqueda mostrará a todos los conductores relacionados con el nombre  o con el ID especificado. Luego, al seleccionar un conductor pasará a ingresar los detalles del viaje que tiene que relizar dicho conductor.
 
-  **2. Búsqueda Avanzada:**
+[![image.png](https://i.postimg.cc/3Jqjqj0t/searching1.png)](https://postimg.cc/8jhrJ6Hv)
 
-  Se ofrecerá una opción de búsqueda avanzada que permite a los usuarios combinar múltiples criterios para afinar sus resultados.
-
-  Criterios disponibles:
-    - Fecha del viaje
-    - Estado del viaje (en curso, completado, cancelado)
-    - Nombre del conductor
-    - Tipo de material transportado
-
-<br>
-
-**Filtros Disponibles:** Para mejorar la experiencia de búsqueda, se implementarán filtros que permitirán a los usuarios restringir los resultados según sus necesidades específicas. Los filtros incluirán:
-
-**Por Fecha:** Permite seleccionar un rango de fechas para visualizar viajes realizados en un período específico.
-
-**Por Estado:** Opción para filtrar viajes según su estado actual (por ejemplo: "En curso", "Completado", "Cancelado").
-
-**Por Conductor:** Filtro que permite seleccionar un conductor específico para ver solo sus viajes asignados.
-
-**Por Tipo de Material:** Opción para filtrar según el tipo de material transportado (por ejemplo: "explosivos", "gases").
-
-<br>
-
-**Resultados:** Una vez que el usuario realiza una búsqueda, los resultados se presentarán en un formato claro y organizado:
-
-**Lista de Resultados:** Cada resultado incluirá información relevante como:
-
-  - ID del viaje
-  - Nombre del conductor
-  - Estado del viaje
-  - Fecha y hora programada
-  - Tipo de material transportado
-
-**Opciones de Acción:** Cada entrada en la lista tendrá botones o enlaces para acciones rápidas, como "Ver Detalles", "Editar Viaje" o "Contactar Conductor".
-
-**Paginación y Carga Dinámica:** Para evitar la sobrecarga visual, se implementará paginación o carga dinámica para mostrar un número limitado de resultados a la vez, permitiendo al usuario navegar fácilmente entre ellos.
 
 ### 5.2.5. Navigation Systems
 
@@ -1438,73 +1401,70 @@ En esta sección, se describen las acciones y técnicas que guiarán a los usuar
 
 **Navegación en la Landing Page**
 
-1. **Menú Principal**:
-    
-  - **Ubicación**: El menú principal estará ubicado en la parte superior de la página y será visible en todo momento.
+Para que los usuarios que llegen a visitar nuestra Landing Page encuentren rapidamente la información más relevante que buscan de nuestra solución se designo 6 puntos de navegación que son los siguientes:
 
-  - **Elementos del Menú**:
+- Home: Se muestra el Call To Action que presenta brevemente y de manera directa nuestra solución.
 
-    - Inicio
-    - Características
-    - Beneficios
-    - Descarga
-    - Contacto
+- Product:  Se presenta algunos características generales de que obtendrá con nuestra solución.
 
-  - **Interacción**: Los usuarios podrán hacer clic en cualquiera de estos elementos para ser redirigidos a secciones específicas de la página o a otras páginas relevantes.
+- Features:  Se presenta todos los beneficios de la solución y que obtendrán con la solución los supervisores y conductores.
 
-2. **Llamada a la Acción (CTA)**:
+- Download:  Se presenta los enlaces de descarga de la aplicación móvil para IOS y Android.
 
-  - Se incluirán botones prominentes como "Comienza Ahora" o "Descarga la App", que dirigirán a los usuarios a las páginas de registro o descarga.
+- About Us:  Se muestra a los miembros del equipo que desarrollaron la solución y reseñas que brinda seguridad sobre nuestra solución a los potenciales clientes.
 
-  - Estos botones estarán ubicados estratégicamente para captar la atención del usuario y facilitar su interacción.
+- Contact Us: Se muestra toda la información necesaria como correo, teléfono, entre otros, para que el cliente se contacte directamente con nosotros.
 
-3. **Footer**:
-
-  - El pie de página incluirá enlaces a redes sociales, información de contacto y políticas de privacidad, asegurando que los usuarios tengan acceso a información adicional sin perderse en la navegación.
+[![image.png](https://i.postimg.cc/bvM2ZZ6v/navigation4.png)](https://postimg.cc/VSqNTkPy)
 
 <br>
 
-**Navegación en la Aplicación Web**
+**Navegación en la aplicación móvil**
 
-1. **Barra de Navegación Lateral**:
+**Navegación principal:**
 
-  - **Ubicación**: Una barra lateral estará presente en todas las páginas de la aplicación web.
+En la aplicación móvil se presenta una navegación en un menú hamburguesa para mantener un diseño limpio en cada pantalla de funcionalidad. Las rutas de navegación son las siguientes:
 
-  - **Elementos de Navegación**:
+- Home: Se mostrará sus los viajes más recientes que ha logrado realizar.
 
-    - Viajes Actuales
-    - Historial de Viajes
-    - Asignar Viaje
-    - Perfil
-    - Soporte
+- Notifications: Apartado donde se muestran notificaciones de posibles viajes nuevos o algún comunicado de los supervisorse que debe atender el conductor.
 
-  - Esta barra permitirá a los supervisores acceder rápidamente a las diferentes secciones y funcionalidades de la aplicación.
+- Trips: Es el apartado dende se debará mostrar los viajes pendientes que tiene que realizar o los viajes que ya ha realizado previamente y ha completado con éxito.
 
-2. **Breadcrumbs**:
+- Support: Es el apartado donde se pondrá en contacto con el equipo de soporta en caso haya alguna falla la aplicación, exista errores al cargar la información, entre otros aspectos que pueden ocurrir.
 
-  - Se implementarán Breadcrumbsen la parte superior de las páginas secundarias para mostrar al usuario su ubicación dentro del sistema y facilitar el regreso a secciones anteriores.
-
-3. **Botones de Acción Rápida**:
-
-  - En cada sección relevante, se incluirán botones destacados para acciones comunes, como "Agregar Nuevo Viaje" o "Ver Notificaciones", permitiendo un acceso rápido y eficiente.
+[![image.png](https://i.postimg.cc/wMRy5gGk/navigation1.png)](https://postimg.cc/D4FwnkFW)
 
 <br>
 
-**Navegación en la Aplicación Móvil**
+**Navegación secundaria:**
 
-1. **Menú Hamburguesa**:
+Se muestra otra parte de la navegación que es la que se usará con menos frecuencia, que en este caso son lo siguientes:
 
-  - La aplicación móvil utilizará un menú hamburguesa (icono con tres líneas) ubicado en la parte superior izquierda para acceder a las principales secciones.
+- Profile: Aparatado donde el conducto puede actualizar su información personal registrada en la aplicación.
 
-  - Este menú incluirá opciones similares a las de la aplicación web, adaptadas al formato móvil.
+- Help: Aparatado donde se muestra el uso y guías para mejorar la interacción con la aplicación.
 
-2. **Interfaz Táctil Intuitiva**:
+- Log out: Aparatado para salir de la aplicación cuando ya no estará en uso.
 
-  - Los elementos interactivos estarán diseñados para ser fácilmente accesibles mediante toques, con botones grandes y espaciados adecuadamente para evitar errores al seleccionar opciones.
+[![image.png](https://i.postimg.cc/44jwDdss/navigation2.png)](https://postimg.cc/grqvRGxT)
 
-3. **Navegación por Tarjetas**:
+<br>
 
-  - Los resultados de los viajes y notificaciones se presentarán en formato de tarjetas, permitiendo a los usuarios deslizarse entre ellas fácilmente y acceder rápidamente a detalles adicionales.
+**Navegación en la aplicación web**
+
+En este apartado se muestran las opciones de navegación de la aplicación web que son las siguientes:
+
+- Home: Sección donde se visualizará los conductores que tiene asociados un determinado supervisor y que puede asignar un viaje específico. Además, se muestra los viajes que a asignado recientemente a sus conductores.
+
+- Drivers: Apartado donde se muestran los conductores asociados a un superisor en particula, en esta sección, el supervisor puede buscar a los conductores que necesite por nombre o ID de un sensor que se esté usando para un determinado viaje.
+
+- Trips: En esta sección el supervisor puede ver si tiene viajes que a asignado a los conductores y todavia no han finalizado. Tambié, podrá visualizar el historial de viajes que a designado.
+
+- Support: En caso de que el superviosor tenga alguna consulta o presente un error con la solución se podrá contactar con el equipo de soporte para poder resolver cualquier incoveniente quete presente.
+
+
+[![image.png](https://i.postimg.cc/LXwBFCdN/navigation3.png)](https://postimg.cc/jw6JzhS7)
 
 
 ## 5.3. Landing Page UI Design
