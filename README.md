@@ -1579,11 +1579,11 @@ A continuación, se mostrarán los wireframes realizados para cada tipo de dispo
 
 - Versión web: 
 
-![Web App Sign In](assets/capitulo5/WebFastPorteWireframes/SignIn.png)
+![Web App Sign In](assets/capitulo5/WebFastPorteWireframes/Signin.png)
 
 - Versión móvil:
 
-![Mobile Sign In](assets/capitulo5/MobileFastPorteWireframes/SignIn.png)
+![Mobile Sign In](assets/capitulo5/MobileFastPorteWireframes/Signin.png)
 
 **Sign Up: Registro en la aplicación FastPorte**
 
@@ -2000,11 +2000,11 @@ A continuación, se mostrará los mock-ups de FastPorte, representaciones visual
 
 - Versión web: 
 
-![Web App Sign In](assets/capitulo5/WebFastPorteMockups/SignIn.png)
+![Web App Sign In](assets/capitulo5/WebFastPorteMockups/Signin.png)
 
 - Versión móvil:
 
-![Mobile Sign In](assets/capitulo5/MobileFastPorteMockups/SignIn.png)
+![Mobile Sign In](assets/capitulo5/MobileFastPorteMockups/Signin.png)
 
 **Sign Up: Registro en la aplicación FastPorte**
 
