@@ -1961,15 +1961,25 @@ Enlace a Figma: [Userflows - Supervisor](https://lucid.app/lucidchart/bee2da3c-e
 
 ## 5.5. Applications Prototyping
 
-En esta sección se presentan los prototipos de la interfaz de usuario (UI) para navegadores web en desktop y dispositivos móviles, diseñados con simulaciones de interacción y navegación que reflejan los flujos de usuario propuestos en los diagramas de user flow. Las decisiones de interacción se han tomado en base a criterios de usabilidad y eficiencia, con el objetivo de optimizar la experiencia del usuario en la plataforma. Asimismo, se ha considerado la arquitectura de información para garantizar un sistema de navegación intuitivo, donde las interacciones sean claras y correspondan con las necesidades de cada rol. El sistema de navegación ha sido estructurado para facilitar la transición entre pantallas y accesos a funciones clave.
+En esta sección se presentan los prototipos de la interfaz de usuario (UI) para navegadores web en desktop y dispositivos móviles, con simulaciones de interacción y navegación basadas en los paths de los User Flow Diagrams propuestos. Las decisiones de interacción han sido cuidadosamente seleccionadas para optimizar la usabilidad y la eficiencia, pero, sobre todo, en relación con la arquitectura de la información de la plataforma.
+
+Es importante destacar que el sistema de navegación ha sido estructurado de manera que los usuarios puedan moverse entre las distintas funcionalidades de forma clara. Para ello, se ha adoptado una navegación centrada en el usuario, donde los elementos esenciales como los accesos a funciones clave están siempre visibles y accesibles, especialmente en la versión de escritorio, que aprovecha la pantalla más amplia. En la versión móvil, el diseño se ha adaptado para ofrecer una navegación simplificada a través de menús desplegables, optimizando el uso del espacio limitado en pantallas pequeñas. Esta diferencia asegura que, en ambas versiones, los usuarios encuentren rápidamente las opciones que necesitan sin sobrecargar la interfaz.
+
+En cuanto a los tipos de interacción, se han seleccionado aquellas que mejor se ajustan a los patrones de uso de los distintos roles de usuario. Por ejemplo, las transiciones entre pantallas y la interacción con elementos interactivos, como botones y formularios, han sido diseñadas para ser consistentes y previsibles. Esto minimiza la curva de aprendizaje, facilitando una experiencia de usuario intuitiva. Además, las interacciones más frecuentes se han optimizado para que requieran el menor número de clics o toques, mejorando la eficiencia en las tareas repetitivas, como la asignación de viajes o la gestión de notificaciones. Estas decisiones buscan no solo reducir la carga cognitiva del usuario, sino también asegurar una experiencia fluida y sin fricciones.
+
+Por último, se incluyen capturas de video y enlaces a videos subidos a Microsoft Stream, donde se demuestran y explican los principales flujos de interacción que cubren los prototipos de ambas aplicaciones, evidenciando cómo los sistemas de navegación y los tipos de interacción se alinean con los objetivos de usabilidad y accesibilidad.
 
 ##### Mobile Application
+
+En esta sección se presenta el flujo de interacción de la versión móvil de FastPorte, mostrando cómo el usuario navega a través de las pantallas principales, como el inicio de sesión, la gestión de viajes y la visualización de notificaciones. Este diseño se enfoca en ofrecer una navegación simplificada y accesible, optimizada para dispositivos móviles.
 
 ![Mobile Application - Prototype](assets/capitulo5/prototype/Prototype_Mobile.png)
 
 Enlace a Microsoft Stream (minuto 4:00): [Prototipo Móvil - FastPorte](https://upcedupe-my.sharepoint.com/personal/u20201b846_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20201b846%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202402%2Dsi572%2DSW74%2DTechCompany%2Dprototype%20navigation%2Dsprint%2D1%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E79e8551e%2Dd211%2D4f7d%2Db08a%2D88829cdebbc7)
 
 ##### Web Application
+
+A continuación se muestra el flujo de interacción de la versión web de FastPorte, destacando las transiciones entre las pantallas clave, como la gestión de conductores, la asignación de viajes, etc. El diseño ha sido diseñado para aprovechar el espacio disponible en pantallas más grandes, proporcionando una navegación clara e intuitiva para los usuarios.
 
 ![Web Application - Prototype](assets/capitulo5/prototype/Prototype_Web.png)
 
