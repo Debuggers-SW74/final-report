@@ -2280,11 +2280,8 @@ Tablero de commits del repositorio de la App web:
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body| Commited on (Date)                                                                       |                                       
 |---------- |----------|-|-|-|-|
-| Debuggers-SW74 / web-application |  |   |   |   | |
-|  |  |   |   |   | |
-|  |  |   |   |   | |
-|  |  |   |   |   | |
-|  |  |   |   |   | |
+| Debuggers-SW74 / web-application | feature/authentication | 1b4c2c10234e8c5dc5716d93903e5813eaddab41  | Merge branch 'feature/home' of https://github.com/Debuggers-SW74/web-application into feature/authentication  |   | 25/09/2024 |
+|  | feature/home | 4385793dd528dc39477aba99d9f623656f17412f | feat(home): active trip page |   | 25/09/24 |
 
 #### 6.2.1.4. Testing Suite Evidence for Sprint Review
 
@@ -2501,7 +2498,61 @@ Para este Sprint se desarrollaron los test BDD para archivos .featrue usando el 
 
 #### 6.2.1.5. Execution Evidence for Sprint Review
 
+La Landing page muestra un diseño amigable y detallada para cada sección.
 
+La seccion inciial con una pregunta para llamar la atención.
+
+![lphome](./assets/chapter6_img/lphome.png)
+
+Nuestra sección dónde te contamos de nuestra app
+
+![lpproduct](./assets/chapter6_img/lpproduct.png)
+
+Los beneficion que tendría tanto para el supervisor como para el conductor
+
+![benefits](./assets/chapter6_img/benefits.png)
+
+Acerca del equipo responsable del proyecto
+
+![team](./assets/chapter6_img/team.png)
+
+Testimonios y una sección para que se comuniquen con nosotros
+
+![contact](./assets/chapter6_img/contact.png)
+
+La aplicación web para este sprint cuenta con el inicio de sesión y registro por medio de una API fake.
+
+Inicio de sesión: En esta seccion el usuario podra ingresar su correo y contraseña
+
+![login](./assets/chapter6_img/login.png)
+
+Olvido de contraseña: En caso de que el usuario olvide su contrasña de podra sar al enlace correspondiente y para que ingrese su correo.
+
+![pass](./assets/chapter6_img/forgotpass.png)
+
+Registro: Si el usuario recién se va a registrar, deberá seguir unos pasos.
+
+- Primero debe ingresar el código del sensor al que está asignado
+  
+  ![sensor](./assets/chapter6_img/sensorcode.png)
+
+- Deberá elegir el rol que tiene
+
+  ![rol](./assets/chapter6_img/role.png)
+
+- Ingresar su correo afiliado y una contraseña
+
+  ![registro](./assets/chapter6_img/register.png)
+
+- Y por ultimo sus nombres y número de contacto
+
+  ![data](./assets/chapter6_img/data.png)
+
+Home: Esta seccion muestra los datos del conductor, el sensor afiliado a él y los proximos viajes.
+
+![home](./assets/chapter6_img/home.png)
+
+El siguiente enlace contiene el video que muestre la navegacion dentro de la Landing Page y la App web: [video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f282_upc_edu_pe/EU1PhhtKmphJhdCGg9oxjJkB-W_iTWsdbmthtQbOSUYH5w?e=MCpj61&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 #### 6.2.1.6. Services Documentation Evidence for Sprint Review
 
@@ -2542,7 +2593,29 @@ Demostración de petición GET endpoint https://my-json-server.typicode.com/Debu
 ![get_trips](/assets/chapter6_img/host_get_trips.png)
 
 #### 6.2.1.7. Software Deployment Evidence for Sprint Review
+
+Para el despliegue de la landing page se uso el servicio gratuito de GitHub Pages: https://debuggers-sw74.github.io/landing-page/
+
+![github pages1](assets/chapter6_img/githubpagesLanding1.jpeg)
+
+En el caso de la applicacion web usamos los servicios de firebase, ya que tienen una buena integracion con Angular: https://debuggers-d82cd.web.app/sign-in
+
+![firebase](./assets/chapter6_img/firebase.png)
+
+Por ultimo para el host de la API fake usamos un servicio gratuito llamado My Json Server que nos permite desplegar una API fake dentro de un repositorio de GitHub: https://my-json-server.typicode.com/Debuggers-SW74/dbiot/db
+![apifake host](./assets/chapter6_img/apifakehost.png)
+
 #### 6.2.1.8. Team Collaboration Insights during Sprint
+
+Para esta entrega todos los miembros del equipo colaboraron en el desarrollo de la landing page y aplicacion web:
+
+- Evidencia del repositorio 'landing-page'
+  
+  ![pulselp](./assets/chapter6_img/pulse.png)
+
+- Evidencia del repositorio 'web-application'
+  
+  ![pulsewa](./assets/chapter6_img/wa.png)
 
 ---
 # Conclusiones
