@@ -1908,7 +1908,7 @@ A continuación, se mostrarán las pautas, convenciones, estilo y principios que
 
 ```
 
-**CSS:**
+**Typescript:**
 + Usar nombres cortos y descriptivos para variables, funciones, etc.
 + Evitar el uso de variables globales (var).
 + Comentar líneas de código complejas para facilitar la comprensión.
