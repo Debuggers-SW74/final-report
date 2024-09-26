@@ -18,7 +18,7 @@
 #### Profesor: Angel Augusto Velasquez Nuñez
 #### Producto: FastPorte
 #### Ciclo: 2024-02
-<h4 align="center"> Agosto, 2024</h4>
+<h4 align="center"> Setiembre, 2024</h4>
 
 ___
 # Registro de Versiones del Informe
@@ -32,6 +32,8 @@ ___
 | 1.4     | 05/09/2024 | Eduardo Chero & Josue Arrunátegui | Desarrollo del Capítulo 4                                                  |
 | 1.5     | 16/09/2024 | Sebastián Lévano                  | Actualización de índice, títulos y subtítulos para el Trabajo Parcial      |
 | 1.6     | 19/09/2024 | Sebastián Lévano                  | Correcciones del Capítulo I y Outcomes                                     |
+| 1.7     | 21/09/2024 | Anthony Botello                   | Correcciones del Capítulo I y Putcomes                                     |
+| 1.8     | 22/09/2024 | Anthony Botello                   | Desarrollo del Capítulo 5                                                  |
 
 ---
 
@@ -141,10 +143,10 @@ La presenta entrega cubrió el cumplimiento de los capítulos V y VI del informe
 
 # Student Outcome
 
-| Criterio Específico                                                                             | Acciones Realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | Conclusiones                                                                                                                                                                                                                                                                                                                                                                     |
-| ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta.                                | *Eduardo Sebastián Lévano Cavero*<br>**TB1:**<br>A través de la realización de los To Be Scenario Mapping y User Stories, lideré la definición de escenarios futuros y necesidades del usuario, respectivamente, lo que permitió al equipo visualizar y priorizar funcionalidades clave. Mediante el Impact Mapping, pudimos establecer en conjunto relaciones claras entre los objetivos estratégicos y las características del producto, garantizando un enfoque alineado con las metas organizacionales. Finalmente, en el Product Backlog, se gestionaron las tareas de manera colaborativa, facilitando una planificación y ejecución eficientes que reflejan las prioridades acordadas en equipo. <br><br>*Anthony Botello Saldarriaga* <br>**TB1:**<br>En el presente proyecto, colaboré activamente en el liderazgo conjunto del equipo. Contribuí en la definición del startup y solution profile, y participé en la creación de los Lean UX Problem Statements y su análisis. Además, apoyé en la elaboración del Lean UX Canvas, tomando decisiones clave en conjunto con el equipo para asegurar un desarrollo efectivo y alineado con los objetivos del proyecto.<br><br>*Eduardo André Chero Emé*<br>**TB1:**<br>El desarrollo del event Storming nos ayudó para tener una visualizacion más definida de nuestros bounded context para una mejor implementación en el código. Clasificar los escenarios mediante el modelado de Message flows y generar los Bounded Context Canvas nos brindan un mejor entendimiento de las variables, conexiones y propisitos de los bounded context que impementamos. Por ultimo el desarrollo del diseño de la arquitectura de software en C4 para una mejor ejemplificacion de como va a realizarce nuestras conexiones de los respectivos servicios.<br><br>*Claudio Jesús Moreno Rosales*<br>**TB1:**<br>Para realizar y encontrar los requisitos de los segmentos objetivos se tuvo que realizar cada parte con los miembros del equipo para establecer cuales son los requisitos encontrados, como se debería ver los User Persona, User Journey Map, entre otros para entender y empatizar a profundidad con los usuarios.<br><br>*Josue David Arrunategui Aguilar*<br>**TB1:**<br>En el desarrollo del proyecto, asumí un papel clave en el diseño y la implementación de los bounded contexts de Usuario, Viaje y Sensor. Mi enfoque incluyó la definición precisa de cada contexto para garantizar una integración efectiva en el sistema. | *TB1*<br>La presente entrega sirvió para validar que la solución propuesta es adecuada para los segmentos objetivo abordados, esto en base al trabajo colaborativo realizado durante las entrevistas y el análisis de estas. Asimismo, por el desarrollo de los apartados involucrados desde la Introducción hasta la estructuración de la arquitectura durante el empleo de C4. |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | *Eduardo Sebastián Lévano Cavero*<br>**TB1:**<br>Por medio de los To Be Scenario Mapping y las User Stories, identificamos y documentamos las necesidades y expectativas de los usuarios, asegurando que todas las voces fueran escuchadas y consideradas. Mediante el Impact Mapping, en grupo alineamos las metas estratégicas con las funcionalidades del producto, permitiendo una planificación clara y enfocada. En el Product Backlog, priorizamos y planificamos las tareas de forma conjunta, lo que facilitó el cumplimiento de los objetivos establecidos dentro de un marco de trabajo inclusivo y bien organizado.<br><br>*Anthony Botello Saldarriaga* <br>**TB1:**<br>En el desarrollo, fomenté un entorno colaborativo e inclusivo asegurando que todas las ideas fueran escuchadas y valoradas. Participé en la definición de metas claras para el proyecto, colaborando en la planificación de tareas específicas como el desarrollo de los diferentes puntos del informe. Además, me aseguré de que los plazos y objetivos se cumplieran de manera eficiente, distribuyendo responsabilidades entre los miembros del equipo.<br><br>*Eduardo André Chero Emé*<br>**TB1:**<br>A través de EventStorming, se identificaron los contextos potenciales y se modelaron los flujos de mensajes del dominio; esto permitió utilizar los Bounded Context Canvases para encontrar contextos delimitados. Posteriormente, se trabajó en el mapeo de contextos y el diseño de la arquitectura de software, creando diagramas a nivel de sistema, contexto, contenedor y despliegue, lo que proporcionó una visión clara de las conexiones y dependencias entre los servicios.<br><br>*Claudio Jesús Moreno Rosales*<br>**TB1:**<br> En la elaboración de las técnicas de Design Thinking como los User Persona, User Journey Map, entre otros, se pudo apreciar que los miembros del equipo colaboraron realizando sus entrevistas, analisando cuantiativamente las entrevistas y al final sacando los resultados finales para empatizar con nuestros segmentos objetivo.<br><br>*Josue David Arrunategui Aguilar*<br>**TB1:**<br>En el desarrollo del proyecto, asumí un papel clave en el diseño y la implementación de los bounded contexts de Usuario, Viaje y Sensor. Mi enfoque incluyó la definición precisa de cada contexto para garantizar una integración efectiva en el sistema.                                                                                                  | *TB1*<br>Se lograron los objetivos diseñados en grupo al completar la base del proyecto tanto a nivel de diseño como de arquitectura. Asimismo, al planear los elementos a desarrollar durante los siguientes Sprints.                                                                                                                                                           |
+| Criterio Específico                                                                             | Acciones Realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | Conclusiones                                                                                                                                                                                                                                                                                                                                                                     |
+| ----------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta.                                | *Eduardo Sebastián Lévano Cavero*<br>**TB1:**<br>A través de la realización de los To Be Scenario Mapping y User Stories, lideré la definición de escenarios futuros y necesidades del usuario, respectivamente, lo que permitió al equipo visualizar y priorizar funcionalidades clave. Mediante el Impact Mapping, pudimos establecer en conjunto relaciones claras entre los objetivos estratégicos y las características del producto, garantizando un enfoque alineado con las metas organizacionales. Finalmente, en el Product Backlog, se gestionaron las tareas de manera colaborativa, facilitando una planificación y ejecución eficientes que reflejan las prioridades acordadas en equipo. <br><br>*Anthony Botello Saldarriaga* <br>**TB1:**<br>En el presente proyecto, colaboré activamente en el liderazgo conjunto del equipo. Contribuí en la definición del startup y solution profile, y participé en la creación de los Lean UX Problem Statements y su análisis. Además, apoyé en la elaboración del Lean UX Canvas, tomando decisiones clave en conjunto con el equipo para asegurar un desarrollo efectivo y alineado con los objetivos del proyecto.<br>**TP:**<br>Durante el desarrollo de los prototipos y flujos de usuario para la aplicación FastPorte, se trabajó en equipo para asegurar un liderazgo conjunto, donde se tomaron decisiones colaborativas que integraron las necesidades de los diferentes usuarios. A través de la planificación de tareas como la creación de wireflows y prototipos, cada miembro del equipo asumió un rol de liderazgo en distintas áreas y se garantizó que se cumplieran los objetivos de manera eficaz, y asegurando que la plataforma reflejara las expectativas de los usuarios involucrados.<br><br>*Eduardo André Chero Emé*<br>**TB1:**<br>El desarrollo del event Storming nos ayudó para tener una visualizacion más definida de nuestros bounded context para una mejor implementación en el código. Clasificar los escenarios mediante el modelado de Message flows y generar los Bounded Context Canvas nos brindan un mejor entendimiento de las variables, conexiones y propisitos de los bounded context que impementamos. Por ultimo el desarrollo del diseño de la arquitectura de software en C4 para una mejor ejemplificacion de como va a realizarce nuestras conexiones de los respectivos servicios.<br><br>*Claudio Jesús Moreno Rosales*<br>**TB1:**<br>Para realizar y encontrar los requisitos de los segmentos objetivos se tuvo que realizar cada parte con los miembros del equipo para establecer cuales son los requisitos encontrados, como se debería ver los User Persona, User Journey Map, entre otros para entender y empatizar a profundidad con los usuarios.<br><br>*Josue David Arrunategui Aguilar*<br>**TB1:**<br>En el desarrollo del proyecto, asumí un papel clave en el diseño y la implementación de los bounded contexts de Usuario, Viaje y Sensor. Mi enfoque incluyó la definición precisa de cada contexto para garantizar una integración efectiva en el sistema. | *TB1*<br>La presente entrega sirvió para validar que la solución propuesta es adecuada para los segmentos objetivo abordados, esto en base al trabajo colaborativo realizado durante las entrevistas y el análisis de estas. Asimismo, por el desarrollo de los apartados involucrados desde la Introducción hasta la estructuración de la arquitectura durante el empleo de C4. |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | *Eduardo Sebastián Lévano Cavero*<br>**TB1:**<br>Por medio de los To Be Scenario Mapping y las User Stories, identificamos y documentamos las necesidades y expectativas de los usuarios, asegurando que todas las voces fueran escuchadas y consideradas. Mediante el Impact Mapping, en grupo alineamos las metas estratégicas con las funcionalidades del producto, permitiendo una planificación clara y enfocada. En el Product Backlog, priorizamos y planificamos las tareas de forma conjunta, lo que facilitó el cumplimiento de los objetivos establecidos dentro de un marco de trabajo inclusivo y bien organizado.<br><br>*Anthony Botello Saldarriaga* <br>**TB1:**<br>En el desarrollo, fomenté un entorno colaborativo e inclusivo asegurando que todas las ideas fueran escuchadas y valoradas. Participé en la definición de metas claras para el proyecto, colaborando en la planificación de tareas específicas como el desarrollo de los diferentes puntos del informe. Además, me aseguré de que los plazos y objetivos se cumplieran de manera eficiente, distribuyendo responsabilidades entre los miembros del equipo.<br>**TP:**<br>Durante el desarrollo de los prototipos, wireflows y user flows para la aplicación FastPorte, se fomentó un entorno colaborativo al integrar las necesidades de distintos usuarios, estableciendo metas claras para que ellos puedan cumplirlas. Planificamos tareas detalladas, como la creación de wireflows y prototipos de UI, lo que permitió cumplir con los objetivos de mejorar la experiencia del usuario de manera inclusiva y eficiente.<br><br>*Eduardo André Chero Emé*<br>**TB1:**<br>A través de EventStorming, se identificaron los contextos potenciales y se modelaron los flujos de mensajes del dominio; esto permitió utilizar los Bounded Context Canvases para encontrar contextos delimitados. Posteriormente, se trabajó en el mapeo de contextos y el diseño de la arquitectura de software, creando diagramas a nivel de sistema, contexto, contenedor y despliegue, lo que proporcionó una visión clara de las conexiones y dependencias entre los servicios.<br><br>*Claudio Jesús Moreno Rosales*<br>**TB1:**<br> En la elaboración de las técnicas de Design Thinking como los User Persona, User Journey Map, entre otros, se pudo apreciar que los miembros del equipo colaboraron realizando sus entrevistas, analisando cuantiativamente las entrevistas y al final sacando los resultados finales para empatizar con nuestros segmentos objetivo.<br><br>*Josue David Arrunategui Aguilar*<br>**TB1:**<br>En el desarrollo del proyecto, asumí un papel clave en el diseño y la implementación de los bounded contexts de Usuario, Viaje y Sensor. Mi enfoque incluyó la definición precisa de cada contexto para garantizar una integración efectiva en el sistema.                                                                                                                                                                                                                         | *TB1*<br>Se lograron los objetivos diseñados en grupo al completar la base del proyecto tanto a nivel de diseño como de arquitectura. Asimismo, al planear los elementos a desarrollar durante los siguientes Sprints.                                                                                                                                                           |
 
 ---
 # Capítulo I: Introducción
@@ -1438,49 +1440,12 @@ En esta sección, se detallará los medios de ayuda que se brindarán a los usua
 
 **Opciones de Búsqueda**
 
-  **1. Búsqueda por Palabras Clave:**
+La principal opción de búsqueda se realizará en la aplicación web que está destinado para que los usen los usuarios de tipo supervisor. En esta opción el supervisor para genera un nuevo viaje y para asignar a los encargados de esta nuevo viaje, se el supervisor ingresará el nombre del conductor o el ID del sensor que para encontrarlos. 
 
-  Los usuarios podrán ingresar palabras clave relacionadas con la información que buscan. Esta opción será útil para encontrar viajes, conductores o notificaciones específicas.
-    
-  Ejemplo: Un supervisor puede buscar "viaje urgente" para localizar rápidamente información sobre un viaje clasificado como urgente.
+El resultado de la búsqueda mostrará a todos los conductores relacionados con el nombre  o con el ID especificado. Luego, al seleccionar un conductor pasará a ingresar los detalles del viaje que tiene que relizar dicho conductor.
 
-  **2. Búsqueda Avanzada:**
+[![image.png](https://i.postimg.cc/3Jqjqj0t/searching1.png)](https://postimg.cc/8jhrJ6Hv)
 
-  Se ofrecerá una opción de búsqueda avanzada que permite a los usuarios combinar múltiples criterios para afinar sus resultados.
-
-  Criterios disponibles:
-    - Fecha del viaje
-    - Estado del viaje (en curso, completado, cancelado)
-    - Nombre del conductor
-    - Tipo de material transportado
-
-<br>
-
-**Filtros Disponibles:** Para mejorar la experiencia de búsqueda, se implementarán filtros que permitirán a los usuarios restringir los resultados según sus necesidades específicas. Los filtros incluirán:
-
-**Por Fecha:** Permite seleccionar un rango de fechas para visualizar viajes realizados en un período específico.
-
-**Por Estado:** Opción para filtrar viajes según su estado actual (por ejemplo: "En curso", "Completado", "Cancelado").
-
-**Por Conductor:** Filtro que permite seleccionar un conductor específico para ver solo sus viajes asignados.
-
-**Por Tipo de Material:** Opción para filtrar según el tipo de material transportado (por ejemplo: "explosivos", "gases").
-
-<br>
-
-**Resultados:** Una vez que el usuario realiza una búsqueda, los resultados se presentarán en un formato claro y organizado:
-
-**Lista de Resultados:** Cada resultado incluirá información relevante como:
-
-  - ID del viaje
-  - Nombre del conductor
-  - Estado del viaje
-  - Fecha y hora programada
-  - Tipo de material transportado
-
-**Opciones de Acción:** Cada entrada en la lista tendrá botones o enlaces para acciones rápidas, como "Ver Detalles", "Editar Viaje" o "Contactar Conductor".
-
-**Paginación y Carga Dinámica:** Para evitar la sobrecarga visual, se implementará paginación o carga dinámica para mostrar un número limitado de resultados a la vez, permitiendo al usuario navegar fácilmente entre ellos.
 
 ### 5.2.5. Navigation Systems
 
@@ -1488,73 +1453,70 @@ En esta sección, se describen las acciones y técnicas que guiarán a los usuar
 
 **Navegación en la Landing Page**
 
-1. **Menú Principal**:
-    
-  - **Ubicación**: El menú principal estará ubicado en la parte superior de la página y será visible en todo momento.
+Para que los usuarios que llegen a visitar nuestra Landing Page encuentren rapidamente la información más relevante que buscan de nuestra solución se designo 6 puntos de navegación que son los siguientes:
 
-  - **Elementos del Menú**:
+- Home: Se muestra el Call To Action que presenta brevemente y de manera directa nuestra solución.
 
-    - Inicio
-    - Características
-    - Beneficios
-    - Descarga
-    - Contacto
+- Product:  Se presenta algunos características generales de que obtendrá con nuestra solución.
 
-  - **Interacción**: Los usuarios podrán hacer clic en cualquiera de estos elementos para ser redirigidos a secciones específicas de la página o a otras páginas relevantes.
+- Features:  Se presenta todos los beneficios de la solución y que obtendrán con la solución los supervisores y conductores.
 
-2. **Llamada a la Acción (CTA)**:
+- Download:  Se presenta los enlaces de descarga de la aplicación móvil para IOS y Android.
 
-  - Se incluirán botones prominentes como "Comienza Ahora" o "Descarga la App", que dirigirán a los usuarios a las páginas de registro o descarga.
+- About Us:  Se muestra a los miembros del equipo que desarrollaron la solución y reseñas que brinda seguridad sobre nuestra solución a los potenciales clientes.
 
-  - Estos botones estarán ubicados estratégicamente para captar la atención del usuario y facilitar su interacción.
+- Contact Us: Se muestra toda la información necesaria como correo, teléfono, entre otros, para que el cliente se contacte directamente con nosotros.
 
-3. **Footer**:
-
-  - El pie de página incluirá enlaces a redes sociales, información de contacto y políticas de privacidad, asegurando que los usuarios tengan acceso a información adicional sin perderse en la navegación.
+[![image.png](https://i.postimg.cc/bvM2ZZ6v/navigation4.png)](https://postimg.cc/VSqNTkPy)
 
 <br>
 
-**Navegación en la Aplicación Web**
+**Navegación en la aplicación móvil**
 
-1. **Barra de Navegación Lateral**:
+**Navegación principal:**
 
-  - **Ubicación**: Una barra lateral estará presente en todas las páginas de la aplicación web.
+En la aplicación móvil se presenta una navegación en un menú hamburguesa para mantener un diseño limpio en cada pantalla de funcionalidad. Las rutas de navegación son las siguientes:
 
-  - **Elementos de Navegación**:
+- Home: Se mostrará sus los viajes más recientes que ha logrado realizar.
 
-    - Viajes Actuales
-    - Historial de Viajes
-    - Asignar Viaje
-    - Perfil
-    - Soporte
+- Notifications: Apartado donde se muestran notificaciones de posibles viajes nuevos o algún comunicado de los supervisorse que debe atender el conductor.
 
-  - Esta barra permitirá a los supervisores acceder rápidamente a las diferentes secciones y funcionalidades de la aplicación.
+- Trips: Es el apartado dende se debará mostrar los viajes pendientes que tiene que realizar o los viajes que ya ha realizado previamente y ha completado con éxito.
 
-2. **Breadcrumbs**:
+- Support: Es el apartado donde se pondrá en contacto con el equipo de soporta en caso haya alguna falla la aplicación, exista errores al cargar la información, entre otros aspectos que pueden ocurrir.
 
-  - Se implementarán Breadcrumbsen la parte superior de las páginas secundarias para mostrar al usuario su ubicación dentro del sistema y facilitar el regreso a secciones anteriores.
-
-3. **Botones de Acción Rápida**:
-
-  - En cada sección relevante, se incluirán botones destacados para acciones comunes, como "Agregar Nuevo Viaje" o "Ver Notificaciones", permitiendo un acceso rápido y eficiente.
+[![image.png](https://i.postimg.cc/wMRy5gGk/navigation1.png)](https://postimg.cc/D4FwnkFW)
 
 <br>
 
-**Navegación en la Aplicación Móvil**
+**Navegación secundaria:**
 
-1. **Menú Hamburguesa**:
+Se muestra otra parte de la navegación que es la que se usará con menos frecuencia, que en este caso son lo siguientes:
 
-  - La aplicación móvil utilizará un menú hamburguesa (icono con tres líneas) ubicado en la parte superior izquierda para acceder a las principales secciones.
+- Profile: Aparatado donde el conducto puede actualizar su información personal registrada en la aplicación.
 
-  - Este menú incluirá opciones similares a las de la aplicación web, adaptadas al formato móvil.
+- Help: Aparatado donde se muestra el uso y guías para mejorar la interacción con la aplicación.
 
-2. **Interfaz Táctil Intuitiva**:
+- Log out: Aparatado para salir de la aplicación cuando ya no estará en uso.
 
-  - Los elementos interactivos estarán diseñados para ser fácilmente accesibles mediante toques, con botones grandes y espaciados adecuadamente para evitar errores al seleccionar opciones.
+[![image.png](https://i.postimg.cc/44jwDdss/navigation2.png)](https://postimg.cc/grqvRGxT)
 
-3. **Navegación por Tarjetas**:
+<br>
 
-  - Los resultados de los viajes y notificaciones se presentarán en formato de tarjetas, permitiendo a los usuarios deslizarse entre ellas fácilmente y acceder rápidamente a detalles adicionales.
+**Navegación en la aplicación web**
+
+En este apartado se muestran las opciones de navegación de la aplicación web que son las siguientes:
+
+- Home: Sección donde se visualizará los conductores que tiene asociados un determinado supervisor y que puede asignar un viaje específico. Además, se muestra los viajes que a asignado recientemente a sus conductores.
+
+- Drivers: Apartado donde se muestran los conductores asociados a un superisor en particula, en esta sección, el supervisor puede buscar a los conductores que necesite por nombre o ID de un sensor que se esté usando para un determinado viaje.
+
+- Trips: En esta sección el supervisor puede ver si tiene viajes que a asignado a los conductores y todavia no han finalizado. Tambié, podrá visualizar el historial de viajes que a designado.
+
+- Support: En caso de que el superviosor tenga alguna consulta o presente un error con la solución se podrá contactar con el equipo de soporte para poder resolver cualquier incoveniente quete presente.
+
+
+[![image.png](https://i.postimg.cc/LXwBFCdN/navigation3.png)](https://postimg.cc/jw6JzhS7)
 
 
 ## 5.3. Landing Page UI Design
@@ -2011,15 +1973,25 @@ Enlace a Figma: [Userflows - Supervisor](https://lucid.app/lucidchart/bee2da3c-e
 
 ## 5.5. Applications Prototyping
 
-En esta sección se presentan los prototipos de la interfaz de usuario (UI) para navegadores web en desktop y dispositivos móviles, diseñados con simulaciones de interacción y navegación que reflejan los flujos de usuario propuestos en los diagramas de user flow. Las decisiones de interacción se han tomado en base a criterios de usabilidad y eficiencia, con el objetivo de optimizar la experiencia del usuario en la plataforma. Asimismo, se ha considerado la arquitectura de información para garantizar un sistema de navegación intuitivo, donde las interacciones sean claras y correspondan con las necesidades de cada rol. El sistema de navegación ha sido estructurado para facilitar la transición entre pantallas y accesos a funciones clave.
+En esta sección se presentan los prototipos de la interfaz de usuario (UI) para navegadores web en desktop y dispositivos móviles, con simulaciones de interacción y navegación basadas en los paths de los User Flow Diagrams propuestos. Las decisiones de interacción han sido cuidadosamente seleccionadas para optimizar la usabilidad y la eficiencia, pero, sobre todo, en relación con la arquitectura de la información de la plataforma.
+
+Es importante destacar que el sistema de navegación ha sido estructurado de manera que los usuarios puedan moverse entre las distintas funcionalidades de forma clara. Para ello, se ha adoptado una navegación centrada en el usuario, donde los elementos esenciales como los accesos a funciones clave están siempre visibles y accesibles, especialmente en la versión de escritorio, que aprovecha la pantalla más amplia. En la versión móvil, el diseño se ha adaptado para ofrecer una navegación simplificada a través de menús desplegables, optimizando el uso del espacio limitado en pantallas pequeñas. Esta diferencia asegura que, en ambas versiones, los usuarios encuentren rápidamente las opciones que necesitan sin sobrecargar la interfaz.
+
+En cuanto a los tipos de interacción, se han seleccionado aquellas que mejor se ajustan a los patrones de uso de los distintos roles de usuario. Por ejemplo, las transiciones entre pantallas y la interacción con elementos interactivos, como botones y formularios, han sido diseñadas para ser consistentes y previsibles. Esto minimiza la curva de aprendizaje, facilitando una experiencia de usuario intuitiva. Además, las interacciones más frecuentes se han optimizado para que requieran el menor número de clics o toques, mejorando la eficiencia en las tareas repetitivas, como la asignación de viajes o la gestión de notificaciones. Estas decisiones buscan no solo reducir la carga cognitiva del usuario, sino también asegurar una experiencia fluida y sin fricciones.
+
+Por último, se incluyen capturas de video y enlaces a videos subidos a Microsoft Stream, donde se demuestran y explican los principales flujos de interacción que cubren los prototipos de ambas aplicaciones, evidenciando cómo los sistemas de navegación y los tipos de interacción se alinean con los objetivos de usabilidad y accesibilidad.
 
 ##### Mobile Application
+
+En esta sección se presenta el flujo de interacción de la versión móvil de FastPorte, mostrando cómo el usuario navega a través de las pantallas principales, como el inicio de sesión, la gestión de viajes y la visualización de notificaciones. Este diseño se enfoca en ofrecer una navegación simplificada y accesible, optimizada para dispositivos móviles.
 
 ![Mobile Application - Prototype](assets/capitulo5/prototype/Prototype_Mobile.png)
 
 Enlace a Microsoft Stream (minuto 4:00): [Prototipo Móvil - FastPorte](https://upcedupe-my.sharepoint.com/personal/u20201b846_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20201b846%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202402%2Dsi572%2DSW74%2DTechCompany%2Dprototype%20navigation%2Dsprint%2D1%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E79e8551e%2Dd211%2D4f7d%2Db08a%2D88829cdebbc7)
 
 ##### Web Application
+
+A continuación se muestra el flujo de interacción de la versión web de FastPorte, destacando las transiciones entre las pantallas clave, como la gestión de conductores, la asignación de viajes, etc. El diseño ha sido diseñado para aprovechar el espacio disponible en pantallas más grandes, proporcionando una navegación clara e intuitiva para los usuarios.
 
 ![Web Application - Prototype](assets/capitulo5/prototype/Prototype_Web.png)
 
@@ -2360,11 +2332,8 @@ Tablero de commits del repositorio de la App web:
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body| Commited on (Date)                                                                       |                                       
 |---------- |----------|-|-|-|-|
-| Debuggers-SW74 / web-application |  |   |   |   | |
-|  |  |   |   |   | |
-|  |  |   |   |   | |
-|  |  |   |   |   | |
-|  |  |   |   |   | |
+| Debuggers-SW74 / web-application | feature/authentication | 1b4c2c10234e8c5dc5716d93903e5813eaddab41  | Merge branch 'feature/home' of https://github.com/Debuggers-SW74/web-application into feature/authentication  |   | 25/09/2024 |
+|  | feature/home | 4385793dd528dc39477aba99d9f623656f17412f | feat(home): active trip page |   | 25/09/24 |
 
 #### 6.2.1.4. Testing Suite Evidence for Sprint Review
 
@@ -2581,7 +2550,61 @@ Para este Sprint se desarrollaron los test BDD para archivos .featrue usando el 
 
 #### 6.2.1.5. Execution Evidence for Sprint Review
 
+La Landing page muestra un diseño amigable y detallada para cada sección.
 
+La seccion inciial con una pregunta para llamar la atención.
+
+![lphome](./assets/chapter6_img/lphome.png)
+
+Nuestra sección dónde te contamos de nuestra app
+
+![lpproduct](./assets/chapter6_img/lpproduct.png)
+
+Los beneficion que tendría tanto para el supervisor como para el conductor
+
+![benefits](./assets/chapter6_img/benefits.png)
+
+Acerca del equipo responsable del proyecto
+
+![team](./assets/chapter6_img/team.png)
+
+Testimonios y una sección para que se comuniquen con nosotros
+
+![contact](./assets/chapter6_img/contact.png)
+
+La aplicación web para este sprint cuenta con el inicio de sesión y registro por medio de una API fake.
+
+Inicio de sesión: En esta seccion el usuario podra ingresar su correo y contraseña
+
+![login](./assets/chapter6_img/login.png)
+
+Olvido de contraseña: En caso de que el usuario olvide su contrasña de podra sar al enlace correspondiente y para que ingrese su correo.
+
+![pass](./assets/chapter6_img/forgotpass.png)
+
+Registro: Si el usuario recién se va a registrar, deberá seguir unos pasos.
+
+- Primero debe ingresar el código del sensor al que está asignado
+  
+  ![sensor](./assets/chapter6_img/sensorcode.png)
+
+- Deberá elegir el rol que tiene
+
+  ![rol](./assets/chapter6_img/role.png)
+
+- Ingresar su correo afiliado y una contraseña
+
+  ![registro](./assets/chapter6_img/register.png)
+
+- Y por ultimo sus nombres y número de contacto
+
+  ![data](./assets/chapter6_img/data.png)
+
+Home: Esta seccion muestra los datos del conductor, el sensor afiliado a él y los proximos viajes.
+
+![home](./assets/chapter6_img/home.png)
+
+El siguiente enlace contiene el video que muestre la navegacion dentro de la Landing Page y la App web: [video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f282_upc_edu_pe/EU1PhhtKmphJhdCGg9oxjJkB-W_iTWsdbmthtQbOSUYH5w?e=MCpj61&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 #### 6.2.1.6. Services Documentation Evidence for Sprint Review
 
@@ -2622,7 +2645,29 @@ Demostración de petición GET endpoint https://my-json-server.typicode.com/Debu
 ![get_trips](/assets/chapter6_img/host_get_trips.png)
 
 #### 6.2.1.7. Software Deployment Evidence for Sprint Review
+
+Para el despliegue de la landing page se uso el servicio gratuito de GitHub Pages: https://debuggers-sw74.github.io/landing-page/
+
+![github pages1](assets/chapter6_img/githubpagesLanding1.jpeg)
+
+En el caso de la applicacion web usamos los servicios de firebase, ya que tienen una buena integracion con Angular: https://debuggers-d82cd.web.app/sign-in
+
+![firebase](./assets/chapter6_img/firebase.png)
+
+Por ultimo para el host de la API fake usamos un servicio gratuito llamado My Json Server que nos permite desplegar una API fake dentro de un repositorio de GitHub: https://my-json-server.typicode.com/Debuggers-SW74/dbiot/db
+![apifake host](./assets/chapter6_img/apifakehost.png)
+
 #### 6.2.1.8. Team Collaboration Insights during Sprint
+
+Para esta entrega todos los miembros del equipo colaboraron en el desarrollo de la landing page y aplicacion web:
+
+- Evidencia del repositorio 'landing-page'
+  
+  ![pulselp](./assets/chapter6_img/pulse.png)
+
+- Evidencia del repositorio 'web-application'
+  
+  ![pulsewa](./assets/chapter6_img/wa.png)
 
 ---
 # Conclusiones
