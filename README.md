@@ -1952,7 +1952,7 @@ En caso de olvidar su contraseña, el supervisor podrá recuperarla ingresando s
 
 ###### UG12: Visualizar estado del viaje en curso
 
-El supervisor podrá visualizar el estado del viaje en curso, así como también la información del conductor asignado y los detalles del viaje. Para ello, al iniciar sesión en la aplicación y si hay un viaje en curso, podrá visualizar el estado del mismo en la pantalla principal y se mostrará información del sensor que lleva consigo el conductor. En caso no haya algún problema, la aplicación mostrará un mensaje de que todo está en orden. Caso contrario, se mostrará una alerta con la información del problema detectado.
+El supervisor podrá visualizar el estado del viaje en curso, así como también la información del conductor asignado y los detalles del viaje. Para ello, al iniciar sesión en la aplicación y si hay un viaje en curso, podrá visualizar el estado del mismo en la pantalla principal y se mostrará gráficos con información del sensor que lleva consigo el conductor. En caso haya algún problema, se habilitará el botón "Sent alert" con el cuál podrá alertar a los conductores. Si no hay un viaje en curso, se le mostrá una pantalla por defecto con información de sus viajes a cargo y de sus conductores.
 
 ![Wireflow_Supervisor_12.png](./assets/capitulo5/wireflow/web%20app/Supervisor_12.png)
 
@@ -2355,7 +2355,7 @@ Si el supervisor olvida su contraseña, podrá restablecerla ingresando su corre
 
 ##### UG12:  Visualizar estado del viaje en curso  
 
-El supervisor accede a la aplicación e inicia sesión ingresando sus credenciales. Una vez autenticado, el sistema verifica si hay un viaje en curso; si lo hay, se revisa si existe alguna incidencia con el sensor asignado al conductor. En caso de haber una incidencia, se muestra una alerta en la pantalla de reporte del viaje, de lo contrario, el reporte del viaje se presenta sin alertas. Si no hay ningún viaje en curso, el supervisor es redirigido a la pantalla principal, donde puede ver a sus conductores y los viajes recientes.
+El supervisor accede a la aplicación e inicia sesión ingresando sus credenciales. Una vez autenticado, el sistema verifica si hay un viaje en curso; si lo hay, se revisa si existe alguna incidencia con el sensor asignado al conductor. En caso de haber una incidencia, se muestra una alerta en la pantalla de reporte del viaje y se habilita el botón de enviar alerta, de lo contrario, el reporte del viaje se presenta sin problemas. En ambos casos, se muestran gráficos con informción de la presión y temperatura. Si no hay ningún viaje en curso, el supervisor es redirigido a la pantalla principal, donde puede ver a sus conductores y los viajes recientes.
 
 ![Userflow_Supervisor_12](./assets/capitulo5/userflow/web%20app/Supervisor_12.png)
 
