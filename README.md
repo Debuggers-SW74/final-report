@@ -2743,6 +2743,9 @@ Para este Sprint nos enfocamos en el desarrollo de la Landing page y una face in
 | 41         | Sección Sobre Nosotros               | 6                | About us           | Seccion donde presentamos a los integrantes                                  | 1                  | Josué Arrunátegui | Done                                         |
 | 42         | Sección Descarga                     | 7                | Download           | Seccion para descargar la app movil                                          | 1                  | Josué Arrunátegui | Done                                         |
 | 43         | Sección Contáctanos                  | 8                | Contact us         | Seccion donde puede encontrar la informacion de contacto                     | 1                  | Eduardo Chero     | Done                                         |
+| 44         | Visualizar gráfico de temperatura y humedad| 9          | Gráficos de temperatura y humedad         | Integración e implementación de la biblioteca de gráficos chart.js para visualización de datos de temperatura y humerdad.                                                                                                                                                                                         | 5                  | Sebastián Lévano   | Done                                        |
+| 45         | Visualizar gráfico de presión con indicador de fuga de gas| 10          | Gráfico de presión y fuga de gas | Integración e implementación de la biblioteca de gráficos chart.js para visualización de datos de temperatura y humerdad.                                                                                                                                                                                  | 5                  | Eduardo Chero      | Done                                        |
+
 
 #### 6.2.1.3. Development Evidence for Sprint Review
 
