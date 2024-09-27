@@ -3117,6 +3117,8 @@ Para esta entrega todos los miembros del equipo colaboraron en el desarrollo de 
 
 Gothelf, J., & Seiden, J. (2021). Lean UX: Creating great products with agile teams. O’Reilly Media. [https://learning.oreilly.com/library/view/lean-ux-3rd/9781098116293/](https://learning.oreilly.com/library/view/lean-ux-3rd/9781098116293/)
 
+Google. (s.f). Principios de diseño de las aplicaciones para dispositivos móviles: Atraiga usuarios y genere conversiones. [https://www.thinkwithgoogle.com/_qs/documents/1011/Google_Guia_UX.pdf] (https://www.thinkwithgoogle.com/_qs/documents/1011/Google_Guia_UX.pdf#:~:text=Cap%C3%ADtulo%201:%20Navegaci%C3%B3n%20y%20exploraci%C3%B3n%20de%20la%20aplicaci%C3%B3n) 
+
 Holub, A. (s/f). Event storming. O’Reilly Media, Inc. [https://learning.oreilly.com/videos/event-storming/0636920362104/](https://learning.oreilly.com/videos/event-storming/0636920362104/)
 
 Khononov, V. (2021). Learning domain-Driven Design: Aligning software architecture and business strategy. O’Reilly Media. [https://learning.oreilly.com/library/view/learning-domain-driven-design/9781098100124/](https://learning.oreilly.com/library/view/learning-domain-driven-design/9781098100124/)
