@@ -862,7 +862,7 @@ Para el desarroolo del EventStorming, nos reunimos para organizar una lluvia de 
 #### 4.1.1.1 Candidate Context Discovery <br>
 A continuación mostraremos el paso a paso para la organizacion del EventStorming: <br>
 <br>Step 1: <br>
-Generar las ideas más importantes del negocio en base a los requerimientos
+Generar las ideas más importantes del negocio en base a las necesidades.
 ![Step 1](./assets/chapter4_img/step1.jpg)
 <br>Step 2: <br>
 Relacionar las ideas entre si para tener secuencias
