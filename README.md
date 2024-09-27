@@ -2407,11 +2407,20 @@ Es importante destacar que el sistema de navegación ha sido estructurado de man
 
 En cuanto a los tipos de interacción, se han seleccionado aquellas que mejor se ajustan a los patrones de uso de los distintos roles de usuario. Por ejemplo, las transiciones entre pantallas y la interacción con elementos interactivos, como botones y formularios, han sido diseñadas para ser consistentes y previsibles. Esto minimiza la curva de aprendizaje, facilitando una experiencia de usuario intuitiva. Además, las interacciones más frecuentes se han optimizado para que requieran el menor número de clics o toques, mejorando la eficiencia en las tareas repetitivas, como la asignación de viajes o la gestión de notificaciones. Estas decisiones buscan no solo reducir la carga cognitiva del usuario, sino también asegurar una experiencia fluida y sin fricciones.
 
-Por último, se incluyen capturas de video y enlaces a videos subidos a Microsoft Stream, donde se demuestran y explican los principales flujos de interacción que cubren los prototipos de ambas aplicaciones, evidenciando cómo los sistemas de navegación y los tipos de interacción se alinean con los objetivos de usabilidad y accesibilidad.
+Por último, se incluyen evidencias en Figma, capturas de video y enlaces a videos subidos a Microsoft Stream, donde se demuestran y explican los principales flujos de interacción que cubren los prototipos de ambas aplicaciones, evidenciando cómo los sistemas de navegación y los tipos de interacción se alinean con los objetivos de usabilidad y accesibilidad.
 
 ##### Mobile Application
 
 En esta sección se presenta el flujo de interacción de la versión móvil de FastPorte, mostrando cómo el usuario navega a través de las pantallas principales, como el inicio de sesión, la gestión de viajes y la visualización de notificaciones. Este diseño se enfoca en ofrecer una navegación simplificada y accesible, optimizada para dispositivos móviles.
+
+**Evidencia:**
+Al entrar al enlace de Figma, el prototipo se puede encontrar en la parte inferior de los Mobile App Mockups.
+
+![Mobile Application - Prototype Evidence](assets/capitulo5/prototype/Prototype_Mobile_Evidence.png)
+
+Enlace a Figma: [Prototipo Móvil - FastPorte](https://www.figma.com/design/OsXsqDb70Sp5wVdhIor56G/FastPorte-IOT?node-id=1117-500)
+
+**Captura de vídeo:**
 
 ![Mobile Application - Prototype](assets/capitulo5/prototype/Prototype_Mobile.png)
 
@@ -2420,6 +2429,15 @@ Enlace a Microsoft Stream (minuto 4:00): [Prototipo Móvil - FastPorte](https://
 ##### Web Application
 
 A continuación se muestra el flujo de interacción de la versión web de FastPorte, destacando las transiciones entre las pantallas clave, como la gestión de conductores, la asignación de viajes, etc. El diseño ha sido diseñado para aprovechar el espacio disponible en pantallas más grandes, proporcionando una navegación clara e intuitiva para los usuarios.
+
+**Evidencia:**
+Al entrar al enlace de Figma, el prototipo se puede encontrar en la parte inferior de los Web App Mockups.
+
+![Web Application - Prototype Evidence](assets/capitulo5/prototype/Prototype_Web_Evidence.png)
+
+Enlace a Figma: [Prototipo Web - FastPorte](https://www.figma.com/design/OsXsqDb70Sp5wVdhIor56G/FastPorte-IOT?node-id=1-3)
+
+**Captura de vídeo:**
 
 ![Web Application - Prototype](assets/capitulo5/prototype/Prototype_Web.png)
 
