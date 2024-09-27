@@ -2729,6 +2729,8 @@ Para desplegar la Landing Page, se utilizó GitHub Pages, una plataforma gratuit
 Para este Sprint nos enfocamos en el desarrollo de la Landing page y una face inicial de la app web. <br>
 [Enlace del tablero en Trello](https://trello.com/b/cydCcpde)
 
+![trello](./assets/chapter6_img/trello.png)
+
 | Sprint #   | Sprint 1                             |                  |                    |                                                                              |                    |                   |                                              |
 | ---------- | ------------------------------------ | ---------------- | ------------------ | ---------------------------------------------------------------------------- | ------------------ | ----------------- | -------------------------------------------- |
 | User Story |                                      | Work-Item / Task |                    |                                                                              |                    |                   |                                              |
