@@ -862,7 +862,7 @@ Para el desarroolo del EventStorming, nos reunimos para organizar una lluvia de 
 #### 4.1.1.1 Candidate Context Discovery <br>
 A continuación mostraremos el paso a paso para la organizacion del EventStorming: <br>
 <br>Step 1: <br>
-Generar las ideas más importantes del negocio en base a los requerimientos
+Generar las ideas más importantes del negocio en base a las necesidades.
 ![Step 1](./assets/chapter4_img/step1.jpg)
 <br>Step 2: <br>
 Relacionar las ideas entre si para tener secuencias
@@ -1004,7 +1004,7 @@ Edge API: Conexion con el sistema IoT para el envio de alertas.<br>
 
 #### 4.1.3.3. Software Architecture Deployment Diagrams <br>
 
-Para el despliegue de nuestra landing page, app web nos apoyaremos de Firebase, servicio gratuito y de facil uso de hosting para paginas web, y para nuestro servidor backend y base de datos nos apoyaremos de la nube de Azure<br>
+Para el despliegue de nuestra landing page y aplicación web, utilizaremos Firebase, un servicio gratuito y de fácil uso para alojamiento de sitios web. Para nuestro servidor backend y base de datos, utilizaremos la nube de Azure.<br>
 
 ![Software Architecture Deployment Diagrams](./assets/chapter4_img/ArchDeploy.png)
 
