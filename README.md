@@ -3202,15 +3202,123 @@ Tablero de commits del repositorio del backend:
 #### 6.2.2.4. Testing Suite Evidence for Sprint Review
 
 
-
-- us00X.feature
+- us004.feature
   ```
+  @registroViaje @Trello=https://trello.com/c/k8Z98dzh
+  Feature: Registro de Viajes por Supervisores
+    Como supervisor de la empresa
+    Quiero registrar un viaje
+    Para notificar al conductor los servicios que debe realizar
 
+  #-------------------------------------------------------------------------------------------
+    Scenario: Registro exitoso de un viaje
+      Given que el supervisor de la empresa ha iniciado sesión en la aplicación
+      And desea registrar un viaje en el itinerario
+      When selecciona al conductor que realizará la entrega
+      And completa la información del viaje correctamente
+      Then el sistema crea el viaje
+      And notifica al conductor sobre el viaje que debe realizar
+
+  #-------------------------------------------------------------------------------------------
+    Scenario: Conflicto de horario en el registro de viaje
+      Given que el supervisor de la empresa ha iniciado sesión en la aplicación
+      And desea registrar un viaje en el itinerario
+      When selecciona al conductor que realizará la entrega
+      And completa la información del viaje correctamente
+      And el horario elegido ya ha sido reservado para otro viaje
+      Then el sistema indica que se debe de elegir otro horario para el servicio de transporte
+  ```
+- us018.feature
+  ```
+  @crearConductor @Trello=https://trello.com/c/0J5Ur4U4
+  Feature: Creación de usuario tipo Conductor
+    Como desarrollador
+    Quiero agregar un nuevo usuario de tipo Conductor al sistema mediante una solicitud POST al API
+    Para permitir el acceso de nuevos usuarios de tipo Conductor a la aplicación
+
+    #-------------------------------------------------------------------------------------------
+    Scenario: Ingreso de correo único
+      Given que el endpoint api/v1/driver está disponible
+      When una solicitud POST se realiza con los valores para nombre, correo electrónico, número de celular y contraseña
+      Then se recibe una Respuesta con estado 201
+      And se devuelve un recurso de usuario de tipo Conductor en el cuerpo de la Respuesta con valores de nombre, correo electrónico, número de celular y contraseña
+
+    #-------------------------------------------------------------------------------------------
+    Scenario: Ingreso de correo existente
+      Given que el endpoint api/v1/driver está disponible
+      When una solicitud POST se realiza con los valores para nombre, correo electrónico, número de celular y contraseña
+      And el correo electrónico ya existe en el sistema
+      Then se recibe una Respuesta con estado 400
+      And se devuelve un mensaje en el cuerpo de la Respuesta: El correo electrónico ya se encuentra registrado en otro usuario
+  ```
+- us026.feature
+  ```
+  @listarConductores @Trello=https://trello.com/c/oWYuYNiG
+  Feature: Listar conductores por su nombre
+    Como desarrollador
+    Quiero listar los conductores por su nombre mediante una solicitud GET al API
+    Para mostrar los conductores al usuario
+
+  #-------------------------------------------------------------------------------------------
+    Scenario Outline: Buscar conductor por nombre
+      Given que el endpoint api/v1/driver/search?name=:name está disponible
+      When una solicitud GET se realiza con el parámetro nombre del conductor <nombre>
+      Then se recibe una Respuesta con estado <status>
+      And <resultado>
+
+      Examples:
+        | nombre   | status | resultado                                                                                     |
+        | HRS491   | 200    | se devuelve un recurso de usuario de tipo lista de Conductor con valores de nombre, correo electrónico, número de celular y contraseña |
+        | TXM126e  | 404    | se devuelve un mensaje en el cuerpo de la Respuesta: No se encontró el conductor con el nombre :nombre |
+  ```
+- us029.feature
+  ```
+  @modificarConductor @Trello=https://trello.com/c/X56ggqYX
+  Feature: Modificar un conductor
+    Como desarrollador
+    Quiero modificar un conductor mediante una solicitud PUT al API
+    Para editar la información solicitada
+
+  #-------------------------------------------------------------------------------------------
+    Scenario Outline: Modificar un conductor
+      Given que el endpoint api/v1/driver/:driverId está disponible
+      When una solicitud PUT se realiza con los valores para nombre, correo electrónico, número de celular o contraseña
+      Then se recibe una Respuesta con estado <status>
+      And <resultado>
+
+      Examples:
+        | status | resultado                                                                                                      |
+        | 200    | se devuelve un recurso de usuario de tipo Conductor en el cuerpo de la Respuesta con valores de nombre, correo electrónico, número de celular y contraseña |
+        | 400    | se devuelve un mensaje en el cuerpo de la Respuesta: El correo electrónico ya se encuentra registrado en otro usuario |
+  ```
+- us032.feature
+  ```
+  @capturarDatosDeTemperatura @Trello=https://trello.com/c/dHyVKPlt
+  Feature: Captura y envío de datos de temperatura
+    Como usuario de la aplicación
+    Quiero que el sensor capture y envíe los datos de temperatura a la aplicación web o móvil
+    Para monitorear el estado de los materiales peligrosos transportados
+
+  #-------------------------------------------------------------------------------------------
+    Scenario: Captura y envío de datos de Temperatura
+      Given el sensor se encuentra instalado en el vehículo
+      When el sensor detecta la temperatura
+      Then envía los datos en tiempo real al sistema de monitoreo
+      And el supervisor de la empresa puede revisar los datos para enviar una alerta al conductor
+
+  #-------------------------------------------------------------------------------------------
+    Scenario: Error en la captura de datos
+      Given el sensor se encuentra instalado en el vehículo
+      And tiene un problema técnico
+      When el sensor intenta capturar los datos de temperatura
+      Then el sistema muestra que ha ocurrido un error
+      And el usuario de la aplicación puede notificarlo para su revisión
   ```
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
 | ---------- | ------ | --------- | -------------- | ------------------- | ------------------ |
-|            |        |           |                |                     |                    |
+| testing-suite | main | 0a382f0d6439e22347c7a947103d1f76a74e043a | feat(main) | sprint 2 acceptance criteria added | Nov 1, 2024 |
+| testing-suite | main | 52016351c72e5ed6708680cf30ff89fb9edc5559 | feat(main) | sprint 2 acceptance criteria added | Nov 1, 2024 |
 
 #### 6.2.2.5. Execution Evidence for Sprint Review
 
