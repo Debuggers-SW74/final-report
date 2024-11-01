@@ -3137,7 +3137,7 @@ Para esta entrega todos los miembros del equipo colaboraron en el desarrollo de 
 - Evidencia del repositorio 'landing-page'
   
   ![pulselp](./assets/chapter6_img/pulse.png)
-
+-
 - Evidencia del repositorio 'web-application'
   
   ![pulsewa](./assets/chapter6_img/wa.png)
@@ -3153,12 +3153,12 @@ Para esta entrega todos los miembros del equipo colaboraron en el desarrollo de 
 | Location                           | Reunión virtual durante la clase                                                        |
 | Prepared By                        | Lévano Cavero, Eduardo Sebastián                                                        |
 | Attendees                          | Josué Arrunátegui / Anthony Botello / Eduardo Chero / Sebastián Lévano / Claudio Moreno |
-| Sprint n – 2 Review Summary        |                                                                                         |
-| Sprint n – 2 Retrospective Summary |                                                                                         |
+| Sprint n – 2 Review Summary        | En el Sprint 1 logramos definir y completar la arquitectura de software, además de lanzar una primera versión de la Landing Page y la Web Application utilizando una Fake API. El feedback principal del Product Owner resaltó la importancia de mejorar la organización del equipo y asegurar que todos los miembros participen activamente en todos los productos digitales del proyecto.                                                                     |
+| Sprint n – 2 Retrospective Summary |En el Sprint 1, el equipo identificó como áreas de mejora la organización, la comunicación y la participación activa de cada miembro en las tareas. Se destacó la necesidad de fortalecer el trabajo en conjunto para mejorar la eficiencia y asegurar el éxito en los próximos sprints.|
 | Sprint Goal & User Stories         |                                                                                         |
-| Sprint n Goal                      |                                                                                         |
-| Sprint n Velocity                  |                                                                                         |
-| Sum of Story Points                |                                                                                         |
+| Sprint n Goal                      | **Nos centramos en** la entrega de las primeras versiones de la aplicación móvil y el backend, las actualizaciones de la página de destino y la aplicación web, así como el diseño inicial del dispositivo IoT de detección de fugas de gas, medición de temperatura, presión y humedad y la Edge API para el procesamiento local de datos.<br><br> **Creemos que** esto proporcionará a los conductores un beneficio como las notificaciones de los viajes a través de la aplicación móvil, los supervisores gestionarán y asignarán los viajes a través de la aplicación web, los visitantes podrán ver la página de destino actualizada y los desarrolladores tendrán acceso al backend para dar soporte a las aplicaciones web y móviles. Además, la solución IoT con el sensor de detección de fugas de gas, medición de temperatura, presión y humedad  y el Edge API mejorará la seguridad del conductor al permitir la supervisión de materiales peligrosos antes, durante y después del transporte.<br><br> **Esto se confirmará cuando** los conductores puedan utilizar la App Móvil para ver la información del viaje y las notificaciones, los supervisores puedan asignar y supervisar los viajes a través de la Aplicación Web, los desarrolladores puedan interactuar con la primera versión del Backend para soportar las funcionalidades del sistema, el diseño del dispositivo IoT y la Edge API permiten la detección de fugas de gas, medición de temperatura, presión y humedad proporcionando datos esenciales al sistema y los visitantes pueden acceder a la Landing Page actualizada.|
+| Sprint n Velocity                  | 50                                                                                        |
+| Sum of Story Points                | 48                                                                                        |
 
 #### 6.2.2.2. Sprint Backlog 2
 
