@@ -3494,7 +3494,12 @@ A continuación, se detallan los pasos y configuraciones realizadas para el desp
 	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/database5.jpg)
 #### 6.2.2.8. Team Collaboration Insights during Sprint
 
-#### Formato para Evaluación de User Experience según Heurísticas
+## 6.3. Validation Interviews
+### 6.3.1. Diseño de Entrevistas
+### 6.3.2. Registro de Entrevistas
+### 6.3.3. Evaluaciones según Heurísticas
+
+#### Evaluación de User Experience según Heurísticas
 - CARRERA : Ingeniería de Software 
 - CURSO : Desarrollo de Soluciones IoT 
 - SECCIÓN : SW74
@@ -3506,7 +3511,11 @@ A continuación, se detallan los pasos y configuraciones realizadas para el desp
 Fastporte
 
 ##### TAREAS A EVALUAR:
-
+- Gestión de conductores
+- Asignación de viajes
+- Actualización de información de perfil
+- Mostrar información de los viajes por estado
+- Creación de cuentas para los dos tipos de usuarios
 
 ##### ESCALA DE SEVERIDAD
 
@@ -3519,23 +3528,23 @@ Fastporte
 
 ##### TABLA RESUMEN
 
-| #   | Problema | Escala de severidad | Heurística/Principio violado |
-| --- | -------- | ------------------- | ---------------------------- |
-| 1   |          |                     |                              |
-| 2   |          |                     |                              |
-| 3   |          |                     |                              |
-| 4   |          |                     |                              |
+| #   | Problema                  | Escala de severidad | Heurística/Principio violado       |
+| --- | ------------------------- | ------------------- | ---------------------------------- |
+| 1   | Falta de localización GPS | 2                   | Visibilidad del estado del sistema |
+| 2   |                           |                     |                                    |
+| 3   |                           |                     |                                    |
+| 4   |                           |                     |                                    |
 ##### DESCRIPCIÓN DE PROBLEMAS:
 ---
 ###### **PROBLEMA #1:** 
 
-**Severidad:**
+**Severidad:** 2
 
-**Heurística violada:** 
+**Heurística violada:** Visibilidad del estado del sistema
 
-**Problema:** 
+**Problema:** El usuario comentó que le gustaría agregar una funcionalidad de localización GPS para monitorear la ubicación de los conductores en tiempo real. Actualmente, el sistema no ofrece esta visibilidad, lo que limita la capacidad del supervisor para tener un control completo sobre la ubicación de sus conductores y vehículos durante un viaje.
 
-**Recomendación:** 
+**Recomendación:** Aunque la implementación de una funcionalidad de localización GPS podría mejorar la visibilidad y control para los supervisores, su desarrollo e integración implicarían una considerable inversión de tiempo y recursos. La integración de una API de localización, como Google Maps, requeriría ajustes en la infraestructura. Debido a que este problema no bloquea el uso del sistema y los supervisores aún pueden gestionar a sus conductores mediante las herramientas actuales, se recomienda considerar la funcionalidad de GPS para una versión futura. Priorizar su implementación en este momento podría retrasar otras funcionalidades esenciales en el corto plazo. Por tanto, este ajuste se sugiere para el otro release o una fase posterior, una vez que el producto base esté completamente operativo y las demás funcionalidades estén estabilizadas.
 
 ---
 ###### **PROBLEMA #2:** 
@@ -3571,10 +3580,6 @@ Fastporte
 **Recomendación:** 
 
 ---
-## 6.3. Validation Interviews
-### 6.3.1. Diseño de Entrevistas
-### 6.3.2. Registro de Entrevistas
-### 6.3.3. Evaluaciones según Heurísticas
 ## 6.4. Video About-the-Product
 
 ---
