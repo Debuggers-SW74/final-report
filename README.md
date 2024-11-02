@@ -3724,6 +3724,8 @@ Para esta entrega de nuestro trabajos hemos identificado las siguientes pregunta
   </tr>
 </table>
 
+Enlace de entrevistas (21:33 min): 
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c172_upc_edu_pe/EW67Io-LHPtKjkqO_UKQZNkBIO84Jau0Ft39KKRQHoU0kg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=hh31Uj
 ### 6.3.3. Evaluaciones según Heurísticas
 
 #### Evaluación de User Experience según Heurísticas
