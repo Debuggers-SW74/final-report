@@ -3440,25 +3440,25 @@ A continuación, se detallan los pasos y configuraciones realizadas para el desp
     1. Nos creamos una cuenta en Firebase y una vez dentro le damos clic en el botón "Crear un proyecto": 
 		![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend1.jpg)
 	2. Le asignamos un nombre al proyecto: 
-	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend2.jpg)
-3. Creamos el proyecto
-	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend3.jpg)
-	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend4.jpg)
-4. Le damos clic en el botón señalado para agregar una aplicación web: 
-	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend5.jpg)
-5. Realizamos la configuración de la aplicación web de la misma forma que se especifica en las siguientes imágenes: 
-	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend6.jpg)
-	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend7.jpg)
-	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend8.jpg)
-6. En consola, ejecutamos los comandos de la forma que nos especifica Firebase  
-	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend9.jpg)
-7. En nuestro repositorio del frontend, configuramos el workflow agregando lo resaltado en la imagen
-	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend10.jpg)
-8. Al hacer esos cambios, el workflow se ejecutará y de esta manera tendremos desplegada la aplicación web.
+		![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend2.jpg)
+	3. Creamos el proyecto
+		![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend3.jpg)
+		![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend4.jpg)
+	4. Le damos clic en el botón señalado para agregar una aplicación web: 
+		![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend5.jpg)
+	5. Realizamos la configuración de la aplicación web de la misma forma que se especifica en las siguientes imágenes: 
+		![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend6.jpg)
+		![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend7.jpg)
+		![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend8.jpg)
+	6. En consola, ejecutamos los comandos de la forma que nos especifica Firebase  
+		![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend9.jpg)
+	7. En nuestro repositorio del frontend, configuramos el workflow agregando lo resaltado en la imagen
+		![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend10.jpg)
+	8. Al hacer esos cambios, el workflow se ejecutará y de esta manera tendremos desplegada la aplicación web.
 
 #### **Despliegue del Cloud API y Edge API**
 
-- Tanto el Cloud API como el Edge API se desplegaron en Azure utilizando el servicio Web App. Por otro lado, se configuró una instancia de base de datos para cada API utilizando el recurso Azure Database for MySQL. 
+- Tanto el Cloud API como el Edge API se desplegaron en Azure utilizando el servicio Web App. 
 - **URL del Edge API**: `https://fastporte-edge-api.azurewebsites.net`
 - **URL del Cloud API**: `https://fastporte-cloud-api.azurewebsites.net`
 
@@ -3477,6 +3477,21 @@ A continuación, se detallan los pasos y configuraciones realizadas para el desp
 	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/cloudapi6.jpg)
 
 	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/cloudapi7.jpg)
+
+#### **Despliegue de la base de datos para Cloud API y Edge API**
+
+- Para este despliegue, se configuró una instancia de base de datos para cada API utilizando el recurso Azure Database for MySQL. 
+1. EnAzure Portal, damos clic en "Crear un recurso" y nos abrirá una vista en la que buscaremos "mysql" y seleccionamos "Solo servicios de Azure". Será el primer resultado que nos aparezca
+	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/database1.jpg)
+2. Le damos en "Crear"
+	 ![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/database2.jpg)
+3. Seleccionamos "Quick create"
+	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/database3.jpg)
+	
+4. Configuramos de la siguiente manera
+	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/database4.jpg)
+5.  Una vez implementado el recurso, solo utilizamos las credenciales para conectar nuestros servicios.
+	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/database5.jpg)
 #### 6.2.2.8. Team Collaboration Insights during Sprint
 
 #### Formato para Evaluación de User Experience según Heurísticas
