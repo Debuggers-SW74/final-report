@@ -3584,6 +3584,12 @@ Fastporte
 ---
 ## 6.4. Video About-the-Product
 
+Se ha realizado la version preliminar del Video About-the-Product para el Sprint 2:
+
+![Video About-the-Product](./assets/chapter6_img/about-the-product.png)
+
+Enlace en Microsoft Stream: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c172_upc_edu_pe/EVxehubta1NIl6rh1UQ_uEwBlv527u0N_XKzonxNjYF-vA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ESn1TL
+
 ---
 
 # Conclusiones
@@ -3624,10 +3630,10 @@ Enlace al video de entrevistas de Needfinding:
 Enlace al video de exposición TP:
 [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c172_upc_edu_pe/EfSO9hJb6VlGv8yUDqFfmnAB14QlrCwGC1kSQRDiLx2SFg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=LhTF3H](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c172_upc_edu_pe/EfSO9hJb6VlGv8yUDqFfmnAB14QlrCwGC1kSQRDiLx2SFg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=LhTF3H)
 
-
 ## Anexo D
 Enlace al video de exposición TB2:
 
 
 ## Anexo E
 Enlace al video About-the-Product:
+[https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c172_upc_edu_pe/EVxehubta1NIl6rh1UQ_uEwBlv527u0N_XKzonxNjYF-vA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ESn1TL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c172_upc_edu_pe/EVxehubta1NIl6rh1UQ_uEwBlv527u0N_XKzonxNjYF-vA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ESn1TL)
