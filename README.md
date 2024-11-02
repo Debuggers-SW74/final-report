@@ -3370,35 +3370,35 @@ A continuación, se presenta una tabla detallada con la información de cada end
 
 ---
 
-| **Acción Implementada**                         | **HTTP Verbo** | **Sintaxis de Llamada**                             | **Parámetros**                         | **Ejemplo de Respuesta**                                         | **Explicación de la Respuesta** |
-|-------------------------------------------------|----------------|-----------------------------------------------------|----------------------------------------|------------------------------------------------------------------|---------------------------------|
-| Iniciar un viaje                                | PUT            | `/api/trips/start/{id}`                             | `id`: ID del viaje                     | `200 OK`                                                          | Inicia el viaje con el ID proporcionado. |
-| Finalizar un viaje                              | PUT            | `/api/trips/finish/{id}`                            | `id`: ID del viaje                     | `200 OK`                     | Finaliza el viaje con el ID proporcionado. |
-| Cancelar un viaje                               | PUT            | `/api/trips/cancel/{id}`                            | `id`: ID del viaje                     | `200 OK`                    | Cancela el viaje con el ID especificado. |
-| Crear un nuevo viaje                            | POST           | `/api/trips/create`                                 | JSON con detalles del viaje            | `{ "tripId": 123, "status": "PENDING" }`                         | Crea un nuevo viaje y devuelve su ID y estado inicial. |
-| Consultar todos los viajes                      | GET            | `/api/trips`                                        | Ninguno                                | `[ { "tripId": 123, "status": "PENDING" }, ... ]`            | Devuelve una lista de todos los viajes en el sistema. |
-| Consultar un viaje específico                   | GET            | `/api/trips/{id}`                                   | `id`: ID del viaje                     | `{ "tripId": 123, "status": "PENDING" }`                     | Devuelve el estado actual del viaje con el ID especificado. |
-| Consultar viajes por supervisor                 | GET            | `/api/trips/supervisor/{supervisorId}`              | `supervisorId`: ID del supervisor      | `[ { "tripId": 123, "status": "PENDING" }, ... ]`            | Devuelve los viajes asignados al supervisor especificado. |
-| Consultar viajes por estado para un supervisor  | GET            | `/api/trips/supervisor/{supervisorId}/status/{statusId}` | `supervisorId`: ID del supervisor, `statusId`: ID del estado | `[ { "tripId": 123, "status": "FINISHED" }, ... ]`               | Devuelve los viajes con un estado específico para el supervisor. |
-| Consultar viajes por conductor                  | GET            | `/api/trips/driver/{driverId}`                      | `driverId`: ID del conductor           | `[ { "tripId": 123, "status": "PENDING" }, ... ]`            | Devuelve los viajes asignados al conductor especificado. |
-| Consultar viajes por estado para un conductor   | GET            | `/api/trips/driver/{driverId}/status/{statusId}`    | `driverId`: ID del conductor, `statusId`: ID del estado | `[ { "tripId": 123, "status": "FINISHED" }, ... ]`               | Devuelve los viajes con un estado específico para el conductor. |
-| Registrar un supervisor                         | POST           | `/api/supervisors/register`                         | JSON con datos del supervisor          | `{ "supervisorId": 1, "username": "ocanellas" ...}`                  | Registra un nuevo supervisor y devuelve su ID con información de su cuenta. |
-| Actualizar información de un supervisor         | PUT            | `/api/supervisors/update`                           | JSON con datos actualizados del supervisor | `{ "supervisorId": 1, "status": "ocanellas" ...}`                     | Actualiza la información de un supervisor existente. |
-| Consultar todos los supervisores                | GET            | `/api/supervisors`                                  | Ninguno                                | `[ { "supervisorId": 1, "name": "Supervisor 1" ...}, ... ]`         | Devuelve una lista de todos los supervisores. |
-| Consultar un supervisor específico              | GET            | `/api/supervisors/{id}`                             | `id`: ID del supervisor                | `{ "supervisorId": 1, "name": "Supervisor 1" ...}`                  | Devuelve la información del supervisor con el ID especificado. |
-| Registrar un conductor                          | POST           | `/api/drivers/register`                             | JSON con datos del conductor           | `{ "driverId": 101, "username": "pgomez" ... }`                    | Registra un nuevo conductor y devuelve su ID. |
-| Actualizar información de un conductor          | PUT            | `/api/drivers/update`                               | JSON con datos actualizados del conductor | `{ "driverId": 101, "username": "pgomez" ... }`                       | Actualiza la información de un conductor existente. |
-| Registrar múltiples conductores                 | POST           | `/api/drivers/batch`                                | JSON con lista de conductores          | `[ { "driverId": 101, "username": "pgomez" ... }, ... ]`           | Registra múltiples conductores en una sola llamada. |
-| Consultar todos los conductores                 | GET            | `/api/drivers`                                      | Ninguno                                | `[ { "driverId": 101, "name": "Driver 1" }, ... ]`               | Devuelve una lista de todos los conductores. |
-| Consultar un conductor específico               | GET            | `/api/drivers/{id}`                                 | `id`: ID del conductor                 | `{ "driverId": 101, "name": "Driver 1" }`                        | Devuelve la información del conductor con el ID especificado. |
-| Consultar conductores por supervisor            | GET            | `/api/drivers/supervisor/{supervisorId}`            | `supervisorId`: ID del supervisor      | `[ { "driverId": 101, "name": "Driver 1" }, ... ]`               | Devuelve una lista de conductores supervisados por el supervisor especificado. |
-| Autenticación de usuarios                       | POST           | `/authenticate`                                     | JSON con credenciales de usuario       | `{ "token": "abc123xyz" }`                                       | Devuelve un token de autenticación para el usuario. |
-| Configurar umbrales de seguridad                | POST           | `/api/thresholds`                                   | JSON con detalles de los umbrales      | `{ "thresholdId": 1, "maxThreshold": 95.1 }`                   | Configura un conjunto de umbrales de seguridad para el sistema. |
-| Actualizar umbrales de seguridad                | POST           | `/api/thresholds/update`                            | JSON con datos actualizados de umbrales | `{ "thresholdId": 1, "maxThreshold": 80 }`                      | Actualiza los umbrales de seguridad configurados. |
-| Consultar umbrales de un viaje                  | GET            | `/api/thresholds/trip/{tripId}`                     | `tripId`: ID del viaje                 | `[ { "sensorType": "SENSOR_GAS", "sensorType": "5", ... }, ...]`                 | Devuelve los umbrales configurados para un viaje específico. |
-| Generar una alerta                              | POST           | `/api/alerts`                                       | JSON con detalles de la alerta         | `{ "alertId": 789, "alertLevel": "CRITICAL" }`                | Genera una alerta basada en los datos proporcionados. |
-| Consultar alertas por viaje                     | GET            | `/api/alerts/trip/{tripId}`                         | `tripId`: ID del viaje                 | `[ { "alertId": 789, "alertLevel": "CRITICAL" }, ... ]`                | Devuelve una lista de alertas generadas para un viaje específico. |
-| Consultar estados de viajes                     | GET            | `/api/trip-status`                                  | Ninguno                                | `[ { "id": 1, "status": "CANCELED" }, ... ]`              | Devuelve una lista de todos los estados de viaje disponibles. |
+| **Acción Implementada**                        | **HTTP Verbo** | **Sintaxis de Llamada**                                  | **Parámetros**                                               | **Ejemplo de Respuesta**                                         | **Explicación de la Respuesta**                                                |
+| ---------------------------------------------- | -------------- | -------------------------------------------------------- | ------------------------------------------------------------ | ---------------------------------------------------------------- | ------------------------------------------------------------------------------ |
+| Iniciar un viaje                               | PUT            | `/api/trips/start/{id}`                                  | `id`: ID del viaje                                           | `200 OK`                                                         | Inicia el viaje con el ID proporcionado.                                       |
+| Finalizar un viaje                             | PUT            | `/api/trips/finish/{id}`                                 | `id`: ID del viaje                                           | `200 OK`                                                         | Finaliza el viaje con el ID proporcionado.                                     |
+| Cancelar un viaje                              | PUT            | `/api/trips/cancel/{id}`                                 | `id`: ID del viaje                                           | `200 OK`                                                         | Cancela el viaje con el ID especificado.                                       |
+| Crear un nuevo viaje                           | POST           | `/api/trips/create`                                      | JSON con detalles del viaje                                  | `{ "tripId": 123, "status": "PENDING" }`                         | Crea un nuevo viaje y devuelve su ID y estado inicial.                         |
+| Consultar todos los viajes                     | GET            | `/api/trips`                                             | Ninguno                                                      | `[ { "tripId": 123, "status": "PENDING" }, ... ]`                | Devuelve una lista de todos los viajes en el sistema.                          |
+| Consultar un viaje específico                  | GET            | `/api/trips/{id}`                                        | `id`: ID del viaje                                           | `{ "tripId": 123, "status": "PENDING" }`                         | Devuelve el estado actual del viaje con el ID especificado.                    |
+| Consultar viajes por supervisor                | GET            | `/api/trips/supervisor/{supervisorId}`                   | `supervisorId`: ID del supervisor                            | `[ { "tripId": 123, "status": "PENDING" }, ... ]`                | Devuelve los viajes asignados al supervisor especificado.                      |
+| Consultar viajes por estado para un supervisor | GET            | */api/trips/supervisor/{supervisorId}/status/{statusId}* | `supervisorId`: ID del supervisor, `statusId`: ID del estado | `[ { "tripId": 123, "status": "FINISHED" }, ... ]`               | Devuelve los viajes con un estado específico para el supervisor.               |
+| Consultar viajes por conductor                 | GET            | `/api/trips/driver/{driverId}`                           | `driverId`: ID del conductor                                 | `[ { "tripId": 123, "status": "PENDING" }, ... ]`                | Devuelve los viajes asignados al conductor especificado.                       |
+| Consultar viajes por estado para un conductor  | GET            | `/api/trips/driver/{driverId}/status/{statusId}`         | `driverId`: ID del conductor, `statusId`: ID del estado      | `[ { "tripId": 123, "status": "FINISHED" }, ... ]`               | Devuelve los viajes con un estado específico para el conductor.                |
+| Registrar un supervisor                        | POST           | `/api/supervisors/register`                              | JSON con datos del supervisor                                | `{ "supervisorId": 1, "username": "ocanellas" ...}`              | Registra un nuevo supervisor y devuelve su ID con información de su cuenta.    |
+| Actualizar información de un supervisor        | PUT            | `/api/supervisors/update`                                | JSON con datos actualizados del supervisor                   | `{ "supervisorId": 1, "status": "ocanellas" ...}`                | Actualiza la información de un supervisor existente.                           |
+| Consultar todos los supervisores               | GET            | `/api/supervisors`                                       | Ninguno                                                      | `[ { "supervisorId": 1, "name": "Supervisor 1" ...}, ... ]`      | Devuelve una lista de todos los supervisores.                                  |
+| Consultar un supervisor específico             | GET            | `/api/supervisors/{id}`                                  | `id`: ID del supervisor                                      | `{ "supervisorId": 1, "name": "Supervisor 1" ...}`               | Devuelve la información del supervisor con el ID especificado.                 |
+| Registrar un conductor                         | POST           | `/api/drivers/register`                                  | JSON con datos del conductor                                 | `{ "driverId": 101, "username": "pgomez" ... }`                  | Registra un nuevo conductor y devuelve su ID.                                  |
+| Actualizar información de un conductor         | PUT            | `/api/drivers/update`                                    | JSON con datos actualizados del conductor                    | `{ "driverId": 101, "username": "pgomez" ... }`                  | Actualiza la información de un conductor existente.                            |
+| Registrar múltiples conductores                | POST           | `/api/drivers/batch`                                     | JSON con lista de conductores                                | `[ { "driverId": 101, "username": "pgomez" ... }, ... ]`         | Registra múltiples conductores en una sola llamada.                            |
+| Consultar todos los conductores                | GET            | `/api/drivers`                                           | Ninguno                                                      | `[ { "driverId": 101, "name": "Driver 1" }, ... ]`               | Devuelve una lista de todos los conductores.                                   |
+| Consultar un conductor específico              | GET            | `/api/drivers/{id}`                                      | `id`: ID del conductor                                       | `{ "driverId": 101, "name": "Driver 1" }`                        | Devuelve la información del conductor con el ID especificado.                  |
+| Consultar conductores por supervisor           | GET            | `/api/drivers/supervisor/{supervisorId}`                 | `supervisorId`: ID del supervisor                            | `[ { "driverId": 101, "name": "Driver 1" }, ... ]`               | Devuelve una lista de conductores supervisados por el supervisor especificado. |
+| Autenticación de usuarios                      | POST           | `/authenticate`                                          | JSON con credenciales de usuario                             | `{ "token": "abc123xyz" }`                                       | Devuelve un token de autenticación para el usuario.                            |
+| Configurar umbrales de seguridad               | POST           | `/api/thresholds`                                        | JSON con detalles de los umbrales                            | `{ "thresholdId": 1, "maxThreshold": 95.1 }`                     | Configura un conjunto de umbrales de seguridad para el sistema.                |
+| Actualizar umbrales de seguridad               | POST           | `/api/thresholds/update`                                 | JSON con datos actualizados de umbrales                      | `{ "thresholdId": 1, "maxThreshold": 80 }`                       | Actualiza los umbrales de seguridad configurados.                              |
+| Consultar umbrales de un viaje                 | GET            | `/api/thresholds/trip/{tripId}`                          | `tripId`: ID del viaje                                       | `[ { "sensorType": "SENSOR_GAS", "sensorType": "5", ... }, ...]` | Devuelve los umbrales configurados para un viaje específico.                   |
+| Generar una alerta                             | POST           | `/api/alerts`                                            | JSON con detalles de la alerta                               | `{ "alertId": 789, "alertLevel": "CRITICAL" }`                   | Genera una alerta basada en los datos proporcionados.                          |
+| Consultar alertas por viaje                    | GET            | `/api/alerts/trip/{tripId}`                              | `tripId`: ID del viaje                                       | `[ { "alertId": 789, "alertLevel": "CRITICAL" }, ... ]`          | Devuelve una lista de alertas generadas para un viaje específico.              |
+| Consultar estados de viajes                    | GET            | `/api/trip-status`                                       | Ninguno                                                      | `[ { "id": 1, "status": "CANCELED" }, ... ]`                     | Devuelve una lista de todos los estados de viaje disponibles.                  |
 
 A continuación se muestran capturas de pantalla de la documentación generada en OpenAPI, organizadas por controladores:
 
@@ -3479,7 +3479,83 @@ A continuación, se detallan los pasos y configuraciones realizadas para el desp
 	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/cloudapi7.jpg)
 #### 6.2.2.8. Team Collaboration Insights during Sprint
 
+#### Formato para Evaluación de User Experience según Heurísticas
+- CARRERA : Ingeniería de Software 
+- CURSO : Desarrollo de Soluciones IoT 
+- SECCIÓN : SW74
+- PROFESORES : Todos 
+- AUDITOR : Debuggers
+- CLIENTE(S) : Segmento drivers y supervisors
 
+##### SITE o APP A EVALUAR: 
+Fastporte
+
+##### TAREAS A EVALUAR:
+
+
+##### ESCALA DE SEVERIDAD
+
+| **Nivel** | **Descripción**                                                                                                                                                                                 |
+| --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1         | Problema superficial: puede ser fácilmente superador por el usuario o ocurre con muy poco frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.                   |
+| 2         | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release. |
+| 3         | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.                                 |
+| 4         | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.                               |
+
+##### TABLA RESUMEN
+
+| #   | Problema | Escala de severidad | Heurística/Principio violado |
+| --- | -------- | ------------------- | ---------------------------- |
+| 1   |          |                     |                              |
+| 2   |          |                     |                              |
+| 3   |          |                     |                              |
+| 4   |          |                     |                              |
+##### DESCRIPCIÓN DE PROBLEMAS:
+---
+###### **PROBLEMA #1:** 
+
+**Severidad:**
+
+**Heurística violada:** 
+
+**Problema:** 
+
+**Recomendación:** 
+
+---
+###### **PROBLEMA #2:** 
+
+**Severidad:**
+
+**Heurística violada:** 
+
+**Problema:** 
+
+**Recomendación:** 
+
+---
+###### **PROBLEMA #3:** 
+
+**Severidad:**
+
+**Heurística violada:** 
+
+**Problema:** 
+
+**Recomendación:** 
+
+---
+###### **PROBLEMA #4:** 
+
+**Severidad:**
+
+**Heurística violada:** 
+
+**Problema:** 
+
+**Recomendación:** 
+
+---
 ## 6.3. Validation Interviews
 ### 6.3.1. Diseño de Entrevistas
 ### 6.3.2. Registro de Entrevistas
