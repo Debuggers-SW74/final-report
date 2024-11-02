@@ -3530,15 +3530,15 @@ Fastporte
 
 ##### TABLA RESUMEN
 
-| #   | Problema                  | Escala de severidad | Heurística/Principio violado       |
-| --- | ------------------------- | ------------------- | ---------------------------------- |
-| 1   | Falta de localización GPS | 2                   | Visibilidad del estado del sistema |
-| 2   |                           |                     |                                    |
-| 3   |                           |                     |                                    |
-| 4   |                           |                     |                                    |
+| #   | Problema                                                                            | Escala de severidad | Heurística/Principio violado       |
+| --- | ----------------------------------------------------------------------------------- | ------------------- | ---------------------------------- |
+| 1   | Falta de localización GPS                                                           | 2                   | Visibilidad del estado del sistema |
+| 2   | Falta de información sobre el estado de la carga durante los periodos de descanso   | 2                   | Visibilidad del estado del sistema |
+| 3   | Carencia de alertas mediante correo electrónico                                     | 3                   | Visibilidad del estado del sistema |
+| 4   | Inexistencia de reportes de costos asociados a cada viaje para monitoreo financiero | 1                   | Visibilidad del estado del sistema |
 ##### DESCRIPCIÓN DE PROBLEMAS:
 ---
-###### **PROBLEMA #1:** 
+###### **PROBLEMA #1:** Falta de localización GPS
 
 **Severidad:** 2
 
@@ -3549,37 +3549,38 @@ Fastporte
 **Recomendación:** Aunque la implementación de una funcionalidad de localización GPS podría mejorar la visibilidad y control para los supervisores, su desarrollo e integración implicarían una considerable inversión de tiempo y recursos. La integración de una API de localización, como Google Maps, requeriría ajustes en la infraestructura. Debido a que este problema no bloquea el uso del sistema y los supervisores aún pueden gestionar a sus conductores mediante las herramientas actuales, se recomienda considerar la funcionalidad de GPS para una versión futura. Priorizar su implementación en este momento podría retrasar otras funcionalidades esenciales en el corto plazo. Por tanto, este ajuste se sugiere para el otro release o una fase posterior, una vez que el producto base esté completamente operativo y las demás funcionalidades estén estabilizadas.
 
 ---
-###### **PROBLEMA #2:** 
+###### **PROBLEMA #2:** Generación de información sobre el estado de la carga durante los periodos de descanso
 
-**Severidad:**
+**Severidad:** 2
 
-**Heurística violada:** 
+**Heurística violada:**  Visibilidad del estado del sistema
 
-**Problema:** 
+**Problema:** El usuario sugirió que el sistema debería generar informes sobre el estado de la carga durante los periodos de descanso, dado que los conductores hacen paradas periódicas. Actualmente, el sistema no proporciona esta información automáticamente, lo cual limita la visibilidad que el supervisor tiene sobre las condiciones de la carga entre los intervalos de monitoreo activo. 
 
-**Recomendación:** 
-
----
-###### **PROBLEMA #3:** 
-
-**Severidad:**
-
-**Heurística violada:** 
-
-**Problema:** 
-
-**Recomendación:** 
+**Recomendación:** Considerar la implementación de una funcionalidad que permita registrar el estado de la carga en intervalos de descanso. Esto podría lograrse mediante la activación de sensores en momentos específicos o solicitando al conductor que informe el estado de la carga al reanudar el viaje. Este ajuste requiere cambios en el sistema de monitoreo y comunicación con el conductor, lo que podría implicar una inversión de tiempo considerable. Dado que el sistema ya proporciona monitoreo en tiempo real, se sugiere implementar esta mejora en un futuro sprint, cuando la funcionalidad principal esté completamente estabilizada.
 
 ---
-###### **PROBLEMA #4:** 
+###### **PROBLEMA #3:** Envío de alertas mediante correo
 
-**Severidad:**
+**Severidad:** 3
 
-**Heurística violada:** 
+**Heurística violada:** Visibilidad del estado del sistema
 
-**Problema:** 
+**Problema:** El usuario expresó que sería útil recibir alertas a través de correo electrónico, para asegurarse de que las alertas importantes sean atendidas de inmediato, incluso cuando el supervisor no esté activamente en la plataforma. Actualmente, las alertas solo se reciben dentro de la aplicación, lo que puede resultar en un retraso en la respuesta ante incidentes.
 
-**Recomendación:** 
+**Recomendación:** Aunque es una mejora importante, la implementación de notificaciones push y correos electrónicos implica configuraciones adicionales de infraestructura, tales como un servidor de correo o un sistema de notificaciones push. Debido a la complejidad técnica y al impacto en los recursos, se recomienda considerar esta funcionalidad para un próximo sprint, después de la estabilización de las funcionalidades principales.
+
+---
+###### **PROBLEMA #4:**  Inexistencia de reportes de costos asociados a cada viaje para monitoreo financiero
+
+**Severidad:** 1
+
+**Heurística violada:**  Visibilidad del estado del sistema
+
+**Problema:**  El usuario sugirió que sería útil contar con reportes financieros que indiquen los costos asociados a cada viaje para tener un monitoreo de gastos. Actualmente, el sistema no incluye esta funcionalidad, lo cual limita la visibilidad financiera de cada operación.
+
+**Recomendación:** Aunque la generación de reportes de costos podría brindar valor adicional, esta funcionalidad no forma parte del rubro principal del sistema, enfocado en el monitoreo de seguridad IoT en el transporte de materiales peligrosos. La inclusión de reportes financieros implicaría desviar recursos de las funcionalidades críticas de monitoreo y alertas en tiempo real. Sin embargo, si las necesidades del cliente cambian en el futuro, esta funcionalidad podría considerarse como una mejora adicional en una etapa posterior del desarrollo.
+
 
 ---
 ## 6.4. Video About-the-Product
