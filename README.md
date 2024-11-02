@@ -3867,7 +3867,7 @@ Enlace al video de exposición TP:
 
 ## Anexo D
 Enlace al video de exposición TB2:
-
+[https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c172_upc_edu_pe/EXILlBbgpR1NkTF7s0CVTyQB_u-S1PY-t4wEP3X_RJ2MkA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SQitI3](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c172_upc_edu_pe/EXILlBbgpR1NkTF7s0CVTyQB_u-S1PY-t4wEP3X_RJ2MkA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SQitI3 )
 
 ## Anexo E
 Enlace al video About-the-Product:
