@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca951fa4-bdd3-4b0f-b4c0-c7598ba48efd" name="Changes" comment="completion of chapter 4 fix">
-      <change afterPath="$PROJECT_DIR$/assets/chapter6_img/entrevistas/entrevista_supervisor_1.png" afterDir="false" />
+    <list default="true" id="ca951fa4-bdd3-4b0f-b4c0-c7598ba48efd" name="Changes" comment="add entrevistas">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -98,7 +97,8 @@
       <workItem from="1727207417201" duration="11077000" />
       <workItem from="1727268860242" duration="3494000" />
       <workItem from="1727378830364" duration="2031000" />
-      <workItem from="1730586288756" duration="3162000" />
+      <workItem from="1730586288756" duration="3219000" />
+      <workItem from="1730589943392" duration="284000" />
     </task>
     <task id="LOCAL-00001" summary="completion of chapter 4 fix">
       <option name="closed" value="true" />
@@ -108,7 +108,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727274538345</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add entrevistas">
+      <option name="closed" value="true" />
+      <created>1730589787394</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1730589787394</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +124,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="completion of chapter 4 fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="completion of chapter 4 fix" />
+    <MESSAGE value="add entrevistas" />
+    <option name="LAST_COMMIT_MESSAGE" value="add entrevistas" />
   </component>
 </project>
