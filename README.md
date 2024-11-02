@@ -19,22 +19,38 @@
 ___
 # Registro de Versiones del Informe
 
-| Versión | Fecha      | Autor                             | Descripción de modificación                                                |
-| ------- | ---------- | --------------------------------- | -------------------------------------------------------------------------- |
-| 1.0     | 22/08/2024 | Sebastián Lévano                  | Creación del archivo base en Markdown para el desarrollo del Final Project |
-| 1.1     | 01/08/2024 | Sebastián Lévano                  | Desarrollo del Capítulo 3                                                  |
-| 1.2     | 26/08/2024 | Anthony Botello                   | Desarrollo del Capítulo 1                                                  |
-| 1.3     | 01/09/2024 | Claudio Moreno                    | Desarrollo del Capítulo 2                                                  |
-| 1.4     | 05/09/2024 | Eduardo Chero & Josue Arrunátegui | Desarrollo del Capítulo 4                                                  |
-| 1.5     | 16/09/2024 | Sebastián Lévano                  | Actualización de índice, títulos y subtítulos para el Trabajo Parcial      |
-| 1.6     | 19/09/2024 | Sebastián Lévano                  | Correcciones del Capítulo I y Outcomes                                     |
-| 1.7     | 21/09/2024 | Anthony Botello                   | Correcciones del Capítulo I y Putcomes                                     |
-| 1.8     | 21/09/2024 | Sebastián Lévano                  | Desarrollo del Capítulo 5: Landing Page UI Design                          |
-| 1.9     | 22/09/2024 | Anthony Botello                   | Desarrollo del Capítulo 5: Applications UX/UI Design                       |
-| 2.0     | 26/09/2024 | Claudio Moreno                    | Desarrollo del Capítulo 5: Information Architecture                        |
-| 2.1     | 26/09/2024 | Josue Arrunategui                 | Desarrollo del Capítulo 6: Software Configuration Management               |
-| 2.2     | 26/09/2024 | Eduardo Chero                     | Desarrollo del Capítulo 6: Sprint 1                                        |
-| 2.3     | 26/09/2024 | Sebastián Lévano                  | Outcomes, Conclussions & Insights                                                      |
+| Versión | Fecha      | Autor                             | Descripción de modificación                                                  |
+| ------- | ---------- | --------------------------------- | ---------------------------------------------------------------------------- |
+| 1.0     | 22/08/2024 | Sebastián Lévano                  | Creación del archivo base en Markdown para el desarrollo del Final Project   |
+| 1.1     | 01/08/2024 | Sebastián Lévano                  | Desarrollo del Capítulo 3                                                    |
+| 1.2     | 26/08/2024 | Anthony Botello                   | Desarrollo del Capítulo 1                                                    |
+| 1.3     | 01/09/2024 | Claudio Moreno                    | Desarrollo del Capítulo 2                                                    |
+| 1.4     | 05/09/2024 | Eduardo Chero & Josue Arrunátegui | Desarrollo del Capítulo 4                                                    |
+| 1.5     | 16/09/2024 | Sebastián Lévano                  | Actualización de índice, títulos y subtítulos para el Trabajo Parcial        |
+| 1.6     | 19/09/2024 | Sebastián Lévano                  | Correcciones del Capítulo I y Outcomes                                       |
+| 1.7     | 21/09/2024 | Anthony Botello                   | Correcciones del Capítulo I y Putcomes                                       |
+| 1.8     | 21/09/2024 | Sebastián Lévano                  | Desarrollo del Capítulo 5: Landing Page UI Design                            |
+| 1.9     | 22/09/2024 | Anthony Botello                   | Desarrollo del Capítulo 5: Applications UX/UI Design                         |
+| 2.0     | 26/09/2024 | Claudio Moreno                    | Desarrollo del Capítulo 5: Information Architecture                          |
+| 2.1     | 26/09/2024 | Josue Arrunategui                 | Desarrollo del Capítulo 6: Software Configuration Management                 |
+| 2.2     | 26/09/2024 | Eduardo Chero                     | Desarrollo del Capítulo 6: Sprint 1                                          |
+| 2.3     | 26/09/2024 | Sebastián Lévano                  | Outcomes, Conclussions & Insights                                            |
+| 2.4     | 21/10/2024 | Sebastián Lévano                  | Actualización de índices, títulos y subtítulos para el TB2                   |
+| 2.5     | 31/10/2024 | Sebastián Lévano                  | Outcomes, Conclussions, Insights y Execution Evidence for Sprint Review      |
+| 3.0     | 14/10/2024 | Claudio Moreno                    | Desarrollo del Capítulo 6: Sprint Planning 2                                 |
+| 3.1     | 31/10/2024 | Claudio Moreno                    | Desarrollo del Capítulo 6: Testing Suite Evidence for Sprint Review.         |
+| 3.2     | 28/10/2024 | Eduardo Chero                     | Desarrollo del Capítulo 6: Sprint Backlog 2                                  |
+| 3.3     | 28/10/2024 | Eduardo Chero                     | Desarrollo del Capítulo 6: Development Evidence for Sprint Review            |
+| 3.4     | 28/10/2024 | Anthony Botello                   | Desarrollo del Capítulo 6: Services Documentation Evidence for Sprint Review |
+| 3.5     | 28/10/2024 | Anthony Botello                   | Desarrollo del Capítulo 6: Software Deployment Evidence for Sprint Review    |
+| 3.6     | 29/10/2024 | Josue Arrunategui                 | Desarrollo del Capítulo 6: Team Collaboration Insights during Sprint         |
+| 3.6     | 29/10/2024 | Josue Arrunategui                 | Desarrollo del Capítulo 6: Diseño de Entrevistas                             |
+| 3.6     | 29/10/2024 | Josue Arrunategui                 | Desarrollo del Capítulo 6: Registro de Entrevistas                           |
+| 3.7     | 29/10/2024 | Sebastián Lévano                  | Desarrollo del Capítulo 6: Execution Evidence for Sprint Review              |
+| 3.8     | 29/10/2024 | Sebastián Lévano                  | Actualización de índices, títulos y subtítulos para el TB2                   |
+| 3.9     | 30/10/2024 | Sebastián Lévano                  | Outcomes, Conclussions, Insights y Execution Evidence for Sprint Review      |
+| 4.0     | 01/11/2024 | Anthony Botello                   | Desarrollo del Capítulo 6: Services Documentation Evidence for Sprint Review |
+| 4.1     | 01/11/2024 | Anthony Botello                   | Desarrollo del Capítulo 6: Software  Deployment Evidence for Sprint Review   |
 
 ---
 
@@ -56,6 +72,10 @@ Durante la realización de la entrega TB1 se abordaron los cuatro primeros capí
 ![TP Collaboration Insights](./assets/collaboration_insights/tp_collaboration.png)
 
 La presenta entrega cubrió el cumplimiento de los capítulos V y VI del informe. A lo largo del quinto capítulo se definieron las guías de estilo que se aplicarán en la realización de las soluciones de software propuestas por la Startup. Asimismo,  se diseño la estructura y organización del contenido de la aplicación web FastPorte para facilitar su acceso y comprensión por parte de los usuarios. También se diseño el Landing Page, el contenido que presentará y el aspecto que tendrá por medio de los wireframes y mock-ups. De igual manera para la aplicación web, aunque detallando el flujo que seguirá cada una de sus funcionalidades y características. Por otro lado, se empezó con el desarrollo de software siguiendo los elementos contemplados para el primer Sprint, designado para completar el Landing Page y presentar una primera versión de la aplicación web.
+
+- TB2: Se continuo con el desarrollo del capítulo VI, en el cual se abordo el desarrollo del Sprint 2 y la realización de las entrevistas de validación sobre los productos de software implementados. Este Sprint involucra la actualización de la página de aterrizaje, *Landing Page*, la segunda versión del *Web Application*, la primera versión del *Mobile Application* y el despliegue del *Backend*.
+![TB2 Collaboration Insights](./assets/collaboration_insights/tb2_collaboration.png)
+La entrega sirvió para continuar con el desarrollo de los productos de software que se presentarán, tales como el Mobile Application, Web Application y la actualización de la Landing Page. Se cubrió el segundo Sprint encargado de realizar la segunda versión del Web Application, la primera versión del Mobile Application y el avance del Embedded Application. Además, se desarrollaron las entrevistas de validación para conocer la opinión de nuestros usuarios sobre los productos de software desarrollados y si estos se pueden mejorar o que complicaciones presentan actualmente. Posteriormente, se realizaron las heurísticas sobre dichos comentarios para subsanar las observaciones obtenidas e nuestros segmentos objetivo.
 
 ---
 # Contenido 
@@ -139,15 +159,31 @@ La presenta entrega cubrió el cumplimiento de los capítulos V y VI del informe
       - [6.2.1.6. Services Documentation Evidence for Sprint Review](#6216-services-documentation-evidence-for-sprint-review)
       - [6.2.1.7. Software Deployment Evidence for Sprint Review](#6217-software-deployment-evidence-for-sprint-review)
       - [6.2.1.8. Team Collaboration Insights during Sprint](#6218-team-collaboration-insights-during-sprint)
+      - [6.2. Landing Page, Services & Applications Implementation](#62-landing-page-services-applications-implementation)
+    - [6.2.2. Sprint 2](#622-sprint-2)
+      - [6.2.2.1. Sprint Planning 2](#6221-sprint-planning-2)
+      - [6.2.2.2. Sprint Backlog 2](#6222-sprint-backlog-2)
+      - [6.2.2.3. Development Evidence for Sprint Review](#6223-development-evidence-for-sprint-review)
+      - [6.2.2.4. Testing Suite Evidence for Sprint Review](#6224-testing-suite-evidence-for-sprint-review)
+      - [6.2.2.5. Execution Evidence for Sprint Review](#6225-execution-evidence-for-sprint-review)
+      - [6.2.2.6. Services Documentation Evidence for Sprint Review](#6226-services-documentation-evidence-for-sprint-review)
+      - [6.2.2.7. Software Deployment Evidence for Sprint Review](#6227-software-deployment-evidence-for-sprint-review)
+      - [6.2.2.8. Team Collaboration Insights during Sprint](#6228-team-collaboration-insights-during-sprint)
+  - [6.3. Validation Interviews](#63-validation-interviews)
+    - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
+    - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
+    - [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
+  - [6.4. Video About-the-Product](#64-video-about-the-product)
 
 ---
 
 # Student Outcome
 
-| Criterio Específico                                                                             | Acciones Realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | Conclusiones                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta.                                | *Eduardo Sebastián Lévano Cavero*<br>**TB1:**<br>A través de la realización de los To Be Scenario Mapping y User Stories, lideré la definición de escenarios futuros y necesidades del usuario, respectivamente, lo que permitió al equipo visualizar y priorizar funcionalidades clave. Mediante el Impact Mapping, pudimos establecer en conjunto relaciones claras entre los objetivos estratégicos y las características del producto, garantizando un enfoque alineado con las metas organizacionales. Finalmente, en el Product Backlog, se gestionaron las tareas de manera colaborativa, facilitando una planificación y ejecución eficientes que reflejan las prioridades acordadas en equipo.<br>**TP:**<br>Para el desarrollo del wireframe y el mock-up de la Landing Page, adoptamos un enfoque compartido donde participé activamente en la conceptualización, diseño y revisión, asegurando que las decisiones fueran tomadas de manera colectiva y reflejaran las necesidades del proyecto. Del mismo modo, en la creación de los wireframes y mock-ups de las aplicaciones, trabajé en equipo para definir las características clave y su representación visual, asegurando que cada etapa del proceso fuera gestionada con una visión conjunta, promoviendo un liderazgo colaborativo para garantizar la calidad y coherencia de los entregables. <br><br>*Anthony Botello Saldarriaga* <br>**TB1:**<br>En el presente proyecto, colaboré activamente en el liderazgo conjunto del equipo. Contribuí en la definición del startup y solution profile, y participé en la creación de los Lean UX Problem Statements y su análisis. Además, apoyé en la elaboración del Lean UX Canvas, tomando decisiones clave en conjunto con el equipo para asegurar un desarrollo efectivo y alineado con los objetivos del proyecto.<br>**TP:**<br>Durante el desarrollo de los prototipos y flujos de usuario para la aplicación FastPorte, se trabajó en equipo para asegurar un liderazgo conjunto, donde se tomaron decisiones colaborativas que integraron las necesidades de los diferentes usuarios. A través de la planificación de tareas como la creación de wireflows y prototipos, cada miembro del equipo asumió un rol de liderazgo en distintas áreas y se garantizó que se cumplieran los objetivos de manera eficaz, y asegurando que la plataforma reflejara las expectativas de los usuarios involucrados.<br><br>*Eduardo André Chero Emé*<br>**TB1:**<br>El desarrollo del event Storming nos ayudó para tener una visualizacion más definida de nuestros bounded context para una mejor implementación en el código. Clasificar los escenarios mediante el modelado de Message flows y generar los Bounded Context Canvas nos brindan un mejor entendimiento de las variables, conexiones y propisitos de los bounded context que impementamos. Por ultimo el desarrollo del diseño de la arquitectura de software en C4 para una mejor ejemplificacion de como va a realizarce nuestras conexiones de los respectivos servicios.<br>**TP:**<br>Para el desarrollo del despliegue de la aplicación web y la creacion de la base de datos que servira como APIfake para el desarrollo del primer Sprint coordinamos como deberiamos desplegarlas, propuse los servcios de Firebase para una mejor integración con Angular, y me encargue de la elaboracion de la seccion de Sprint1<br><br>*Claudio Jesús Moreno Rosales*<br>**TB1:**<br>Para realizar y encontrar los requisitos de los segmentos objetivos se tuvo que realizar cada parte con los miembros del equipo para establecer cuales son los requisitos encontrados, como se debería ver los User Persona, User Journey Map, entre otros para entender y empatizar a profundidad con los usuarios.<br>**TP:**<br>Se trabajó de forma conjunta con el equipo para lograr un buen diseño, navegación, búsqueda y propotipos de todas las soluciones, esto ha permitido que sea más sencillo de realizar los avances de desarrollo.<br><br>*Josue David Arrunategui Aguilar*<br>**TB1:**<br>En el desarrollo del proyecto, asumí un papel clave en el diseño y la implementación de los bounded contexts de Usuario, Viaje y Sensor. Mi enfoque incluyó la definición precisa de cada contexto para garantizar una integración efectiva en el sistema.<br>**TP**<br>En el proyecto, trabajé activamente en la gestión y configuración del entorno de desarrollo mediante la implementación de prácticas clave en Software Configuration Management. Mi participación incluyó la configuración y ajuste del entorno de desarrollo, asegurando que todas las herramientas y procesos utilizados estuvieran alineados para garantizar un flujo de trabajo eficiente. Además, implementé mejoras en la estructura de los bounded contexts, lo que permitió una mayor consistencia y claridad en la configuración del entorno. Esta gestión integral contribuyó a optimizar las etapas de desarrollo y a prevenir problemas relacionados con la integración de los componentes del sistema. | *TB1*<br>La presente entrega permitió validar que la solución propuesta es adecuada para los segmentos objetivo, gracias al liderazgo colaborativo ejercido durante las entrevistas y el análisis de estas. Se trabajo en conjunto para asegurar que todas las perspectivas fueran consideradas en cada etapa, desde el desarrollo de la Introducción hasta la estructuración de la arquitectura utilizando C4. Este enfoque conjunto en la toma de decisiones y el liderazgo compartido permitió que cada fase del proyecto fuera abordada de manera coherente, asegurando que las metas se alinearan con las necesidades del proyecto y se tomaran en cuenta las aportaciones de todo el equipo.<br><br>*TP*<br><br>En equipo, se diseñó la plataforma web y el Landing Page, empleando Figma. Trabajar estas secciones de manera conjunta nos permitió definir los elementos que contendrá la plataforma y cómo funcionará. Además, pudimos elegir una guía de estilos adecuada con la que todos estuvieran satisfechos. Por otro lado, cada miembro asumió el rol de líder durante el desarrollo de cada componente de software y la planificación y ejecución del primer Sprint. |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | *Eduardo Sebastián Lévano Cavero*<br>**TB1:**<br>Por medio de los To Be Scenario Mapping y las User Stories, identificamos y documentamos las necesidades y expectativas de los usuarios, asegurando que todas las voces fueran escuchadas y consideradas. Mediante el Impact Mapping, en grupo alineamos las metas estratégicas con las funcionalidades del producto, permitiendo una planificación clara y enfocada. En el Product Backlog, priorizamos y planificamos las tareas de forma conjunta, lo que facilitó el cumplimiento de los objetivos establecidos dentro de un marco de trabajo inclusivo y bien organizado.<br>**TP:**<br>Durante el desarrollo del wireframe y el mock-up de la Landing Page, colaboré con el equipo para establecer metas claras y asegurar que todos los puntos de vista fueran escuchados, lo que permitió que las decisiones reflejaran las necesidades del proyecto de manera equitativa. De igual manera, en la creación de los wireframes y mock-ups de las aplicaciones, planifiqué junto al equipo las tareas necesarias, asignando responsabilidades y asegurando que cada objetivo se cumpliera dentro de los plazos establecidos, siempre manteniendo un ambiente de trabajo inclusivo y alineado con las metas acordadas.<br><br>*Anthony Botello Saldarriaga* <br>**TB1:**<br>En el desarrollo, fomenté un entorno colaborativo e inclusivo asegurando que todas las ideas fueran escuchadas y valoradas. Participé en la definición de metas claras para el proyecto, colaborando en la planificación de tareas específicas como el desarrollo de los diferentes puntos del informe. Además, me aseguré de que los plazos y objetivos se cumplieran de manera eficiente, distribuyendo responsabilidades entre los miembros del equipo.<br>**TP:**<br>Durante el desarrollo de los prototipos, wireflows y user flows para la aplicación FastPorte, se fomentó un entorno colaborativo al integrar las necesidades de distintos usuarios, estableciendo metas claras para que ellos puedan cumplirlas. Planificamos tareas detalladas, como la creación de wireflows y prototipos de UI, lo que permitió cumplir con los objetivos de mejorar la experiencia del usuario de manera inclusiva y eficiente.<br><br>*Eduardo André Chero Emé*<br>**TB1:**<br>A través de EventStorming, se identificaron los contextos potenciales y se modelaron los flujos de mensajes del dominio; esto permitió utilizar los Bounded Context Canvases para encontrar contextos delimitados. Posteriormente, se trabajó en el mapeo de contextos y el diseño de la arquitectura de software, creando diagramas a nivel de sistema, contexto, contenedor y despliegue, lo que proporcionó una visión clara de las conexiones y dependencias entre los servicios.<br>**TP:**<br>Para el desarrollo del primer Sprint generamos una sesion para detallar las tareas que cada uno debe tevisar para terminar en un tiempo optimo a la fecha de entrega.<br><br>*Claudio Jesús Moreno Rosales*<br>**TB1:**<br> En la elaboración de las técnicas de Design Thinking como los User Persona, User Journey Map, entre otros, se pudo apreciar que los miembros del equipo colaboraron realizando sus entrevistas, analisando cuantiativamente las entrevistas y al final sacando los resultados finales para empatizar con nuestros segmentos objetivo.<br>**TP:**<br>Para elaborar los prototipos e implementar avances de las soluciones principalmente web se tuvo que realizar un conjunto de metas para cada integrante y sus fechas de entrega para tener mejor palnificado todo el proyecto y no tener retrasos. <br><br>*Josue David Arrunategui Aguilar*<br>**TB1:**<br>En el desarrollo del proyecto, asumí un papel clave en el diseño y la implementación de los bounded contexts de Usuario, Viaje y Sensor. Mi enfoque incluyó la definición precisa de cada contexto para garantizar una integración efectiva en el sistema.<br>**TP:**<br>En el desarrollo del proyecto, implementé una gestión de configuración de software que promovió la colaboración y la inclusión, estableciendo un entorno de desarrollo accesible y comunicativo. Utilicé herramientas como GitHub para la gestión del código fuente, facilitando el trabajo simultáneo del equipo y manteniendo altos estándares de calidad mediante una guía de estilo clara. Además, diseñé una configuración de despliegue que permitió verificar el cumplimiento de los objetivos en cada fase del proyecto, asegurando un progreso constante y efectivo.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | *TB1*<br>Se lograron los objetivos diseñados en grupo al completar la base del proyecto tanto a nivel de diseño como de arquitectura. Asimismo, al planear los elementos a desarrollar durante los siguientes Sprints.<br><br>*TP*<br>Se puede evidenciar el trabajo colaborativo mediante el desarrollo de la primera versión de la aplicación web y la landing page. Se establecieron los objetivos a cumplir para este primer Sprint y se llevaron a cabo por medio del desarrollo. Asimismo, cada integrante cumplió un rol fundamental ya sea en la sección de desarrollo frontend, desarrollo del fake API, desarrollo del landing page o realización del informe.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Criterio Específico                                                                             | Acciones Realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | Conclusiones                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| ----------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta.                                | *Eduardo Sebastián Lévano Cavero*<br>**TB1:**<br>A través de la realización de los To Be Scenario Mapping y User Stories, lideré la definición de escenarios futuros y necesidades del usuario, respectivamente, lo que permitió al equipo visualizar y priorizar funcionalidades clave. Mediante el Impact Mapping, pudimos establecer en conjunto relaciones claras entre los objetivos estratégicos y las características del producto, garantizando un enfoque alineado con las metas organizacionales. Finalmente, en el Product Backlog, se gestionaron las tareas de manera colaborativa, facilitando una planificación y ejecución eficientes que reflejan las prioridades acordadas en equipo.<br>**TP:**<br>Para el desarrollo del wireframe y el mock-up de la Landing Page, adoptamos un enfoque compartido donde participé activamente en la conceptualización, diseño y revisión, asegurando que las decisiones fueran tomadas de manera colectiva y reflejaran las necesidades del proyecto. Del mismo modo, en la creación de los wireframes y mock-ups de las aplicaciones, trabajé en equipo para definir las características clave y su representación visual, asegurando que cada etapa del proceso fuera gestionada con una visión conjunta, promoviendo un liderazgo colaborativo para garantizar la calidad y coherencia de los entregables.<br>**TB2** <br>Junto a mis compañeros de equipo llevamos a cabo el desarrollo de los productos de software que ofreceremos a nuestros segmentos objetivo. Dividiendo el trabajo de cada programa para avanzar con mayor rapidez y eficacia. Además, reuniéndonos para poder corroborar los avances realizados, comentar alguna posible complicación presentada y conocer el estado del proyecto en general. Asimismo, dedicamos tiempo a realizar las entrevistas y analizarlas en conjunto con el fin de mejorar nuestras aplicaciones. <br><br>*Anthony Botello Saldarriaga* <br>**TB1:**<br>En el presente proyecto, colaboré activamente en el liderazgo conjunto del equipo. Contribuí en la definición del startup y solution profile, y participé en la creación de los Lean UX Problem Statements y su análisis. Además, apoyé en la elaboración del Lean UX Canvas, tomando decisiones clave en conjunto con el equipo para asegurar un desarrollo efectivo y alineado con los objetivos del proyecto.<br>**TP:**<br>Durante el desarrollo de los prototipos y flujos de usuario para la aplicación FastPorte, se trabajó en equipo para asegurar un liderazgo conjunto, donde se tomaron decisiones colaborativas que integraron las necesidades de los diferentes usuarios. A través de la planificación de tareas como la creación de wireflows y prototipos, cada miembro del equipo asumió un rol de liderazgo en distintas áreas y se garantizó que se cumplieran los objetivos de manera eficaz, y asegurando que la plataforma reflejara las expectativas de los usuarios involucrados.<br>**TB2**<br>En este sprint, trabajé con el equipo de manera coordinada para cumplir con los objetivos establecidos. Cada miembro asumió un rol de liderazgo en diferentes tareas clave, como el despliegue de servicios, la documentación de endpoints y la implementación de mejoras basadas en el feedback del primer sprint. Se realizaron reuniones de seguimiento en las que se discutieron avances y se resolvieron problemas de manera conjunta, permitiendo que todos contribuyeran en la toma de decisiones. Este enfoque compartido de liderazgo ayudó a optimizar el tiempo y a asegurar que las entregas del sprint fueran completadas.<br><br>*Eduardo André Chero Emé*<br>**TB1:**<br>El desarrollo del event Storming nos ayudó para tener una visualizacion más definida de nuestros bounded context para una mejor implementación en el código. Clasificar los escenarios mediante el modelado de Message flows y generar los Bounded Context Canvas nos brindan un mejor entendimiento de las variables, conexiones y propisitos de los bounded context que impementamos. Por ultimo el desarrollo del diseño de la arquitectura de software en C4 para una mejor ejemplificacion de como va a realizarce nuestras conexiones de los respectivos servicios.<br>**TP:**<br>Para el desarrollo del despliegue de la aplicación web y la creacion de la base de datos que servira como APIfake para el desarrollo del primer Sprint coordinamos como deberiamos desplegarlas, propuse los servcios de Firebase para una mejor integración con Angular, y me encargue de la elaboracion de la seccion de Sprint1<br>**TB2**<br><br>*Claudio Jesús Moreno Rosales*<br>**TB1:**<br>Para realizar y encontrar los requisitos de los segmentos objetivos se tuvo que realizar cada parte con los miembros del equipo para establecer cuales son los requisitos encontrados, como se debería ver los User Persona, User Journey Map, entre otros para entender y empatizar a profundidad con los usuarios.<br>**TP:**<br>Se trabajó de forma conjunta con el equipo para lograr un buen diseño, navegación, búsqueda y propotipos de todas las soluciones, esto ha permitido que sea más sencillo de realizar los avances de desarrollo.<br>**TB2**<br>Trabajamos en equipo desarrollando los productos digitales de Fastporte que son la Landing Page, Web App, Mobile App, Cloud API, Edge API y IoT Embedded App y teniendo participación en todo desde la comunicación hasta ayudar en el desarrollo, corrección de errores e ir cumpliendo metas en los plazos establecidos.<br><br>*Josue David Arrunategui Aguilar*<br>**TB1:**<br>En el desarrollo del proyecto, asumí un papel clave en el diseño y la implementación de los bounded contexts de Usuario, Viaje y Sensor. Mi enfoque incluyó la definición precisa de cada contexto para garantizar una integración efectiva en el sistema.<br>**TP**<br>En el proyecto, trabajé activamente en la gestión y configuración del entorno de desarrollo mediante la implementación de prácticas clave en Software Configuration Management. Mi participación incluyó la configuración y ajuste del entorno de desarrollo, asegurando que todas las herramientas y procesos utilizados estuvieran alineados para garantizar un flujo de trabajo eficiente. Además, implementé mejoras en la estructura de los bounded contexts, lo que permitió una mayor consistencia y claridad en la configuración del entorno. Esta gestión integral contribuyó a optimizar las etapas de desarrollo y a prevenir problemas relacionados con la integración de los componentes del sistema.<br>**TB2** | *TB1*<br>La presente entrega permitió validar que la solución propuesta es adecuada para los segmentos objetivo, gracias al liderazgo colaborativo ejercido durante las entrevistas y el análisis de estas. Se trabajo en conjunto para asegurar que todas las perspectivas fueran consideradas en cada etapa, desde el desarrollo de la Introducción hasta la estructuración de la arquitectura utilizando C4. Este enfoque conjunto en la toma de decisiones y el liderazgo compartido permitió que cada fase del proyecto fuera abordada de manera coherente, asegurando que las metas se alinearan con las necesidades del proyecto y se tomaran en cuenta las aportaciones de todo el equipo.<br><br>*TP*<br>En equipo, se diseñó la plataforma web y el Landing Page, empleando Figma. Trabajar estas secciones de manera conjunta nos permitió definir los elementos que contendrá la plataforma y cómo funcionará. Además, pudimos elegir una guía de estilos adecuada con la que todos estuvieran satisfechos. Por otro lado, cada miembro asumió el rol de líder durante el desarrollo de cada componente de software y la planificación y ejecución del primer Sprint.<br><br>*TB2*<br>El grupo llevó a cabo el desarrollo del segundo Sprint enfocado en brindar la primera versión de la aplicación móvil, la segunda de la aplicación web y la mejora de la Landing Page. Se designo tareas a cada integrante que luego se revisaron en conjunto para llevar un registro del avance realizado por cada integrante. Además, el trabajo colaborativo realizado permitió resolver múltiples complicaciones y problemas presentados durante el desarrollo. |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | *Eduardo Sebastián Lévano Cavero*<br>**TB1:**<br>Por medio de los To Be Scenario Mapping y las User Stories, identificamos y documentamos las necesidades y expectativas de los usuarios, aseguramos que todas las voces fueran escuchadas y consideradas. Mediante el Impact Mapping, en grupo alineamos las metas estratégicas con las funcionalidades del producto, permitiendo una planificación clara y enfocada. En el Product Backlog, priorizamos y planificamos las tareas de forma conjunta, lo que facilitó el cumplimiento de los objetivos establecidos dentro de un marco de trabajo inclusivo y bien organizado.<br>**TP:**<br>Durante el desarrollo del wireframe y el mock-up de la Landing Page, colaboré con el equipo para establecer metas claras y asegurar que todos los puntos de vista fueran escuchados, lo que permitió que las decisiones reflejaran las necesidades del proyecto de manera equitativa. De igual manera, en la creación de los wireframes y mock-ups de las aplicaciones, planifiqué junto al equipo las tareas necesarias, asignando responsabilidades y asegurando que cada objetivo se cumpliera dentro de los plazos establecidos, siempre manteniendo un ambiente de trabajo inclusivo y alineado con las metas acordadas.<br>**TB2**<br>Se colaboró en el desarrollo de los avances de las aplicaciones, siguiendo los objetivos planteados en el Sprint y cumpliendo con cada una de las tareas designadas en las reuniones realizadas. La comunicación fue un punto clave durante la realización del presente Sprint para mantenernos informados del estado de las aplicaciones desarrolladas y los apartados que faltaban completarse.<br><br>*Anthony Botello Saldarriaga* <br>**TB1:**<br>En el desarrollo, fomenté un entorno colaborativo e inclusivo asegurando que todas las ideas fueran escuchadas y valoradas. Participé en la definición de metas claras para el proyecto, colaborando en la planificación de tareas específicas como el desarrollo de los diferentes puntos del informe. Además, me aseguré de que los plazos y objetivos se cumplieran de manera eficiente, distribuyendo responsabilidades entre los miembros del equipo.<br>**TP:**<br>Durante el desarrollo de los prototipos, wireflows y user flows para la aplicación FastPorte, se fomentó un entorno colaborativo al integrar las necesidades de distintos usuarios, estableciendo metas claras para que ellos puedan cumplirlas. Planificamos tareas detalladas, como la creación de wireflows y prototipos de UI, lo que permitió cumplir con los objetivos de mejorar la experiencia del usuario de manera inclusiva y eficiente.<br>**TB2**<br>En el presente sprint, el equipo se enfocó en crear un entorno de trabajo colaborativo e inclusivo, promoviendo la participación activa de todos los integrantes. Establecimos metas claras desde el inicio del sprint, priorizando las tareas de despliegue, documentación y pruebas de funcionalidades. Cada miembro asumió responsabilidades específicas y se planificaron las tareas de manera equitativa, asegurando que cada uno pudiera aportar desde sus fortalezas. Gracias a una planificación efectiva y a una comunicación constante, logramos cumplir con los objetivos del sprint dentro del tiempo estimado, manteniendo un flujo de trabajo eficiente y alineado con las metas del proyecto.<br><br>*Eduardo André Chero Emé*<br>**TB1:**<br>A través de EventStorming, se identificaron los contextos potenciales y se modelaron los flujos de mensajes del dominio; esto permitió utilizar los Bounded Context Canvases para encontrar contextos delimitados. Posteriormente, se trabajó en el mapeo de contextos y el diseño de la arquitectura de software, creando diagramas a nivel de sistema, contexto, contenedor y despliegue, lo que proporcionó una visión clara de las conexiones y dependencias entre los servicios.<br>**TP:**<br>Para el desarrollo del primer Sprint generamos una sesión para detallar las tareas que cada uno debe revisar para terminar en un tiempo optimo a la fecha de entrega.<br>**TB2**<br><br>*Claudio Jesús Moreno Rosales*<br>**TB1:**<br> En la elaboración de las técnicas de Design Thinking como los User Persona, User Journey Map, entre otros, se pudo apreciar que los miembros del equipo colaboraron realizando sus entrevistas, analisando cuantiativamente las entrevistas y al final sacando los resultados finales para empatizar con nuestros segmentos objetivo.<br>**TP:**<br>Para elaborar los prototipos e implementar avances de las soluciones principalmente web se tuvo que realizar un conjunto de metas para cada integrante y sus fechas de entrega para tener mejor planificado todo el proyecto y no tener retrasos. <br>**TB2**<br>Con el equipo hemos generado un entorno colaborativo donde cada uno tenia una tarea asignada y debía cumplirse en los plazos proporcionados, además, se planificó las catividades, plazos de entrega, objetivos y tareas específicas en Trello para llevar una mejor gestión de todo el proyecto.<br><br>*Josue David Arrunategui Aguilar*<br>**TB1:**<br>En el desarrollo del proyecto, asumí un papel clave en el diseño y la implementación de los bounded contexts de Usuario, Viaje y Sensor. Mi enfoque incluyó la definición precisa de cada contexto para garantizar una integración efectiva en el sistema.<br>**TP:**<br>En el desarrollo del proyecto, implementé una gestión de configuración de software que promovió la colaboración y la inclusión, estableciendo un entorno de desarrollo accesible y comunicativo. Utilicé herramientas como GitHub para la gestión del código fuente, facilitando el trabajo simultáneo del equipo y manteniendo altos estándares de calidad mediante una guía de estilo clara. Además, diseñé una configuración de despliegue que permitió verificar el cumplimiento de los objetivos en cada fase del proyecto, asegurando un progreso constante y efectivo.<br>**TB2**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | *TB1*<br>Se lograron los objetivos diseñados en grupo al completar la base del proyecto tanto a nivel de diseño como de arquitectura. Asimismo, al planear los elementos a desarrollar durante los siguientes Sprints.<br><br>*TP*<br>Se puede evidenciar el trabajo colaborativo mediante el desarrollo de la primera versión de la aplicación web y la landing page. Se establecieron los objetivos a cumplir para este primer Sprint y se llevaron a cabo por medio del desarrollo. Asimismo, cada integrante cumplió un rol fundamental ya sea en la sección de desarrollo frontend, desarrollo del fake API, desarrollo del landing page o realización del informe.<br><br>*TB2*<br>Gracias al trabajo colaborativo se pudo completar satisfactoriamente las versiones de la aplicación móvil y web esperadas durante el inicio del Sprint. Además, se completo lo planificado con respecto a los avances del informe con las entrevistas realizadas.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+
 
 ---
 # Capítulo I: Introducción
@@ -2767,17 +2803,17 @@ Para este Sprint nos enfocamos en el desarrollo de la Landing page y una face in
 
 #### 6.2.1.3. Development Evidence for Sprint Review
 
-Se completó la implementacion de la Landing-page, el desarrollo del header, caracteristicas, acerca de el equipo y el form para contacto y avance de la aplicación web en temas de registro e inicio de seción, apoyados de una fake API.
+Se completó la implementación de la Landing-page, el desarrollo del header, caracteristicas, acerca de el equipo y el form para contacto y avance de la aplicación web en temas de registro e inicio de sección, apoyados de una fake API.
 
 Tablero de commits del repositorio de la Landing-page:
 
-| Repository | Branch | Commit Id | Commit Message | Commit Message Body| Commited on (Date)                                                                       |                                       
-|---------- |----------|-|-|-|-|
-| Debuggers-SW74/landing-page | feature/home-section | fdea0458258f6c9f6a3c4faac2a20f0d44d62486 | feat: product section |   | 21/09/2024 |
-|  | feature/future-section | 9bc86f40e0e8dd49d598e6162da9bb62b3059d10 | feat: benefits were added |  | 21/09/2024 |
-|  | feature/contact-section | 15f2c2a1c1482e36083afb85877f4765763ff4b7 | feat: contact section and footer layout, feat: Add styles contact section, footer layout |   | 22/09/2024 |
-|  | feature/details-section | 665ecc903f2cb39335a2b95992b8d6cce8c1a671  | refactor: merge |   | 23/09/2024 |
-|  | feature/team-section | e6be5ae2c9c977c4efe95df440e5ff614a6b70fb | cta & team section |   | 23/09/2024 |
+| Repository                  | Branch                  | Commit Id                                | Commit Message                                                                           | Commit Message Body | Commited on (Date) |
+| --------------------------- | ----------------------- | ---------------------------------------- | ---------------------------------------------------------------------------------------- | ------------------- | ------------------ |
+| Debuggers-SW74/landing-page | feature/home-section    | fdea0458258f6c9f6a3c4faac2a20f0d44d62486 | feat: product section                                                                    |                     | 21/09/2024         |
+|                             | feature/future-section  | 9bc86f40e0e8dd49d598e6162da9bb62b3059d10 | feat: benefits were added                                                                |                     | 21/09/2024         |
+|                             | feature/contact-section | 15f2c2a1c1482e36083afb85877f4765763ff4b7 | feat: contact section and footer layout, feat: Add styles contact section, footer layout |                     | 22/09/2024         |
+|                             | feature/details-section | 665ecc903f2cb39335a2b95992b8d6cce8c1a671 | refactor: merge                                                                          |                     | 23/09/2024         |
+|                             | feature/team-section    | e6be5ae2c9c977c4efe95df440e5ff614a6b70fb | cta & team section                                                                       |                     | 23/09/2024         |
 
 Tablero de commits del repositorio de la App web:
 
@@ -3003,7 +3039,7 @@ Para este Sprint se desarrollaron los test BDD para archivos .featrue usando el 
 
 La Landing page muestra un diseño amigable y detallada para cada sección.
 
-La seccion inciial con una pregunta para llamar la atención.
+La seccón inicial con una pregunta para llamar la atención.
 
 ![lphome](./assets/chapter6_img/lphome.png)
 
@@ -3047,15 +3083,15 @@ Registro: Si el usuario recién se va a registrar, deberá seguir unos pasos.
 
   ![registro](./assets/chapter6_img/register.png)
 
-- Y por ultimo sus nombres y número de contacto
+- Y por último sus nombres y número de contacto
 
   ![data](./assets/chapter6_img/data.png)
 
-Home: Esta seccion muestra los datos del conductor, el sensor afiliado a él y los proximos viajes.
+Home: Esta sección muestra los datos del conductor, el sensor afiliado a él y los proximos viajes.
 
 ![home](./assets/chapter6_img/home.png)
 
-El siguiente enlace contiene el video que muestre la navegacion dentro de la Landing Page y la App web: [video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f282_upc_edu_pe/EU1PhhtKmphJhdCGg9oxjJkB-W_iTWsdbmthtQbOSUYH5w?e=MCpj61&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+El siguiente enlace contiene el video que muestre la navegación dentro de la Landing Page y la App web: [video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f282_upc_edu_pe/EU1PhhtKmphJhdCGg9oxjJkB-W_iTWsdbmthtQbOSUYH5w?e=MCpj61&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 #### 6.2.1.6. Services Documentation Evidence for Sprint Review
 
@@ -3115,12 +3151,675 @@ Para esta entrega todos los miembros del equipo colaboraron en el desarrollo de 
 - Evidencia del repositorio 'landing-page'
   
   ![pulselp](./assets/chapter6_img/pulse.png)
-
+-
 - Evidencia del repositorio 'web-application'
   
   ![pulsewa](./assets/chapter6_img/wa.png)
 
+### 6.2.2. Sprint 2
+#### 6.2.2.1. Sprint Planning 2
+
+| Sprint #                           | 2                                                                                       |
+| ---------------------------------- | --------------------------------------------------------------------------------------- |
+| Sprint Planning Background         |                                                                                         |
+| Date                               | 2024-10-                                                                                |
+| Time                               | 07:30 PM                                                                                |
+| Location                           | Reunión virtual durante la clase                                                        |
+| Prepared By                        | Lévano Cavero, Eduardo Sebastián                                                        |
+| Attendees                          | Josué Arrunátegui / Anthony Botello / Eduardo Chero / Sebastián Lévano / Claudio Moreno |
+| Sprint n – 2 Review Summary        | En el Sprint 1 logramos definir y completar la arquitectura de software, además de lanzar una primera versión de la Landing Page y la Web Application utilizando una Fake API. El feedback principal del Product Owner resaltó la importancia de mejorar la organización del equipo y asegurar que todos los miembros participen activamente en todos los productos digitales del proyecto.                                                                     |
+| Sprint n – 2 Retrospective Summary |En el Sprint 1, el equipo identificó como áreas de mejora la organización, la comunicación y la participación activa de cada miembro en las tareas. Se destacó la necesidad de fortalecer el trabajo en conjunto para mejorar la eficiencia y asegurar el éxito en los próximos sprints.|
+| Sprint Goal & User Stories         |                                                                                         |
+| Sprint n Goal                      | **Nos centramos en** la entrega de las primeras versiones de la aplicación móvil y el backend, las actualizaciones de la página de destino y la aplicación web, así como el diseño inicial del dispositivo IoT de detección de fugas de gas, medición de temperatura, presión y humedad y la Edge API para el procesamiento local de datos.<br><br> **Creemos que** esto proporcionará a los conductores un beneficio como las notificaciones de los viajes a través de la aplicación móvil, los supervisores gestionarán y asignarán los viajes a través de la aplicación web, los visitantes podrán ver la página de destino actualizada y los desarrolladores tendrán acceso al backend para dar soporte a las aplicaciones web y móviles. Además, la solución IoT con el sensor de detección de fugas de gas, medición de temperatura, presión y humedad  y el Edge API mejorará la seguridad del conductor al permitir la supervisión de materiales peligrosos antes, durante y después del transporte.<br><br> **Esto se confirmará cuando** los conductores puedan utilizar la App Móvil para ver la información del viaje y las notificaciones, los supervisores puedan asignar y supervisar los viajes a través de la Aplicación Web, los desarrolladores puedan interactuar con la primera versión del Backend para soportar las funcionalidades del sistema, el diseño del dispositivo IoT y la Edge API permiten la detección de fugas de gas, medición de temperatura, presión y humedad proporcionando datos esenciales al sistema y los visitantes pueden acceder a la Landing Page actualizada.|
+| Sprint n Velocity                  | 50                                                                                        |
+| Sum of Story Points                | 48                                                                                        |
+
+#### 6.2.2.2. Sprint Backlog 2
+
+Para este Sprint nos enfocamos en el desarrollo de la Landing page y una face inicial de la app web. <br>
+[Enlace del tablero en Trello](https://trello.com/b/JVzrWFwl/iot-sprint-2)
+
+![trello](./assets/chapter6_img/trello-2.png)
+
+| Sprint #   | Sprint 2                                                   |                  |                                  |                                                                                                                           |                    |               |                                              |
+| ---------- | ---------------------------------------------------------- | ---------------- | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------- | ------------------ | ------------- | -------------------------------------------- |
+| User Story |                                                            | Work-Item / Task |                                  |                                                                                                                           |                    |               |                                             |
+| Id         | Title                                                      | Id               | Title                            | Description                                                                                                               | Estimation (Hours) | Assigned To   | Status (To-do / InProcess / ToReview / Done) |
+| US-001     | Registro de supervisor de la empresa                       | US-001TAS002     | Diseño e Implementación de la Interfaz de Registro |                                                                                                                           |                   3 | Eduardo       | To-fix                                      |
+| US-001     | Registro de supervisor de la empresa                       | US-001TS001      | Implementación del Endpoint de Registro del Supervisor |                                                                                                                           |                  3  | Eduardo       | Done                                         |
+| US-002     | Registro de conductor                                      | US-002TAS002     | Diseño e Implementación de la Interfaz de Registro |                                                                                                                           |                   2 | Eduardo       | To-fix                                      |
+| US-002     | Registro de conductor                                      | US-002TS001      | Implementación del Endpoint de Registro del Conductor |                                                                                                                           |                   2 | Eduardo       | Done                                         |
+| US-004     | Registrar un viaje                                         | US-004TS001      | Crear formulario para ingreso de datos del servicio de transporte |                                                                                                                           |                   3 | Sebastian     | Done                                         |
+| US-004     | Registrar un viaje                                         | US-004TS002      | Implementación del endpoint para crear el viaje |                                                                                                                           |                   1 | Sebastian     | Done                                         |
+| US-005     | Viajes pendientes                                          | US-005TS001      | Creación del tab para cada la visualización de viajes |                                                                                                                           |                   3 | Anthony       | Done                                         |
+| US-005     | Viajes pendientes                                          | US-005TS002      | Creación de los cards para mostrar la información de los viajes |                                                                                                                           |                 3   | Anthony       | Done                                         |
+| US-005     | Viajes pendientes                                          | US-005TS003      | Implementación del endpoint de Viajes Pendientes |                                                                                                                           |                 2   | Anthony       | Done                                         |
+| US-006     | Historial de Viajes                                        | US-006TS001      | Actualización de los cards para mostrar información de los viajes sin acciones |                                                                                                                           |                 3   | Anthony       | Done                                         |
+| US-006     | Historial de Viajes                                        | US-006TS002      | Implementación del endpoint de Historial de Viajes |                                                                                                                           |                 4   | Anthony       | Done                                         |
+| US-007     | Concluir viaje                                             | US-007TS002      | Implementación del endpoint para finalizar un viaje |                                                                                                                           |                2    | Anthony       | Done                                         |
+| US-008     | Cancelar viaje                                             | US-008TS001      | Adición de la acción en el card de resumen de viaje |                                                                                                                           |                 3   | Sebastian     | Done                                         |
+| US-008     | Cancelar viaje                                             | US-008TS002      | Implementación del endpoint para cancelar un viaje |                                                                                                                           |                  2  | Sebastian     | Done                                         |
+| US-009     | Buscar un conductor                                        | US-009TS001      | Creación de la sección de búsqueda |                                                                                                                           |                  3  | Sebastian     | Done                                         |
+| US-009     | Buscar un conductor                                        | US-009TS002      | Implementación del endpoint de búsqueda de conductores |                                                                                                                           |               3     | Sebastian     | Done                                         |
+| US-010     | Visualizar la información del viaje                        | US-010TS001      | Adición de los charts necesarios para la visualización de los registros detectados |                                                                                                                           |                  4  | Eduardo       | Done                                         |
+| US-010     | Visualizar la información del viaje                        | US-010TS002      | Implementación de los endpoints del Edge API para recolectar la información del sensor |                                                                                                                           |                 3   | Eduardo       | In-process                                   |
+| US-012     | Notificar al conductor del viaje concluido                 | US-012TS001      | Diseñar la notificación de Finalización de Viaje |                                                                                                                           |                  3  | Josue         | Done                                         |
+| US-012     | Notificar al conductor del viaje concluido                 | US-012TS002      | Leer las notificaciones de acuerdo al usuario empleando el Endpoint de Notificaciones |                                                                                                                           |                   4 | Anthony       | In-process                                   |
+| US-012     | Notificar al conductor del viaje concluido                 | US-012TS003      | Añadir la acción de ver más detalles de la notificación |                                                                                                                           |                 3   | Josue         | Done                                         |
+| US-013     | Notificar al conductor del viaje cancelado                 | US-013TS001      | Diseñar la notificación de Cancelación de Viaje |                                                                                                                           |          3          | Josue         | Done                                         |
+| US-014     | Visualizar el estado del viaje por el sensor               | US-014TS001      | Estructurar la sección en la vista principal de la aplicación web |                                                                                                                           |              2      | Anthony       | Done                                         |
+| US-015     | Validar viajes activos por supervisor                      | US-015TS002      | Validar cuando un supervisor tiene un viaje activo o no |                                                                                                                           |                3    | Anthony       | In-process                                   |
+| US-016     | Editar perfil de Usuario                                   | US-016TS001      | Crear formulario de Edición de Perfil |                                                                                                                           |           2         | Sebastian     | Done                                         |
+| US-016     | Editar perfil de Usuario                                   | US-016TS002      | Implementación del endpoint de Actualización de Información del Usuario |                                                                                                                           |          3          | Sebastian     | Done                                         |
+| US-017     | Añadir un supervisor de la empresa a través de un RESTful API| US-017TS001      | Organización del proyecto para usar DDD |                                                                                                                           |                 3   | Anthony       | Done                                         |
+| US-017     | Añadir un supervisor de la empresa a través de un RESTful API| US-017TS002      | Implementación del repositorio y servicios de registro de supervisor |                                                                                                                           |           2         | Anthony       | Done                                         |
+| US-017     | Añadir un supervisor de la empresa a través de un RESTful API| US-017TS003      | Implementación del endpoint para registrar a un supervisor |                                                                                                                           |            3        | Anthony       | Done                                         |
+| US-018     | Añadir un conductor a través de un RESTful API             | US-018TS001      | Implementación del repositorio y servicios de registro de conductor |                                                                                                                           |                 3   | Anthony       | Done                                         |
+| US-019     | Obtener a un supervisor de la empresa a través de un RESTful API | US-019TS001      | Implementación del repositorio y servicios para obtener la información de un supervisor por su id |                                                                                                                           |            2        | Claudio       | Done                                         |
+| US-019     | Obtener a un supervisor de la empresa a través de un RESTful API | US-019TS002      | Implementación del endpoint para obtener la información de un supervisor por su id |                                                                                                                           |              3      | Claudio       | Done                                         |
+| US-020     | Obtener a un conductor a través de un RESTful API          | US-020TS001      | Implementación del repositorio y servicios para obtener la información de un conductor por su id |                                                                                                                           |             2      | Claudio       | Done                                         |
+| US-020     | Obtener a un conductor a través de un RESTful API          | US-020TS002      | Implementación del endpoint para obtener la información de un conductor por su id |                                                                                                                           |         3           | Claudio       | Done                                         |
+| US-021     | Añadir un viaje a través de un RESTful API                 | US-021TS001      | Implementación del repositorio y servicios para registrar un viaje |                                                                                                                           |            4        | Eduardo       | Done                                         |
+| US-021     | Añadir un viaje a través de un RESTful API                 | US-021TS002      | Implementación del endpoint para registrar un viaje |                                                                                                                           |              3      | Eduardo       | Done                                         |
+| US-022     | Obtener los viajes pendientes a través de un RESTful API   | US-022TS001      | Implementación del repositorio y servicios para obtener una lista de viajes por estado por supervisor |                                                                                                                           |           2         | Josue         | Done                                         |
+| US-022     | Obtener los viajes pendientes a través de un RESTful API   | US-022TS002      | Implementación del repositorio y servicios para obtener una lista de viajes por estado por conductor |                                                                                                                           |                3    | Josue         | Done                                         |
+| US-022     | Obtener los viajes pendientes a través de un RESTful API   | US-022TS003      | Implementación del endpoint para obtener los viajes por estado para un conductor |                                                                                                                           |               4     | Eduardo       | Done                                         |
+| US-022     | Obtener los viajes pendientes a través de un RESTful API   | US-022TS004      | Implementación del endpoint para obtener los viajes por estado para un supervisor |                                                                                                                           |                    | Josue         | Done                                         |
+| US-024     | Terminar un viaje a través de un RESTful API               | US-024TS001      | Implementación del repositorio y servicios para finalizar un viaje por su id | 
+| US-024     | Terminar un viaje a través de un RESTful API               | US-024TS001      | Implementación del repositorio y servicios para finalizar un viaje por su id |                                                                                                                           |               4     | Anthony       | Done                                         |
+| US-024     | Terminar un viaje a través de un RESTful API               | US-024TS002      | Implementación del endpoint para finalizar un viaje por su id |                                                                                                                           |                 4   | Anthony       | Done                                         |
+| US-025     | Cancelar viaje a través de un RESTful API                  | US-025TS001      | Implementación del repositorio y servicios para cancelar un viaje por su id |                                                                                                                           |                4    | Anthony       | Done                                         |
+| US-025     | Cancelar viaje a través de un RESTful API                  | US-025TS002      | Implementación del endpoint para cancelar un viaje por su id |                                                                                                                           |               3     | Anthony       | Done                                         |
+| US-026     | Buscar un conductor por su nombre a través de un API       | US-026TS001      | Implementación del repositorio y servicios para obtener las coincidencias de un conductor por nombre |                                                                                                                           |              2      | Sebastian     | To-do                                        |
+| US-026     | Buscar un conductor por su nombre a través de un API       | US-026TS002      | Implementación del endpoint para obtener las coincidencias de un conductor por nombre |                                                                                                                           |              3      | Sebastian     | To-do                                        |
+| US-028     | Obtener un viaje a través de un RESTful API                | US-028TS001      | Implementación del repositorio y servicios para obtener la información de un viaje por su id |                                                                                                                           |                3    | Claudio       | Done                                         |
+| US-028     | Obtener un viaje a través de un RESTful API                | US-028TS002      | Implementación del endpoint para obtener la información de un viaje por su id |                                                                                                                           |            3        | Claudio       | Done                                         |
+| US-029     | Modificar la información de un conductor a través de un RESTful API | US-029TS001      | Implementación del repositorio y servicios para actualizar la información de un conductor por su id |                                                                                                                           |               2     | Anthony       | Done                                         |
+| US-029     | Modificar la información de un conductor a través de un RESTful API | US-029TS002      | Implementación del endpoint para actualizar la información de un conductor por su id |                                                                                                                           |                    | Anthony       | Done                                         |
+| US-030     | Modificar la información de un supervisor de la empresa a través de un RESTful API | US-030TS001      | Implementación del repositorio y servicios para actualizar la información de un supervisor por su id |                                                                                                                           |                 3   | Eduardo       | Done                                         |
+| US-030     | Modificar la información de un supervisor de la empresa a través de un RESTful API | US-030TS002      | Implementación del endpoint para actualizar la información de un supervisor por su id |                                                                                                                           |                    | Eduardo       | Done                                         |
+| US-031     | Captura de datos de Fuga de Gas                            | US-031TS001      | Implementar los límites máximos de control de la fuga de gas y actualizar los mismos |                                                                                                                           |                3    | Claudio       | To-do                                        |
+| US-031     | Captura de datos de Fuga de Gas                            | US-031TS002      | Implementar la verificación continua del sensor para monitorear si se ha excedido el límite máximo de gas permitido |                                                                                                                           |                  3  | Claudio       | To-do                                        |
+| US-031     | Captura de datos de Fuga de Gas                            | US-031TS003      | Realizar envío de datos de sensor de gas al Edge API |                                                                                                                           |                3    | Claudio       | To-do                                        |
+| US-032     | Captura de datos de Temperatura                            | US-032TS001      | Implementar los límites máximos de control de temperatura y actualizar los mismos |                                                                                                                           |                4    | Claudio       | Done                                         |
+| US-032     | Captura de datos de Temperatura                            | US-032TS002      | Implementar la verificación continua del sensor para monitorear si se ha excedido el límite máximo de temperatura permitido |                                                                                                                           |               4     | Claudio       | Done                                         |
+| US-032     | Captura de datos de Temperatura                            | US-032TS003      | Enviar datos de temperatura al Edge API |                                                                                                                           |               3     | Claudio       | Done                                         |
+| US-033     | Captura de datos de Presión                                | US-033TS001      | Implementar los límites máximos de control de la presión y actualizar los mismos |                                                                                                                           |                5    | Claudio       | Done                                         |
+| US-033     | Captura de datos de Presión                                | US-033TS002      | Implementar la verificación continua del sensor para monitorear si se ha excedido el límite máximo de presión permitido |                                                                                                                           |                2    | Claudio       | Done                                         |
+| US-033     | Captura de datos de Presión                                | US-033TS003      | Enviar datos de presión al Edge API |                                                                                                                           |                 3   | Claudio       | Done                                         |
+| US-047     | Implementación del Edge Server                             | US-047T001       | Realizar métodos de seguridad para autenticar el dispositivo IoT |                                                                                                                           |                  3  | Claudio       | Done                                         |
+| US-047     | Implementación del Edge Server                             | US-047T002       | Realizar el endpoint de estados para guardar información de los datos sensados del dispositivo IoT |                                                                                                                           |                 4   | Anthony       | Done                                         |
+| US-047     | Implementación del Edge Server                             | US-047T003       | Realizar el endpoint de salud (Health) para guardar información de salud en caso se supere los límites Thresholds establecidos |                                                                                                                           |                  4  | Claudio       | Done                                         |
+| US-047     | Implementación del Edge Server                             | US-047T004       | Realizar el endpoint de eventos para guardar información de estado crítico en caso se supere los límites Thresholds establecidos |                                                                                                                           |                 4   | Anthony       | Done                                         |
+| US-047     | Implementación del Edge Server                             | US-047T005       | Realizar el endpoint de thresholds para actualizar información de los límites |                                                                                                                           |                  5  | Claudio       | Done                                         |
+| US-047     | Implementación del Edge Server                             | US-047T006       | Realizar el endpoint de thresholds para obtener información de los límites actuales del sensor |                                                                                                                           |                 3   | Anthony       | Done                                         |
+| US-047     | Implementación del Edge Server                             | US-047T007       | Realizar el endpoint para obtener token para que el dispositivo IoT pueda usar el Edge API |                                                                                                                           |                  5  | Claudio       | Done                                         |
+
+#### 6.2.2.3. Development Evidence for Sprint Review
+
+Tablero de commits del repositorio de la Landing-page:
+
+| Repository                  | Branch                  | Commit Id                                | Commit Message                                                                           | Commit Message Body | Commited on (Date) |
+| --------------------------- | ----------------------- | ---------------------------------------- | ---------------------------------------------------------------------------------------- | ------------------- | ------------------ |
+| Debuggers-SW74/landing-page | feature/home-section    | fdea0458258f6c9f6a3c4faac2a20f0d44d62486 | feat: product section                                                                    |                     | 21/09/2024         |
+|                             | feature/future-section  | 9bc86f40e0e8dd49d598e6162da9bb62b3059d10 | feat: benefits were added                                                                |                     | 21/09/2024         |
+|                             | feature/contact-section | 15f2c2a1c1482e36083afb85877f4765763ff4b7 | feat: contact section and footer layout, feat: Add styles contact section, footer layout |                     | 22/09/2024         |
+|                             | feature/details-section | 665ecc903f2cb39335a2b95992b8d6cce8c1a671 | refactor: merge                                                                          |                     | 23/09/2024         |
+|                             | feature/team-section    | e6be5ae2c9c977c4efe95df440e5ff614a6b70fb | cta & team section                                                                       |                     | 23/09/2024         |
+
+Tablero de commits del repositorio de la App web:
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+| ---------- | ------ | --------- | -------------- | ------------------- | ------------------ |
+|Debuggers-SW74 / web-application       | main       |     fec1a70069043f33f2ea214c1a4be4fb813fa360      |     Merge pull request #16 from Debuggers-SW74/develop           |                     |        02/11/2024            |
+|       |    develop    |     985054daac91413c928a6c84cb7187dd7d45eb72      |       fix: edit profile        |                     |         02/11/2024           |
+|       |    feature/authentication    |    1b4c2c10234e8c5dc5716d93903e5813eaddab41       |    Merge branch 'feature/home' of https://github.com/Debuggers-SW74/web-application into feature/authentication           |                     |    25/09/2024               |
+|       |    feature/book-trip    |     a633660510092f387b6ea13829feee09659e1693      |      feat(book): from result card to book trip         |                     |    15/10/2024               |
+|       |     feature/dashboard   |     8fc5dd039030f40904ac6641ecbc2f5117efcfd5      |  Merge branch 'develop' of https://github.com/Debuggers-SW74/web-application into feature/dashboard             |                     |      27/09/2024             |
+|       |  feature/home      |     ed1f4244988c89512df247ffe9aabdd8f2ac61ac      |   refactor(cards): iterate in component            |                     |   21/10/2024                |
+|       |   feature/notifications     |    ef6f700fa88389ed0f598bcc0c1f3902e6d79f61       |     feat(notifications): ui design          |                     |         14/10/2024          |
+|       |  feature/profile      |    30c5f70952900dd2254dc6b2ba1c129f9aad15f7       |   fix(height): stablish min height to layouts            |                     |      22/10/2024             |
+|       | feature/services      |      4799d94e080a053fc489d286d2539b58465c7000     |    fix: remove testing           |                     |           31/10/2024        |
+|       |    feature/support    |     e4b2412f875a82b2efb2193dc81b9260c0494ca1      |    Merge branch 'develop' of https://github.com/Debuggers-SW74/web-application into feature/support           |                     |     15/10/2024              |
+|       |    feature/trips    |     19c95b5b53188d068be6b0d59dbe9570c71dc8f7      |    refactor(avatar): change svg           |                     |      21/10/2024             |
+
+Tablero de commits del repositorio de la App mobile:
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+| ---------- | ------ | --------- | -------------- | ------------------- | ------------------ |
+|    Debuggers-SW74/movil-application        |   main     |   7fb57a5ac5323c26dda7e7dff7368ff863528b6d        |     Initial commit           |                     |       14/10/2024             |
+|            |  develop      |     66b4703b80edbe02744c696055190d937727929f      |    feat: add http package            |                     |       25/10/2024             |
+|            |   feat/users     |   ff1a033872bbd5c53bd0c3c2088dc4a117d95ae1        |     feat(profile-management): create pages           |                     |          25/10/2024          |
+|            | feat/widgets       |   16882fb6a6eff790bc8a9c281f026e5e5aa13787        |   feat(common):temperature and pressure widget added             |                     |          25/10/2024          |
+|            |  feature/charts      |  9dfc7a9585db55e341d67a3fb514cea10fa60db3         |     fix: update trip charts           |                     |      25/10/2024             |
+|            | feature/home       |     17979a8fc51ae33ac21d93c66130762288ebc253      |    feat(common): update sidebar and home            |                     |      31/10/2024              |
+
+Tablero de commits del repositorio del backend:
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+| ---------- | ------ | --------- | -------------- | ------------------- | ------------------ |
+|  Debuggers-SW74/web-services          |    main    |     c8b3e4e0b45228e52d8ec1a0f5dc1ea7b8ce19f2      |    Remove the Azure App Service build and deployment workflow config            |                     | 30/10/2024                   |
+|            |develop        |    223c53e35f62c9bba2680c2580cb1c519d61d34e       |  Merge pull request #13 from Debuggers-SW74/feat/trips              |     feat(trips): endpoint to get all trip status added                | 01/11/2024                   |
+|            |  feat/alerts      |     ddc452be9b07b9e99147007361cb153388c86673      |    Merge pull request #5 from Debuggers-SW74/feat/users            |      Feat/users               |         26/10/2024           |
+|            |   feat/security     |    f28d23e196c1d6ad4f3ee34b62b57a2ebc96227c       |      feat(security): threshold controller added          |                     |   29/10/2024                 |
+|            |  feat/trips      |    a20dc9f2973422b702fba9c294957f82503a3f51       |    feat(trips): endpoint to get all trip status added            |                     |       31/10/2024             |
+|            |   feat/users     |     40348177c46c11491c0ecf0dc07d659f32080b7c      |    feat(users): endpoint to update users information added            |                     |        30/10/2024            |
+
+#### 6.2.2.4. Testing Suite Evidence for Sprint Review
+
+
+- us004.feature
+  ```
+  @registroViaje @Trello=https://trello.com/c/k8Z98dzh
+  Feature: Registro de Viajes por Supervisores
+    Como supervisor de la empresa
+    Quiero registrar un viaje
+    Para notificar al conductor los servicios que debe realizar
+
+  #-------------------------------------------------------------------------------------------
+    Scenario: Registro exitoso de un viaje
+      Given que el supervisor de la empresa ha iniciado sesión en la aplicación
+      And desea registrar un viaje en el itinerario
+      When selecciona al conductor que realizará la entrega
+      And completa la información del viaje correctamente
+      Then el sistema crea el viaje
+      And notifica al conductor sobre el viaje que debe realizar
+
+  #-------------------------------------------------------------------------------------------
+    Scenario: Conflicto de horario en el registro de viaje
+      Given que el supervisor de la empresa ha iniciado sesión en la aplicación
+      And desea registrar un viaje en el itinerario
+      When selecciona al conductor que realizará la entrega
+      And completa la información del viaje correctamente
+      And el horario elegido ya ha sido reservado para otro viaje
+      Then el sistema indica que se debe de elegir otro horario para el servicio de transporte
+  ```
+- us018.feature
+  ```
+  @crearConductor @Trello=https://trello.com/c/0J5Ur4U4
+  Feature: Creación de usuario tipo Conductor
+    Como desarrollador
+    Quiero agregar un nuevo usuario de tipo Conductor al sistema mediante una solicitud POST al API
+    Para permitir el acceso de nuevos usuarios de tipo Conductor a la aplicación
+
+    #-------------------------------------------------------------------------------------------
+    Scenario: Ingreso de correo único
+      Given que el endpoint api/v1/driver está disponible
+      When una solicitud POST se realiza con los valores para nombre, correo electrónico, número de celular y contraseña
+      Then se recibe una Respuesta con estado 201
+      And se devuelve un recurso de usuario de tipo Conductor en el cuerpo de la Respuesta con valores de nombre, correo electrónico, número de celular y contraseña
+
+    #-------------------------------------------------------------------------------------------
+    Scenario: Ingreso de correo existente
+      Given que el endpoint api/v1/driver está disponible
+      When una solicitud POST se realiza con los valores para nombre, correo electrónico, número de celular y contraseña
+      And el correo electrónico ya existe en el sistema
+      Then se recibe una Respuesta con estado 400
+      And se devuelve un mensaje en el cuerpo de la Respuesta: El correo electrónico ya se encuentra registrado en otro usuario
+  ```
+- us026.feature
+  ```
+  @listarConductores @Trello=https://trello.com/c/oWYuYNiG
+  Feature: Listar conductores por su nombre
+    Como desarrollador
+    Quiero listar los conductores por su nombre mediante una solicitud GET al API
+    Para mostrar los conductores al usuario
+
+  #-------------------------------------------------------------------------------------------
+    Scenario Outline: Buscar conductor por nombre
+      Given que el endpoint api/v1/driver/search?name=:name está disponible
+      When una solicitud GET se realiza con el parámetro nombre del conductor <nombre>
+      Then se recibe una Respuesta con estado <status>
+      And <resultado>
+
+      Examples:
+        | nombre   | status | resultado                                                                                     |
+        | HRS491   | 200    | se devuelve un recurso de usuario de tipo lista de Conductor con valores de nombre, correo electrónico, número de celular y contraseña |
+        | TXM126e  | 404    | se devuelve un mensaje en el cuerpo de la Respuesta: No se encontró el conductor con el nombre :nombre |
+  ```
+- us029.feature
+  ```
+  @modificarConductor @Trello=https://trello.com/c/X56ggqYX
+  Feature: Modificar un conductor
+    Como desarrollador
+    Quiero modificar un conductor mediante una solicitud PUT al API
+    Para editar la información solicitada
+
+  #-------------------------------------------------------------------------------------------
+    Scenario Outline: Modificar un conductor
+      Given que el endpoint api/v1/driver/:driverId está disponible
+      When una solicitud PUT se realiza con los valores para nombre, correo electrónico, número de celular o contraseña
+      Then se recibe una Respuesta con estado <status>
+      And <resultado>
+
+      Examples:
+        | status | resultado                                                                                                      |
+        | 200    | se devuelve un recurso de usuario de tipo Conductor en el cuerpo de la Respuesta con valores de nombre, correo electrónico, número de celular y contraseña |
+        | 400    | se devuelve un mensaje en el cuerpo de la Respuesta: El correo electrónico ya se encuentra registrado en otro usuario |
+  ```
+- us032.feature
+  ```
+  @capturarDatosDeTemperatura @Trello=https://trello.com/c/dHyVKPlt
+  Feature: Captura y envío de datos de temperatura
+    Como usuario de la aplicación
+    Quiero que el sensor capture y envíe los datos de temperatura a la aplicación web o móvil
+    Para monitorear el estado de los materiales peligrosos transportados
+
+  #-------------------------------------------------------------------------------------------
+    Scenario: Captura y envío de datos de Temperatura
+      Given el sensor se encuentra instalado en el vehículo
+      When el sensor detecta la temperatura
+      Then envía los datos en tiempo real al sistema de monitoreo
+      And el supervisor de la empresa puede revisar los datos para enviar una alerta al conductor
+
+  #-------------------------------------------------------------------------------------------
+    Scenario: Error en la captura de datos
+      Given el sensor se encuentra instalado en el vehículo
+      And tiene un problema técnico
+      When el sensor intenta capturar los datos de temperatura
+      Then el sistema muestra que ha ocurrido un error
+      And el usuario de la aplicación puede notificarlo para su revisión
+  ```
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+| ---------- | ------ | --------- | -------------- | ------------------- | ------------------ |
+| testing-suite | main | 0a382f0d6439e22347c7a947103d1f76a74e043a | feat(main) | sprint 2 acceptance criteria added | Nov 1, 2024 |
+| testing-suite | main | 52016351c72e5ed6708680cf30ff89fb9edc5559 | feat(main) | sprint 2 acceptance criteria added | Nov 1, 2024 |
+
+#### 6.2.2.5. Execution Evidence for Sprint Review
+
+Durante la realización del presente Sprint se realizaron la segunda versión de la aplicación web, la primera de la aplicación móvil y la mejora de la Landing Page. A continuación, se detallarán las nuevas vistas en la aplicación web:
+
+Se agrego la vista de búsqueda de conductores para el sector Supervisor:
+
+![Search Driver](./assets/chapter6_img/search.png)
+
+Se agrego la sección de edición de Perfil para la actualización de los datos:
+![Profile](./assets/chapter6_img/profile.png)
+
+Se crearon las notificaciones base que se mostrarán en la aplicación:
+![Notifications](./assets/chapter6_img/notifications.png)
+
+Se agrego la sección de Soporte para redirigir a la Landing Page y brindar soporte:
+
+![Support](./assets/chapter6_img/support.png)
+
+La aplicación web se puede encontrar en el siguiente enlace: https://fastporte-653d5.web.app/
+
+La evidencia de ejecución del backend se puede visualizar en el Swagger presente en el despliegue: https://fastporte-cloud-api.azurewebsites.net/swagger-ui/index.html
+
+![Swagger](./assets/chapter6_img/swagger.png)
+
+#### 6.2.2.6. Services Documentation Evidence for Sprint Review
+
+Durante este sprint, se completó la documentación de los Web Services desarrollados en la aplicación IoT para monitoreo y gestión de alertas y viajes. Los endpoints se documentaron usando OpenAPI, lo cual permite una interfaz clara y estructurada para interactuar con la API y facilita la integración con otros sistemas.
+
+Los principales logros de este sprint en términos de documentación fueron:
+
+- Implementación y documentación de endpoints para la gestión de viajes, supervisores y conductores.
+- Creación de endpoints para configurar umbrales de seguridad y generar alertas.
+- Generación automática de la documentación usando OpenAPI, lo cual permite una visualización de todos los endpoints disponibles en la API, junto con sus parámetros y respuestas.
+
+A continuación, se presenta una tabla detallada con la información de cada endpoint documentado, incluyendo el verbo HTTP, la sintaxis de la llamada, los parámetros esperados y ejemplos de respuesta.
+
 ---
+
+| **Acción Implementada**                        | **HTTP Verbo** | **Sintaxis de Llamada**                                  | **Parámetros**                                               | **Ejemplo de Respuesta**                                         | **Explicación de la Respuesta**                                                |
+| ---------------------------------------------- | -------------- | -------------------------------------------------------- | ------------------------------------------------------------ | ---------------------------------------------------------------- | ------------------------------------------------------------------------------ |
+| Iniciar un viaje                               | PUT            | `/api/trips/start/{id}`                                  | `id`: ID del viaje                                           | `200 OK`                                                         | Inicia el viaje con el ID proporcionado.                                       |
+| Finalizar un viaje                             | PUT            | `/api/trips/finish/{id}`                                 | `id`: ID del viaje                                           | `200 OK`                                                         | Finaliza el viaje con el ID proporcionado.                                     |
+| Cancelar un viaje                              | PUT            | `/api/trips/cancel/{id}`                                 | `id`: ID del viaje                                           | `200 OK`                                                         | Cancela el viaje con el ID especificado.                                       |
+| Crear un nuevo viaje                           | POST           | `/api/trips/create`                                      | JSON con detalles del viaje                                  | `{ "tripId": 123, "status": "PENDING" }`                         | Crea un nuevo viaje y devuelve su ID y estado inicial.                         |
+| Consultar todos los viajes                     | GET            | `/api/trips`                                             | Ninguno                                                      | `[ { "tripId": 123, "status": "PENDING" }, ... ]`                | Devuelve una lista de todos los viajes en el sistema.                          |
+| Consultar un viaje específico                  | GET            | `/api/trips/{id}`                                        | `id`: ID del viaje                                           | `{ "tripId": 123, "status": "PENDING" }`                         | Devuelve el estado actual del viaje con el ID especificado.                    |
+| Consultar viajes por supervisor                | GET            | `/api/trips/supervisor/{supervisorId}`                   | `supervisorId`: ID del supervisor                            | `[ { "tripId": 123, "status": "PENDING" }, ... ]`                | Devuelve los viajes asignados al supervisor especificado.                      |
+| Consultar viajes por estado para un supervisor | GET            | */api/trips/supervisor/{supervisorId}/status/{statusId}* | `supervisorId`: ID del supervisor, `statusId`: ID del estado | `[ { "tripId": 123, "status": "FINISHED" }, ... ]`               | Devuelve los viajes con un estado específico para el supervisor.               |
+| Consultar viajes por conductor                 | GET            | `/api/trips/driver/{driverId}`                           | `driverId`: ID del conductor                                 | `[ { "tripId": 123, "status": "PENDING" }, ... ]`                | Devuelve los viajes asignados al conductor especificado.                       |
+| Consultar viajes por estado para un conductor  | GET            | `/api/trips/driver/{driverId}/status/{statusId}`         | `driverId`: ID del conductor, `statusId`: ID del estado      | `[ { "tripId": 123, "status": "FINISHED" }, ... ]`               | Devuelve los viajes con un estado específico para el conductor.                |
+| Registrar un supervisor                        | POST           | `/api/supervisors/register`                              | JSON con datos del supervisor                                | `{ "supervisorId": 1, "username": "ocanellas" ...}`              | Registra un nuevo supervisor y devuelve su ID con información de su cuenta.    |
+| Actualizar información de un supervisor        | PUT            | `/api/supervisors/update`                                | JSON con datos actualizados del supervisor                   | `{ "supervisorId": 1, "status": "ocanellas" ...}`                | Actualiza la información de un supervisor existente.                           |
+| Consultar todos los supervisores               | GET            | `/api/supervisors`                                       | Ninguno                                                      | `[ { "supervisorId": 1, "name": "Supervisor 1" ...}, ... ]`      | Devuelve una lista de todos los supervisores.                                  |
+| Consultar un supervisor específico             | GET            | `/api/supervisors/{id}`                                  | `id`: ID del supervisor                                      | `{ "supervisorId": 1, "name": "Supervisor 1" ...}`               | Devuelve la información del supervisor con el ID especificado.                 |
+| Registrar un conductor                         | POST           | `/api/drivers/register`                                  | JSON con datos del conductor                                 | `{ "driverId": 101, "username": "pgomez" ... }`                  | Registra un nuevo conductor y devuelve su ID.                                  |
+| Actualizar información de un conductor         | PUT            | `/api/drivers/update`                                    | JSON con datos actualizados del conductor                    | `{ "driverId": 101, "username": "pgomez" ... }`                  | Actualiza la información de un conductor existente.                            |
+| Registrar múltiples conductores                | POST           | `/api/drivers/batch`                                     | JSON con lista de conductores                                | `[ { "driverId": 101, "username": "pgomez" ... }, ... ]`         | Registra múltiples conductores en una sola llamada.                            |
+| Consultar todos los conductores                | GET            | `/api/drivers`                                           | Ninguno                                                      | `[ { "driverId": 101, "name": "Driver 1" }, ... ]`               | Devuelve una lista de todos los conductores.                                   |
+| Consultar un conductor específico              | GET            | `/api/drivers/{id}`                                      | `id`: ID del conductor                                       | `{ "driverId": 101, "name": "Driver 1" }`                        | Devuelve la información del conductor con el ID especificado.                  |
+| Consultar conductores por supervisor           | GET            | `/api/drivers/supervisor/{supervisorId}`                 | `supervisorId`: ID del supervisor                            | `[ { "driverId": 101, "name": "Driver 1" }, ... ]`               | Devuelve una lista de conductores supervisados por el supervisor especificado. |
+| Autenticación de usuarios                      | POST           | `/authenticate`                                          | JSON con credenciales de usuario                             | `{ "token": "abc123xyz" }`                                       | Devuelve un token de autenticación para el usuario.                            |
+| Configurar umbrales de seguridad               | POST           | `/api/thresholds`                                        | JSON con detalles de los umbrales                            | `{ "thresholdId": 1, "maxThreshold": 95.1 }`                     | Configura un conjunto de umbrales de seguridad para el sistema.                |
+| Actualizar umbrales de seguridad               | POST           | `/api/thresholds/update`                                 | JSON con datos actualizados de umbrales                      | `{ "thresholdId": 1, "maxThreshold": 80 }`                       | Actualiza los umbrales de seguridad configurados.                              |
+| Consultar umbrales de un viaje                 | GET            | `/api/thresholds/trip/{tripId}`                          | `tripId`: ID del viaje                                       | `[ { "sensorType": "SENSOR_GAS", "sensorType": "5", ... }, ...]` | Devuelve los umbrales configurados para un viaje específico.                   |
+| Generar una alerta                             | POST           | `/api/alerts`                                            | JSON con detalles de la alerta                               | `{ "alertId": 789, "alertLevel": "CRITICAL" }`                   | Genera una alerta basada en los datos proporcionados.                          |
+| Consultar alertas por viaje                    | GET            | `/api/alerts/trip/{tripId}`                              | `tripId`: ID del viaje                                       | `[ { "alertId": 789, "alertLevel": "CRITICAL" }, ... ]`          | Devuelve una lista de alertas generadas para un viaje específico.              |
+| Consultar estados de viajes                    | GET            | `/api/trip-status`                                       | Ninguno                                                      | `[ { "id": 1, "status": "CANCELED" }, ... ]`                     | Devuelve una lista de todos los estados de viaje disponibles.                  |
+
+A continuación se muestran capturas de pantalla de la documentación generada en OpenAPI, organizadas por controladores:
+
+- **trip-controller**: Muestra los endpoints para iniciar, finalizar, cancelar, crear y consultar viajes. Esto incluye opciones para consultar viajes por supervisor y por estado.
+     ![SDE1](./assets/chapter6_img/6.2.2.6.%20Services%20Documentation%20Evidence%20for%20Sprint%20Review/Cap1.png)
+     ![SDE1.5](./assets/chapter6_img/6.2.2.6.%20Services%20Documentation%20Evidence%20for%20Sprint%20Review/Cap1.5.png)
+- **supervisor-controller**: Proporciona endpoints para la administración de supervisores, incluyendo registro, actualización y eliminación de supervisores.
+     ![SDE2](./assets/chapter6_img/6.2.2.6.%20Services%20Documentation%20Evidence%20for%20Sprint%20Review/Cap2.png)
+- **driver-controller**: Contiene endpoints para la gestión de conductores, como el registro de nuevos conductores y la actualización de información.
+     ![SDE3](./assets/chapter6_img/6.2.2.6.%20Services%20Documentation%20Evidence%20for%20Sprint%20Review/Cap3.png)
+ - authentication-controller: Contiene endpoints para la autenticación y autorización de usuarios.
+     ![SDE4](./assets/chapter6_img/6.2.2.6.%20Services%20Documentation%20Evidence%20for%20Sprint%20Review/Cap4.png)
+- **threshold-controller** y **alert-controller**: Incluyen los endpoints para la configuración de umbrales de seguridad y para la generación y consulta de alertas en el sistema.
+     ![SDE5](./assets/chapter6_img/6.2.2.6.%20Services%20Documentation%20Evidence%20for%20Sprint%20Review/Cap5.png)
+
+El código fuente y la documentación de los Web Services se encuentran disponibles en el repositorio de GitHub:
+
+- **URL del repositorio**: https://github.com/Debuggers-SW74/web-services
+
+Los commits específicos relacionados con la documentación de los endpoints en este sprint son:
+	 ![SDE6](./assets/chapter6_img/6.2.2.6.%20Services%20Documentation%20Evidence%20for%20Sprint%20Review/Cap6.png)
+	 ![SDE7](./assets/chapter6_img/6.2.2.6.%20Services%20Documentation%20Evidence%20for%20Sprint%20Review/Cap7.png)
+
+ Para mayor detalle, se pueden revisar en el siguiente enlace: https://github.com/Debuggers-SW74/web-services/commits/develop/
+#### 6.2.2.7. Software Deployment Evidence for Sprint Review
+
+Durante este sprint, se completó el despliegue de los diferentes componentes de la aplicación IoT en sus respectivos entornos. La aplicación web se desplegó en FIrebase. La infraestructura de backend, que incluye el Edge API y el Cloud API, se desplegó en Azure mediante Azure App Service, mientras que la base de datos se configuró usando Azure Database for MySQL. Además, se implementó un flujo de CI/CD en GitHub Actions para automatizar los despliegues y garantizar una integración continua.
+
+A continuación, se detallan los pasos y configuraciones realizadas para el despliegue durante este sprint.
+
+#### **Despliegue del Frontend en Firebase**
+
+1. **Configuración y Despliegue en Firebase**
+    
+    - El frontend de la aplicación se desplegó en Firebase Hosting, un servicio de Google que proporciona un entorno seguro y escalable para aplicaciones web.
+    - **URL del Frontend**: `https://fastporte-653d5.web.app/sign-in`
+    
+	Los pasos para el despliegue fueron los siguientes: 
+    1. Nos creamos una cuenta en Firebase y una vez dentro le damos clic en el botón "Crear un proyecto": 
+		![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend1.jpg)
+	2. Le asignamos un nombre al proyecto: 
+		![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend2.jpg)
+	3. Creamos el proyecto
+		![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend3.jpg)
+		![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend4.jpg)
+	4. Le damos clic en el botón señalado para agregar una aplicación web: 
+		![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend5.jpg)
+	5. Realizamos la configuración de la aplicación web de la misma forma que se especifica en las siguientes imágenes: 
+		![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend6.jpg)
+		![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend7.jpg)
+		![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend8.jpg)
+	6. En consola, ejecutamos los comandos de la forma que nos especifica Firebase  
+		![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend9.jpg)
+	7. En nuestro repositorio del frontend, configuramos el workflow agregando lo resaltado en la imagen
+		![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend10.jpg)
+	8. Al hacer esos cambios, el workflow se ejecutará y de esta manera tendremos desplegada la aplicación web.
+
+#### **Despliegue del Cloud API y Edge API**
+
+- Tanto el Cloud API como el Edge API se desplegaron en Azure utilizando el servicio Web App. 
+- **URL del Edge API**: `https://fastporte-edge-api.azurewebsites.net`
+- **URL del Cloud API**: `https://fastporte-cloud-api.azurewebsites.net`
+
+1. Previamente debemos tener una cuenta con créditos suficientes para usar recursos de Azure. Una vez tenido esto, nos dirigimos al portal de Azure
+
+	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/cloudapi1.jpg)
+2. En la pantalla anterior, damos clic en "Crear un recurso" y nos abrirá una vista en la que buscaremos "app web" y seleccionamos "Solo servicios de Azure". Será el primer resultado que nos aparezca
+	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/cloudapi2.jpg)
+3. Le damos en "Crear"
+	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/cloudapi3.jpg)
+4.  Lo configuramos de la manera como está en la siguiente captura de pantalla y le damos clic en el botón "Revisar y crear" y luego en el botón "Crear"
+	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/cloudapi4.jpg)
+	
+	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/cloudapi5.jpg)
+5. Cuando el recurso se haya implementado, nos dirigimos a la opción "Centro de implementación" en el menú izquierdo. Enlazamos nuestra cuenta de Github, elegimos la organización, el repositorio y finalmente la rama. Luego aceptamos y automáticamente se creará un workflow que se ejecutará en unos instantes. Después de eso, solo esperamos a que el despliegue sea exitoso.
+	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/cloudapi6.jpg)
+
+	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/cloudapi7.jpg)
+
+#### **Despliegue de la base de datos para Cloud API y Edge API**
+
+- Para este despliegue, se configuró una instancia de base de datos para cada API utilizando el recurso Azure Database for MySQL. 
+1. EnAzure Portal, damos clic en "Crear un recurso" y nos abrirá una vista en la que buscaremos "mysql" y seleccionamos "Solo servicios de Azure". Será el primer resultado que nos aparezca
+	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/database1.jpg)
+2. Le damos en "Crear"
+	 ![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/database2.jpg)
+3. Seleccionamos "Quick create"
+	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/database3.jpg)
+	
+4. Configuramos de la siguiente manera
+	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/database4.jpg)
+5.  Una vez implementado el recurso, solo utilizamos las credenciales para conectar nuestros servicios.
+	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/database5.jpg)
+#### 6.2.2.8. Team Collaboration Insights during Sprint
+
+## 6.3. Validation Interviews
+### 6.3.1. Diseño de Entrevistas
+
+Para esta entrega de nuestro trabajos hemos identificado las siguientes preguntas para nuestros entrevistados luego de presentarles nuestra aplicación:
+
+* ¿Cuál es su función principal en la supervisión del transporte de materiales peligrosos?
+* ¿Cuántas unidades o vehículos tiene bajo su supervisión?
+* ¿Cuáles son las principales dificultades que enfrenta actualmente en la supervisión de estos transportes?
+* ¿Qué tan importante considera que es el monitoreo en tiempo real para la seguridad de las operaciones?
+* ¿Con qué frecuencia ha experimentado problemas relacionados con fugas de gas, temperatura, presión o incidentes de transporte?
+* ¿Qué métodos o tecnologías utiliza actualmente para monitorear la seguridad de los materiales transportados?
+* ¿Qué funciones considera esenciales en una plataforma para supervisar el transporte de materiales peligrosos?
+* Al observar el landing page y la descripción de FastPorte, ¿qué impresión le genera?
+* ¿Qué tan intuitiva o fácil le parece la navegación en la aplicación?
+* ¿Con qué frecuencia y en qué formato prefiere recibir reportes sobre el estado de los materiales transportados?
+* ¿Qué tipo de alertas le gustaría recibir y en qué momentos (por ejemplo, cada cierto tiempo, en casos críticos, etc.)?
+* ¿Cuáles considera que son los parámetros críticos que deberían priorizarse en el monitoreo?
+* Valoración y Expectativas:
+* ¿Qué tan probable es que recomendaría FastPorte a otros supervisores o colegas?
+* ¿Cuáles considera que son los beneficios principales de FastPorte en comparación con otras soluciones del mercado?
+* ¿Qué funcionalidades adicionales o servicios considera que serían útiles para su empresa?
+* ¿Qué dudas o inquietudes tiene acerca de la plataforma FastPorte?
+### 6.3.2. Registro de Entrevistas
+
+**Sector supervisor:**
+<table>
+  <tr>
+    <th>Nombres y Apellidos: </th>
+    <th>Renzo Araujo</th>
+  </tr>
+  <tr>
+    <td>Edad:</td>
+    <td>28</td>
+  </tr>
+  <tr>
+    <td>Dirección:</td>
+    <td>Lurín, Lima</td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="assets/chapter6_img/entrevistas/entrevista_supervisor_1.png" alt="entrevista cliente 1"></td>
+  </tr>
+  <tr>
+    <td colspan="2"><a href="https://drive.google.com/file/d/1GjlL7uT1r17SMQ2w2QXdLoos5wNQLwTJ/view?usp=sharing" target="_blank">Entrevista sector supervisor 1.mp4</a></td>
+  </tr>
+  <tr>
+    <td colspan="2">Entrevistador: Eduardo André Chero Emé </td>
+  </tr>
+  <tr>
+    <td colspan="2">Resumen: Renzo Araujo, de 28 años, se mostró conforme con las funcionalidades actuales de la aplicación. No expresó necesidad de modificaciones adicionales y consideró que la solución cubre sus expectativas. </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <th>Nombres y Apellidos: </th>
+    <th>Jorge Chero</th>
+  </tr>
+  <tr>
+    <td>Edad:</td>
+    <td>53</td>
+  </tr>
+  <tr>
+    <td>Dirección:</td>
+    <td>Chorrillos, Lima</td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="assets/chapter6_img/entrevistas/entrevista_supervisor_2.png" alt="entrevista cliente 1"></td>
+  </tr>
+  <tr>
+    <td colspan="2"><a href="https://drive.google.com/file/d/12p3d_Ipf8okExjlzvSEH_63VUFBkJppd/view?usp=sharing" target="_blank">Entrevista sector supervisor 2.mp4</a></td>
+  </tr>
+  <tr>
+    <td colspan="2">Entrevistador: Eduardo André Chero Emé </td>
+  </tr>
+  <tr>
+    <td colspan="2">Resumen: Jorge Chero, de 53 años, enfatizó la importancia de recibir alertas en tiempo real durante el tránsito, sugiriendo que las notificaciones se envíen de manera crítica si ocurre algún percance en la ruta de entrega. Su principal preocupación es la pronta recepción de alertas para mejorar la respuesta ante incidentes.</td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <th>Nombres y Apellidos: </th>
+    <th>Sebastián Córdova</th>
+  </tr>
+  <tr>
+    <td>Edad:</td>
+    <td>25</td>
+  </tr>
+  <tr>
+    <td>Dirección:</td>
+    <td>San Juan de Miraflores, Lima</td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="assets/chapter6_img/entrevistas/entrevista_supervisor_3.png" alt="entrevista cliente 1"></td>
+  </tr>
+  <tr>
+    <td colspan="2"><a href="https://drive.google.com/file/d/1bk6ivGzHrKsbpQ2QN2dwT4PEwDEyMc4C/view?usp=sharing" target="_blank">Entrevista sector supervisor 3.mp4</a></td>
+  </tr>
+  <tr>
+    <td colspan="2">Entrevistador: Eduardo André Chero Emé </td>
+  </tr>
+  <tr>
+    <td colspan="2">Resumen: Sebastián Córdova, de 25 años, expresó interés en recibir alertas tanto por correo electrónico como por notificaciones directas en el teléfono. Además, solicitó una función que permita generar reportes de costos de cada transporte para monitorear y gestionar mejor los gastos logísticos.
+</td>
+  </tr>
+</table>
+
+**Sector Chofer:**
+
+<table>
+  <tr>
+    <th>Nombres y Apellidos: </th>
+    <th>Jesús Floriano</th>
+  </tr>
+  <tr>
+    <td>Edad:</td>
+    <td>24</td>
+  </tr>
+  <tr>
+    <td>Dirección:</td>
+    <td>Comas, Lima</td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="assets/chapter6_img/entrevistas/entrevista_chofer_1.png" alt="entrevista cliente 1"></td>
+  </tr>
+  <tr>
+    <td colspan="2"><a href="https://drive.google.com/file/d/1d5zJ2tTZBRQbaU0ijrblIRrsl-78fB9C/view?usp=sharing" target="_blank">Entrevista sector chofer.mp4</a></td>
+  </tr>
+  <tr>
+    <td colspan="2">Entrevistador: Eduardo Sebastián Lévano Cavero </td>
+  </tr>
+  <tr>
+    <td colspan="2">Resumen: Jesús Floriano, de 24 años, solicitó la incorporación de GPS en el proyecto, explicando que esta funcionalidad podría mejorar la precisión y eficiencia del sistema al permitir el rastreo de ubicaciones en tiempo real. Esta petición refleja su iniciativa y comprensión de cómo las tecnologías geoespaciales pueden aportar valor al proyecto.</td>
+  </tr>
+</table>
+
+Enlace de entrevistas (21:33 min): 
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c172_upc_edu_pe/EW67Io-LHPtKjkqO_UKQZNkBIO84Jau0Ft39KKRQHoU0kg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=hh31Uj
+### 6.3.3. Evaluaciones según Heurísticas
+
+#### Evaluación de User Experience según Heurísticas
+- CARRERA : Ingeniería de Software 
+- CURSO : Desarrollo de Soluciones IoT 
+- SECCIÓN : SW74
+- PROFESORES : Todos 
+- AUDITOR : Debuggers
+- CLIENTE(S) : Segmento drivers y supervisors
+
+##### SITE o APP A EVALUAR: 
+Fastporte
+
+##### TAREAS A EVALUAR:
+- Gestión de conductores
+- Asignación de viajes
+- Actualización de información de perfil
+- Mostrar información de los viajes por estado
+- Creación de cuentas para los dos tipos de usuarios
+
+##### ESCALA DE SEVERIDAD
+
+| **Nivel** | **Descripción**                                                                                                                                                                                 |
+| --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1         | Problema superficial: puede ser fácilmente superador por el usuario o ocurre con muy poco frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.                   |
+| 2         | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release. |
+| 3         | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.                                 |
+| 4         | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.                               |
+
+##### TABLA RESUMEN
+
+| #   | Problema                                                                            | Escala de severidad | Heurística/Principio violado       |
+| --- | ----------------------------------------------------------------------------------- | ------------------- | ---------------------------------- |
+| 1   | Falta de localización GPS                                                           | 2                   | Visibilidad del estado del sistema |
+| 2   | Falta de información sobre el estado de la carga durante los periodos de descanso   | 2                   | Visibilidad del estado del sistema |
+| 3   | Carencia de alertas mediante correo electrónico                                     | 3                   | Visibilidad del estado del sistema |
+| 4   | Inexistencia de reportes de costos asociados a cada viaje para monitoreo financiero | 1                   | Visibilidad del estado del sistema |
+##### DESCRIPCIÓN DE PROBLEMAS:
+---
+###### **PROBLEMA #1:** Falta de localización GPS
+
+**Severidad:** 2
+
+**Heurística violada:** Visibilidad del estado del sistema
+
+**Problema:** El usuario comentó que le gustaría agregar una funcionalidad de localización GPS para monitorear la ubicación de los conductores en tiempo real. Actualmente, el sistema no ofrece esta visibilidad, lo que limita la capacidad del supervisor para tener un control completo sobre la ubicación de sus conductores y vehículos durante un viaje.
+
+**Recomendación:** Aunque la implementación de una funcionalidad de localización GPS podría mejorar la visibilidad y control para los supervisores, su desarrollo e integración implicarían una considerable inversión de tiempo y recursos. La integración de una API de localización, como Google Maps, requeriría ajustes en la infraestructura. Debido a que este problema no bloquea el uso del sistema y los supervisores aún pueden gestionar a sus conductores mediante las herramientas actuales, se recomienda considerar la funcionalidad de GPS para una versión futura. Priorizar su implementación en este momento podría retrasar otras funcionalidades esenciales en el corto plazo. Por tanto, este ajuste se sugiere para el otro release o una fase posterior, una vez que el producto base esté completamente operativo y las demás funcionalidades estén estabilizadas.
+
+---
+###### **PROBLEMA #2:** Generación de información sobre el estado de la carga durante los periodos de descanso
+
+**Severidad:** 2
+
+**Heurística violada:**  Visibilidad del estado del sistema
+
+**Problema:** El usuario sugirió que el sistema debería generar informes sobre el estado de la carga durante los periodos de descanso, dado que los conductores hacen paradas periódicas. Actualmente, el sistema no proporciona esta información automáticamente, lo cual limita la visibilidad que el supervisor tiene sobre las condiciones de la carga entre los intervalos de monitoreo activo. 
+
+**Recomendación:** Considerar la implementación de una funcionalidad que permita registrar el estado de la carga en intervalos de descanso. Esto podría lograrse mediante la activación de sensores en momentos específicos o solicitando al conductor que informe el estado de la carga al reanudar el viaje. Este ajuste requiere cambios en el sistema de monitoreo y comunicación con el conductor, lo que podría implicar una inversión de tiempo considerable. Dado que el sistema ya proporciona monitoreo en tiempo real, se sugiere implementar esta mejora en un futuro sprint, cuando la funcionalidad principal esté completamente estabilizada.
+
+---
+###### **PROBLEMA #3:** Envío de alertas mediante correo
+
+**Severidad:** 3
+
+**Heurística violada:** Visibilidad del estado del sistema
+
+**Problema:** El usuario expresó que sería útil recibir alertas a través de correo electrónico, para asegurarse de que las alertas importantes sean atendidas de inmediato, incluso cuando el supervisor no esté activamente en la plataforma. Actualmente, las alertas solo se reciben dentro de la aplicación, lo que puede resultar en un retraso en la respuesta ante incidentes.
+
+**Recomendación:** Aunque es una mejora importante, la implementación de notificaciones push y correos electrónicos implica configuraciones adicionales de infraestructura, tales como un servidor de correo o un sistema de notificaciones push. Debido a la complejidad técnica y al impacto en los recursos, se recomienda considerar esta funcionalidad para un próximo sprint, después de la estabilización de las funcionalidades principales.
+
+---
+###### **PROBLEMA #4:**  Inexistencia de reportes de costos asociados a cada viaje para monitoreo financiero
+
+**Severidad:** 1
+
+**Heurística violada:**  Visibilidad del estado del sistema
+
+**Problema:**  El usuario sugirió que sería útil contar con reportes financieros que indiquen los costos asociados a cada viaje para tener un monitoreo de gastos. Actualmente, el sistema no incluye esta funcionalidad, lo cual limita la visibilidad financiera de cada operación.
+
+**Recomendación:** Aunque la generación de reportes de costos podría brindar valor adicional, esta funcionalidad no forma parte del rubro principal del sistema, enfocado en el monitoreo de seguridad IoT en el transporte de materiales peligrosos. La inclusión de reportes financieros implicaría desviar recursos de las funcionalidades críticas de monitoreo y alertas en tiempo real. Sin embargo, si las necesidades del cliente cambian en el futuro, esta funcionalidad podría considerarse como una mejora adicional en una etapa posterior del desarrollo.
+
+
+---
+## 6.4. Video About-the-Product
+
+Se ha realizado la version preliminar del Video About-the-Product para el Sprint 2:
+
+![Video About-the-Product](./assets/chapter6_img/about-the-product.png)
+
+Enlace en Microsoft Stream: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c172_upc_edu_pe/EVxehubta1NIl6rh1UQ_uEwBlv527u0N_XKzonxNjYF-vA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ESn1TL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c172_upc_edu_pe/EVxehubta1NIl6rh1UQ_uEwBlv527u0N_XKzonxNjYF-vA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ESn1TL)
+
+---
+
 # Conclusiones
 
 - El desarrollo del Lean UX Process ayudó a comprender mejor y aplicar efectivamente las herramientas en nuestra propuesta enfocada al servicio de transportistas hacia clientes. De la misma forma, contribuyó a definir de manera más clara nuestro público objetivo o llámese segmento hacia el cual va enfocada nuestra aplicación.
@@ -3129,6 +3828,14 @@ Para esta entrega todos los miembros del equipo colaboraron en el desarrollo de 
 - A través de las Style Guidelines y la Information Architecture, se garantiza que tanto la experiencia visual como la organización de la información en la web, móvil e IoT sigan un esquema coherente y bien estructurado, lo cual es esencial para crear una interfaz intuitiva y atractiva. Esto asegura una experiencia consistente para los usuarios en diferentes plataformas.
 - Las secciones dedicadas a los Organization Systems, Labeling Systems, SEO Tags, Searching Systems, y Navigation Systems establecen una base sólida para que los usuarios puedan acceder fácilmente a la información deseada. El enfoque en estas áreas mejora tanto la accesibilidad como la optimización en motores de búsqueda, facilitando una mejor experiencia de usuario y aumentando la visibilidad de la plataforma.
 - A través del diseño de Wireframes, Mock-ups, Wireflow Diagrams y User Flow Diagrams, se facilita un enfoque centrado en el usuario, permitiendo iterar rápidamente sobre la experiencia visual y funcional de la aplicación. Esto, junto con la fase de Prototyping, habilita la validación y el refinamiento continuo del diseño antes de su implementación final, mejorando tanto la usabilidad como la satisfacción del usuario final.
+- En el proceso de validación del producto, diseñar entrevistas estructuradas permite obtener feedback directo de usuarios y stakeholders, lo cual resulta fundamental para ajustar el producto a las necesidades reales de los usuarios. Registrar las entrevistas facilita el análisis de patrones en las respuestas, lo que, combinado con evaluaciones heurísticas, permite identificar áreas críticas de mejora en términos de usabilidad y diseño. Además, crear un video que explique las características y el valor del producto ayuda a comunicar su propósito y beneficios de manera clara y atractiva, despertando el interés y facilitando su comprensión para una audiencia más amplia.
+
+# Video About-The-Team
+
+![Video About-The-Team](./assets/chapter6_img/about-the-team.png)
+Enlace al video About-the-Team en youtube: https://youtu.be/iR4FAjRobLQ
+Enlace al video About-the-Team en microsoft stream:
+[https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c172_upc_edu_pe/EXaY24lvMRNKvhZ_auhY1fYBPxsnHTcuHdq4G1U-JnSEnA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=KDjdAW](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c172_upc_edu_pe/EXaY24lvMRNKvhZ_auhY1fYBPxsnHTcuHdq4G1U-JnSEnA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=KDjdAW)
 
 ---
 # Bibliografía
@@ -3157,3 +3864,11 @@ Enlace al video de entrevistas de Needfinding:
 ## Anexo C
 Enlace al video de exposición TP:
 [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c172_upc_edu_pe/EfSO9hJb6VlGv8yUDqFfmnAB14QlrCwGC1kSQRDiLx2SFg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=LhTF3H](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c172_upc_edu_pe/EfSO9hJb6VlGv8yUDqFfmnAB14QlrCwGC1kSQRDiLx2SFg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=LhTF3H)
+
+## Anexo D
+Enlace al video de exposición TB2:
+
+
+## Anexo E
+Enlace al video About-the-Product:
+[https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c172_upc_edu_pe/EVxehubta1NIl6rh1UQ_uEwBlv527u0N_XKzonxNjYF-vA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ESn1TL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c172_upc_edu_pe/EVxehubta1NIl6rh1UQ_uEwBlv527u0N_XKzonxNjYF-vA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ESn1TL)

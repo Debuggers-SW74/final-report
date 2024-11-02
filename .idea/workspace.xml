@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca951fa4-bdd3-4b0f-b4c0-c7598ba48efd" name="Changes" comment="completion of chapter 4 fix">
+      <change afterPath="$PROJECT_DIR$/assets/chapter6_img/entrevistas/entrevista_supervisor_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +48,9 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2mX03GyaHh4b9tGYMARn4HVW45E" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -71,12 +75,15 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Josue\IdeaProjects\final-report\assets\chapter4_img" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Josue\IdeaProjects\final-report\assets\chapter6_img\entrevistas" />
+    </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.21829.142" />
-        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-IU-242.21829.142" />
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
       </set>
     </attachedChunks>
   </component>
@@ -91,6 +98,7 @@
       <workItem from="1727207417201" duration="11077000" />
       <workItem from="1727268860242" duration="3494000" />
       <workItem from="1727378830364" duration="2031000" />
+      <workItem from="1730586288756" duration="3162000" />
     </task>
     <task id="LOCAL-00001" summary="completion of chapter 4 fix">
       <option name="closed" value="true" />
