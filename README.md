@@ -19,35 +19,36 @@
 ___
 # Registro de Versiones del Informe
 
-| Versión | Fecha      | Autor                             | Descripción de modificación                                                |
-| ------- | ---------- | --------------------------------- | -------------------------------------------------------------------------- |
-| 1.0     | 22/08/2024 | Sebastián Lévano                  | Creación del archivo base en Markdown para el desarrollo del Final Project |
-| 1.1     | 01/08/2024 | Sebastián Lévano                  | Desarrollo del Capítulo 3                                                  |
-| 1.2     | 26/08/2024 | Anthony Botello                   | Desarrollo del Capítulo 1                                                  |
-| 1.3     | 01/09/2024 | Claudio Moreno                    | Desarrollo del Capítulo 2                                                  |
-| 1.4     | 05/09/2024 | Eduardo Chero & Josue Arrunátegui | Desarrollo del Capítulo 4                                                  |
-| 1.5     | 16/09/2024 | Sebastián Lévano                  | Actualización de índice, títulos y subtítulos para el Trabajo Parcial      |
-| 1.6     | 19/09/2024 | Sebastián Lévano                  | Correcciones del Capítulo I y Outcomes                                     |
-| 1.7     | 21/09/2024 | Anthony Botello                   | Correcciones del Capítulo I y Putcomes                                     |
-| 1.8     | 21/09/2024 | Sebastián Lévano                  | Desarrollo del Capítulo 5: Landing Page UI Design                          |
-| 1.9     | 22/09/2024 | Anthony Botello                   | Desarrollo del Capítulo 5: Applications UX/UI Design                       |
-| 2.0     | 26/09/2024 | Claudio Moreno                    | Desarrollo del Capítulo 5: Information Architecture                        |
-| 2.1     | 26/09/2024 | Josue Arrunategui                 | Desarrollo del Capítulo 6: Software Configuration Management               |
-| 2.2     | 26/09/2024 | Eduardo Chero                     | Desarrollo del Capítulo 6: Sprint 1                                        |
-| 2.3     | 26/09/2024 | Sebastián Lévano                  | Outcomes, Conclussions & Insights                                          |
-| 2.4     | 21/10/2024 | Sebastián Lévano                  | Actualización de índices, títulos y subtítulos para el TB2                 |
-| 2.5     | 31/10/2024 | Sebastián Lévano                  | Outcomes, Conclussions, Insights y Execution Evidence for Sprint Review    |
-| 3.0     | 14/10/2024 | Claudio Moreno                    | Desarrollo del Capítulo 6: Sprint Planning 2                               |
-| 3.1     | 31/10/2024 | Claudio Moreno                    | Desarrollo del Capítulo 6: Testing Suite Evidence for Sprint Review.       |
-| 3.2     | 28/10/2024 | Eduardo Chero                     | Desarrollo del Capítulo 6: Sprint Backlog 2                                |
-| 3.3     | 28/10/2024 | Eduardo Chero                     | Desarrollo del Capítulo 6: Development Evidence for Sprint Review          |
-| 3.4     | 28/10/2024 | Anthony Botello                   | Desarrollo del Capítulo 6: Services Documentation Evidence for Sprint Review|
-| 3.5     | 28/10/2024 | Anthony Botello                   | Desarrollo del Capítulo 6: Software Deployment Evidence for Sprint Review  |
-| 3.6     | 29/10/2024 | Josue Arrunategui                 | Desarrollo del Capítulo 6: Team Collaboration Insights during Sprint       |
-| 3.6     | 29/10/2024 | Josue Arrunategui                 | Desarrollo del Capítulo 6: Diseño de Entrevistas                           |
-| 3.6     | 29/10/2024 | Josue Arrunategui                 | Desarrollo del Capítulo 6: Registro de Entrevistas                         |
-| 3.7     | 29/10/2024 | Sebastián Lévano                  | Desarrollo del Capítulo 6: Execution Evidence for Sprint Review            |
-| 3.8     | 29/10/2024 | Sebastián Lévano                  | Actualización de índices, títulos y subtítulos para el TB2                 |
+| Versión | Fecha      | Autor                             | Descripción de modificación                                                  |
+| ------- | ---------- | --------------------------------- | ---------------------------------------------------------------------------- |
+| 1.0     | 22/08/2024 | Sebastián Lévano                  | Creación del archivo base en Markdown para el desarrollo del Final Project   |
+| 1.1     | 01/08/2024 | Sebastián Lévano                  | Desarrollo del Capítulo 3                                                    |
+| 1.2     | 26/08/2024 | Anthony Botello                   | Desarrollo del Capítulo 1                                                    |
+| 1.3     | 01/09/2024 | Claudio Moreno                    | Desarrollo del Capítulo 2                                                    |
+| 1.4     | 05/09/2024 | Eduardo Chero & Josue Arrunátegui | Desarrollo del Capítulo 4                                                    |
+| 1.5     | 16/09/2024 | Sebastián Lévano                  | Actualización de índice, títulos y subtítulos para el Trabajo Parcial        |
+| 1.6     | 19/09/2024 | Sebastián Lévano                  | Correcciones del Capítulo I y Outcomes                                       |
+| 1.7     | 21/09/2024 | Anthony Botello                   | Correcciones del Capítulo I y Putcomes                                       |
+| 1.8     | 21/09/2024 | Sebastián Lévano                  | Desarrollo del Capítulo 5: Landing Page UI Design                            |
+| 1.9     | 22/09/2024 | Anthony Botello                   | Desarrollo del Capítulo 5: Applications UX/UI Design                         |
+| 2.0     | 26/09/2024 | Claudio Moreno                    | Desarrollo del Capítulo 5: Information Architecture                          |
+| 2.1     | 26/09/2024 | Josue Arrunategui                 | Desarrollo del Capítulo 6: Software Configuration Management                 |
+| 2.2     | 26/09/2024 | Eduardo Chero                     | Desarrollo del Capítulo 6: Sprint 1                                          |
+| 2.3     | 26/09/2024 | Sebastián Lévano                  | Outcomes, Conclussions & Insights                                            |
+| 2.4     | 21/10/2024 | Sebastián Lévano                  | Actualización de índices, títulos y subtítulos para el TB2                   |
+| 2.5     | 31/10/2024 | Sebastián Lévano                  | Outcomes, Conclussions, Insights y Execution Evidence for Sprint Review      |
+| 3.0     | 14/10/2024 | Claudio Moreno                    | Desarrollo del Capítulo 6: Sprint Planning 2                                 |
+| 3.1     | 31/10/2024 | Claudio Moreno                    | Desarrollo del Capítulo 6: Testing Suite Evidence for Sprint Review.         |
+| 3.2     | 28/10/2024 | Eduardo Chero                     | Desarrollo del Capítulo 6: Sprint Backlog 2                                  |
+| 3.3     | 28/10/2024 | Eduardo Chero                     | Desarrollo del Capítulo 6: Development Evidence for Sprint Review            |
+| 3.4     | 28/10/2024 | Anthony Botello                   | Desarrollo del Capítulo 6: Services Documentation Evidence for Sprint Review |
+| 3.5     | 28/10/2024 | Anthony Botello                   | Desarrollo del Capítulo 6: Software Deployment Evidence for Sprint Review    |
+| 3.6     | 29/10/2024 | Josue Arrunategui                 | Desarrollo del Capítulo 6: Team Collaboration Insights during Sprint         |
+| 3.6     | 29/10/2024 | Josue Arrunategui                 | Desarrollo del Capítulo 6: Diseño de Entrevistas                             |
+| 3.6     | 29/10/2024 | Josue Arrunategui                 | Desarrollo del Capítulo 6: Registro de Entrevistas                           |
+| 3.7     | 29/10/2024 | Sebastián Lévano                  | Desarrollo del Capítulo 6: Execution Evidence for Sprint Review              |
+| 3.8     | 29/10/2024 | Sebastián Lévano                  | Actualización de índices, títulos y subtítulos para el TB2                   |
+| 3.9     | 01/11/2024 | Anthony Botello                   | Desarrollo del Capítulo 6: Services Documentation Evidence for Sprint Review |
 | 3.9     | 30/10/2024 | Sebastián Lévano                  | Outcomes, Conclussions, Insights y Execution Evidence for Sprint Review    |
 ---
 
@@ -3357,10 +3358,71 @@ La evidencia de ejecución del backend se puede visualizar en el Swagger present
 
 #### 6.2.2.6. Services Documentation Evidence for Sprint Review
 
-| URL | Peiciones soportadas |
-| --- | -------------------- |
-|     |                      |
+Durante este sprint, se completó la documentación de los Web Services desarrollados en la aplicación IoT para monitoreo y gestión de alertas y viajes. Los endpoints se documentaron usando OpenAPI, lo cual permite una interfaz clara y estructurada para interactuar con la API y facilita la integración con otros sistemas.
 
+Los principales logros de este sprint en términos de documentación fueron:
+
+- Implementación y documentación de endpoints para la gestión de viajes, supervisores y conductores.
+- Creación de endpoints para configurar umbrales de seguridad y generar alertas.
+- Generación automática de la documentación usando OpenAPI, lo cual permite una visualización de todos los endpoints disponibles en la API, junto con sus parámetros y respuestas.
+
+A continuación, se presenta una tabla detallada con la información de cada endpoint documentado, incluyendo el verbo HTTP, la sintaxis de la llamada, los parámetros esperados y ejemplos de respuesta.
+
+---
+
+| **Acción Implementada**                         | **HTTP Verbo** | **Sintaxis de Llamada**                             | **Parámetros**                         | **Ejemplo de Respuesta**                                         | **Explicación de la Respuesta** |
+|-------------------------------------------------|----------------|-----------------------------------------------------|----------------------------------------|------------------------------------------------------------------|---------------------------------|
+| Iniciar un viaje                                | PUT            | `/api/trips/start/{id}`                             | `id`: ID del viaje                     | `200 OK`                                                          | Inicia el viaje con el ID proporcionado. |
+| Finalizar un viaje                              | PUT            | `/api/trips/finish/{id}`                            | `id`: ID del viaje                     | `200 OK`                     | Finaliza el viaje con el ID proporcionado. |
+| Cancelar un viaje                               | PUT            | `/api/trips/cancel/{id}`                            | `id`: ID del viaje                     | `200 OK`                    | Cancela el viaje con el ID especificado. |
+| Crear un nuevo viaje                            | POST           | `/api/trips/create`                                 | JSON con detalles del viaje            | `{ "tripId": 123, "status": "PENDING" }`                         | Crea un nuevo viaje y devuelve su ID y estado inicial. |
+| Consultar todos los viajes                      | GET            | `/api/trips`                                        | Ninguno                                | `[ { "tripId": 123, "status": "PENDING" }, ... ]`            | Devuelve una lista de todos los viajes en el sistema. |
+| Consultar un viaje específico                   | GET            | `/api/trips/{id}`                                   | `id`: ID del viaje                     | `{ "tripId": 123, "status": "PENDING" }`                     | Devuelve el estado actual del viaje con el ID especificado. |
+| Consultar viajes por supervisor                 | GET            | `/api/trips/supervisor/{supervisorId}`              | `supervisorId`: ID del supervisor      | `[ { "tripId": 123, "status": "PENDING" }, ... ]`            | Devuelve los viajes asignados al supervisor especificado. |
+| Consultar viajes por estado para un supervisor  | GET            | `/api/trips/supervisor/{supervisorId}/status/{statusId}` | `supervisorId`: ID del supervisor, `statusId`: ID del estado | `[ { "tripId": 123, "status": "FINISHED" }, ... ]`               | Devuelve los viajes con un estado específico para el supervisor. |
+| Consultar viajes por conductor                  | GET            | `/api/trips/driver/{driverId}`                      | `driverId`: ID del conductor           | `[ { "tripId": 123, "status": "PENDING" }, ... ]`            | Devuelve los viajes asignados al conductor especificado. |
+| Consultar viajes por estado para un conductor   | GET            | `/api/trips/driver/{driverId}/status/{statusId}`    | `driverId`: ID del conductor, `statusId`: ID del estado | `[ { "tripId": 123, "status": "FINISHED" }, ... ]`               | Devuelve los viajes con un estado específico para el conductor. |
+| Registrar un supervisor                         | POST           | `/api/supervisors/register`                         | JSON con datos del supervisor          | `{ "supervisorId": 1, "username": "ocanellas" ...}`                  | Registra un nuevo supervisor y devuelve su ID con información de su cuenta. |
+| Actualizar información de un supervisor         | PUT            | `/api/supervisors/update`                           | JSON con datos actualizados del supervisor | `{ "supervisorId": 1, "status": "ocanellas" ...}`                     | Actualiza la información de un supervisor existente. |
+| Consultar todos los supervisores                | GET            | `/api/supervisors`                                  | Ninguno                                | `[ { "supervisorId": 1, "name": "Supervisor 1" ...}, ... ]`         | Devuelve una lista de todos los supervisores. |
+| Consultar un supervisor específico              | GET            | `/api/supervisors/{id}`                             | `id`: ID del supervisor                | `{ "supervisorId": 1, "name": "Supervisor 1" ...}`                  | Devuelve la información del supervisor con el ID especificado. |
+| Registrar un conductor                          | POST           | `/api/drivers/register`                             | JSON con datos del conductor           | `{ "driverId": 101, "username": "pgomez" ... }`                    | Registra un nuevo conductor y devuelve su ID. |
+| Actualizar información de un conductor          | PUT            | `/api/drivers/update`                               | JSON con datos actualizados del conductor | `{ "driverId": 101, "username": "pgomez" ... }`                       | Actualiza la información de un conductor existente. |
+| Registrar múltiples conductores                 | POST           | `/api/drivers/batch`                                | JSON con lista de conductores          | `[ { "driverId": 101, "username": "pgomez" ... }, ... ]`           | Registra múltiples conductores en una sola llamada. |
+| Consultar todos los conductores                 | GET            | `/api/drivers`                                      | Ninguno                                | `[ { "driverId": 101, "name": "Driver 1" }, ... ]`               | Devuelve una lista de todos los conductores. |
+| Consultar un conductor específico               | GET            | `/api/drivers/{id}`                                 | `id`: ID del conductor                 | `{ "driverId": 101, "name": "Driver 1" }`                        | Devuelve la información del conductor con el ID especificado. |
+| Consultar conductores por supervisor            | GET            | `/api/drivers/supervisor/{supervisorId}`            | `supervisorId`: ID del supervisor      | `[ { "driverId": 101, "name": "Driver 1" }, ... ]`               | Devuelve una lista de conductores supervisados por el supervisor especificado. |
+| Autenticación de usuarios                       | POST           | `/authenticate`                                     | JSON con credenciales de usuario       | `{ "token": "abc123xyz" }`                                       | Devuelve un token de autenticación para el usuario. |
+| Configurar umbrales de seguridad                | POST           | `/api/thresholds`                                   | JSON con detalles de los umbrales      | `{ "thresholdId": 1, "maxThreshold": 95.1 }`                   | Configura un conjunto de umbrales de seguridad para el sistema. |
+| Actualizar umbrales de seguridad                | POST           | `/api/thresholds/update`                            | JSON con datos actualizados de umbrales | `{ "thresholdId": 1, "maxThreshold": 80 }`                      | Actualiza los umbrales de seguridad configurados. |
+| Consultar umbrales de un viaje                  | GET            | `/api/thresholds/trip/{tripId}`                     | `tripId`: ID del viaje                 | `[ { "sensorType": "SENSOR_GAS", "sensorType": "5", ... }, ...]`                 | Devuelve los umbrales configurados para un viaje específico. |
+| Generar una alerta                              | POST           | `/api/alerts`                                       | JSON con detalles de la alerta         | `{ "alertId": 789, "alertLevel": "CRITICAL" }`                | Genera una alerta basada en los datos proporcionados. |
+| Consultar alertas por viaje                     | GET            | `/api/alerts/trip/{tripId}`                         | `tripId`: ID del viaje                 | `[ { "alertId": 789, "alertLevel": "CRITICAL" }, ... ]`                | Devuelve una lista de alertas generadas para un viaje específico. |
+| Consultar estados de viajes                     | GET            | `/api/trip-status`                                  | Ninguno                                | `[ { "id": 1, "status": "CANCELED" }, ... ]`              | Devuelve una lista de todos los estados de viaje disponibles. |
+
+A continuación se muestran capturas de pantalla de la documentación generada en OpenAPI, organizadas por controladores:
+
+- **trip-controller**: Muestra los endpoints para iniciar, finalizar, cancelar, crear y consultar viajes. Esto incluye opciones para consultar viajes por supervisor y por estado.
+     ![SDE1](./assets/chapter6_img/6.2.2.6.%20Services%20Documentation%20Evidence%20for%20Sprint%20Review/Cap1.png)
+     ![SDE1.5](./assets/chapter6_img/6.2.2.6.%20Services%20Documentation%20Evidence%20for%20Sprint%20Review/Cap1.5.png)
+- **supervisor-controller**: Proporciona endpoints para la administración de supervisores, incluyendo registro, actualización y eliminación de supervisores.
+     ![SDE2](./assets/chapter6_img/6.2.2.6.%20Services%20Documentation%20Evidence%20for%20Sprint%20Review/Cap2.png)
+- **driver-controller**: Contiene endpoints para la gestión de conductores, como el registro de nuevos conductores y la actualización de información.
+     ![SDE3](./assets/chapter6_img/6.2.2.6.%20Services%20Documentation%20Evidence%20for%20Sprint%20Review/Cap3.png)
+ - authentication-controller: Contiene endpoints para la autenticación y autorización de usuarios.
+     ![SDE4](./assets/chapter6_img/6.2.2.6.%20Services%20Documentation%20Evidence%20for%20Sprint%20Review/Cap4.png)
+- **threshold-controller** y **alert-controller**: Incluyen los endpoints para la configuración de umbrales de seguridad y para la generación y consulta de alertas en el sistema.
+     ![SDE5](./assets/chapter6_img/6.2.2.6.%20Services%20Documentation%20Evidence%20for%20Sprint%20Review/Cap5.png)
+
+El código fuente y la documentación de los Web Services se encuentran disponibles en el repositorio de GitHub:
+
+- **URL del repositorio**: https://github.com/Debuggers-SW74/web-services
+
+Los commits específicos relacionados con la documentación de los endpoints en este sprint son:
+	 ![SDE6](./assets/chapter6_img/6.2.2.6.%20Services%20Documentation%20Evidence%20for%20Sprint%20Review/Cap6.png)
+	 ![SDE7](./assets/chapter6_img/6.2.2.6.%20Services%20Documentation%20Evidence%20for%20Sprint%20Review/Cap7.png)
+
+ Para mayor detalle, se pueden revisar en el siguiente enlace: https://github.com/Debuggers-SW74/web-services/commits/develop/
 #### 6.2.2.7. Software Deployment Evidence for Sprint Review
 
 #### 6.2.2.8. Team Collaboration Insights during Sprint
