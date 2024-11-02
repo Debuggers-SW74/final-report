@@ -3680,7 +3680,7 @@ Se ha realizado la version preliminar del Video About-the-Product para el Sprint
 
 ![Video About-the-Product](./assets/chapter6_img/about-the-product.png)
 
-Enlace en Microsoft Stream: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c172_upc_edu_pe/EVxehubta1NIl6rh1UQ_uEwBlv527u0N_XKzonxNjYF-vA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ESn1TL
+Enlace en Microsoft Stream: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c172_upc_edu_pe/EVxehubta1NIl6rh1UQ_uEwBlv527u0N_XKzonxNjYF-vA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ESn1TL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c172_upc_edu_pe/EVxehubta1NIl6rh1UQ_uEwBlv527u0N_XKzonxNjYF-vA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ESn1TL)
 
 ---
 
@@ -3693,6 +3693,13 @@ Enlace en Microsoft Stream: https://upcedupe-my.sharepoint.com/:v:/g/personal/u2
 - Las secciones dedicadas a los Organization Systems, Labeling Systems, SEO Tags, Searching Systems, y Navigation Systems establecen una base sólida para que los usuarios puedan acceder fácilmente a la información deseada. El enfoque en estas áreas mejora tanto la accesibilidad como la optimización en motores de búsqueda, facilitando una mejor experiencia de usuario y aumentando la visibilidad de la plataforma.
 - A través del diseño de Wireframes, Mock-ups, Wireflow Diagrams y User Flow Diagrams, se facilita un enfoque centrado en el usuario, permitiendo iterar rápidamente sobre la experiencia visual y funcional de la aplicación. Esto, junto con la fase de Prototyping, habilita la validación y el refinamiento continuo del diseño antes de su implementación final, mejorando tanto la usabilidad como la satisfacción del usuario final.
 - En el proceso de validación del producto, diseñar entrevistas estructuradas permite obtener feedback directo de usuarios y stakeholders, lo cual resulta fundamental para ajustar el producto a las necesidades reales de los usuarios. Registrar las entrevistas facilita el análisis de patrones en las respuestas, lo que, combinado con evaluaciones heurísticas, permite identificar áreas críticas de mejora en términos de usabilidad y diseño. Además, crear un video que explique las características y el valor del producto ayuda a comunicar su propósito y beneficios de manera clara y atractiva, despertando el interés y facilitando su comprensión para una audiencia más amplia.
+
+# Video About-The-Team
+
+![Video About-The-Team](./assets/chapter6_img/about-the-team.png)
+
+Enlace al video About-the-Team:
+[https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c172_upc_edu_pe/EXaY24lvMRNKvhZ_auhY1fYBPxsnHTcuHdq4G1U-JnSEnA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=KDjdAW](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c172_upc_edu_pe/EXaY24lvMRNKvhZ_auhY1fYBPxsnHTcuHdq4G1U-JnSEnA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=KDjdAW)
 
 ---
 # Bibliografía
