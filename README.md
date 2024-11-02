@@ -3590,7 +3590,140 @@ A continuación, se detallan los pasos y configuraciones realizadas para el desp
 
 ## 6.3. Validation Interviews
 ### 6.3.1. Diseño de Entrevistas
+
+Para esta entrega de nuestro trabajos hemos identificado las siguientes preguntas para nuestros entrevistados luego de presentarles nuestra aplicación:
+
+* ¿Cuál es su función principal en la supervisión del transporte de materiales peligrosos?
+* ¿Cuántas unidades o vehículos tiene bajo su supervisión?
+* ¿Cuáles son las principales dificultades que enfrenta actualmente en la supervisión de estos transportes?
+* ¿Qué tan importante considera que es el monitoreo en tiempo real para la seguridad de las operaciones?
+* ¿Con qué frecuencia ha experimentado problemas relacionados con fugas de gas, temperatura, presión o incidentes de transporte?
+* ¿Qué métodos o tecnologías utiliza actualmente para monitorear la seguridad de los materiales transportados?
+* ¿Qué funciones considera esenciales en una plataforma para supervisar el transporte de materiales peligrosos?
+* Al observar el landing page y la descripción de FastPorte, ¿qué impresión le genera?
+* ¿Qué tan intuitiva o fácil le parece la navegación en la aplicación?
+* ¿Con qué frecuencia y en qué formato prefiere recibir reportes sobre el estado de los materiales transportados?
+* ¿Qué tipo de alertas le gustaría recibir y en qué momentos (por ejemplo, cada cierto tiempo, en casos críticos, etc.)?
+* ¿Cuáles considera que son los parámetros críticos que deberían priorizarse en el monitoreo?
+* Valoración y Expectativas:
+* ¿Qué tan probable es que recomendaría FastPorte a otros supervisores o colegas?
+* ¿Cuáles considera que son los beneficios principales de FastPorte en comparación con otras soluciones del mercado?
+* ¿Qué funcionalidades adicionales o servicios considera que serían útiles para su empresa?
+* ¿Qué dudas o inquietudes tiene acerca de la plataforma FastPorte?
 ### 6.3.2. Registro de Entrevistas
+
+**Sector supervisor:**
+<table>
+  <tr>
+    <th>Nombres y Apellidos: </th>
+    <th>Renzo Araujo</th>
+  </tr>
+  <tr>
+    <td>Edad:</td>
+    <td>28</td>
+  </tr>
+  <tr>
+    <td>Dirección:</td>
+    <td>Lurín, Lima</td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="assets/chapter6_img/entrevistas/entrevista_supervisor_1.png" alt="entrevista cliente 1"></td>
+  </tr>
+  <tr>
+    <td colspan="2"><a href="https://drive.google.com/file/d/1GjlL7uT1r17SMQ2w2QXdLoos5wNQLwTJ/view?usp=sharing" target="_blank">Entrevista sector supervisor 1.mp4</a></td>
+  </tr>
+  <tr>
+    <td colspan="2">Entrevistador: Eduardo André Chero Emé </td>
+  </tr>
+  <tr>
+    <td colspan="2">Resumen: Renzo Araujo, de 28 años, se mostró conforme con las funcionalidades actuales de la aplicación. No expresó necesidad de modificaciones adicionales y consideró que la solución cubre sus expectativas. </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <th>Nombres y Apellidos: </th>
+    <th>Jorge Chero</th>
+  </tr>
+  <tr>
+    <td>Edad:</td>
+    <td>53</td>
+  </tr>
+  <tr>
+    <td>Dirección:</td>
+    <td>Chorrillos, Lima</td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="assets/chapter6_img/entrevistas/entrevista_supervisor_2.png" alt="entrevista cliente 1"></td>
+  </tr>
+  <tr>
+    <td colspan="2"><a href="https://drive.google.com/file/d/12p3d_Ipf8okExjlzvSEH_63VUFBkJppd/view?usp=sharing" target="_blank">Entrevista sector supervisor 2.mp4</a></td>
+  </tr>
+  <tr>
+    <td colspan="2">Entrevistador: Eduardo André Chero Emé </td>
+  </tr>
+  <tr>
+    <td colspan="2">Resumen: Jorge Chero, de 53 años, enfatizó la importancia de recibir alertas en tiempo real durante el tránsito, sugiriendo que las notificaciones se envíen de manera crítica si ocurre algún percance en la ruta de entrega. Su principal preocupación es la pronta recepción de alertas para mejorar la respuesta ante incidentes.</td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <th>Nombres y Apellidos: </th>
+    <th>Sebastián Córdova</th>
+  </tr>
+  <tr>
+    <td>Edad:</td>
+    <td>25</td>
+  </tr>
+  <tr>
+    <td>Dirección:</td>
+    <td>San Juan de Miraflores, Lima</td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="assets/chapter6_img/entrevistas/entrevista_supervisor_3.png" alt="entrevista cliente 1"></td>
+  </tr>
+  <tr>
+    <td colspan="2"><a href="https://drive.google.com/file/d/1bk6ivGzHrKsbpQ2QN2dwT4PEwDEyMc4C/view?usp=sharing" target="_blank">Entrevista sector supervisor 3.mp4</a></td>
+  </tr>
+  <tr>
+    <td colspan="2">Entrevistador: Eduardo André Chero Emé </td>
+  </tr>
+  <tr>
+    <td colspan="2">Resumen: Sebastián Córdova, de 25 años, expresó interés en recibir alertas tanto por correo electrónico como por notificaciones directas en el teléfono. Además, solicitó una función que permita generar reportes de costos de cada transporte para monitorear y gestionar mejor los gastos logísticos.
+</td>
+  </tr>
+</table>
+
+**Sector Chofer:**
+
+<table>
+  <tr>
+    <th>Nombres y Apellidos: </th>
+    <th>Jesús Floriano</th>
+  </tr>
+  <tr>
+    <td>Edad:</td>
+    <td>24</td>
+  </tr>
+  <tr>
+    <td>Dirección:</td>
+    <td>Comas, Lima</td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="assets/chapter6_img/entrevistas/entrevista_chofer_1.png" alt="entrevista cliente 1"></td>
+  </tr>
+  <tr>
+    <td colspan="2"><a href="https://drive.google.com/file/d/1d5zJ2tTZBRQbaU0ijrblIRrsl-78fB9C/view?usp=sharing" target="_blank">Entrevista sector chofer.mp4</a></td>
+  </tr>
+  <tr>
+    <td colspan="2">Entrevistador: Eduardo Sebastián Lévano Cavero </td>
+  </tr>
+  <tr>
+    <td colspan="2">Resumen: Jesús Floriano, de 24 años, solicitó la incorporación de GPS en el proyecto, explicando que esta funcionalidad podría mejorar la precisión y eficiencia del sistema al permitir el rastreo de ubicaciones en tiempo real. Esta petición refleja su iniciativa y comprensión de cómo las tecnologías geoespaciales pueden aportar valor al proyecto.</td>
+  </tr>
+</table>
+
 ### 6.3.3. Evaluaciones según Heurísticas
 
 #### Evaluación de User Experience según Heurísticas
