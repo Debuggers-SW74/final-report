@@ -3425,6 +3425,36 @@ Los commits específicos relacionados con la documentación de los endpoints en 
  Para mayor detalle, se pueden revisar en el siguiente enlace: https://github.com/Debuggers-SW74/web-services/commits/develop/
 #### 6.2.2.7. Software Deployment Evidence for Sprint Review
 
+Durante este sprint, se completó el despliegue de los diferentes componentes de la aplicación IoT en sus respectivos entornos. La aplicación web se desplegó en FIrebase. La infraestructura de backend, que incluye el Edge API y el Cloud API, se desplegó en Azure mediante Azure App Service, mientras que la base de datos se configuró usando Azure Database for MySQL. Además, se implementó un flujo de CI/CD en GitHub Actions para automatizar los despliegues y garantizar una integración continua.
+
+A continuación, se detallan los pasos y configuraciones realizadas para el despliegue durante este sprint.
+
+#### **Despliegue del Frontend en Firebase**
+
+1. **Configuración y Despliegue en Firebase**
+    
+    - El frontend de la aplicación se desplegó en Firebase Hosting, un servicio de Google que proporciona un entorno seguro y escalable para aplicaciones web.
+    - **URL del Frontend**: `https://fastporte-653d5.web.app/sign-in`
+    
+Los pasos para el despliegue fueron los siguientes: 
+    1. Nos creamos una cuenta en Firebase y una vez dentro le damos clic en el botón "Crear un proyecto": 
+		![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend1.jpg)
+	2. Le asignamos un nombre al proyecto: 
+	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend2.jpg)
+3. Creamos el proyecto
+	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend3.jpg)
+	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend4.jpg)
+4. Le damos clic en el botón señalado para agregar una aplicación web: 
+	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend5.jpg)
+5. Realizamos la configuración de la aplicación web de la misma forma que se especifica en las siguientes imágenes: 
+	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend6.jpg)
+	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend7.jpg)
+	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend8.jpg)
+6. En consola, ejecutamos los comandos de la forma que nos especifica Firebase  
+	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend9.jpg)
+7. En nuestro repositorio del frontend, configuramos el workflow agregando lo resaltado en la imagen
+	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend10.jpg)
+8. Al hacer esos cambios, el workflow se ejecutará y de esta manera tendremos desplegada la aplicación web.
 #### 6.2.2.8. Team Collaboration Insights during Sprint
 
 
