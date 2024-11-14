@@ -7,7 +7,6 @@
 #### Team Members
 - Arrunátegui Aguilar, Josué David 
 - Botello Saldarriaga, Anthony Jean Pierre
-- Chero Eme, Eduardo Andre
 - Lévano Cavero, Eduardo Sebastián
 - Moreno Rosales, Claudio Jesús
 #### Sección: SW74
@@ -51,6 +50,7 @@ ___
 | 3.9     | 30/10/2024 | Sebastián Lévano                  | Outcomes, Conclussions, Insights y Execution Evidence for Sprint Review      |
 | 4.0     | 01/11/2024 | Anthony Botello                   | Desarrollo del Capítulo 6: Services Documentation Evidence for Sprint Review |
 | 4.1     | 01/11/2024 | Anthony Botello                   | Desarrollo del Capítulo 6: Software  Deployment Evidence for Sprint Review   |
+| 4.2     | 13/11/2024 | Sebastián L´évano                 | Actualización de índices, títulos y subtítulos para el TF                    |
 
 ---
 
@@ -76,6 +76,12 @@ La presenta entrega cubrió el cumplimiento de los capítulos V y VI del informe
 - TB2: Se continuo con el desarrollo del capítulo VI, en el cual se abordo el desarrollo del Sprint 2 y la realización de las entrevistas de validación sobre los productos de software implementados. Este Sprint involucra la actualización de la página de aterrizaje, *Landing Page*, la segunda versión del *Web Application*, la primera versión del *Mobile Application* y el despliegue del *Backend*.
 ![TB2 Collaboration Insights](./assets/collaboration_insights/tb2_collaboration.png)
 La entrega sirvió para continuar con el desarrollo de los productos de software que se presentarán, tales como el Mobile Application, Web Application y la actualización de la Landing Page. Se cubrió el segundo Sprint encargado de realizar la segunda versión del Web Application, la primera versión del Mobile Application y el avance del Embedded Application. Además, se desarrollaron las entrevistas de validación para conocer la opinión de nuestros usuarios sobre los productos de software desarrollados y si estos se pueden mejorar o que complicaciones presentan actualmente. Posteriormente, se realizaron las heurísticas sobre dichos comentarios para subsanar las observaciones obtenidas e nuestros segmentos objetivo.
+
+- TF: Se continuo con el desarrollo del capítulo VI, en el cual se abordo el desarrollo del Sprint 3 finalizando los productos de software. Este Sprint involucra la actualización final de la página de aterrizaje, *Landing Page*, la versión final del *Web Application*, la versión final del *Mobile Application* y pequeñas correcciones en el *Backend*.
+
+![TF Collaboration Insights](./assets/collaboration_insights/tf_collaboration.png)
+
+
 
 ---
 # Contenido 
@@ -169,6 +175,15 @@ La entrega sirvió para continuar con el desarrollo de los productos de software
       - [6.2.2.6. Services Documentation Evidence for Sprint Review](#6226-services-documentation-evidence-for-sprint-review)
       - [6.2.2.7. Software Deployment Evidence for Sprint Review](#6227-software-deployment-evidence-for-sprint-review)
       - [6.2.2.8. Team Collaboration Insights during Sprint](#6228-team-collaboration-insights-during-sprint)
+    - [6.2.3. Sprint 3](#623-sprint-3)
+      - [6.2.3.1. Sprint Planning 3](#6231-sprint-planning-3)
+      - [6.2.3.2. Sprint Backlog 3](#6232-sprint-backlog-3)
+      - [6.2.3.3. Development Evidence for Sprint Review](#6233-development-evidence-for-sprint-review)
+      - [6.2.3.4. Testing Suite Evidence for Sprint Review](#6234-testing-suite-evidence-for-sprint-review)
+      - [6.2.3.5. Execution Evidence for Sprint Review](#6235-execution-evidence-for-sprint-review)
+      - [6.2.3.6. Services Documentation Evidence for Sprint Review](#6236-services-documentation-evidence-for-sprint-review)
+      - [6.2.3.7. Software Deployment Evidence for Sprint Review](#6237-software-deployment-evidence-for-sprint-review)
+      - [6.2.3.8. Team Collaboration Insights during Sprint](#6238-team-collaboration-insights-during-sprint)
   - [6.3. Validation Interviews](#63-validation-interviews)
     - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
     - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
@@ -211,25 +226,25 @@ Ser reconocidos como líderes en el mercado de soluciones IoT aplicadas al trans
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
-| Integrante        | Arrunátegui Aguilar, Josué David                        |
-|-------------------|---------------------------------------------------------|
-| **Código:** U202111033 <br> **Carrera:** Ingeniería de Software <br> **Acerca de mí:** Me gusta dibujar, tocar guitarra y jugar videojuegos. Tengo conocimiento en el desarrollo frontend con lenguajes como angular y vue.js, así como desarrollo móvil con flutter. Planeo especializarme en desarrollo web o como Analista de Datos. | ![Josué Perfil](assets/capitulo1/integrantes/josue.jpg) |
+| Integrante                                                                                                                                                                                                                                                                                                                            | Arrunátegui Aguilar, Josué David                        |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
+| **Código:** U202111033 <br>**Carrera:** Ingeniería de Software <br>**Acerca de mí:** Me gusta dibujar, tocar guitarra y jugar videojuegos. Tengo conocimiento en el desarrollo frontend con lenguajes como angular y vue.js, así como desarrollo móvil con flutter. Planeo especializarme en desarrollo web o como Analista de Datos. | ![Josué Perfil](assets/capitulo1/integrantes/josue.jpg) |
 
-| Integrante                                                                                                                                                                                                                                                                                                                                                                                                       | Botello Saldarriaga, Anthony Jean Pierre                    |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|
-| **Código:** U20201B846 <br>  **Carrera:** Ingeniería de Software <br> **Acerca de mí:** Tengo 23 años y soy estudiante de Ingeniería de Software con conocimientos y habilidades en distintos lenguajes de programación. Actualmente curso el noveno ciclo de la carrera y mi meta es ser un profesional destacado el cual rija sus decisiones por sus valores y el bien de la empresa donde labore. Me interesa el desarrollo de la tecnología y los avances que existen en la inteligencia artificial. | ![Anthony Perfil](assets/capitulo1/integrantes/anthony.jpg) |
+| Integrante                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | Botello Saldarriaga, Anthony Jean Pierre                    |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
+| **Código:** U20201B846 <br>**Carrera:** Ingeniería de Software <br>**Acerca de mí:** Tengo 23 años y soy estudiante de Ingeniería de Software con conocimientos y habilidades en distintos lenguajes de programación. Actualmente curso el noveno ciclo de la carrera y mi meta es ser un profesional destacado el cual rija sus decisiones por sus valores y el bien de la empresa donde labore. Me interesa el desarrollo de la tecnología y los avances que existen en la inteligencia artificial. | ![Anthony Perfil](assets/capitulo1/integrantes/anthony.jpg) |
 
-| Integrante                                                                                                                                                                                                                                          | Chero Eme, Eduardo Andre                                    |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
-| **Código:** U20201F282 <br> **Carrera:** Ingeniería de software <br> **Acerca de mí:** Me gustan los videojuegos y las series, quiero especializarme en ciberseguridad para tener una ganancia estable mientras creo videojuegos aparte por pasión. | ![Eduardo Perfil](assets/capitulo1/integrantes/eduardo.jpg) |
+| Integrante                                                                                                                                                                                                                                        | Chero Eme, Eduardo Andre                                    |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
+| **Código:** U20201F282 <br>**Carrera:** Ingeniería de software <br>**Acerca de mí:** Me gustan los videojuegos y las series, quiero especializarme en ciberseguridad para tener una ganancia estable mientras creo videojuegos aparte por pasión. | ![Eduardo Perfil](assets/capitulo1/integrantes/eduardo.jpg) |
 
-| Integrante                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | Lévano Cavero, Eduardo Sebastián                                |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
-| **Código:** U20201C172 <br> **Carrera:** Ingeniería de Software <br> **Acerca de mí:** Mi nombre es Sebastián, tengo 21 años y soy estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Elegí esta carrera porque me fascina crear y diseñar procesos que faciliten procesos complejos. Por ello, cuando tengo un poco de tiempo libre lo uso para relajarme y para aprender más de lo que me apasiona, la programación, se puede decir que es uno de mis hobbies. Además, de la programación también disfruto de jugar vóley, fútbol o algún videojuego con mis amigos. | ![Sebastián Perfil](assets/capitulo1/integrantes/sebastian.jpg) |
+| Integrante                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | Lévano Cavero, Eduardo Sebastián                                |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
+| **Código:** U20201C172 <br>**Carrera:** Ingeniería de Software <br>**Acerca de mí:** Mi nombre es Sebastián, tengo 21 años y soy estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Elegí esta carrera porque me fascina crear y diseñar procesos que faciliten procesos complejos. Por ello, cuando tengo un poco de tiempo libre lo uso para relajarme y para aprender más de lo que me apasiona, la programación, se puede decir que es uno de mis hobbies. Además, de la programación también disfruto de jugar vóley, fútbol o algún videojuego con mis amigos. | ![Sebastián Perfil](assets/capitulo1/integrantes/sebastian.jpg) |
 
-| Integrante        | Moreno Rosales, Claudio Jesús                               |
-|-------------------|-------------------------------------------------------------|
-| **Código:** U20191E800 <br> **Carrera:** Ingeniería de Software <br> **Acerca de mí:** La tecnología en general me gusta mucho, por ello, sigo constantemente explorando nuevas herramientas y tendencias del mundo tech. Estoy siempre dispuesto a aprender y enfrentar desafíos. Un campo que me interesa mucho es el de la Seguridad Informática, para lograr que el desarrollo de software sea de la más alta calidad posible y mantener seguros a los clientes. | ![Claudio Perfil](assets/capitulo1/integrantes/claudio.jpg) |
+| Integrante                                                                                                                                                                                                                                                                                                                                                                                                                                                         | Moreno Rosales, Claudio Jesús                               |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------- |
+| **Código:** U20191E800 <br>**Carrera:** Ingeniería de Software <br>**Acerca de mí:** La tecnología en general me gusta mucho, por ello, sigo constantemente explorando nuevas herramientas y tendencias del mundo tech. Estoy siempre dispuesto a aprender y enfrentar desafíos. Un campo que me interesa mucho es el de la Seguridad Informática, para lograr que el desarrollo de software sea de la más alta calidad posible y mantener seguros a los clientes. | ![Claudio Perfil](assets/capitulo1/integrantes/claudio.jpg) |
 
 ## 1.2. Solution Profile
 
@@ -3095,13 +3110,13 @@ El siguiente enlace contiene el video que muestre la navegación dentro de la La
 
 #### 6.2.1.6. Services Documentation Evidence for Sprint Review
 
-Para este Sprint se implementó una Api Fake para el inicio de sesión y registro de usuarios, asi como una pre-visualización de los datos al generar un viaje.
+Para este Sprint se implementó una Api Fake para el inicio de sesión y registro de usuarios, así como una pre-visualización de los datos al generar un viaje.
 
-| URL                              | Peiciones soportadas | 
-|----------------------------------|----------------------|
-| http://localhost:3000/users      | GET, POST            |
-| http://localhost:3000/users/{id} | GET, PATCH           |
-| http://localhost:3000/trips      | GET, POST            |
+| URL                              | Peticiones soportadas |
+| -------------------------------- | --------------------- |
+| http://localhost:3000/users      | GET, POST             |
+| http://localhost:3000/users/{id} | GET, PATCH            |
+| http://localhost:3000/trips      | GET, POST             |
 
 Estos endopoints sirven para desarrollar un entorno de pruebas de manera local por medio del paquete de npm llamado JSON Server.
 
@@ -3149,30 +3164,28 @@ Por ultimo para el host de la API fake usamos un servicio gratuito llamado My Js
 Para esta entrega todos los miembros del equipo colaboraron en el desarrollo de la landing page y aplicacion web:
 
 - Evidencia del repositorio 'landing-page'
-  
   ![pulselp](./assets/chapter6_img/pulse.png)
--
-- Evidencia del repositorio 'web-application'
-  
+
+- Evidencia del repositorio 'web-application' 
   ![pulsewa](./assets/chapter6_img/wa.png)
 
 ### 6.2.2. Sprint 2
 #### 6.2.2.1. Sprint Planning 2
 
-| Sprint #                           | 2                                                                                       |
-| ---------------------------------- | --------------------------------------------------------------------------------------- |
-| Sprint Planning Background         |                                                                                         |
-| Date                               | 2024-10-                                                                                |
-| Time                               | 07:30 PM                                                                                |
-| Location                           | Reunión virtual durante la clase                                                        |
-| Prepared By                        | Lévano Cavero, Eduardo Sebastián                                                        |
-| Attendees                          | Josué Arrunátegui / Anthony Botello / Eduardo Chero / Sebastián Lévano / Claudio Moreno |
-| Sprint n – 2 Review Summary        | En el Sprint 1 logramos definir y completar la arquitectura de software, además de lanzar una primera versión de la Landing Page y la Web Application utilizando una Fake API. El feedback principal del Product Owner resaltó la importancia de mejorar la organización del equipo y asegurar que todos los miembros participen activamente en todos los productos digitales del proyecto.                                                                     |
-| Sprint n – 2 Retrospective Summary |En el Sprint 1, el equipo identificó como áreas de mejora la organización, la comunicación y la participación activa de cada miembro en las tareas. Se destacó la necesidad de fortalecer el trabajo en conjunto para mejorar la eficiencia y asegurar el éxito en los próximos sprints.|
-| Sprint Goal & User Stories         |                                                                                         |
-| Sprint n Goal                      | **Nos centramos en** la entrega de las primeras versiones de la aplicación móvil y el backend, las actualizaciones de la página de destino y la aplicación web, así como el diseño inicial del dispositivo IoT de detección de fugas de gas, medición de temperatura, presión y humedad y la Edge API para el procesamiento local de datos.<br><br> **Creemos que** esto proporcionará a los conductores un beneficio como las notificaciones de los viajes a través de la aplicación móvil, los supervisores gestionarán y asignarán los viajes a través de la aplicación web, los visitantes podrán ver la página de destino actualizada y los desarrolladores tendrán acceso al backend para dar soporte a las aplicaciones web y móviles. Además, la solución IoT con el sensor de detección de fugas de gas, medición de temperatura, presión y humedad  y el Edge API mejorará la seguridad del conductor al permitir la supervisión de materiales peligrosos antes, durante y después del transporte.<br><br> **Esto se confirmará cuando** los conductores puedan utilizar la App Móvil para ver la información del viaje y las notificaciones, los supervisores puedan asignar y supervisar los viajes a través de la Aplicación Web, los desarrolladores puedan interactuar con la primera versión del Backend para soportar las funcionalidades del sistema, el diseño del dispositivo IoT y la Edge API permiten la detección de fugas de gas, medición de temperatura, presión y humedad proporcionando datos esenciales al sistema y los visitantes pueden acceder a la Landing Page actualizada.|
-| Sprint n Velocity                  | 50                                                                                        |
-| Sum of Story Points                | 48                                                                                        |
+| Sprint #                           | 2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Sprint Planning Background         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| Date                               | 2024-09-30                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Time                               | 07:30 PM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Location                           | Reunión virtual durante la clase                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Prepared By                        | Lévano Cavero, Eduardo Sebastián                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Attendees                          | Josué Arrunátegui / Anthony Botello / Eduardo Chero / Sebastián Lévano / Claudio Moreno                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Sprint n – 2 Review Summary        | En el Sprint 1 logramos definir y completar la arquitectura de software, además de lanzar una primera versión de la Landing Page y la Web Application utilizando una Fake API. El feedback principal del Product Owner resaltó la importancia de mejorar la organización del equipo y asegurar que todos los miembros participen activamente en todos los productos digitales del proyecto.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Sprint n – 2 Retrospective Summary | En el Sprint 1, el equipo identificó como áreas de mejora la organización, la comunicación y la participación activa de cada miembro en las tareas. Se destacó la necesidad de fortalecer el trabajo en conjunto para mejorar la eficiencia y asegurar el éxito en los próximos sprints.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Sprint Goal & User Stories         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| Sprint n Goal                      | **Nos centramos en** la entrega de las primeras versiones de la aplicación móvil y el backend, las actualizaciones de la página de destino y la aplicación web, así como el diseño inicial del dispositivo IoT de detección de fugas de gas, medición de temperatura, presión y humedad y la Edge API para el procesamiento local de datos.<br><br>**Creemos que** esto proporcionará a los conductores un beneficio como las notificaciones de los viajes a través de la aplicación móvil, los supervisores gestionarán y asignarán los viajes a través de la aplicación web, los visitantes podrán ver la página de destino actualizada y los desarrolladores tendrán acceso al backend para dar soporte a las aplicaciones web y móviles. Además, la solución IoT con el sensor de detección de fugas de gas, medición de temperatura, presión y humedad  y el Edge API mejorará la seguridad del conductor al permitir la supervisión de materiales peligrosos antes, durante y después del transporte.<br><br>**Esto se confirmará cuando** los conductores puedan utilizar la App Móvil para ver la información del viaje y las notificaciones, los supervisores puedan asignar y supervisar los viajes a través de la Aplicación Web, los desarrolladores puedan interactuar con la primera versión del Backend para soportar las funcionalidades del sistema, el diseño del dispositivo IoT y la Edge API permiten la detección de fugas de gas, medición de temperatura, presión y humedad proporcionando datos esenciales al sistema y los visitantes pueden acceder a la Landing Page actualizada. |
+| Sprint n Velocity                  | 50                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Sum of Story Points                | 48                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 
 #### 6.2.2.2. Sprint Backlog 2
 
@@ -3588,6 +3601,152 @@ A continuación, se detallan los pasos y configuraciones realizadas para el desp
 	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/database5.jpg)
 #### 6.2.2.8. Team Collaboration Insights during Sprint
 
+
+### 6.2.3. Sprint 3
+#### 6.2.3.1. Sprint Planning 3
+
+| Sprint #                           | 3                                                                                   |
+| ---------------------------------- | ----------------------------------------------------------------------------------- |
+| Sprint Planning Background         |                                                                                     |
+| Date                               | 2024-10-06                                                                          |
+| Time                               | 07:30 PM                                                                            |
+| Location                           | Reunión virtual durante la clase                                                    |
+| Prepared By                        | Lévano Cavero, Eduardo Sebastián                                                    |
+| Attendees                          | Josué Arrunátegui / Anthony Botello / Sebastián Lévano / Claudio Moreno             |
+| Sprint n – 3 Review Summary        |                                                                                     |
+| Sprint n – 3 Retrospective Summary |                                                                                     |
+| Sprint Goal & User Stories         |                                                                                     |
+| Sprint n Goal                      | **Nos centramos en** <br><br>**Creemos que** <br><br>**Esto se confirmará cuando**  |
+| Sprint n Velocity                  | 50                                                                                  |
+| Sum of Story Points                | 48                                                                                  |
+
+#### 6.2.3.2. Sprint Backlog 3
+
+Para este Sprint nos enfocamos en el desarrollo de la Landing page y una face inicial de la app web.
+
+[Enlace del tablero en Trello](https://trello.com/)
+
+![trello](./assets/chapter6_img/trello-3.png)
+
+| Sprint #   | Sprint 3 |                  |       |             |                    |             |                                              |
+| ---------- | -------- | ---------------- | ----- | ----------- | ------------------ | ----------- | -------------------------------------------- |
+| User Story |          | Work-Item / Task |       |             |                    |             |                                              |
+| Id         | Title    | Id               | Title | Description | Estimation (Hours) | Assigned To | Status (To-do / InProcess / ToReview / Done) |
+|            |          |                  |       |             |                    |             |                                              |
+
+#### 6.2.3.3. Development Evidence for Sprint Review
+
+Tablero de commits del repositorio de la Landing-page:
+
+| Repository                  | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+| --------------------------- | ------ | --------- | -------------- | ------------------- | ------------------ |
+| Debuggers-SW74/landing-page |        |           |                |                     |                    |
+
+Tablero de commits del repositorio de la App web:
+
+| Repository                       | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+| -------------------------------- | ------ | --------- | -------------- | ------------------- | ------------------ |
+| Debuggers-SW74 / web-application |        |           |                |                     |                    |
+
+Tablero de commits del repositorio de la App mobile:
+
+| Repository                       | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+| -------------------------------- | ------ | --------- | -------------- | ------------------- | ------------------ |
+| Debuggers-SW74/movil-application | main   |           |                |                     |                    |
+
+Tablero de commits del repositorio del backend:
+
+| Repository                  | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+| --------------------------- | ------ | --------- | -------------- | ------------------- | ------------------ |
+| Debuggers-SW74/web-services |        |           |                |                     |                    |
+
+#### 6.2.3.4. Testing Suite Evidence for Sprint Review
+
+| Repository    | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+| ------------- | ------ | --------- | -------------- | ------------------- | ------------------ |
+| testing-suite |        |           |                |                     |                    |
+
+#### 6.2.3.5. Execution Evidence for Sprint Review
+
+
+#### 6.2.3.6. Services Documentation Evidence for Sprint Review
+
+
+---
+
+| **Acción Implementada** | **HTTP Verbo** | **Sintaxis de Llamada** | **Parámetros** | **Ejemplo de Respuesta** | **Explicación de la Respuesta** |
+| ----------------------- | -------------- | ----------------------- | -------------- | ------------------------ | ------------------------------- |
+|                         |                |                         |                |                          |                                 |
+
+ Para mayor detalle, se pueden revisar en el siguiente enlace: https://github.com/Debuggers-SW74/web-services/commits/develop/
+#### 6.2.3.7. Software Deployment Evidence for Sprint Review
+
+
+#### **Despliegue del Frontend en Firebase**
+
+1. **Configuración y Despliegue en Firebase**
+    
+    - El frontend de la aplicación se desplegó en Firebase Hosting, un servicio de Google que proporciona un entorno seguro y escalable para aplicaciones web.
+    - **URL del Frontend**: `https://fastporte-653d5.web.app/sign-in`
+    
+	Los pasos para el despliegue fueron los siguientes: 
+    1. Nos creamos una cuenta en Firebase y una vez dentro le damos clic en el botón "Crear un proyecto": 
+		![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend1.jpg)
+	2. Le asignamos un nombre al proyecto: 
+		![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend2.jpg)
+	3. Creamos el proyecto
+		![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend3.jpg)
+		![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend4.jpg)
+	4. Le damos clic en el botón señalado para agregar una aplicación web: 
+		![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend5.jpg)
+	5. Realizamos la configuración de la aplicación web de la misma forma que se especifica en las siguientes imágenes: 
+		![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend6.jpg)
+		![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend7.jpg)
+		![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend8.jpg)
+	6. En consola, ejecutamos los comandos de la forma que nos especifica Firebase  
+		![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend9.jpg)
+	7. En nuestro repositorio del frontend, configuramos el workflow agregando lo resaltado en la imagen
+		![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend10.jpg)
+	8. Al hacer esos cambios, el workflow se ejecutará y de esta manera tendremos desplegada la aplicación web.
+
+#### **Despliegue del Cloud API y Edge API**
+
+- Tanto el Cloud API como el Edge API se desplegaron en Azure utilizando el servicio Web App. 
+- **URL del Edge API**: `https://fastporte-edge-api.azurewebsites.net`
+- **URL del Cloud API**: `https://fastporte-cloud-api.azurewebsites.net`
+
+1. Previamente debemos tener una cuenta con créditos suficientes para usar recursos de Azure. Una vez tenido esto, nos dirigimos al portal de Azure
+
+	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/cloudapi1.jpg)
+2. En la pantalla anterior, damos clic en "Crear un recurso" y nos abrirá una vista en la que buscaremos "app web" y seleccionamos "Solo servicios de Azure". Será el primer resultado que nos aparezca
+	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/cloudapi2.jpg)
+3. Le damos en "Crear"
+	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/cloudapi3.jpg)
+4.  Lo configuramos de la manera como está en la siguiente captura de pantalla y le damos clic en el botón "Revisar y crear" y luego en el botón "Crear"
+	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/cloudapi4.jpg)
+	
+	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/cloudapi5.jpg)
+5. Cuando el recurso se haya implementado, nos dirigimos a la opción "Centro de implementación" en el menú izquierdo. Enlazamos nuestra cuenta de Github, elegimos la organización, el repositorio y finalmente la rama. Luego aceptamos y automáticamente se creará un workflow que se ejecutará en unos instantes. Después de eso, solo esperamos a que el despliegue sea exitoso.
+	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/cloudapi6.jpg)
+
+	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/cloudapi7.jpg)
+
+#### **Despliegue de la base de datos para Cloud API y Edge API**
+
+- Para este despliegue, se configuró una instancia de base de datos para cada API utilizando el recurso Azure Database for MySQL. 
+1. EnAzure Portal, damos clic en "Crear un recurso" y nos abrirá una vista en la que buscaremos "mysql" y seleccionamos "Solo servicios de Azure". Será el primer resultado que nos aparezca
+	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/database1.jpg)
+2. Le damos en "Crear"
+	 ![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/database2.jpg)
+3. Seleccionamos "Quick create"
+	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/database3.jpg)
+	
+4. Configuramos de la siguiente manera
+	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/database4.jpg)
+5.  Una vez implementado el recurso, solo utilizamos las credenciales para conectar nuestros servicios.
+	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/database5.jpg)
+#### 6.2.3.8. Team Collaboration Insights during Sprint
+
 ## 6.3. Validation Interviews
 ### 6.3.1. Diseño de Entrevistas
 
@@ -3681,7 +3840,7 @@ Para esta entrega de nuestro trabajos hemos identificado las siguientes pregunta
     <td>San Juan de Miraflores, Lima</td>
   </tr>
   <tr>
-    <td colspan="2"><img src="assets/chapter6_img/entrevistas/entrevista_supervisor_3.png" alt="entrevista cliente 1"></td>
+    <td colspan="2"><img src="./assets/chapter6_img/entrevistas/entrevista_supervisor_3.png" alt="entrevista cliente 1"></td>
   </tr>
   <tr>
     <td colspan="2"><a href="https://drive.google.com/file/d/1bk6ivGzHrKsbpQ2QN2dwT4PEwDEyMc4C/view?usp=sharing" target="_blank">Entrevista sector supervisor 3.mp4</a></td>
@@ -3711,7 +3870,7 @@ Para esta entrega de nuestro trabajos hemos identificado las siguientes pregunta
     <td>Comas, Lima</td>
   </tr>
   <tr>
-    <td colspan="2"><img src="assets/chapter6_img/entrevistas/entrevista_chofer_1.png" alt="entrevista cliente 1"></td>
+    <td colspan="2"><img src="./assets/chapter6_img/entrevistas/entrevista_chofer_1.png" alt="entrevista cliente 1"></td>
   </tr>
   <tr>
     <td colspan="2"><a href="https://drive.google.com/file/d/1d5zJ2tTZBRQbaU0ijrblIRrsl-78fB9C/view?usp=sharing" target="_blank">Entrevista sector chofer.mp4</a></td>
@@ -3872,3 +4031,7 @@ Enlace al video de exposición TB2:
 ## Anexo E
 Enlace al video About-the-Product:
 [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c172_upc_edu_pe/EVxehubta1NIl6rh1UQ_uEwBlv527u0N_XKzonxNjYF-vA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ESn1TL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c172_upc_edu_pe/EVxehubta1NIl6rh1UQ_uEwBlv527u0N_XKzonxNjYF-vA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ESn1TL)
+
+## Anexo F
+Enlace al video de exposición TF:
+[]()
