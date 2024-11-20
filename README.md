@@ -4163,10 +4163,7 @@ Para esta entrega de nuestro trabajos hemos identificado las siguientes pregunta
     <td>Lurín, Lima</td>
   </tr>
   <tr>
-    <td colspan="2"><img src="assets/chapter6_img/entrevistas/entrevista_supervisor_1.png" alt="entrevista cliente 1"></td>
-  </tr>
-  <tr>
-    <td colspan="2"><a href="https://acortar.link/g5unZS" target="_blank">URL: https://acortar.link/g5unZS</a></td>
+    <td colspan="2">URL: <a href="https://acortar.link/g5unZS" target="_blank">https://acortar.link/g5unZS</a></td>
   </tr>
   <tr>
     <td colspan="2">Entrevistador: Eduardo André Chero Emé </td>
@@ -4192,10 +4189,7 @@ Para esta entrega de nuestro trabajos hemos identificado las siguientes pregunta
     <td>Chorrillos, Lima</td>
   </tr>
   <tr>
-    <td colspan="2"><img src="assets/chapter6_img/entrevistas/entrevista_supervisor_2.png" alt="entrevista cliente 1"></td>
-  </tr>
-  <tr>
-    <td colspan="2"><a href="https://acortar.link/g5unZS" target="_blank">https://acortar.link/g5unZS</a></td>
+    <td colspan="2">URL: <a href="https://acortar.link/g5unZS" target="_blank">https://acortar.link/g5unZS</a></td>
   </tr>
   <tr>
     <td colspan="2">Entrevistador: Eduardo André Chero Emé </td>
@@ -4220,10 +4214,7 @@ Para esta entrega de nuestro trabajos hemos identificado las siguientes pregunta
     <td>San Juan de Miraflores, Lima</td>
   </tr>
   <tr>
-    <td colspan="2"><img src="./assets/chapter6_img/entrevistas/entrevista_supervisor_3.png" alt="entrevista cliente 1"></td>
-  </tr>
-  <tr>
-    <td colspan="2"><a href="https://acortar.link/g5unZS" target="_blank">https://acortar.link/g5unZS</a></td>
+    <td colspan="2">URL: <a href="https://acortar.link/g5unZS" target="_blank">https://acortar.link/g5unZS</a></td>
   </tr>
   <tr>
     <td colspan="2">Entrevistador: Eduardo André Chero Emé </td>
@@ -4251,10 +4242,7 @@ Para esta entrega de nuestro trabajos hemos identificado las siguientes pregunta
     <td>Comas, Lima</td>
   </tr>
   <tr>
-    <td colspan="2"><img src="./assets/chapter6_img/entrevistas/entrevista_chofer_1.png" alt="entrevista cliente 1"></td>
-  </tr>
-  <tr>
-    <td colspan="2"><a href="https://acortar.link/g5unZS" target="_blank">https://acortar.link/g5unZS</a></td>
+    <td colspan="2">URL: <a href="https://acortar.link/g5unZS" target="_blank">https://acortar.link/g5unZS</a></td>
   </tr>
   <tr>
     <td colspan="2">Entrevistador: Eduardo Sebastián Lévano Cavero </td>
