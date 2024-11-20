@@ -3572,7 +3572,7 @@ La evidencia de ejecución del backend se puede visualizar en el Swagger present
 
 También, se evidencia el primer avance del IoT Embedded App con el sensor de tempearatura, humedad y presión.
 [![iotapp.png](https://i.postimg.cc/qMD8n9gf/iot-embedded-app-v1.png)](https://postimg.cc/MvRMJ3yt)
-
+Vídeo de execution evidence para el sprint 2:   https://acortar.link/XBRdLT
 #### 6.2.2.6. Services Documentation Evidence for Sprint Review
 
 Durante este sprint, se completó la documentación de los Web Services desarrollados en la aplicación IoT para monitoreo y gestión de alertas y viajes. Los endpoints se documentaron usando OpenAPI, lo cual permite una interfaz clara y estructurada para interactuar con la API y facilita la integración con otros sistemas.
@@ -4015,7 +4015,7 @@ Seguidamente, se muestra la vista del prototipo del IoT Embedded App en Wokwi: h
 
 - Se visualiza la conexión del IoT Embedded App con el Edge Node Server
 [![workwi_part4.png](https://i.postimg.cc/C5n1NyB5/wokwi-part-4.png)](https://postimg.cc/rRcMVP92)
-
+Video de execution evidence:  https://acortar.link/XBRdLT
 #### 6.2.3.6. Services Documentation Evidence for Sprint Review
 
 Durante este sprint, se completó la documentación de los Web Services desarrollados en la aplicación IoT para monitoreo y gestión de alertas y viajes. Los endpoints se documentaron usando OpenAPI, lo cual permite una interfaz clara y estructurada para interactuar con la API y facilita la integración con otros sistemas.
