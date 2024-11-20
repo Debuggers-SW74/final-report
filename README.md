@@ -2538,8 +2538,74 @@ Para el desarrollo del backend se utilizó JAVA, un lenguaje de programación ex
 Para los test de aceptación se utilizó el lenguaje Gherkin y se subió al repositorio mencionado anteriormente.
 
 ### **Software Deployment**
-Para desplegar la Landing Page, al ser una página de contenido estático que no necesita muchas actualizaciones, se utilizó GitHub Pages, que es gratuito y permite actualizar el contenido cuando sea necesario.
+Para desplegar la Landing Page, al ser una página de contenido estático que no necesita muchas actualizaciones, se utilizó GitHub Pages, que es gratuito y permite actualizar el contenido cuando sea necesario. Además, para el despliegue de los otros servicios será necesario utilizar Azure y Firebase para el hosting de nuestros APIs, app web y app móvil. Para ello seguiremos los siguientes pasos: 
 
+#### **Despliegue del Frontend en Firebase**
+
+1. **Configuración y Despliegue en Firebase**
+    
+	Los pasos para el despliegue son los siguientes: 
+    1. Nos creamos una cuenta en Firebase y una vez dentro le damos clic en el botón "Crear un proyecto": 
+		![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend1.jpg)
+	2. Le asignamos un nombre al proyecto: 
+		![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend2.jpg)
+	3. Creamos el proyecto
+		![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend3.jpg)
+		![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend4.jpg)
+	4. Le damos clic en el botón señalado para agregar una aplicación web: 
+		![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend5.jpg)
+	5. Realizamos la configuración de la aplicación web de la misma forma que se especifica en las siguientes imágenes: 
+		![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend6.jpg)
+		![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend7.jpg)
+		![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend8.jpg)
+	6. En consola, ejecutamos los comandos de la forma que nos especifica Firebase  
+		![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend9.jpg)
+	7. En nuestro repositorio del frontend, configuramos el workflow agregando lo resaltado en la imagen
+		![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend10.jpg)
+	8. Al hacer esos cambios, el workflow se ejecutará y de esta manera tendremos desplegada la aplicación web.
+
+
+#### Despliegue de la aplicación móvil en Firebase
+
+1. Para este despliegue se utilizará Firebase App Distribution y, al igual que los pasos del despliegue de la aplicación web, se tiene que crear un proyecto en Firebase console y al seleccionar nuestro tipo de proycto, seleccionamos Flutter. 
+	![SoDE1](./assets/chapter6_img/ma_deploy1.jpg)
+
+2. Instalamos Flutterfire como indica Firebase 
+	![SoDE1](./assets/chapter6_img/ma_deploy2.jpg)
+3. Agregamos lo siguiente al archivo main.dart de nuestro proyecto 
+	   ![SoDE1](./assets/chapter6_img/ma_deploy3.jpg)
+4.  Creamos el workflow en Github utilizando las KEYS que nos proporciona Firebase y ya tendríamos listo el despliegue: 
+	   ![SoDE1](./assets/chapter6_img/ma_deploy4.jpg)
+#### **Despliegue del Cloud API y Edge API**
+
+1. Previamente debemos tener una cuenta con créditos suficientes para usar recursos de Azure. Una vez tenido esto, nos dirigimos al portal de Azure
+
+	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/cloudapi1.jpg)
+2. En la pantalla anterior, damos clic en "Crear un recurso" y nos abrirá una vista en la que buscaremos "app web" y seleccionamos "Solo servicios de Azure". Será el primer resultado que nos aparezca
+	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/cloudapi2.jpg)
+3. Le damos en "Crear"
+	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/cloudapi3.jpg)
+4.  Lo configuramos de la manera como está en la siguiente captura de pantalla y le damos clic en el botón "Revisar y crear" y luego en el botón "Crear"
+	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/cloudapi4.jpg)
+	
+	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/cloudapi5.jpg)
+5. Cuando el recurso se haya implementado, nos dirigimos a la opción "Centro de implementación" en el menú izquierdo. Enlazamos nuestra cuenta de Github, elegimos la organización, el repositorio y finalmente la rama. Luego aceptamos y automáticamente se creará un workflow que se ejecutará en unos instantes. Después de eso, solo esperamos a que el despliegue sea exitoso.
+	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/cloudapi6.jpg)
+
+#### **Despliegue de la base de datos para Cloud API y Edge API**
+
+Para esto se  utilizará el recurso Azure Database for MySQL. 
+1. EnAzure Portal, damos clic en "Crear un recurso" y nos abrirá una vista en la que buscaremos "mysql" y seleccionamos "Solo servicios de Azure". Será el primer resultado que nos aparezca
+	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/database1.jpg)
+2. Le damos en "Crear"
+	 ![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/database2.jpg)
+3. Seleccionamos "Quick create"
+	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/database3.jpg)
+	
+4. Configuramos de la siguiente manera
+	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/database4.jpg)
+5.  Una vez implementado el recurso, solo utilizamos las credenciales para conectar nuestros servicios.
+	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/database5.jpg)
 ### **Software Documentation**
 La documentación del software se realizó mediante comentarios en los archivos HTML, ya que al utilizar HTML para el desarrollo del Landing Page, un lenguaje de marcado, no era necesario crear diagramas de clases u otros tipos de documentación.
 
