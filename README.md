@@ -1139,13 +1139,13 @@ Diagrama de componentes para el bounded context de Profile Management:
 
 Diagrama de clases para el bounded context de Profile Management:
 
-![Diagrama_de_clases_perfil](./assets/chapter4_img/profile_management_class_diagram.png)
+[![tellosprint1.png](https://i.postimg.cc/2S8gjV9d/diagram5.png)](https://postimg.cc/zV6x0Xr3)
 
 ###### 4.2.1.7.2. Bounded Context Database Design Diagram.
 
 Diagrama del modelado de la base de datos para el bounded context de Profile Management:
 
-![Diagrama_de_base_de_Datos_perfil](./assets/chapter4_img/profle_management_database_diagram.png)
+[![tellosprint1.png](https://i.postimg.cc/0jYhjmqn/diagram1.png)](https://postimg.cc/n9L3wXr9)
 
 ### 4.2.2. Bounded Context: Security Monitoring
 Este Bounded Context se encarga de la monitorización de la seguridad relacionada con el transporte de materiales peligrosos. Captura y procesa los datos de sensores instalados en las cisternas para garantizar la seguridad durante el transporte. Además, envía notificaciones en tiempo real cuando los sensores detectan que se exceden los límites críticos de seguridad.
@@ -1193,13 +1193,13 @@ Diagrama de componentes para el bounded context de Security Monitoring:
 
 Diagrama de clases para el bounded context de Security Monitoring:
 
-![Diagrama de clases_security](./assets/chapter4_img/security_monitoring_class_diagram.png)
+[![diagram.png](https://i.postimg.cc/8PqrN6z9/diagram6.pngg)](https://postimg.cc/7fnLNb7n)
 
 ##### 4.2.2.7.2. Bounded Context Database Design Diagram.
 
 Diagrama del modelado de la base de datos para el bounded context de Security Monitoring:
 
-![Diagrama de base_de_datos_security](./assets/chapter4_img/security_monitoring_database_diagram.png)
+[![diagram.png](https://i.postimg.cc/1RwkvxNF/diagram2.png)](https://postimg.cc/CdMrKQ7M)
 
 ### 4.2.3. Bounded Context: Transport management
 
@@ -1250,10 +1250,12 @@ Diagrama de componentes para el bounded context de Transport management:
 
 Diagrama de clases para el bounded context de Transport management:
 
-![diagrama de clases transport management](./assets/chapter4_img/transport_management_class_diagram.png)
+[![diagram1.png](https://i.postimg.cc/yYKw5fFb/diagram3.png)](https://postimg.cc/14WCVr7G)
+
 
 ###### 4.2.3.7.2. Bounded Context Database Design Diagram.
 ![Diagrama de base_de_datos_sensor](./assets/chapter4_img/travel_bounded_context-database_diagram.png)
+
 # Capítulo V: Solution UI/UX Design
 ## 5.1. Style Guidelines
 
