@@ -4011,7 +4011,7 @@ Durante la realización del presente Sprint se realizaron la mejoras a la versi�
 
 
 Se muestran la documentación del Cloud Web Server: https://fastporte-cloud-api.azurewebsites.net/swagger-ui/index.html#/
-[![cloudApi.png](https://i.postimg.cc/q7fgcPYg/cloudAPI.png)](https://postimg.cc/Yv3pMstw)
+[![cloudApi.png](https://i.postimg.cc/q7fgcPYg/cloudAPI.png)](https://postimg.cc/Yv3pMstw0)
 
 Se muestran la documentación del Edge Node Server para el prototipo del IoT Embedded App: https://fastporte-edge-api.azurewebsites.net/swagger-ui/index.html#/
 [![edgeApi.png](https://i.postimg.cc/MTCBncS3/edgeAPI.png)](https://postimg.cc/WF7zK1t0)
@@ -4447,4 +4447,3 @@ https://acortar.link/PdUeEc
 
 ## Anexo F
 Enlace al video de exposición TF:
-[]()
