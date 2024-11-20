@@ -3644,70 +3644,53 @@ Durante este sprint, se completó el despliegue de los diferentes componentes de
 
 A continuación, se detallan los pasos y configuraciones realizadas para el despliegue durante este sprint.
 
-#### **Despliegue del Frontend en Firebase**
+#### **Despliegue del  Web App en Firebase**
 
-1. **Configuración y Despliegue en Firebase**
-    
-    - El frontend de la aplicación se desplegó en Firebase Hosting, un servicio de Google que proporciona un entorno seguro y escalable para aplicaciones web.
-    - **URL del Frontend**: `https://fastporte-653d5.web.app/sign-in`
-    
-	Los pasos para el despliegue fueron los siguientes: 
-    1. Nos creamos una cuenta en Firebase y una vez dentro le damos clic en el botón "Crear un proyecto": 
-		![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend1.jpg)
-	2. Le asignamos un nombre al proyecto: 
-		![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend2.jpg)
-	3. Creamos el proyecto
-		![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend3.jpg)
-		![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend4.jpg)
-	4. Le damos clic en el botón señalado para agregar una aplicación web: 
-		![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend5.jpg)
-	5. Realizamos la configuración de la aplicación web de la misma forma que se especifica en las siguientes imágenes: 
-		![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend6.jpg)
-		![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend7.jpg)
-		![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend8.jpg)
-	6. En consola, ejecutamos los comandos de la forma que nos especifica Firebase  
-		![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend9.jpg)
-	7. En nuestro repositorio del frontend, configuramos el workflow agregando lo resaltado en la imagen
-		![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend10.jpg)
-	8. Al hacer esos cambios, el workflow se ejecutará y de esta manera tendremos desplegada la aplicación web.
+ **Configuración y Despliegue en Firebase**:
+   
+ El frontend de la aplicación se desplegó en Firebase Hosting, un servicio de Google que proporciona un entorno seguro y escalable para aplicaciones web.
+ Adjuntamos evidencia del link desplegado así como también de la fecha de despliegue en las imágenes. Todo ello se realizó siguiendo los pasos especificados en el deployment configuration visto anteriormente en este reporte.
+ 
+ -  **URL del Frontend**: `https://fastporte-653d5.web.app/sign-in`
 
+![SoDE1](./assets/chapter6_img/deploy_evidence_webapp_0.jpg)
 #### **Despliegue del Cloud API y Edge API**
 
-- Tanto el Cloud API como el Edge API se desplegaron en Azure utilizando el servicio Web App. 
+-Tanto el Cloud API como el Edge API se desplegaron en Azure utilizando el servicio Web App de Azure: 
 - **URL del Edge API**: `https://fastporte-edge-api.azurewebsites.net`
 - **URL del Cloud API**: `https://fastporte-cloud-api.azurewebsites.net`
 
-1. Previamente debemos tener una cuenta con créditos suficientes para usar recursos de Azure. Una vez tenido esto, nos dirigimos al portal de Azure
+Para el despliegue se realizaron los pasos explicados previamente. En las siguientes imágenes se adjuntan evidencias del despliegue relizado.
 
-	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/cloudapi1.jpg)
-2. En la pantalla anterior, damos clic en "Crear un recurso" y nos abrirá una vista en la que buscaremos "app web" y seleccionamos "Solo servicios de Azure". Será el primer resultado que nos aparezca
-	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/cloudapi2.jpg)
-3. Le damos en "Crear"
-	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/cloudapi3.jpg)
-4.  Lo configuramos de la manera como está en la siguiente captura de pantalla y le damos clic en el botón "Revisar y crear" y luego en el botón "Crear"
-	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/cloudapi4.jpg)
-	
-	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/cloudapi5.jpg)
-5. Cuando el recurso se haya implementado, nos dirigimos a la opción "Centro de implementación" en el menú izquierdo. Enlazamos nuestra cuenta de Github, elegimos la organización, el repositorio y finalmente la rama. Luego aceptamos y automáticamente se creará un workflow que se ejecutará en unos instantes. Después de eso, solo esperamos a que el despliegue sea exitoso.
-	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/cloudapi6.jpg)
+**Cloud API:**
+En las imágenes adjuntas se ve la evidencia del despliegue usando un workflow configurado en github, como se explicó antes. Tenemos en la primera imagen los despliegues en Azure que muestran la fecha y hora junto con el commit realizado.
 
-	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/cloudapi7.jpg)
+![SoDE1](./assets/chapter6_img/deploy_evidence_cloudapi_1.jpg)
+   
+   En esta imagen se puede ver la consola de GitHub Actions tambien con los commits especificados en la imagen previa.
+   
+![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/cloudapi7.jpg)
+
+**Edge API:**
+
+De igual forma, aquí se ve la evidencia de despliegue en la consola de Azure con la fecha y hora correspondiente junto con el commit relacionado.
+![SoDE1](./assets/chapter6_img/deploy_evidence_edgeapi_1.jpg)
+
+Y en GitHub Action lo podemos ver de esta forma
+![SoDE1](./assets/chapter6_img/deploy_evidence_edgeapi_1_1.jpg)
 
 #### **Despliegue de la base de datos para Cloud API y Edge API**
 
-- Para este despliegue, se configuró una instancia de base de datos para cada API utilizando el recurso Azure Database for MySQL. 
-1. EnAzure Portal, damos clic en "Crear un recurso" y nos abrirá una vista en la que buscaremos "mysql" y seleccionamos "Solo servicios de Azure". Será el primer resultado que nos aparezca
-	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/database1.jpg)
-2. Le damos en "Crear"
-	 ![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/database2.jpg)
-3. Seleccionamos "Quick create"
-	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/database3.jpg)
-	
-4. Configuramos de la siguiente manera
-	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/database4.jpg)
-5.  Una vez implementado el recurso, solo utilizamos las credenciales para conectar nuestros servicios.
-	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/database5.jpg)
+Para este despliegue, se configuró una instancia de base de datos para cada API utilizando el recurso Azure Database for MySQL como lo especificado anteriormente. Las evidencias con la fecha de despliegue se adjuntan a continuación:
 
+**Cloud Database:** 
+![SoDE1](./assets/chapter6_img/deploy_evidence_clouddb1.jpg)
+
+**Edge Database**
+
+![SoDE1](./assets/chapter6_img/deploy_evidence_edgedb1.jpg)
+
+Para la creación de las tablas y sus constraints, se realizó a la misma hora del despliegue que se evidencia en el Cloud API deployment visto previamente.
 #### 6.2.2.8. Team Collaboration Insights during Sprint
 
 Respositorio de GitHub de la colaboración del equipo para el Business WebSite: https://github.com/Debuggers-SW74/landing-page 
@@ -4069,72 +4052,57 @@ El código fuente y la documentación de los Web Services se encuentran disponib
 
 #### 6.2.3.7. Software Deployment Evidence for Sprint Review
 
+#### **Despliegue del  Web App en Firebase**
 
-#### **Despliegue del Frontend en Firebase**
+ **Configuración y Despliegue en Firebase**:
+   
+ El frontend de la aplicación se desplegó en Firebase Hosting, un servicio de Google que proporciona un entorno seguro y escalable para aplicaciones web.
+ Adjuntamos evidencia del link desplegado así como también de la fecha de despliegue en las imágenes. Todo ello se realizó siguiendo los pasos especificados en el deployment configuration visto anteriormente en este reporte.
+ 
+ -  **URL del Frontend**: `https://fastporte-653d5.web.app/sign-in`
 
-1. **Configuración y Despliegue en Firebase**
-    
-    - El frontend de la aplicación se desplegó en Firebase Hosting, un servicio de Google que proporciona un entorno seguro y escalable para aplicaciones web.
-    - **URL del Frontend**: `https://fastporte-653d5.web.app/sign-in`
-    
-	Los pasos para el despliegue fueron los siguientes: 
-    1. Nos creamos una cuenta en Firebase y una vez dentro le damos clic en el botón "Crear un proyecto": 
-		![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend1.jpg)
-	2. Le asignamos un nombre al proyecto: 
-		![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend2.jpg)
-	3. Creamos el proyecto
-		![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend3.jpg)
-		![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend4.jpg)
-	4. Le damos clic en el botón señalado para agregar una aplicación web: 
-		![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend5.jpg)
-	5. Realizamos la configuración de la aplicación web de la misma forma que se especifica en las siguientes imágenes: 
-		![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend6.jpg)
-		![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend7.jpg)
-		![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend8.jpg)
-	6. En consola, ejecutamos los comandos de la forma que nos especifica Firebase  
-		![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend9.jpg)
-	7. En nuestro repositorio del frontend, configuramos el workflow agregando lo resaltado en la imagen
-		![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/frontend10.jpg)
-	8. Al hacer esos cambios, el workflow se ejecutará y de esta manera tendremos desplegada la aplicación web.
+![SoDE1](./assets/chapter6_img/deploy_evidence_webapp_1.jpg)
+![SoDE1](./assets/chapter6_img/deploy_evidence_webapp_1_1.jpg)
+![SoDE1](./assets/chapter6_img/deploy_evidence_webapp_1_2.jpg)
+#### Despliegue de Mobile Application en Firebase
+
+Para este despliegue se utilizó la configuración proporcionado en la sección anterior. Se realizó usando Firebase App Distribution. La evidencia del despliegue se encuentra a continuación en la que se muestra la fecha y hora de despliegue:
+
+![SoDE1](./assets/chapter6_img/deploy_evidence_mobile1.jpg)
+![SoDE1](./assets/chapter6_img/deploy_evidence_mobile2.jpg)
 
 #### **Despliegue del Cloud API y Edge API**
 
-- Tanto el Cloud API como el Edge API se desplegaron en Azure utilizando el servicio Web App. 
+-Tanto el Cloud API como el Edge API se desplegaron en Azure utilizando el servicio Web App de Azure: 
 - **URL del Edge API**: `https://fastporte-edge-api.azurewebsites.net`
 - **URL del Cloud API**: `https://fastporte-cloud-api.azurewebsites.net`
 
-1. Previamente debemos tener una cuenta con créditos suficientes para usar recursos de Azure. Una vez tenido esto, nos dirigimos al portal de Azure
+Para el despliegue se realizaron los pasos explicados previamente. En las siguientes imágenes se adjuntan evidencias del despliegue realizado.
 
-	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/cloudapi1.jpg)
-2. En la pantalla anterior, damos clic en "Crear un recurso" y nos abrirá una vista en la que buscaremos "app web" y seleccionamos "Solo servicios de Azure". Será el primer resultado que nos aparezca
-	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/cloudapi2.jpg)
-3. Le damos en "Crear"
-	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/cloudapi3.jpg)
-4.  Lo configuramos de la manera como está en la siguiente captura de pantalla y le damos clic en el botón "Revisar y crear" y luego en el botón "Crear"
-	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/cloudapi4.jpg)
-	
-	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/cloudapi5.jpg)
-5. Cuando el recurso se haya implementado, nos dirigimos a la opción "Centro de implementación" en el menú izquierdo. Enlazamos nuestra cuenta de Github, elegimos la organización, el repositorio y finalmente la rama. Luego aceptamos y automáticamente se creará un workflow que se ejecutará en unos instantes. Después de eso, solo esperamos a que el despliegue sea exitoso.
-	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/cloudapi6.jpg)
+**Cloud API:**
+Las imágenes adjuntas muestran evidencia del despliegue automatizado configurado a través de un workflow en GitHub Actions. Este flujo de trabajo se ejecuta automáticamente cada vez que se realiza un _commit_ en la rama especificada en el repositorio. Tenemos en la primera imagen los despliegues en Azure que muestran la fecha y hora junto con el commit realizado. 
 
-	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/cloudapi7.jpg)
+![SoDE1](./assets/chapter6_img/deploy_evidence_cloudapi_21.jpg)
+   
+   En esta imagen se puede ver la consola de GitHub Actions también con los commits especificados en la imagen previa.
+   
+![SoDE1](./assets/chapter6_img/deploy_evidence_cloudapi_22.jpg)
 
-#### **Despliegue de la base de datos para Cloud API y Edge API**
+**Edge API:**
 
-- Para este despliegue, se configuró una instancia de base de datos para cada API utilizando el recurso Azure Database for MySQL. 
-1. EnAzure Portal, damos clic en "Crear un recurso" y nos abrirá una vista en la que buscaremos "mysql" y seleccionamos "Solo servicios de Azure". Será el primer resultado que nos aparezca
-	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/database1.jpg)
-2. Le damos en "Crear"
-	 ![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/database2.jpg)
-3. Seleccionamos "Quick create"
-	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/database3.jpg)
-	
-4. Configuramos de la siguiente manera
-	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/database4.jpg)
-5.  Una vez implementado el recurso, solo utilizamos las credenciales para conectar nuestros servicios.
-	![SoDE1](./assets/chapter6_img/6.2.2.7.%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/database5.jpg)
+De igual forma, aquí se ve la evidencia de despliegue en la consola de Azure con la fecha y hora correspondiente junto con el commit relacionado.
+![SoDE1](./assets/chapter6_img/deploy_evidence_edgedapi_21.jpg)
 
+Y en GitHub Action lo podemos ver de esta forma
+![SoDE1](./assets/chapter6_img/deploy_evidence_edgedapi_22.jpg)
 
+#### Despliegue de Embedded App
+
+La aplicación embebida se encuentra en Wokwi como lo vemos en la siguiente imagen: 
+
+![SoDE1](./assets/chapter6_img/deploy_wokwi.jpg)
+
+Con respecto a las bases de datos, no se realizaron cambios relevantes.
 #### 6.2.3.8. Team Collaboration Insights during Sprint
 
 Respositorio de GitHub de la colaboración del equipo para el Business WebSite: https://github.com/Debuggers-SW74/landing-page 
