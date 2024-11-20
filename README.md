@@ -4366,9 +4366,10 @@ Enlace en Microsoft Stream:  https://acortar.link/o05r6F
 
 # Video About-The-Team
 
+Se muestra el vídeo About-the-Team en su versión final: 
 ![Video About-The-Team](./assets/chapter6_img/about-the-team.png)
-Enlace al video About-the-Team en youtube: https://youtu.be/iR4FAjRobLQ
-Enlace al video About-the-Team en microsoft stream: https://acortar.link/WlDGsT
+Enlace al video About-the-Team en youtube: https://youtu.be/LY-EpMQ89Oo
+Enlace al video About-the-Team en microsoft stream:  https://acortar.link/9W5L4f
 
 ---
 
