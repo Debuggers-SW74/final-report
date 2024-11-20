@@ -3864,9 +3864,146 @@ Tablero de commits del repositorio del Edge Node Server:
 
 #### 6.2.3.4. Testing Suite Evidence for Sprint Review
 
+En esta sección se realizarón los Gherkin Features como Criterios de Aceptación de las historias de usuario del Sprint.
+
+- us047.feature
+  ```
+  Feature: Recibir el estado actual del sensor a través de un RESTful API
+  Como desarrollador
+  Quiero obtener el estado actual del sensor
+  Para evaluar si los valores están dentro de los thresholds definidos
+
+
+  #-------------------------------------------------------------------------------------------
+    Scenario: Recibir estado del sensor exitosamente
+      Given que el endpoint /api/v1/sensors/:sensorCode/state está disponible
+      And el sensorCode proporcionado es válido
+      When se realiza una solicitud GET al endpoint con el sensorCode válido
+      Then se recibe una respuesta con estado 200 OK
+      And el cuerpo de la respuesta contiene un recurso SensorState con los valores actuales del sensor (temperatura, humedad, presión y gas).
+
+
+  #-------------------------------------------------------------------------------------------
+    Scenario: Intento de obtener el estado de un sensor inexistente
+      Given que el endpoint /api/v1/sensors/:sensorCode/state está disponible
+      And el sensorCode proporcionado no existe
+      When se realiza una solicitud GET al endpoint con el sensorCode inválido
+      Then se recibe una respuesta con estado 404 Not Found
+      And el cuerpo de la respuesta contiene un mensaje indicando que no se encontraron datos para el sensor solicitado.
+  ```
+
+- us048.feature
+  ```
+  Feature: Registrar un historial de datos en tiempo real de un sensor
+      Como desarrollador
+      Quiero guardar los datos recolectados por los sensores en una base de datos
+      Para mantener un historial detallado que permita análisis posteriores
+
+
+  #-------------------------------------------------------------------------------------------
+      Scenario: Datos registrados exitosamente
+          Given que el endpoint /api/v1/sensors/:sensorCode/data está disponible
+          And el sensorCode proporcionado es válido
+          And el payload contiene datos válidos del sensor
+          When se realiza una solicitud POST al endpoint con el payload correspondiente
+          Then se recibe una respuesta con estado 201 Created
+          And los datos se almacenan en la base de datos con una marca de tiempo.
+
+
+  #-------------------------------------------------------------------------------------------
+      Scenario: Fallo al registrar datos por payload inválido
+          Given que el endpoint /api/v1/sensors/:sensorCode/data está disponible
+          And el payload proporcionado está vacío o incompleto
+          When se realiza una solicitud POST al endpoint con el payload inválido
+          Then se recibe una respuesta con estado 400 Bad Request
+          And el cuerpo de la respuesta contiene un mensaje indicando el problema en la estructura del payload.
+  ```
+
+- us049.feature
+  ```
+  Feature: Evaluar si un sensor ha excedido los thresholds definidos
+      Como desarrollador
+      Quiero que el Edge Node Server evalúe los thresholds definidos para cada sensor
+      Para determinar si se necesita activar una alerta
+
+
+  #-------------------------------------------------------------------------------------------
+      Scenario: Sensor dentro de los thresholds
+          Given que el endpoint /api/v1/sensors/:sensorCode/thresholds/evaluation está disponible
+          And el sensorCode proporcionado es válido
+          And los valores del sensor están dentro de los thresholds definidos
+          When se realiza una solicitud GET al endpoint con el sensorCode
+          Then se recibe una respuesta con estado 200 OK
+          And el cuerpo de la respuesta indica que los valores del sensor están dentro de los límites establecidos.
+
+
+  #-------------------------------------------------------------------------------------------
+      Scenario: Sensor fuera de los thresholds
+          Given que el endpoint /api/v1/sensors/:sensorCode/thresholds/evaluation está disponible
+          And el sensorCode proporcionado es válido
+          And los valores del sensor exceden los thresholds definidos
+          When se realiza una solicitud GET al endpoint con el sensorCode
+          Then se recibe una respuesta con estado 200 OK
+          And el cuerpo de la respuesta indica qué valores excedieron los thresholds y qué tipo de alerta debe activarse.
+  ```
+
+- us050.feature
+  ```
+  Feature: Registrar salud del IoT Embedded App
+  Como desarrollador
+  Quiero registrar información de salud del dispositivo IoT
+  Para monitorear su funcionamiento y prevenir fallas
+
+
+  #-------------------------------------------------------------------------------------------
+      Scenario: Salud registrada exitosamente
+          Given que el endpoint /api/v1/devices/:deviceId/health está disponible
+          And el deviceId proporcionado es válido
+          And el payload contiene información válida de salud del dispositivo
+          When se realiza una solicitud POST al endpoint con el payload correspondiente
+          Then se recibe una respuesta con estado 201 Created
+          And los datos de salud se almacenan en la base de datos.
+
+
+
+  #-------------------------------------------------------------------------------------------
+      Scenario: Intento de registrar datos de salud incompletos
+          Given que el endpoint /api/v1/devices/:deviceId/health está disponible
+          And el payload proporcionado está incompleto
+          When se realiza una solicitud POST al endpoint con el payload inválido
+          Then se recibe una respuesta con estado 400 Bad Request
+          And el cuerpo de la respuesta contiene un mensaje indicando los campos faltantes.
+  ```
+
+- us051.feature
+  ```
+  Feature: Obtener detalles del viaje asignado a un sensor IoT
+      Como desarrollador
+      Quiero obtener información del viaje asignado a un dispositivo IoT
+      Para relacionar los datos recolectados con el viaje correspondiente
+
+
+  #-------------------------------------------------------------------------------------------
+      Scenario: Detalles del viaje obtenidos exitosamente
+          Given que el endpoint /api/v1/devices/:deviceId/trips está disponible
+          And el deviceId proporcionado tiene un viaje asignado
+          When se realiza una solicitud GET al endpoint con el deviceId válido
+          Then se recibe una respuesta con estado 200 OK
+          And el cuerpo de la respuesta contiene un recurso TripDetails con información del viaje asignado, incluyendo ID del viaje, conductor, camión y supervisor.
+
+
+  #-------------------------------------------------------------------------------------------
+      Scenario: Intento de obtener datos de un viaje inexistente
+          Given que el endpoint /api/v1/devices/:deviceId/trips está disponible
+          And el deviceId proporcionado no tiene un viaje asignado
+          When se realiza una solicitud GET al endpoint con el deviceId inválido
+          Then se recibe una respuesta con estado 404 Not Found
+          And el cuerpo de la respuesta contiene un mensaje indicando que no hay un viaje asignado al dispositivo solicitado.
+  ```
+
 | Repository    | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
 | ------------- | ------ | --------- | -------------- | ------------------- | ------------------ |
-| testing-suite |        |           |                |                     |                    |
+| testing-suite | main       | 24c9a0b31f40569219113db249a47a06506874cc | feat: Acceptance criteria 47, 48, 49, 50 and 51 were created|    | Nov 20, 2024 |
 
 #### 6.2.3.5. Execution Evidence for Sprint Review
 
