@@ -4007,17 +4007,66 @@ En esta sección se realizarón los Gherkin Features como Criterios de Aceptaci�
 
 #### 6.2.3.5. Execution Evidence for Sprint Review
 
+Durante la realización del presente Sprint se realizaron la mejoras a la versión de la aplicación web, aplicación móvil, Landing Page y IoT Embedded App. A continuación, se detallarán las nuevas vistas en la aplicación web:
+
+
+Se muestran la documentación del Cloud Web Server: https://fastporte-cloud-api.azurewebsites.net/swagger-ui/index.html#/
+[![cloudApi.png](https://i.postimg.cc/q7fgcPYg/cloudAPI.png)](https://postimg.cc/Yv3pMstw)
+
+Se muestran la documentación del Edge Node Server para el prototipo del IoT Embedded App: https://fastporte-edge-api.azurewebsites.net/swagger-ui/index.html#/
+[![edgeApi.png](https://i.postimg.cc/MTCBncS3/edgeAPI.png)](https://postimg.cc/WF7zK1t0)
+
+Seguidamente, se muestra la vista del prototipo del IoT Embedded App en Wokwi: https://wokwi.com/projects/414946193954143233 
+
+- Se visualiza el sensor ESP32, 2 chips de sensores que son el Chip para detectar gas MQ2 y el Chip para detectar presión, humedad, temperatura y altitud el BME280.
+[![workwi_part1.png](https://i.postimg.cc/BvNXZBfS/wokwi-part-1.png)](https://postimg.cc/R36MXf0y)
+
+- Se visualiza los controles para simulación de datos del sensor de gas, tanto los datos de simulación y el Threshold.
+[![workwi_part2.png](https://i.postimg.cc/d1x3rQ0g/wokwi-part-2.png)](https://postimg.cc/hzVKqBT0)
+
+- Se visualiza los controles para simulación de datos del sensor BME280, tanto los datos de simulación y los Thresholds.
+[![workwi_part3.png](https://i.postimg.cc/j55CDnRz/wokwi-part-3.png)](https://postimg.cc/2qsCJ6b6)
+
+- Se visualiza la conexión del IoT Embedded App con el Edge Node Server
+[![workwi_part4.png](https://i.postimg.cc/C5n1NyB5/wokwi-part-4.png)](https://postimg.cc/rRcMVP92)
 
 #### 6.2.3.6. Services Documentation Evidence for Sprint Review
+
+Durante este sprint, se completó la documentación de los Web Services desarrollados en la aplicación IoT para monitoreo y gestión de alertas y viajes. Los endpoints se documentaron usando OpenAPI, lo cual permite una interfaz clara y estructurada para interactuar con la API y facilita la integración con otros sistemas.
+
+Los principales logros de este sprint en términos de documentación fueron:
+
+- Implementación y documentación de endpoints para la gestión de viajes, supervisores y conductores.
+- Creación de endpoints para configurar umbrales de seguridad y generar alertas.
+
+A continuación, se presenta una tabla detallada con la información de cada endpoint documentado, incluyendo el verbo HTTP, la sintaxis de la llamada, los parámetros esperados y ejemplos de respuesta.
 
 
 ---
 
 | **Acción Implementada** | **HTTP Verbo** | **Sintaxis de Llamada** | **Parámetros** | **Ejemplo de Respuesta** | **Explicación de la Respuesta** |
 | ----------------------- | -------------- | ----------------------- | -------------- | ------------------------ | ------------------------------- |
-|                         |                |                         |                |                          |                                 |
+|  Actualizar Thresholds   | PUT            | /api/v1/thresholds      | Json con valores limite para los sensores |  200 OK                  |  Actualiza los thesholds de los sensores|
+|  Crear Thresholds        | POST            | /api/v1/thresholds     | Json con valores limite para los sensores y el tripId |  200 OK      |  Crea los thesholds de los sensores para aun viaje|
+|  Obtener Thresholds por Id de un viaje        | GET            | /api/v1/thresholds/trip/{tripId}    | tripId |  200 OK      |  Obtiene los thesholds de los sensores para aun viaje|
+|  Enviar datos de los sensores       | POST            | /api/v1/sensor-data   | Json con los datos de los sensores y el tripId |  200 OK      |  Registra los datos sensados por el IoT Device|
+|  Obtiener datos de los sensores       | GET            | /api/v1/sensor-data/trip/{tripId}   | tripId |  200 OK      |  Obtiene los datos registrados por los sensores para un determinado viaje.
+|  Crear una alerta      | POST            | /api/v1/alerts   | Json con datos del tipo de sensor, tripId y el valor superado|  200 OK      |  Crear una alerta por superar los limites threholds
+|  Obtener alertas      | GET            | /api/v1/alerts/trip/{tripId}  | tripId|  200 OK      |  Obtener una lista de alertas que se registraron para un determinado viaje.
 
- Para mayor detalle, se pueden revisar en el siguiente enlace: https://github.com/Debuggers-SW74/web-services/commits/develop/
+
+A continuación se muestran capturas de pantalla de la documentación generada en OpenAPI, organizadas por controladores:
+- **Trip-Management**: Muestra los endpoints para iniciar, finalizar, cancelar, crear y consultar viajes. Esto incluye opciones para consultar viajes por supervisor y por estado.
+    [![trips.png](https://i.postimg.cc/TwySMZ1n/trips-api.png)](https://postimg.cc/wypFD4hB)
+
+- **Threshold-Management** y **Alert-Management**: Incluyen los endpoints para la configuración de umbrales de seguridad y para la generación y consulta de alertas en el sistema.
+     [![thesholds.png](https://i.postimg.cc/pLZ3Df35/threshold-alert-api.png)](https://postimg.cc/688HKvWB)
+
+El código fuente y la documentación de los Web Services se encuentran disponibles en el repositorio de GitHub:
+
+- **URL del repositorio**: https://github.com/Debuggers-SW74/web-services
+
+
 #### 6.2.3.7. Software Deployment Evidence for Sprint Review
 
 
