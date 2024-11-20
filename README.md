@@ -3800,36 +3800,21 @@ Tablero de commits del repositorio de la App web:
 
 | Repository                       | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
 | -------------------------------- | ------ | --------- | -------------- | ------------------- | ------------------ |
-| Debuggers-SW74 / web-application | main       | 5ce401b94c918d79be401f58fd530c62642c1056          | Merge pull request #28 from Debuggers-SW74/develop
-               |                     |    Nov 20, 2024    |
-|                                  | main       | 86d10913b1489a693d90bfe018ca3aaf8005f07f        | Merge pull request #27 from Debuggers-SW74/feature/second-version
-               |                     |    Nov 20, 2024    |
-|                                  | main       | 667d9ad99168bc8ffc5bc76e5d38d59ef65e963a       | fix: alert receive
-               |                     |    Nov 20, 2024    |        
-|                                  | main       | 733f5355f0dfccd9d0805e5b181ef4b1d48492bd       | Merge pull request #26 from Debuggers-SW74/develop
-               |                     |    Nov 20, 2024    |  
-|                                  | main       | 7d742396f76e19ca21aad323753cfae033d3fe87      | fix: alerts from 40 seconds
-               |                     |    Nov 20, 2024    | 
-|                                  | main       | e82457deb65da16a0ada162112452696387c6928      | fix: threshold and alerts
-               |                     |    Nov 20, 2024    | 
-|                                  | main       | fb51ba53745d7111d26e0918a2bba76813cb38c1      | feat: notifications and alerts
-               |                     |    Nov 20, 2024    | 
-|                                  | main       | ccbd4d0d7b290a8c064903117832b91fa5877387     | feat: charts
-               |                     |    Nov 19, 2024   | 
-|                                  | main       | 95eec5943941c0253b2e2ef6e9b4c508c2aa4f1b     | feat: base alert
-               |                     |    Nov 19, 2024   |        
-|                                  | main       | 9dedd1c186021313cc68a2360627a5a607e1e019     | feat: get sensor data
-               |                     |    Nov 19, 2024   |
-|                                  | main       | b69cb34e64462ad71c661a61c9969b7dcdead60c    | feat: remove update for driver
-               |                     |     Nov 18, 2024   |
-|                                  | feature/second-version       | 09c44dd806162a1075c4dd46b8fcb3c51bb75e93   | feat(threshold): update values
-               |                     |     Nov 17, 2024   |
-|                                  | feature/second-version       | 13c375d86ecdb7ad5afa2eda7666fffe119d0d1c   | fix(drivers): driver services fixed
-               |                     |     Nov 17, 2024   |
-|                                  | feature/second-version       | d3bab2a3e59afb2dce27b99ec3a73e06710e7a1c   | feat(threshold): threshold service added
-               |                     |     Nov 17, 2024   |
-|                                  | feature/second-version       | 4bd1e1409ba9924b88fb7e7b13f9a87964c32a7f   | fix: search drivers fixed
-               |                     |     Nov 17, 2024   |    
+| Debuggers-SW74 / web-application | main    | 5ce401b94c918d79be401f58fd530c62642c1056 | Merge pull request #28 from Debuggers-SW74/develop|                   |    Nov 20, 2024    |
+|                                  | main   | 86d10913b1489a693d90bfe018ca3aaf8005f07f  | Merge pull request #27 from Debuggers-SW74/feature/second-version|     |    Nov 20, 2024    |
+|                                  | main   | 667d9ad99168bc8ffc5bc76e5d38d59ef65e963a  | fix: alert receive|                                                    |    Nov 20, 2024    |        
+|                                  | main   | 733f5355f0dfccd9d0805e5b181ef4b1d48492bd  | Merge pull request #26 from Debuggers-SW74/develop|                    |    Nov 20, 2024    |  
+|                                  | main   | 7d742396f76e19ca21aad323753cfae033d3fe87  | fix: alerts from 40 seconds|                                           |    Nov 20, 2024    | 
+|                                  | main   | e82457deb65da16a0ada162112452696387c6928  | fix: threshold and alerts  |                     |    Nov 20, 2024    | 
+|                                  | main       | fb51ba53745d7111d26e0918a2bba76813cb38c1      | feat: notifications and alerts|                     |    Nov 20, 2024    | 
+|                                  | main       | ccbd4d0d7b290a8c064903117832b91fa5877387     | feat: charts|                     |    Nov 19, 2024   | 
+|                                  | main       | 95eec5943941c0253b2e2ef6e9b4c508c2aa4f1b     | feat: base alert|                     |    Nov 19, 2024   |        
+|                                  | main       | 9dedd1c186021313cc68a2360627a5a607e1e019     | feat: get sensor data|                     |    Nov 19, 2024   |
+|                                  | main       | b69cb34e64462ad71c661a61c9969b7dcdead60c    | feat: remove update for driver|                     |     Nov 18, 2024   |
+|                                  | feature/second-version       | 09c44dd806162a1075c4dd46b8fcb3c51bb75e93   | feat(threshold): update values|                     |     Nov 17, 2024   |
+|                                  | feature/second-version       | 13c375d86ecdb7ad5afa2eda7666fffe119d0d1c   | fix(drivers): driver services fixed|                     |     Nov 17, 2024   |
+|                                  | feature/second-version       | d3bab2a3e59afb2dce27b99ec3a73e06710e7a1c   | feat(threshold): threshold service added|                     |     Nov 17, 2024   |
+|                                  | feature/second-version       | 4bd1e1409ba9924b88fb7e7b13f9a87964c32a7f   | fix: search drivers fixed|                     |     Nov 17, 2024   |    
 
 Tablero de commits del repositorio de la App mobile:
 
