@@ -89,7 +89,7 @@ La entrega sirvió para continuar con el desarrollo de los productos de software
 
 - TF: Se continuo con el desarrollo del capítulo VI, en el cual se abordo el desarrollo del Sprint 3 finalizando los productos de software. Este Sprint involucra la actualización final de la página de aterrizaje, *Landing Page*, la versión final del *Web Application*, la versión final del *Mobile Application* y pequeñas correcciones en el *Backend*.
 
-![TF Collaboration Insights](./assets/collaboration_insights/tf_collaboration.png)
+![Video About-the-Product](./assets/chapter6_img/insights3.png)
 
 
 
@@ -4424,3 +4424,4 @@ https://acortar.link/o05r6F
 
 ## Anexo F
 Enlace al video de exposición TF:
+https://acortar.link/zm6kWD
